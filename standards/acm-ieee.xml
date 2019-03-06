@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum-standard version="2013" body="acm">
+  <knowledge-area code="AL" name="Algorithms and Complexity">
+    <knowledge-area name="Basic Analysis">
+      <topic importance="tier1">
+        Differences among best, expected, and worst case behaviors of an algorithm
+      </topic>
+      <topic importance="tier1">
+        Asymptotic analysis of upper and expected complexity bounds
+      </topic>
+      <topic importance="tier1">
+        Big O  notation: formal definition
+      </topic>
+      <topic importance="tier1">
+        Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential
+      </topic>
+      <topic importance="tier1">
+        Empirical measurements of performance
+      </topic>
+      <topic importance="tier1">
+        Time and space trade-offs in algorithms
+      </topic>
+      <topic importance="tier2">
+        Big O notation: use
+      </topic>
+      <topic importance="tier2">
+        Little o, big omega and big theta notation
+      </topic>
+      <topic importance="tier2">
+        Recurrence relations
+      </topic>
+      <topic importance="tier2">
+        Analysis of iterative and recursive algorithms
+      </topic>
+      <topic importance="tier2">
+        Some version of a Master Theorem
+      </topic>
+      <learning-outcome importance="tier1" thing="Familiarity">
+        Explain what is meant by “best”, “expected”, and “worst” case behavior of an algorithm. 
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Assessment">
+        In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors. 
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Usage">
+        Determine informally the time and space complexity of simple algorithms. 
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Familiarity">
+        State the formal definition of big O.
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Familiarity">
+        List and contrast standard complexity classes. 
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Assessment">
+        Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis.  Run algorithms on input of various sizes and compare performance. 
+      </learning-outcome>
+      <learning-outcome importance="tier1" thing="Familiarity">
+        Give examples that illustrate time-space trade-offs of algorithms. 
+      </learning-outcome>
+      <learning-outcome importance="tier2" thing="Usage">
+        Use big O notation formally to give asymptotic upper bounds on time and space complexity of algorithms.
+      </learning-outcome>
+      <learning-outcome importance="tier2" thing="Usage">
+        Use big O notation formally to give expected case bounds on time complexity of algorithms. 
+      </learning-outcome>
+      <learning-outcome importance="tier2" thing="Familiarity">
+        Explain the use of big omega, big theta, and little o notation to describe the amount of work done by an algorithm. 
+      </learning-outcome>
+      <learning-outcome importance="tier2" thing="Usage">
+        Use recurrence relations to determine the time complexity of recursively defined algorithms. 
+      </learning-outcome>
+      <learning-outcome importance="tier2" thing="Usage">
+        Solve elementary recurrence relations, e.g., using some form of a Master Theorem.
+      </learning-outcome>
+    </knowledge-area>
+    <knowledge-area name="Algorithmic Strategies">
+    </knowledge-area>
+    <knowledge-area name="Fundamental Data Structures and Algorithms">
+    </knowledge-area>
+    <knowledge-area name="Basic Automata, Computability and Complexity">
+    </knowledge-area>
+    <knowledge-area name="Advanced Computational Complexity">
+    </knowledge-area>
+    <knowledge-area name="Advanced Automata Theory and Computability">
+    </knowledge-area>
+    <knowledge-area name="Advanced Data Structures, Algorithms, and Analysis">
+    </knowledge-area>
+  </knowledge-area>
+</curriculum-standard>
