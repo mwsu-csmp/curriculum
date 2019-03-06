@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <curriculum-standard version="2013" body="acm">
-  <knowledge-area code="AL" name="Algorithms and Complexity">
+  <knowledge-area id="AL" name="Algorithms and Complexity">
     <knowledge-area name="Basic Analysis">
       <topic importance="tier1">
         Differences among best, expected, and worst case behaviors of an algorithm
