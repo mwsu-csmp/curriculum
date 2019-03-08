@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<course>
+<course 
+  xmlns="https://csmp.missouriwestern.edu" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>ACT</subject>
   <number>324</number>
@@ -61,5 +64,5 @@
     <topic>Configuration management and provisioning (ex. Puppet)</topic>
     <topic>Managing software development environments (ex. Vagrant)</topic>
     <topic>Managing software deployment environments (ex. Docker)</topic>
-  <outline>
+  </outline>
 </course>

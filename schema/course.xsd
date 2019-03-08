@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://csmp.missouriwestern.edu"
+  xmlns="https://csmp.missouriwestern.edu"
+  elementFormDefault="qualified">
+
+<xs:element name="course">
+</xs:element>
+
+</xs:schema> 
