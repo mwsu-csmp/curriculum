@@ -4,6 +4,42 @@
   xmlns="https://csmp.missouriwestern.edu"
   elementFormDefault="qualified">
 
+  <xs:simpleType name="courseSubject">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseNumber">
+    <xs:restriction base="xs:integer">
+      <xs:pattern value="[0-9][0-9][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="prerequisiteCourse">
+    <xs:sequence>
+      <xs:element name="subject" type="courseSubject"/>
+      <xs:element name="number" type="courseNumber"/>
+    </xs:sequence>
+    <xs:attribute name="corequisite" type="xs:boolean" default="false"/>
+    <xs:attribute name="minimumGrade" default="pass">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="A"/>
+          <xs:enumeration value="B"/>
+          <xs:enumeration value="C"/>
+          <xs:enumeration value="pass"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="prerequisiteGroup">
+    <xs:sequence>
+      <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:element name="course">
     <xs:complexType>
       <xs:sequence>
@@ -19,22 +55,9 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
-      <xs:element name="subject">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Z][A-Z][A-Z]"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-      <xs:element name="number">
-        <xs:simpleType>
-          <xs:restriction base="xs:integer">
-            <xs:pattern value="[0-9][0-9][0-9]"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
+      <xs:element name="subject" type="courseSubject"/>
+      <xs:element name="number" type="courseNumber"/>
       <xs:element name="title" type="xs:string"/>
-      
       <xs:element name="offered" maxOccurs="5">
         <xs:simpleType>
           <xs:restriction base="xs:string">
@@ -69,7 +92,14 @@
       </xs:element>
 
       <xs:element name="catalogDescription" type="xs:string"/>
-
+      <xs:element name="prerequisites">
+        <xs:complexType>
+          <xs:choice>
+            <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
+            <xs:element name="group" type="prerequisiteGroup" maxOccurs="unbounded"/>
+          </xs:choice>
+	</xs:complexType>
+      </xs:element>
 
     </xs:sequence>
     <xs:attribute name="gradingType" default="A-Z">

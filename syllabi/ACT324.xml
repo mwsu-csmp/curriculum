@@ -6,24 +6,17 @@
   <college>LA</college>
   <subject>ACT</subject>
   <number>324</number>
-  <cip></cip>
   <title>Software Testing and DevOps</title>
-  <terms_offered>
-    <fall odd="true" even="false"/>
-  </terms_offered>
-  <schedule_type>lecture</schedule_type>
-  <credit_hours>3</credit_hours>
-  <contact_hours>3</contact_hours>
-  <workload_hours>3</workload_hours>
-  <grading_type>A-F</grading_type>
-  <repeatable>false</repeatable>
-  <prerequisites>
-    <prerequisite corequisite="true" min_grade="C">CSC274</prerequisite>
-    <prerequisite min_grade="C">CSC184</prerequisite>
-  </prerequisites>
-  <catalog_description>
+  <offered>fall-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
   This course covers fundamentals of software testing and DevOps important to software developers, system administrators, and quality assurance / software testing engineers. A vendor neutral approach will be taken, focusing on popular open source tools for unit testing, integration testing, system testing, version control, build automation, configuration management, virtualization, continuous integration, and deployment management. Relevant software development principles and philosophies such as test-driven development and agile software development will also be discussed. 
-  </catalog_description>
+  </catalogDescription>
+  <prerequisites>
+    <course minimumGrade="C"><subject>CSC</subject><number>184</number></course>
+    <course minimumGrade="C"><subject>CSC</subject><number>274</number></course>
+  </prerequisites>
+  <!--
   <textbook isbn="978-0321601919"/>
   <objectives>
     <objective>Explain why the creation of correct program components is important in the production of high-quality software.</objective>
@@ -65,4 +58,5 @@
     <topic>Managing software development environments (ex. Vagrant)</topic>
     <topic>Managing software deployment environments (ex. Docker)</topic>
   </outline>
+  /-->
 </course>
