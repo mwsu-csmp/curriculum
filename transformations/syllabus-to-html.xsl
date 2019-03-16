@@ -4,6 +4,9 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:csmp="https://csmp.missouriwestern.edu"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+
 <xsl:template match="/">
 <html>
   <body>
@@ -20,6 +23,7 @@
           <xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>&#160;
       </xsl:for-each>
     </div>
+
     <h2>Objectives</h2>
     <ul>
       <xsl:for-each select="csmp:course/csmp:objectives/csmp:objective">
@@ -27,8 +31,32 @@
       </xsl:for-each>
     </ul>
 
+    <xsl:apply-templates select="csmp:course/csmp:outline" />
+   
+
   </body>
 </html>
+</xsl:template>
+
+
+<xsl:template match="csmp:outline">
+    <h2>Outline</h2>
+    <ol>
+      <xsl:apply-templates select="csmp:topic" />
+    </ol>
+</xsl:template>
+
+<xsl:template match="csmp:topic[csmp:topic]">
+      <li><xsl:value-of select="current()"/>
+        <ol>
+          <xsl:apply-templates select="csmp:topic" />
+        </ol>
+      </li>
+</xsl:template>
+
+<xsl:template match="csmp:topic">
+      <li><xsl:value-of select="current()"/>
+      </li>
 </xsl:template>
 
 </xsl:stylesheet>
