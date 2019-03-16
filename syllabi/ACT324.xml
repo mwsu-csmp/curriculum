@@ -16,9 +16,14 @@
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
   </prerequisites>
-  <!--
-  <textbook isbn="978-0321601919"/>
-  /-->
+
+  <textbook title="Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation" 
+            year="2010" 
+            ISBN="978-0321601919">
+    <author>Jez Humble</author>
+    <author>David Farley</author>
+  </textbook>
+
   <objectives>
     <objective>Explain why the creation of correct program components is important in the production of high-quality software.</objective>
     <objective>Describe current and emerging philosophies, roles, and practices for software development and testing </objective>

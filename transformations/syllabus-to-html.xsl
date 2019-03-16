@@ -18,6 +18,9 @@
 
     <xsl:apply-templates select="csmp:course/csmp:prerequisites" />
 
+    <h3>Texbook</h3>
+    <xsl:apply-templates select="csmp:course/csmp:textbook" />
+
     <xsl:apply-templates select="csmp:course/csmp:objectives" />
 
     <xsl:apply-templates select="csmp:course/csmp:outline" />
@@ -37,6 +40,18 @@
   <xsl:value-of select="csmp:number"/>
   <xsl:if test="@corequisite='true'"><xsl:text> (concurrent OK)</xsl:text></xsl:if>
   <xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>&#160;
+</xsl:template>
+
+<xsl:template match="csmp:textbook">
+  <xsl:value-of select="@title"/>, 
+  <xsl:for-each select="csmp:author">
+    <xsl:value-of select="current()" />
+    <xsl:if test="position() != last()">, </xsl:if>
+  </xsl:for-each>;&#160;
+  <xsl:if test="@edition != '1'">Edition: <xsl:value-of select="@edition"/>, </xsl:if>
+  <xsl:value-of select="@year"/>, 
+  <xsl:value-of select="@publisher"/>, 
+  ISBN: <xsl:value-of select="@ISBN"/>
 </xsl:template>
 
 <xsl:template match="csmp:objectives">

@@ -34,6 +34,12 @@
     </xs:attribute>
   </xs:complexType>
 
+  <xs:complexType name="topic" mixed="true">
+    <xs:sequence>
+      <xs:element name="topic" type="topic" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:complexType name="prerequisiteGroup">
     <xs:sequence>
       <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
@@ -43,6 +49,7 @@
   <xs:element name="course">
     <xs:complexType>
       <xs:sequence>
+
       <xs:element name="college">
         <xs:simpleType>
           <xs:restriction base="xs:string">
@@ -55,9 +62,13 @@
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
+
       <xs:element name="subject" type="courseSubject"/>
+
       <xs:element name="number" type="courseNumber"/>
+
       <xs:element name="title" type="xs:string"/>
+
       <xs:element name="offered" maxOccurs="5">
         <xs:simpleType>
           <xs:restriction base="xs:string">
@@ -92,16 +103,46 @@
       </xs:element>
 
       <xs:element name="catalogDescription" type="xs:string"/>
+
       <xs:element name="prerequisites">
         <xs:complexType>
           <xs:choice>
-            <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
-            <xs:element name="group" type="prerequisiteGroup" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteCourse" type="prerequisiteCourse" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteGroup" type="prerequisiteGroup" maxOccurs="unbounded"/>
           </xs:choice>
 	</xs:complexType>
       </xs:element>
 
+      <xs:element name="textbook" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="title" type="xs:string"/>
+          <xs:attribute name="year" type="xs:string"/>
+          <xs:attribute name="ISBN" type="xs:string"/>
+	</xs:complexType>
+      </xs:element>
+
+
+      <xs:element name="objectives">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="objective" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+	</xs:complexType>
+      </xs:element>
+
+      <xs:element name="outline">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="topic" type="topic" maxOccurs="unbounded"/>
+          </xs:sequence>
+	</xs:complexType>
+      </xs:element>
+
     </xs:sequence>
+
     <xs:attribute name="gradingType" default="A-Z">
       <xs:simpleType>
         <xs:restriction base="xs:string">
@@ -110,6 +151,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
+
     <xs:attribute name="repeatable" type="xs:boolean" default="false"/>
     <xs:attribute name="equivalentCourse" type="xs:string" default=""/>
     <xs:attribute name="creditHoursLecture" type="xs:integer" default="3"/>
