@@ -18,7 +18,8 @@
   </prerequisites>
 
   <textbook title="Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation" 
-            year="2010" 
+            publisher="Addison-Wesley"
+            year="2010"
             ISBN="978-0321601919">
     <author>Jez Humble</author>
     <author>David Farley</author>

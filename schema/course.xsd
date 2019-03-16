@@ -120,6 +120,8 @@
           </xs:sequence>
           <xs:attribute name="title" type="xs:string"/>
           <xs:attribute name="year" type="xs:string"/>
+          <xs:attribute name="publisher" type="xs:string"/>
+          <xs:attribute name="edition" type="xs:string" default="1"/>
           <xs:attribute name="ISBN" type="xs:string"/>
 	</xs:complexType>
       </xs:element>
