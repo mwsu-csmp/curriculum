@@ -16,28 +16,39 @@
     <div class="field"><span class="label">Course Number</span>: <xsl:value-of select="csmp:course/csmp:subject"/> <xsl:value-of select="csmp:course/csmp:number"/></div>
     <div class="field"><span class="label">Course Name</span>: <xsl:value-of select="csmp:course/csmp:title"/></div>
 
-    <div class="field"><span class="label">Prerequisites</span>: 
-      <xsl:for-each select="csmp:course/csmp:prerequisites/csmp:prerequisite">
-        <xsl:value-of select="current()"/> 
-          <xsl:if test="@corequisite='true'"><xsl:text> (concurrent OK)</xsl:text></xsl:if>
-          <xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>&#160;
-      </xsl:for-each>
-    </div>
+    <xsl:apply-templates select="csmp:course/csmp:prerequisites" />
 
-    <h2>Objectives</h2>
-    <ul>
-      <xsl:for-each select="csmp:course/csmp:objectives/csmp:objective">
-        <li><xsl:value-of select="current()"/></li>
-      </xsl:for-each>
-    </ul>
+    <xsl:apply-templates select="csmp:course/csmp:objectives" />
 
     <xsl:apply-templates select="csmp:course/csmp:outline" />
-   
 
   </body>
 </html>
 </xsl:template>
 
+<xsl:template match="csmp:prerequisites">
+  <div class="field"><span class="label">Prerequisites</span>: 
+    <xsl:apply-templates select="csmp:prerequisiteCourse" />
+  </div>
+</xsl:template>
+
+<xsl:template match="csmp:prerequisiteCourse">
+  <xsl:value-of select="csmp:subject"/>
+  <xsl:value-of select="csmp:number"/>
+  <xsl:if test="@corequisite='true'"><xsl:text> (concurrent OK)</xsl:text></xsl:if>
+  <xsl:if test="position() != last()"><xsl:text>,</xsl:text></xsl:if>&#160;
+</xsl:template>
+
+<xsl:template match="csmp:objectives">
+  <h2>Objectives</h2>
+  <ul>
+    <xsl:apply-templates select="csmp:objective" />
+  </ul>
+</xsl:template>
+
+<xsl:template match="csmp:objective">
+  <li><xsl:value-of select="current()"/></li>
+</xsl:template>
 
 <xsl:template match="csmp:outline">
     <h2>Outline</h2>
