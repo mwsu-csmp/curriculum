@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course 
+  xmlns="https://csmp.missouriwestern.edu" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>184</number>
+  <title>Introduction to Computer Programming</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>110</number></prerequisiteCourse>
+<!-- will examine outcomes from previous students w/ various levels of math / ACT prep /-->
+  </prerequisites>
+
+  <textbook title="Think Python" 
+            publisher="O'Reilly Media"
+            year="2012"
+            ISBN="978-1449330729">
+    <author>Allen B. Downey</author>
+  </textbook>
+
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>
