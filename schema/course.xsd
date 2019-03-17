@@ -37,6 +37,13 @@
   <xs:complexType name="topic" mixed="true">
     <xs:sequence>
       <xs:element name="topic" type="topic" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="covers" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="standard" type="xs:string"/>
+          <xs:attribute name="knowledgeArea" type="xs:string"/>
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
     </xs:sequence>
   </xs:complexType>
 
@@ -113,7 +120,7 @@
 	</xs:complexType>
       </xs:element>
 
-      <xs:element name="textbook" maxOccurs="unbounded">
+      <xs:element name="textbook" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
           <xs:sequence>
             <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
@@ -130,9 +137,21 @@
       <xs:element name="objectives">
         <xs:complexType>
           <xs:sequence>
-            <xs:element name="objective" type="xs:string" maxOccurs="unbounded"/>
+            <xs:element name="objective" maxOccurs="unbounded">
+              <xs:complexType mixed="true">
+                <xs:sequence>
+                <xs:element name="covers" minOccurs="0" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:attribute name="standard" type="xs:string"/>
+                    <xs:attribute name="knowledgeArea" type="xs:string"/>
+                    <xs:attribute name="id" type="xs:string"/>
+    	            </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+            </xs:element>
           </xs:sequence>
-	</xs:complexType>
+	      </xs:complexType>
       </xs:element>
 
       <xs:element name="outline">
@@ -168,4 +187,4 @@
     </xs:complexType>
   </xs:element>
 
-</xs:schema> 
+</xs:schema>

@@ -25,58 +25,59 @@
   </textbook>
 
   <objectives>
-    <objective mastery="usage">Implement basic numerical algorithms
+
+    <objective>Implement basic numerical algorithms
       <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
     </objective>
-    <objective mastery="familiarity">For both a primitive and a compound type, informally describe the values that have that type
+    <objective>For both a primitive and a compound type, informally describe the values that have that type
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
     </objective>
-    <objective mastery="">Describe examples of program errors detected by a type system
+    <objective>Describe examples of program errors detected by a type system
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
     </objective>
-    <objective mastery="familiarity">Discuss the importance of algorithms in the problem-solving process
+    <objective>Discuss the importance of algorithms in the problem-solving process
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
     </objective>
-    <objective mastery="usage">Create algorithms for solving simple problems
+    <objective>Create algorithms for solving simple problems
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="3"/>
     </objective>
-    <objective mastery="">Use a programming language to implement, test, and debug algorithms for solving simple problems
+    <objective>Use a programming language to implement, test, and debug algorithms for solving simple problems
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4"/>
     </objective>
-    <objective mastery="usage">Implement, test, and debug simple recursive functions and procedures
+    <objective>Implement, test, and debug simple recursive functions and procedures
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="5"/>
     </objective>
-    <objective mastery="usage">Apply the techniques of decomposition to break a program into smaller pieces
+    <objective>Apply the techniques of decomposition to break a program into smaller pieces
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="8"/>
     </objective>
-    <objective mastery="assessment">Trace the execution of a variety of code segments and write summaries of their computations
+    <objective>Trace the execution of a variety of code segments and write summaries of their computations
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
     </objective>
-    <objective mastery="usage">Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers
+    <objective>Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="9"/>
     </objective>
-    <objective mastery="usage">Construct and debug programs using the standard libraries available with a chosen programming language
+    <objective>Construct and debug programs using the standard libraries available with a chosen programming language
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="10"/>
     </objective>
-    <objective mastery="familiarity">Identify and describe uses of primitive data types
+    <objective>Identify and describe uses of primitive data types
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="2"/>
     </objective>
-    <objective mastery="usage">Write programs that use primitive data types
+    <objective>Write programs that use primitive data types
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="3"/>
     </objective>
-    <objective mastery="usage">Modify and expand short programs that use standard conditional and iterative control structures and functions
+    <objective>Modify and expand short programs that use standard conditional and iterative control structures and functions
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="4"/>
     </objective>
-    <objective mastery="usage">Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing
+    <objective>Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="5"/>
     </objective>
-    <objective mastery="assessment">Write a program that uses file I/O to provide persistence across multiple executions
+    <objective>Write a program that uses file I/O to provide persistence across multiple executions
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
     </objective>
-    <objective mastery="assessment">Choose appropriate conditional and iteration constructs for a given programming task
+    <objective>Choose appropriate conditional and iteration constructs for a given programming task
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="7"/>
     </objective>
-    <objective mastery="familiarity">Describe the concept of recursion and give examples of its use
+    <objective>Describe the concept of recursion and give examples of its use
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="8"/>
     </objective>
   </objectives>

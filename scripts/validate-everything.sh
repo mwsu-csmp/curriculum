@@ -3,7 +3,7 @@ for f in schema/*
 do
 	xmllint --noout $f
 	if [ $? -eq 0 ]; then
- 	   	echo "$f is valid"
+ 	   	echo "$f validates"
 	else
 	    	echo "*** $f failed to validate"
 		exit
@@ -14,7 +14,7 @@ for f in transformations/*
 do
 	xmllint --noout $f
 	if [ $? -eq 0 ]; then
- 	   	echo "$f is valid"
+ 	   	echo "$f validates"
 	else
 	    	echo "*** $f failed to validate"
 		exit
@@ -24,9 +24,7 @@ done
 for f in syllabi/*
 do
 	xmllint --schema schema/* --noout $f
-	if [ $? -eq 0 ]; then
- 	   	echo "$f is valid"
-	else
+	if [ $? -ne 0 ]; then
 	    	echo "*** $f failed to validate"
 		exit
 	fi
