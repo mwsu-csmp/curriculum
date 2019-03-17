@@ -107,8 +107,8 @@
       <xs:element name="prerequisites">
         <xs:complexType>
           <xs:choice>
-            <xs:element name="prerequisiteCourse" type="prerequisiteCourse" maxOccurs="unbounded"/>
-            <xs:element name="prerequisiteGroup" type="prerequisiteGroup" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteCourse" type="prerequisiteCourse" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteGroup" type="prerequisiteGroup" minOccurs="0" maxOccurs="unbounded"/>
           </xs:choice>
 	</xs:complexType>
       </xs:element>
