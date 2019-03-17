@@ -9,7 +9,7 @@
         Asymptotic analysis of upper and expected complexity bounds
       </topic>
       <topic importance="tier1">
-        Big O  notation: formal definition
+        Big O notation: formal definition
       </topic>
       <topic importance="tier1">
         Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential
@@ -36,37 +36,37 @@
         Some version of a Master Theorem
       </topic>
       <learning-outcome importance="tier1" mastery_level="Familiarity">
-        Explain what is meant by “best”, “expected”, and “worst” case behavior of an algorithm. 
+        Explain what is meant by “best”, “expected”, and “worst” case behavior of an algorithm.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Assessment">
-        In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors. 
+        In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Usage">
-        Determine informally the time and space complexity of simple algorithms. 
+        Determine informally the time and space complexity of simple algorithms.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Familiarity">
         State the formal definition of big O.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Familiarity">
-        List and contrast standard complexity classes. 
+        List and contrast standard complexity classes.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Assessment">
-        Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis.  Run algorithms on input of various sizes and compare performance. 
+        Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis.  Run algorithms on input of various sizes and compare performance.
       </learning-outcome>
       <learning-outcome importance="tier1" mastery_level="Familiarity">
-        Give examples that illustrate time-space trade-offs of algorithms. 
+        Give examples that illustrate time-space trade-offs of algorithms.
       </learning-outcome>
       <learning-outcome importance="tier2" mastery_level="Usage">
         Use big O notation formally to give asymptotic upper bounds on time and space complexity of algorithms.
       </learning-outcome>
       <learning-outcome importance="tier2" mastery_level="Usage">
-        Use big O notation formally to give expected case bounds on time complexity of algorithms. 
+        Use big O notation formally to give expected case bounds on time complexity of algorithms.
       </learning-outcome>
       <learning-outcome importance="tier2" mastery_level="Familiarity">
-        Explain the use of big omega, big theta, and little o notation to describe the amount of work done by an algorithm. 
+        Explain the use of big omega, big theta, and little o notation to describe the amount of work done by an algorithm.
       </learning-outcome>
       <learning-outcome importance="tier2" mastery_level="Usage">
-        Use recurrence relations to determine the time complexity of recursively defined algorithms. 
+        Use recurrence relations to determine the time complexity of recursively defined algorithms.
       </learning-outcome>
       <learning-outcome importance="tier2" mastery_level="Usage">
         Solve elementary recurrence relations, e.g., using some form of a Master Theorem.
@@ -85,4 +85,379 @@
     <knowledge-area name="Advanced Data Structures, Algorithms, and Analysis">
     </knowledge-area>
   </knowledge-area>
+
+
+    <knowledge-area id="AR" name="Architecture and Organization">
+      <knowledge-area name="Digital Logic and Digital Systems">
+      </knowledge-area>
+      <knowledge-area name="Machine Level Representation of Data">
+      </knowledge-area>
+      <knowledge-area name="Assembly Level Machine Organization">
+      </knowledge-area>
+      <knowledge-area name="Memory System Organization and Architecture">
+      </knowledge-area>
+      <knowledge-area name="Interfacing and Communication">
+      </knowledge-area>
+      <knowledge-area name="Functional Organization">
+      </knowledge-area>
+      <knowledge-area name="Multiprocessing and Alternative Architectures">
+      </knowledge-area>
+      <knowledge-area name="Performance Enhancements">
+      </knowledge-area>
+    </knowledge-area>
+
+
+    <knowledge-area id="CN" name="Computational Science">
+      <knowledge-area name="Introduction to Modeling and Simulation">
+      </knowledge-area>
+      <knowledge-area name="Modeling and Simulation">
+      </knowledge-area>
+      <knowledge-area name="Processing">
+      </knowledge-area>
+      <knowledge-area name="Interactive Visualization">
+      </knowledge-area>
+      <knowledge-area name="Data, Information, and Knowledge">
+      </knowledge-area>
+      <knowledge-area name="Numerical Analysis">
+      </knowledge-area>
+    </knowledge-area>
+
+
+    <knowledge-area id="DS" name="Discrete Structures">
+      <knowledge-area name="Sets, Relations, and Functions">
+      </knowledge-area>
+      <knowledge-area name="Basic Logic">
+      </knowledge-area>
+      <knowledge-area name="Proof Techniques">
+      </knowledge-area>
+      <knowledge-area name="Basics of Counting">
+      </knowledge-area>
+      <knowledge-area name="Graphs and Trees">
+      </knowledge-area>
+      <knowledge-area name="Discrete Probability">
+      </knowledge-area>
+    </knowledge-area>
+
+
+    <knowledge-area id="GV" name="Graphics and Visualization">
+
+      <knowledge-area name="Fundamental Concepts">
+      </knowledge-area>
+      <knowledge-area name="Basic Rendering">
+      </knowledge-area>
+      <knowledge-area name="Geometric Modeling">
+      </knowledge-area>
+      <knowledge-area name="Advanced Rendering">
+      </knowledge-area>
+      <knowledge-area name="Computer Animation">
+      </knowledge-area>
+      <knowledge-area name="Visualization">
+      </knowledge-area>
+    </knowledge-area>
+
+
+    <knowledge-area id="HCI" name="Human-Computer Interaction">
+      <knowledge-area name="Foundations">
+      </knowledge-area>
+      <knowledge-area name="Designing Interaction">
+      </knowledge-area>
+      <knowledge-area name="Programming Interactive Systems">
+      </knowledge-area>
+      <knowledge-area name="User-Centered Design and Testing">
+      </knowledge-area>
+      <knowledge-area name="New Interactive Technologies">
+      </knowledge-area>
+      <knowledge-area name="Collaboration and Communication">
+      </knowledge-area>
+      <knowledge-area name="Statistical Methods for HCI">
+      </knowledge-area>
+      <knowledge-area name="Human Factors and Security">
+      </knowledge-area>
+      <knowledge-area name="Design-Oriented HCI">
+      </knowledge-area>
+      <knowledge-area name="Mixed, Augmented and Virtual Reality">
+      </knowledge-area>
+    </knowledge-area>
+
+  <knowledge-area id="IAS" name="Information Assurance and Security">
+    <knowledge-area name="Foundational Concepts in Security">
+    </knowledge-area>
+    <knowledge-area name="Principles of Secure Design">
+    </knowledge-area>
+    <knowledge-area name="Defensive Programming">
+    </knowledge-area>
+    <knowledge-area name="Threats and Attacks">
+    </knowledge-area>
+    <knowledge-area name="Network Security">
+    </knowledge-area>
+    <knowledge-area name="Cryptography">
+    </knowledge-area>
+    <knowledge-area name="Web Security">
+    </knowledge-area>
+    <knowledge-area name="Platform Security">
+    </knowledge-area>
+    <knowledge-area name="Security Policy and Governance">
+    </knowledge-area>
+    <knowledge-area name="Digital Forensics">
+    </knowledge-area>
+    <knowledge-area name="Secure Software Engineering">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="IM" name="Information Management">
+    <knowledge-area name="Information Management Concepts">
+    </knowledge-area>
+    <knowledge-area name="Database Systems">
+    </knowledge-area>
+    <knowledge-area name="Data Modeling">
+    </knowledge-area>
+    <knowledge-area name="Indexing">
+    </knowledge-area>
+    <knowledge-area name="Relational Databases">
+    </knowledge-area>
+    <knowledge-area name="Query Languages">
+    </knowledge-area>
+    <knowledge-area name="Transaction Processing">
+    </knowledge-area>
+    <knowledge-area name="Distributed Databases">
+    </knowledge-area>
+    <knowledge-area name="Physical Database Design">
+    </knowledge-area>
+    <knowledge-area name="Data Mining">
+    </knowledge-area>
+    <knowledge-area name="Information Storage And Retrieval">
+    </knowledge-area>
+    <knowledge-area name="MultiMedia Systems">
+    </knowledge-area>
+  </knowledge-area>
+
+
+  <knowledge-area id="IS" name="Intelligent Systems">
+    <knowledge-area name="Fundamental Issues">
+    </knowledge-area>
+    <knowledge-area name="Basic Search Strategies">
+    </knowledge-area>
+    <knowledge-area name="Basic Knowledge Representation and Reasoning">
+    </knowledge-area>
+    <knowledge-area name="Basic Machine Learning">
+    </knowledge-area>
+    <knowledge-area name="Advanced Search">
+    </knowledge-area>
+    <knowledge-area name="Advanced Representation and Reasoning">
+    </knowledge-area>
+    <knowledge-area name="Reasoning Under Uncertainty">
+    </knowledge-area>
+    <knowledge-area name="Agents">
+    </knowledge-area>
+    <knowledge-area name="Natural Language Processing">
+    </knowledge-area>
+    <knowledge-area name="Advanced Machine Learning">
+    </knowledge-area>
+    <knowledge-area name="Robotics">
+    </knowledge-area>
+    <knowledge-area name="Perception and Computer Vision">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="NC" name="Networking and Communication">
+    <knowledge-area name="Introduction">
+    </knowledge-area>
+    <knowledge-area name="Networked Applications">
+    </knowledge-area>
+    <knowledge-area name="Reliable Data Delivery">
+    </knowledge-area>
+    <knowledge-area name="Routing And Forwarding">
+    </knowledge-area>
+    <knowledge-area name="Local Area Networks">
+    </knowledge-area>
+    <knowledge-area name="Resource Allocation">
+    </knowledge-area>
+    <knowledge-area name="Mobility">
+    </knowledge-area>
+    <knowledge-area name="Social Networking">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="OS" name="Operating Systems">
+    <knowledge-area name="Overview of Operating Systems">
+    </knowledge-area>
+    <knowledge-area name="Operating System Principles">
+    </knowledge-area>
+    <knowledge-area name="Concurrency">
+    </knowledge-area>
+    <knowledge-area name="Scheduling and Dispatch">
+    </knowledge-area>
+    <knowledge-area name="Memory Management">
+    </knowledge-area>
+    <knowledge-area name="Security and Protection ">
+    </knowledge-area>
+    <knowledge-area name="Virtual Machines">
+    </knowledge-area>
+    <knowledge-area name="Device Management">
+    </knowledge-area>
+    <knowledge-area name="File Systems">
+    </knowledge-area>
+    <knowledge-area name="Real Time and Embedded Systems">
+    </knowledge-area>
+    <knowledge-area name="Fault Tolerance">
+    </knowledge-area>
+    <knowledge-area name="System Performance Evaluation">
+    </knowledge-area>
+  </knowledge-area>
+
+
+  <knowledge-area id="PBD" name="Platform-Based Development">
+    <knowledge-area name="Introduction">
+    </knowledge-area>
+    <knowledge-area name="Web Platforms">
+    </knowledge-area>
+    <knowledge-area name="Mobile Platforms">
+    </knowledge-area>
+    <knowledge-area name="Industrial Platforms">
+    </knowledge-area>
+    <knowledge-area name="">
+    </knowledge-area>
+  </knowledge-area>
+
+
+  <knowledge-area id="PD" name="Parallel and Distributed Computing">
+    <knowledge-area name="Parallelism Fundamentals">
+    </knowledge-area>
+    <knowledge-area name="Parallel Decomposition">
+    </knowledge-area>
+    <knowledge-area name="Communication and Coordination">
+    </knowledge-area>
+    <knowledge-area name="Parallel Algorithms, Analysis, and Programming">
+    </knowledge-area>
+    <knowledge-area name="Parallel Architecture">
+    </knowledge-area>
+    <knowledge-area name="Parallel Performance ">
+    </knowledge-area>
+    <knowledge-area name="Distributed Systems">
+    </knowledge-area>
+    <knowledge-area name="Cloud Computing">
+    </knowledge-area>
+    <knowledge-area name="Formal Models and Semantics">
+    </knowledge-area>
+  </knowledge-area>
+
+
+  <knowledge-area id="PL" name="Programming Languages">
+    <knowledge-area name="Object-Oriented Programming">
+    </knowledge-area>
+    <knowledge-area name="Functional Programming">
+    </knowledge-area>
+    <knowledge-area name="Event-Driven and Reactive Programming">
+    </knowledge-area>
+    <knowledge-area name="Basic Type Systems">
+    </knowledge-area>
+    <knowledge-area name="Program Representation">
+    </knowledge-area>
+    <knowledge-area name="Language Translation and Execution">
+    </knowledge-area>
+    <knowledge-area name="Syntax Analysis">
+    </knowledge-area>
+    <knowledge-area name="Compiler Semantic Analysis">
+    </knowledge-area>
+    <knowledge-area name="Code Generation">
+    </knowledge-area>
+    <knowledge-area name="Runtime Systems">
+    </knowledge-area>
+    <knowledge-area name="Static Analysis">
+    </knowledge-area>
+    <knowledge-area name="Advanced Programming Constructs">
+    </knowledge-area>
+    <knowledge-area name="Concurrency and Parallelism">
+    </knowledge-area>
+    <knowledge-area name="Type Systems">
+    </knowledge-area>
+    <knowledge-area name="Formal Semantics">
+    </knowledge-area>
+    <knowledge-area name="Language Pragmatics">
+    </knowledge-area>
+    <knowledge-area name="Logic Programming">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="SDF" name="Software Development Fundamentals">
+    <knowledge-area name="Algorithms and Design">
+    </knowledge-area>
+    <knowledge-area name="Fundamental Programming Concepts">
+    </knowledge-area>
+    <knowledge-area name="Fundamental Data Structures">
+    </knowledge-area>
+    <knowledge-area name="Development Methods">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="SE" name="Software Engineering">
+    <knowledge-area name="Software Processes">
+    </knowledge-area>
+    <knowledge-area name="Software Project Management">
+    </knowledge-area>
+    <knowledge-area name="Tools and Environments">
+    </knowledge-area>
+    <knowledge-area name="Requirements Engineering">
+    </knowledge-area>
+    <knowledge-area name="Software Design">
+    </knowledge-area>
+    <knowledge-area name="Software Construction ">
+    </knowledge-area>
+    <knowledge-area name="Software Verification and Validation">
+    </knowledge-area>
+    <knowledge-area name="Software Evolution">
+    </knowledge-area>
+    <knowledge-area name="Software Reliability">
+    </knowledge-area>
+    <knowledge-area name="Formal Methods">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="SF" name="Systems Fundamentals">
+
+    <knowledge-area name="Computational Paradigms">
+    </knowledge-area>
+    <knowledge-area name="Cross-Layer Communications">
+    </knowledge-area>
+    <knowledge-area name="State and State Machines">
+    </knowledge-area>
+    <knowledge-area name="Parallelism">
+    </knowledge-area>
+    <knowledge-area name="Evaluation">
+    </knowledge-area>
+    <knowledge-area name="Resource Allocation and Scheduling">
+    </knowledge-area>
+    <knowledge-area name="Proximity">
+    </knowledge-area>
+    <knowledge-area name="Virtualization and Isolation">
+    </knowledge-area>
+    <knowledge-area name="Reliability through Redundancy">
+    </knowledge-area>
+    <knowledge-area name="Quantitative Evaluation">
+    </knowledge-area>
+  </knowledge-area>
+
+  <knowledge-area id="SP" name="Social Issues and Professional Practice">
+    <knowledge-area name="Social Context">
+    </knowledge-area>
+    <knowledge-area name="Analytical Tools">
+    </knowledge-area>
+    <knowledge-area name="Professional Ethics">
+    </knowledge-area>
+    <knowledge-area name="Intellectual Property">
+    </knowledge-area>
+    <knowledge-area name="Privacy and Civil Liberties">
+    </knowledge-area>
+    <knowledge-area name="Professional Communication">
+    </knowledge-area>
+    <knowledge-area name="Sustainability">
+    </knowledge-area>
+    <knowledge-area name="History">
+    </knowledge-area>
+    <knowledge-area name="Economies of Computing">
+    </knowledge-area>
+    <knowledge-area name="Security Policies, Laws and Computer Crimes">
+    </knowledge-area>
+  </knowledge-area>
+
 </curriculum-standard>
