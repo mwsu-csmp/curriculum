@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course 
+  xmlns="https://csmp.missouriwestern.edu" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>246</number>
+  <title>Programming Languages and Paradigms</title>
+  <offered>fall-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+  </prerequisites>
+
+  <textbook title="Think Python" 
+            publisher="O'Reilly Media"
+            year="2012"
+            ISBN="978-1449330729">
+    <author>Allen B. Downey</author>
+  </textbook>
+
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>
