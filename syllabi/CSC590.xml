@@ -102,9 +102,55 @@
     <objective>Prepare for certification as a professional project manager</objective>
   </objectives>
   <outline>
+    <topic>Project Basics
+      <topic>Project Properties
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/2"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/3"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/4"/>
+      </topic>
+      <topic>Programs
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/5"/>
+      </topic>
+      <topic>Portfolios
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/6"/>
+      </topic>
+      <topic>roles
+        <topic>Sponsor / Champion
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/1"/>
+        </topic>
+        <topic>
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/2"/>
+        </topic>
+        <topic>Project manager
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/3"/>
+        </topic>
+        <topic>Project Coordinator
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/4"/>
+        </topic>
+        <topic>Stakeholder
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/5"/>
+        </topic>
+        <topic>Scheduler
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/6"/>
+        </topic>
+        <topic>Project team
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/7"/>
+        </topic>
+        <topic>Project management office (PMO)
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="2/8"/>
+        </topic>
+      </topic>
+    </topic>
     <topic>Project Integration Management
       <topic>Project Charters
         <covers standard="pmi:6" knowledgeArea="4" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/1/1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/1/3"/>
+      </topic>
+      <topic>Business cases
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/1/2"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/1/4"/>
       </topic>
       <topic>Project Management Plans
         <covers standard="pmi:6" knowledgeArea="4" id="2"/>
@@ -120,8 +166,27 @@
       </topic>
       <topic>Performing Integrated Change Control
         <covers standard="pmi:6" knowledgeArea="4" id="6"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/8"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/4"/>
       </topic>
-      <topic>Closing Projects and Project Phases
+      <topic>Project Phases
+        <topic>Deliverables
+          <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/3"/>
+        </topic>
+        <topic>Closing projects
+          <topic>Transition plans
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/1"/>
+          </topic>
+          <topic>Project sign off
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/2"/>
+          </topic>
+          <topic>Archiving project documents
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/3"/>
+          </topic>
+          <topic>Lessons learned
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/4"/>
+          </topic>
+        </topic>
         <covers standard="pmi:6" knowledgeArea="4" id="7"/>
       </topic>
       <topic>Project management software and tools
@@ -133,23 +198,26 @@
         <covers standard="pmi:6" knowledgeArea="5" id="1"/>
       </topic>
       <topic>Collecting requirements
-        <covers standard="pmi:6" knowledgeArea="5" id="2"/>
         <topic>Developing use-cases and user stories
           <covers standard="acm:2013" knowledgeArea="SE/RE" id="1"/>
         </topic>
         <topic>Properties of requirements
-          <covers standard="acm:2013" knowledgeArea="SE/RE" id="2"/>
           <topic>Consistency</topic>
           <topic>Validity</topic>
           <topic>Completeness</topic>
           <topic>Feasibility</topic>
+          <covers standard="acm:2013" knowledgeArea="SE/RE" id="2"/>
         </topic>
+
+        <covers standard="pmi:6" knowledgeArea="5" id="2"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/5"/>
       </topic>
       <topic>Defining Scope
         <covers standard="pmi:6" knowledgeArea="5" id="3"/>
       </topic>
       <topic>Creating a Work Breakdown Structure
         <covers standard="pmi:6" knowledgeArea="5" id="4"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/2"/>
       </topic>
       <topic>Validating Scope
         <covers standard="pmi:6" knowledgeArea="5" id="5"/>
@@ -161,6 +229,7 @@
     <topic>Project Schedule Management
       <topic>schedule Management planning
         <covers standard="pmi:6" knowledgeArea="6" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/1"/>
       </topic>
       <topic>Defining Activities
         <covers standard="pmi:6" knowledgeArea="6" id="2"/>
@@ -183,18 +252,20 @@
     <topic>Project cost Management
       <topic>Cost management planning
         <covers standard="pmi:6" knowledgeArea="7" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/9"/>
       </topic>
       <topic>Estimating costs
-        <covers standard="pmi:6" knowledgeArea="7" id="2"/>
         <topic>Cost/benefit analysis
           <covers standard="acm:2013" knowledgeArea="SE/SPM" id="5/3"/>
         </topic>
+        <covers standard="pmi:6" knowledgeArea="7" id="2"/>
       </topic>
       <topic>Determining budgets
         <covers standard="pmi:6" knowledgeArea="7" id="3"/>
       </topic>
       <topic>Controlling assets
         <covers standard="pmi:6" knowledgeArea="7" id="4"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/5"/>
       </topic>
     </topic>
     <topic>Project quality management
@@ -205,6 +276,12 @@
         <covers standard="pmi:6" knowledgeArea="8" id="2"/>
       </topic>
       <topic>Controlling quality
+        <topic>Performance measuring
+          <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/2"/>
+        </topic>
+        <topic>Quality assurance
+          <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/3"/>
+        </topic>
         <covers standard="pmi:6" knowledgeArea="8" id="3"/>
       </topic>
     </topic>
@@ -212,15 +289,16 @@
       <topic>Resource management planning
         <covers standard="pmi:6" knowledgeArea="9" id="1"/>
         <covers standard="acm:2013" knowledgeArea="SE/SPM" id="1/1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/3"/>
       </topic>
       <topic>Estimating activity resources
         <covers standard="pmi:6" knowledgeArea="9" id="2"/>
       </topic>
       <topic>Resource acquisition
-        <covers standard="pmi:6" knowledgeArea="9" id="3"/>
         <topic>IT project team roles
           <covers standard="acm:2013" knowledgeArea="SE/SPM" id="1/2"/>
         </topic>
+        <covers standard="pmi:6" knowledgeArea="9" id="3"/>
       </topic>
       <topic>Team development
         <covers standard="pmi:6" knowledgeArea="9" id="4"/>
@@ -230,15 +308,19 @@
         <covers standard="acm:2013" knowledgeArea="SE/SPM" id="4"/>
       </topic>
       <topic>Controlling resources
-        <covers standard="pmi:6" knowledgeArea="9" id="6"/>
         <topic>Conflict resolution
           <covers standard="acm:2013" knowledgeArea="SE/SPM" id="1/3"/>
         </topic>
+        <covers standard="pmi:6" knowledgeArea="9" id="6"/>
+      </topic>
+      <topic>Releasing resources
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/5"/>
       </topic>
     </topic>
     <topic>Project communications management
       <topic>Communications management planning
         <covers standard="pmi:6" knowledgeArea="10" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/6"/>
       </topic>
       <topic>Managing communications
         <covers standard="pmi:6" knowledgeArea="10" id="2"/>
@@ -250,11 +332,11 @@
     </topic>
     <topic>Project risk management
       <topic>Risk management planning
-        <covers standard="pmi:6" knowledgeArea="11" id="1"/>
-        <covers standard="acm:2013" knowledgeArea="SE/SPM" id="8/4"/>
         <topic>Determining risk tolerance
           <covers standard="acm:2013" knowledgeArea="SE/SPM" id="8/3"/>
         </topic>
+        <covers standard="pmi:6" knowledgeArea="11" id="1"/>
+        <covers standard="acm:2013" knowledgeArea="SE/SPM" id="8/4"/>
       </topic>
       <topic>Risk categories in IT projects
         <covers standard="acm:2013" knowledgeArea="SE/SPM" id="3/2"/>
@@ -262,6 +344,10 @@
       <topic>Identifying risks
         <covers standard="pmi:6" knowledgeArea="11" id="2"/>
         <covers standard="acm:2013" knowledgeArea="SE/SPM" id="8/1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/4"/>
+      </topic>
+      <topic>Issue tracking
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/1"/>
       </topic>
       <topic>Performing qualitative risk analysis
         <covers standard="pmi:6" knowledgeArea="11" id="3"/>
@@ -284,12 +370,16 @@
     <topic>Project procurement management
       <topic>Procurement management planning
         <covers standard="pmi:6" knowledgeArea="12" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/7"/>
       </topic>
       <topic>Conducting procurements
         <covers standard="pmi:6" knowledgeArea="12" id="2"/>
       </topic>
       <topic>Controlling procurements
         <covers standard="pmi:6" knowledgeArea="12" id="3"/>
+      </topic>
+      <topic>Closing contracts
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/6"/>
       </topic>
     </topic>
     <topic>Project stakeholder Management
