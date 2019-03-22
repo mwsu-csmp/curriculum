@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<curriculumStandard version="2013" body="acm">
+<curriculumStandard 
+                    name="Computer Science Curricula"
+                    body="acm"
+                    version="2013" 
+                    documentUrl="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf"
+                    >
   <knowledgeArea id="AL" name="Algorithms and Complexity">
     <knowledgeArea name="Basic Analysis">
       <topic importance="tier1">
