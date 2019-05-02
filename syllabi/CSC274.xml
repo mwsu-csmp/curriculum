@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>274</number>
+  <title>Introduction to Unix/Linux</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+  An introductory course on UNIX/Linux and its applications. Topics covered include: basic commands, connecting to remote machines, basic system structures, system tools, output redirection, command line text editing, file system basics, security basics, and basic shell scripting. The course material is intended to prepare students for versatile use of any UNIX/Linux system and as a foundation for numerous UNIX/Linux certification programs. 
+  </catalogDescription>
+  <prerequisites>
+<!--Not really the prerequisites, but they are too tight.-->
+  </prerequisites>
+
+  <textbook title="Bash Guide for Beginners"
+            publisher="(pdf file)"
+            year="2008"
+            ISBN="">
+    <author>Machtelt Garrels</author>
+  </textbook>
+
+  <objectives>
+	<objective>Develop confidence in working at the command line</objective>
+	<objective>Understand the roles of the Linus and Unix command line environment</objective>
+	<objective>Use vi and vim</objective>
+	<objective>Understand basic process management</objective>
+	<objective>Understand files and directory structures</objective>
+	<objective>Understand passwords and basic system security</objective>
+	<objective>Use common Linux and Unix shell commands</objective>
+	<objective>Use command redirection and pipes</objective>
+	<objective>Build and edit scripts of sequential commands</objective>
+	<objective>Build and edit scripts using simple if and for strutures</objective>
+	<objective>Environmental variables and Script Variables</objective>
+	<objective>Modify configuration scripts such as .bashrc to implement aliases and change the path</objective>
+	<objective>Create intermediate-level regex expressions</objective>
+	<objective>Use regex in common commands including grep, egrep, awk, sed, and vi</objective>
+	<objective>Use system devices including /dev/null and /dev/urandom</objective>
+	<objective>Set up and do basic do basic administration of a simple Linux system</objective>
+	<objective>Know the basic Linux diestributions and desktop environments</objective>
+  </objectives>
+  <outline>
+    <topic>Week 01 -- Getting connected and changing passwords</topic>
+    <topic>Week 02 -- Basic commands and man pages</topic>
+    <topic>Week 03 -- Files and vi</topic>
+    <topic>Week 04 -- Redirection, Pipes, and system devices (/dev/null and /dev/random as examples)</topic>
+    <topic>Week 05 -- Directories and process management</topic>
+    <topic>Week 06 -- Midterm</topic>
+    <topic>Week 07 -- Basic scripts and if structures (using exists and directores as conditions)</topic>
+    <topic>Week 08 -- Scripting using lists, arguments, and loops</topic>
+    <topic>Week 09 -- Environtal varialbles and script variables</topic>
+    <topic>Week 10 -- Regular expressions with grep and egrep</topic>
+    <topic>Week 11 -- Regular expressions with sed (or awk)</topic>
+    <topic>Week 12 -- Linux environments (dual boot, cloud)</topic>
+    <topic>Week 13 -- Installing and securing a Linux environment</topic>
+    <topic>Week 14 -- Mini project</topic>
+
+  </outline>
+</course>
