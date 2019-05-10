@@ -7,7 +7,6 @@ do
 	course="${course%.*}"
 	echo "processing $course"
 	xsltproc transformations/syllabus-to-html.xsl $f > output/$course.html
-	xmllint --schema schema/* --noout $f
 	if [ $? -eq 0 ]; then
  	   	echo "$f was processed"
 	else
