@@ -44,11 +44,11 @@
 	<objective>Know the basic Linux diestributions and desktop environments</objective>
   </objectives>
   <outline>
-    <topic>Week 01 -- Getting connected and changing passwords</topic>
-    <topic>Week 02 -- Basic commands and man pages</topic>
-    <topic>Week 03 -- Files and vi</topic>
-    <topic>Week 04 -- Redirection, Pipes, and system devices (/dev/null and /dev/random as examples)</topic>
-    <topic>Week 05 -- Directories and process management</topic>
+    <topic>Week 01 -- Getting connected, basic commands, man pages, and passwords</topic>
+    <topic>Week 02 -- Files and vi</topic>
+    <topic>Week 03 -- Redirection, Pipes, and system devices (/dev/null and /dev/random as examples)</topic>
+    <topic>Week 04 -- Directories and process management</topic>
+    <topic>Week 05 -- Security, ssh, and networking
     <topic>Week 06 -- Midterm</topic>
     <topic>Week 07 -- Basic scripts and if structures (using exists and directores as conditions)</topic>
     <topic>Week 08 -- Scripting using lists, arguments, and loops</topic>
