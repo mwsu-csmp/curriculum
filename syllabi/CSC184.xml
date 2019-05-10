@@ -25,7 +25,6 @@
   </textbook>
 
   <objectives>
-
     <objective>Implement basic numerical algorithms
       <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
     </objective>
