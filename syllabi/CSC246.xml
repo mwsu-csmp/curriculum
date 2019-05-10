@@ -50,9 +50,6 @@
     <objective>Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language
       <covers standard="acm:2013" knowledgeArea="PL/FP" id="6"/>
     </objective>
-    <objective>Give an example program that does not type-check in a particular language and yet would have no error if run
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="5"/>
-    </objective>
     <objective>Describe an abstract syntax tree for a small language
       <covers standard="acm:2013" knowledgeArea="PL/PR" id="2"/>
     </objective>
