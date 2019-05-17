@@ -59,6 +59,7 @@ class ACMHTMLParser(HTMLParser):
               chunk = nextchunk.strip()
           elif re.search('^(\d+)\.\s*(.+)\s*\[(\w+)\]$', chunk):  # parse an outcome
             num, outcome, mastery = re.search('^(\d+)\.\s*(.+)\s*\[(\w+)\]$', chunk).groups()
+            self.restart_component()
             print('      <outcome importance=\'', self.importance,'\' mastery_level=\'',mastery.lower(),'\'>', outcome, '</outcome>', sep='')
              
           else:
