@@ -28,34 +28,33 @@
     <objective>Implement basic numerical algorithms
       <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
     </objective>
-    <objective>For both a primitive and a compound type, informally describe the values that have that type
+    <objective>Informally describe possible values for a variety of basic Python types
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
     </objective>
-    <objective>Describe examples of program errors detected by a type system
+    <objective>Identify and describe examples of program errors
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
     </objective>
     <objective>Discuss the importance of algorithms in the problem-solving process
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
     </objective>
-    <objective>Create algorithms for solving simple problems
+    <objective>Write pseudocode algorithms for solving simple problems
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="3"/>
     </objective>
-    <objective>Use a programming language to implement, test, and debug algorithms for solving simple problems
+    <objective>Use Python to implement, test, and debug algorithms for solving simple problems
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4"/>
     </objective>
-    <objective>Implement, test, and debug simple recursive functions and procedures
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="5"/>
+    <objective>Implement, test, and debug simple functions
     </objective>
     <objective>Apply the techniques of decomposition to break a program into smaller pieces
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="8"/>
     </objective>
-    <objective>Trace the execution of a variety of code segments and write summaries of their computations
+    <objective>Trace the execution of a variety of Python code segments and write summaries of their computations
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
     </objective>
     <objective>Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="9"/>
     </objective>
-    <objective>Construct and debug programs using the standard libraries available with a chosen programming language
+    <objective>Construct and debug programs using the standard python libraries
       <covers standard="acm:2013" knowledgeArea="SDF/DM" id="10"/>
     </objective>
     <objective>Identify and describe uses of primitive data types
@@ -69,6 +68,8 @@
     </objective>
     <objective>Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="5"/>
+    </objective>
+    <objective>Develop a Python script to solve a significant problem
     </objective>
     <objective>Write a program that uses file I/O to provide persistence across multiple executions
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
