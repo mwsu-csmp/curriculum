@@ -81,101 +81,157 @@
     </objective>
   </objectives>
   <outline>
-    <topic>A type as a set of values together with a set of operations 
-      <topic>Primitive types (e.g., numbers, Booleans)</topic>
-      <topic>Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)</topic>
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
+
+    <topic>Algorithms
+      <topic>The algorithm concept
+        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
+      </topic>
+      <topic>Writing pseudocode
+      </topic>
+      <topic>Problem-solving with algorithms
+        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="2"/>
+      </topic>
+      <topic>Simple numerical algorithms
+        <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
+      </topic>
     </topic>
-    <topic>Association of types to variables, arguments, results, and fields 
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="2"/>
-    </topic>
-    <topic>Type safety and errors caused by using values inconsistently given their intended types
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
-    </topic>
-    <topic>The concept and properties of algorithms
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
-    </topic>
-    <topic>The role of algorithms in the problem-solving process
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="2"/>
-    </topic>
-    <topic>Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, and mode in a list, approximating the square root of a number, or finding the greatest common divisor
-      <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
-    </topic>
-    <topic>Problem-solving strategies
-    </topic>
-    <topic>Fundamental design concepts and principles
+
+    <topic>Program structure and design
+      <topic>The difference between algorithms and programs
+        <topic>Syntax</topic>
+        <topic>Semantics</topic>
+        <topic>Structure of python programs</topic>
+        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="1"/>
+      </topic>
+      <topic>Reading programs for understanding
+        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
+      </topic>
       <topic>Abstraction
         <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4/1"/>
       </topic>
       <topic>Program decomposition
         <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4/2"/>
       </topic>
+      <topic>Nesting</topic>
+      <topic>Predicates</topic>
+      <topic>Side affects</topic>
+      <topic>Common imperative problem solving strategies</topic>
     </topic>
-    
-    <topic>Program comprehension
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
-    </topic>
-    
-    <topic>Program correctness
-      <topic>Types of errors (syntax, logic, run-time)
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/1"/>
+
+    <topic>Basic types and operations on types
+      <topic>Primitive types
+        <topic>Integers</topic>
+        <topic>Floating point numbers</topic>
+        <topic>Characters and character encodings</topic>
+        <topic>Booleans</topic>
       </topic>
-      <topic>The concept of a specification
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/2"/>
+      <topic>Compound types
+        <topic>Strings</topic>
+        <topic>Lists</topic>
+        <topic>Tuples</topic>
+        <topic>Objects</topic>
+        <topic>Iterators</topic>
       </topic>
-      <topic>Testing fundamentals and test-case generation
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/5"/>
+      <topic>References</topic>
+      <topic>Type safety
+        <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
       </topic>
-      <topic>Unit testing
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/7"/>
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
+    </topic>
+
+    <topic>Variables
+      <topic>Scope</topic>
+      <topic>Parameters / arguments
+        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
       </topic>
-    </topic>
-    
-    <topic>Simple refactoring
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="3"/>
-    </topic>
-    
-    <topic>Modern programming environments
-      <topic>Code search</topic>
-      <topic>Programming using library components and their APIs</topic>	
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="4"/>
-    </topic>
-    
-    <topic>Debugging strategies
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="5"/>
-    </topic>
-    
-    <topic>Documentation and program style
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="6"/>
-    </topic>
-    
-    <topic>Basic syntax and semantics of a higher-level language
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="1"/>
-    </topic>
-    
-    <topic>Variables and primitive data types (e.g., numbers, characters, Booleans)
+      <topic>Fields</topic>
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="2"/>
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="2"/>
     </topic>
-    
-    <topic>Expressions and assignments
+
+    <topic>Basic expressions and statements
+      <topic>Literal expressions</topic>
+      <topic>Arithmetic expressions</topic>
+      <topic>Boolean expressions
+        <topic>Comparison operators</topic>
+        <topic>Conditional operators</topic>
+        <topic>Boolean operators</topic>
+        <topic>Short circuiting</topic>
+      </topic>
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="3"/>
     </topic>
-    
-    <topic>Simple I/O including file I/O
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="4"/>
-    </topic>
-    
-    <topic>Conditional and iterative control structures
+
+    <topic>Control constructs in imperative programming
+      <topic>Function calls</topic>
+      <topic>Method calls</topic>
+      <topic>Conditional statements and expressions</topic>
+      <topic>Loops and iteration</topic>
+      <topic>Simple recursion
+        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="7"/>
+      </topic>
       <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="5"/>
     </topic>
+
+    <topic>Program development 
+
+      <topic>Program correctness
+        <topic>The concept of a specification
+          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/2"/>
+        </topic>
+        <topic>Incremental development and test cases
+          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/5"/>
+        </topic>
+        <topic>Types of errors 
+          <topic>Syntax and other compilation errors</topic>
+          <topic>Runtime errors</topic>
+          <topic>Logic errors</topic>
+          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/1"/>
+        </topic>
+        <topic>Debugging strategies
+          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="5"/>
+        </topic>
+        <topic>Unit testing
+          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/7"/>
+        </topic>
+      </topic>
     
-    <topic>Functions and parameter passing
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
+      <topic>Documentation and program style
+        <topic>Identifier naming conventions</topic>
+        <topic>Inline commenting</topic>
+        <topic>Documentation comments</topic>
+        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="6"/>
+      </topic>
+
+      <topic>Simple refactoring
+        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="3"/>
+      </topic>	
+
+      <topic>Program development tools
+        <topic>Libraries and application programming interfaces (APIs)</topic>
+        <topic>REPLs</topic>
+        <topic>Debuggers</topic>
+        <topic>Integrated development environments (IDEs)</topic>
+        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="4"/>
+      </topic>
+
+      <topic>Basic input / output
+        <topic>Standard input and standard output</topic>
+        <topic>Reading from and writing to files</topic>
+        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="4"/>
+      </topic>
+
+      <topic>Executing and sharing programs
+        <topic>Modules</topic>
+        <topic>Writing and executing scripts
+          <topic>Environment variables</topic>
+          <topic>Command-line arguments</topic>
+          <topic>Text-based user interfaces</topic>
+        </topic>
+        <topic>Public software repositories</topic>
+        <topic>Software licensing</topic>
+        <topic>Source code plagiarism</topic>  
+      </topic>
     </topic>
-    
-    <topic>The concept of recursion
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="7"/>
-    </topic>
-    
+
   </outline>
 </course>
