@@ -71,7 +71,7 @@
 </xsl:template>
 
 <xsl:template match="csmp:topic[csmp:topic]">
-      <li><xsl:value-of select="current()"/>
+      <li><xsl:value-of select="text()"/>
         <ol>
           <xsl:apply-templates select="csmp:topic" />
         </ol>
@@ -79,7 +79,7 @@
 </xsl:template>
 
 <xsl:template match="csmp:topic">
-      <li><xsl:value-of select="current()"/>
+      <li><xsl:value-of select="text()"/>
       </li>
 </xsl:template>
 
