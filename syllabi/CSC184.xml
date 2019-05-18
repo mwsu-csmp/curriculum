@@ -25,7 +25,13 @@
   </textbook>
 
   <objectives>
-    <objective>Implement basic numerical algorithms
+    <objective>Discuss the importance of algorithms in the problem-solving process
+      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
+    </objective>
+    <objective>Write pseudocode algorithms for solving simple problems
+      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="3"/>
+    </objective>
+    <objective>Write programs that implement basic numerical algorithms
       <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
     </objective>
     <objective>Informally describe possible values for a variety of basic Python types
@@ -34,16 +40,8 @@
     <objective>Identify and describe examples of program errors
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
     </objective>
-    <objective>Discuss the importance of algorithms in the problem-solving process
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
-    </objective>
-    <objective>Write pseudocode algorithms for solving simple problems
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="3"/>
-    </objective>
-    <objective>Use Python to implement, test, and debug algorithms for solving simple problems
+    <objective>Use Python to implement, test, and debug simple functions and programs
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4"/>
-    </objective>
-    <objective>Implement, test, and debug simple functions
     </objective>
     <objective>Apply the techniques of decomposition to break a program into smaller pieces
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="8"/>
@@ -87,9 +85,7 @@
       <topic>The algorithm concept
         <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
       </topic>
-      <topic>Writing pseudocode
-      </topic>
-      <topic>Problem-solving with algorithms
+      <topic>Writing pseudocode to solve problems
         <covers standard="acm:2013" knowledgeArea="SDF/AD" id="2"/>
       </topic>
       <topic>Simple numerical algorithms
