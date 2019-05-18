@@ -7,6 +7,7 @@ class Syllabus:
   subject = None
   number = None
   offered = None
+  workload_hours = None
   
 def parse_syllabus(xmlfile):
   ns = '{https://csmp.missouriwestern.edu}'
@@ -16,6 +17,7 @@ def parse_syllabus(xmlfile):
   syllabus.title = dt.find(ns+'title').text
   syllabus.subject = dt.find(ns+'subject').text
   syllabus.number = dt.find(ns+'number').text
+  syllabus.workload_hours = int(3 if not 'workloadHoursLecture' in dt.attrib else dt.attrib['workloadHoursLecture'])
   syllabus.offered = list()
   for semestert in dt.findall(ns+'offered'):
     semester = semestert.text
@@ -42,6 +44,6 @@ def hours_per_semester():
       semesters[semester].append(course)
   ret = []
   for semester in semesters:
-    ret.append((semester, len(semesters[semester])))
+    ret.append((semester, sum(map((lambda course: course.workload_hours), semesters[semester]))))
   return ret
 

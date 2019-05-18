@@ -2,7 +2,8 @@
 <course
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  workloadHoursLecture="2">
   <college>LA</college>
   <subject>CSC</subject>
   <number>274</number>

@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>264</number>
   <title>Computer Architecture and Assembly Language Programming </title>
-  <offered>fall-even</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course is an investigation of the logical basis of computers at the machine language level. Machine representation of numbers and characters, instruction formats, machine operations, addressing techniques, and assembly level programming techniques will be covered. 
