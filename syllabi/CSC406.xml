@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>406</number>
+  <title>Object Oriented Applications and Program Development</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course emphasizes the application of Object Oriented Programming (OOP) concepts in the java programming language to large-scale programming problems. The course includes application of techniques such as the Unified Modeling Language (UML). 
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

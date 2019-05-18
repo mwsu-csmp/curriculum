@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>208</number>
+  <title>Discrete Structures I</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course is a study of mathematical reasoning including the nature and methods of proof, relations and functions, combinatorics and graph theory, Boolean algebra, and applications of these topics. Attention will be given to the direct applications to computer science. cription
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>166</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>167</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

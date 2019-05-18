@@ -12,7 +12,7 @@
   <catalogDescription>
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
 
   <textbook title="Programming Languages: Principles and Paradigms"

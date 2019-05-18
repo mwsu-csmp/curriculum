@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>285</number>
+  <title>Data Structures</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+Topics include algorithm analysis and the implementation of stacks, queues, linked lists, trees, and other data structures. Principles of data abstraction are emphasized throughout the course.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>112</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

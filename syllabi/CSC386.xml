@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>386</number>
+  <title>Operating Systems Concepts</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course is an introduction to operating system principles. Topics include processor management, real and virtual storage management, device management and scheduling, multiprocessing, concurrent programming, and other topics related to operating systems. The course also includes a survey of major operating systems.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>264</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

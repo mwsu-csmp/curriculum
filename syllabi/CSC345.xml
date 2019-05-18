@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>345</number>
+  <title>Enterprise Systems Computing: COBOL II</title>
+  <offered>spring-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+ This course explores the advanced features of COBOL, to include validation and exception handling, table control processing, sorting, master/transaction indexed file processing and management of large-scale software development. Students will continue using a real-world enterprise system environment to integrate their business driven software packages. This is a continuation of CSC 245.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>245</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>487</number>
+  <title>Digital Animation and Production</title>
+  <offered>fall-even</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This class will concentrate on the methods used to build digital animated characters. Subjects will include character design and development, animation of characters, lighting, camera shots, sound and production editing.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>
