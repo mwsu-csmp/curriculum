@@ -1,11 +1,15 @@
-  
 <?xml version="1.0" encoding="UTF-8"?>
-<curriculumStandard 
-                    name="Computer Science Curricula"
-                    body="acm"
-                    version="2013" 
-                    documentUrl="https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf"
-                    >
+
+<curriculumStandard
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+
+ <name>Computer Science Curricula</name>
+ <body>acm</body>
+ <version>2013</version> 
+ <documentUrl>https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf</documentUrl>
+
   <knowledgeArea id='AL'>
     <knowledgeArea id='BA' name='Basic Analysis'>
       <topic importance='tier1'> Differences among best, expected, and worst case behaviors of an algorithm
@@ -82,18 +86,15 @@
       </topic>
       <topic importance='tier1'> Hash tables, including strategies for avoiding and resolving collisions
       </topic>
-      <topic importance='tier1'> Binary search trees
-        <topic> Common operations on binary search trees such as select min, max, insert, delete, iterate over tree</topic>
-      </topic>
-      <topic importance='tier1'> Graphs and graph algorithms
-        <topic> Representations of graphs (e.g., adjacency list, adjacency matrix)</topic>
-        <topic> Depth- and  breadth-first  traversals</topic>
-      </topic>
+      <topic importance='tier1'> Binary search trees</topic>
+      <topic importance='tier1'> Common operations on binary search trees such as select min, max, insert, delete, iterate over tree</topic>
+      <topic importance='tier1'> Graphs and graph algorithms</topic>
+      <topic importance='tier1'> Representations of graphs (e.g., adjacency list, adjacency matrix)</topic>
+      <topic importance='tier1'> Depth- and  breadth-first  traversals</topic>
       <topic importance='tier2'> Heaps
       </topic>
-      <topic importance='tier2'> Graphs and graph algorithms
-        <topic>Shortest-path  algorithms (Dijkstra’s and Floyd’s algorithms)</topic>
-      </topic>
+      <topic importance='tier2'> Graphs and graph algorithms</topic>
+      <topic importance='tier2'>Shortest-path  algorithms (Dijkstra’s and Floyd’s algorithms)</topic>
       <topic importance='tier2'>inimum spanning tree (Prim’s and Kruskal’s algorithms)
       </topic>
       <topic importance='tier2'> Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest common subsequence algorithms)
@@ -150,19 +151,17 @@
       <outcome importance='elective' mastery_level='usage'>Prove that a problem is  NP-complete  by reducing a classic known  NP-complete  problem to it. </outcome>
     </knowledgeArea>
     <knowledgeArea id='AATAC' name='Advanced Automata Theory and Computability'>
-      <topic importance='elective'> Sets and languages
-        <topic> Regular languages</topic>
-        <topic> Review of deterministic finite automata (DFAs)</topic>
-        <topic> Nondeterministic finite automata (NFAs)</topic>
-        <topic> Equivalence of DFAs and NFAs</topic>
-        <topic> Review of regular expressions; their equivalence to finite automata</topic>
-        <topic> Closure properties</topic>
-        <topic> Proving languages  non-regular,  via the pumping lemma or alternative means</topic>
-      </topic>
-      <topic importance='elective'> Context-free  languages
-        <topic> Push-down  automata (PDAs)</topic>
-        <topic>Relationship of PDAs and  context-free  grammars</topic>
-      </topic>
+      <topic importance='elective'> Sets and languages</topic>
+        <topic importance='elective'> Regular languages</topic>
+        <topic importance='elective'> Review of deterministic finite automata (DFAs)</topic>
+        <topic importance='elective'> Nondeterministic finite automata (NFAs)</topic>
+        <topic importance='elective'> Equivalence of DFAs and NFAs</topic>
+        <topic importance='elective'> Review of regular expressions; their equivalence to finite automata</topic>
+        <topic importance='elective'> Closure properties</topic>
+        <topic importance='elective'> Proving languages  non-regular,  via the pumping lemma or alternative means</topic>
+      <topic importance='elective'> Context-free  languages</topic>
+      <topic importance='elective'> Push-down  automata (PDAs)</topic>
+      <topic importance='elective'>Relationship of PDAs and  context-free  grammars</topic>
       <topic importance='elective'>roperties of  context-free  languages
       </topic>
       <topic importance='elective'> Turing machines, or an equivalent formal model of universal computation
@@ -431,20 +430,17 @@
       <topic importance='elective'> Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and techniques; use of time stepping for dynamic systems
       </topic>
       <topic importance='elective'> Formal models and modeling techniques: mathematical descriptions involving simplifying assumptions and avoiding detail. Examples of techniques include:
-        <topic>Monte Carlo methods  o  Stochastic processes</topic>
       </topic>
-      <topic importance='elective'>ueuing theory
-        <topic>  Petri nets and colored Petri nets</topic>
-        <topic>  Graph structures such as directed graphs, trees, networks</topic>
-        <topic>Games, game theory, the modeling of things using game theory</topic>
-      </topic>
-      <topic importance='elective'>inear programming and its extensions
-        <topic>  Dynamic programming</topic>
-        <topic>Differential equations: ODE, PDE</topic>
-      </topic>
-      <topic importance='elective'>on-linear  techniques
-        <topic>  State spaces and transitions</topic>
-      </topic>
+      <topic importance='elective'>Monte Carlo methods  o  Stochastic processes</topic>
+      <topic importance='elective'>ueuing theory</topic>
+      <topic importance='elective'>  Petri nets and colored Petri nets</topic>
+      <topic importance='elective'>  Graph structures such as directed graphs, trees, networks</topic>
+      <topic importance='elective'>Games, game theory, the modeling of things using game theory</topic>
+      <topic importance='elective'>inear programming and its extensions</topic>
+      <topic importance='elective'>  Dynamic programming</topic>
+      <topic importance='elective'>Differential equations: ODE, PDE</topic>
+      <topic importance='elective'>on-linear  techniques</topic>
+      <topic importance='elective'>  State spaces and transitions</topic>
       <topic importance='elective'> Assessing and evaluating models and simulations in a variety of contexts; verification and validation of models and simulations
       </topic>
       <topic importance='elective'> Important application areas including health care and diagnostics, economics and finance, city and urban planning, science, and engineering
@@ -463,31 +459,27 @@
       <outcome importance='elective' mastery_level='assessment'>Extend or adapt an existing model to a new situation. </outcome>
     </knowledgeArea>
     <knowledgeArea id='P' name='Processing'>
-      <topic importance='elective'> Fundamental programming concepts:
-        <topic> The concept of an algorithm consisting of a finite number of  well-defined  steps, each of which</topic>
-        <topic> Examples of  well-known  algorithms such as sorting and searching.</topic>
-        <topic> The concept of analysis as understanding what the problem is really asking, how a problem can be approached using an algorithm, and how information is represented so that a machine can process it.</topic>
-        <topic> The development or identification of a workflow.</topic>
-        <topic> The process of converting an algorithm to  machine-executable  code.</topic>
-        <topic> Software processes including lifecycle models, requirements, design, implementation, verification and maintenance.</topic>
-        <topic> Machine representation of data computer arithmetic.</topic>
-      </topic>
-      <topic importance='elective'> Numerical methods
-        <topic> Algorithms for numerically fitting data (e.g., Newton’s method)</topic>
-        <topic> Architectures for numerical computation, including parallel architectures</topic>
-      </topic>
-      <topic importance='elective'> Fundamental properties of parallel and distributed computation:
-        <topic> Bandwidth.</topic>
-        <topic>Latency.  o  Scalability.</topic>
-      </topic>
-      <topic importance='elective'>ranularity.
-        <topic>  Parallelism including task, data, and event parallelism.</topic>
-        <topic>  Parallel architectures including processor architectures, memory and caching.</topic>
-        <topic>  Parallel programming paradigms including threading, message passing, event driven techniques, parallel software architectures, and MapReduce.</topic>
-        <topic>  Grid computing.</topic>
-        <topic>  The impact of architecture on computational time.</topic>
-        <topic>  Total time to science curve for parallelism: continuum of things.</topic>
-      </topic>
+      <topic importance='elective'> Fundamental programming concepts:</topic>
+      <topic importance='elective'> The concept of an algorithm consisting of a finite number of  well-defined  steps, each of which</topic>
+      <topic importance='elective'> Examples of  well-known  algorithms such as sorting and searching.</topic>
+      <topic importance='elective'> The concept of analysis as understanding what the problem is really asking, how a problem can be approached using an algorithm, and how information is represented so that a machine can process it.</topic>
+      <topic importance='elective'> The development or identification of a workflow.</topic>
+      <topic importance='elective'> The process of converting an algorithm to  machine-executable  code.</topic>
+      <topic importance='elective'> Software processes including lifecycle models, requirements, design, implementation, verification and maintenance.</topic>
+      <topic importance='elective'> Machine representation of data computer arithmetic.</topic>
+      <topic importance='elective'> Numerical methods</topic>
+      <topic importance='elective'> Algorithms for numerically fitting data (e.g., Newton’s method)</topic>
+      <topic importance='elective'> Architectures for numerical computation, including parallel architectures</topic>
+      <topic importance='elective'> Fundamental properties of parallel and distributed computation:</topic>
+      <topic importance='elective'> Bandwidth.</topic>
+      <topic importance='elective'>Latency.  o  Scalability.</topic>
+      <topic importance='elective'>ranularity.</topic>
+      <topic importance='elective'>  Parallelism including task, data, and event parallelism.</topic>
+      <topic importance='elective'>  Parallel architectures including processor architectures, memory and caching.</topic>
+        <topic importance='elective'>  Parallel programming paradigms including threading, message passing, event driven techniques, parallel software architectures, and MapReduce.</topic>
+        <topic importance ='elective'>  Grid computing.</topic>
+        <topic importance='elective'>  The impact of architecture on computational time.</topic>
+        <topic importance='elective'>  Total time to science curve for parallelism: continuum of things.</topic>
       <topic importance='elective'> Computing costs, e.g., the cost of  re-computing  a value vs. the cost of storing and lookup.
       </topic>
       <outcome importance='elective' mastery_level='familiarity'>Explain the characteristics and defining properties of algorithms and how they relate to machine processing. </outcome>
@@ -526,11 +518,10 @@
       </topic>
       <topic importance='elective'> Digital content creation/capture and preservation, including digitization, sampling, compression, conversion, transformation/translation, migration/emulation, crawling, harvesting
       </topic>
-      <topic importance='elective'> Content structure / management, including digital libraries and static/dynamic/stream aspects for:
-        <topic> Data: data structures, databases</topic>
-        <topic> Information: document collections, multimedia pools, hyperbases (hypertext, hypermedia), catalogs, repositories</topic>
-        <topic> Knowledge: ontologies, triple stores, semantic networks, rules</topic>
-      </topic>
+      <topic importance='elective'> Content structure / management, including digital libraries and static/dynamic/stream aspects for:</topic>
+      <topic importance='elective'> Data: data structures, databases</topic>
+      <topic importance='elective'> Information: document collections, multimedia pools, hyperbases (hypertext, hypermedia), catalogs, repositories</topic>
+      <topic importance='elective'> Knowledge: ontologies, triple stores, semantic networks, rules</topic>
       <topic importance='elective'> Processing and pattern recognition, including indexing, searching (including: queries and query languages; central / federated / P2P), retrieving, clustering, classifying/categorizing, analyzing/mining/extracting, rendering, reporting, handling transactions
       </topic>
       <topic importance='elective'> User / society support for presentation and interaction, including browse, search, filter, route, visualize, share, collaborate, rate, annotate, personalize, recommend
@@ -546,12 +537,9 @@
       <outcome importance='elective' mastery_level='usage'>Design a digital library for some computational science users/societies, with appropriate content and services. </outcome>
     </knowledgeArea>
     <knowledgeArea id='NA' name='Numerical Analysis'>
-      <topic importance='elective'> Error, stability, convergence, including truncation and  round-off
-      </topic>
-      <topic importance='elective'> Function approximation including Taylor’s series, interpolation, extrapolation, and regression
-      </topic>
-      <topic importance='elective'> Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods)
-      </topic>
+      <topic importance='elective'> Error, stability, convergence, including truncation and  round-off</topic>
+      <topic importance='elective'> Function approximation including Taylor’s series, interpolation, extrapolation, and regression</topic>
+      <topic importance='elective'> Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods)</topic>
       <topic importance='elective'> Differential equations (Euler’s Method, finite differences)
       </topic>
       <outcome importance='elective' mastery_level='familiarity'>Define error, stability, machine precision concepts and the inexactness of computational approximations. </outcome>
@@ -562,22 +550,19 @@
   </knowledgeArea>
   <knowledgeArea id='DS'>
     <knowledgeArea id='SRAF' name='Sets, Relations, and Functions'>
-      <topic importance='tier1'> Sets
-        <topic> Venn diagrams</topic>
-        <topic> Union, intersection, complement</topic>
-        <topic> Cartesian product</topic>
-        <topic> Power sets</topic>
-        <topic> Cardinality of finite sets</topic>
-      </topic>
-      <topic importance='tier1'> Relations
-        <topic> Reflexivity, symmetry, transitivity</topic>
-        <topic> Equivalence relations, partial orders</topic>
-      </topic>
-      <topic importance='tier1'> Functions
-        <topic> Surjections, injections, bijections</topic>
-        <topic> Inverses</topic>
-        <topic> Composition</topic>
-      </topic>
+      <topic importance='tier1'> Sets</topic>
+      <topic importance='tier1'> Venn diagrams</topic>
+      <topic importance='tier1'> Union, intersection, complement</topic>
+      <topic importance='tier1'> Cartesian product</topic>
+      <topic importance='tier1'> Power sets</topic>
+      <topic importance='tier1'> Cardinality of finite sets</topic>
+      <topic importance='tier1'> Relations</topic>
+      <topic importance='tier1'> Reflexivity, symmetry, transitivity</topic>
+      <topic importance='tier1'> Equivalence relations, partial orders</topic>
+      <topic importance='tier1'> Functions</topic>
+      <topic importance='tier1'> Surjections, injections, bijections</topic>
+      <topic importance='tier1'> Inverses</topic>
+      <topic importance='tier1'> Composition</topic>
       <outcome importance='tier1' mastery_level='familiarity'>Explain with examples the basic terminology of functions, relations, and sets. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Perform the operations associated with sets, functions, and relations. </outcome>
       <outcome importance='tier1' mastery_level='assessment'>Relate practical examples to the appropriate set, function, or relation model, and interpret the associated operations and terminology in context. </outcome>
@@ -595,11 +580,9 @@
       </topic>
       <topic importance='tier1'> Propositional inference rules (concepts of modus ponens and modus tollens)
       </topic>
-      <topic importance='tier1'> Predicate logic
-        <topic> Universal and existential quantification</topic>
-      </topic>
-      <topic importance='tier1'> Limitations of propositional and predicate logic (e.g., expressiveness issues)
-      </topic>
+      <topic importance='tier1'> Predicate logic</topic>
+      <topic importance='tier1'> Universal and existential quantification</topic>
+      <topic importance='tier1'> Limitations of propositional and predicate logic (e.g., expressiveness issues)</topic>
       <outcome importance='tier1' mastery_level='usage'>Convert logical statements from informal language to propositional and predicate logic expressions. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Apply formal methods of symbolic propositional and predicate logic, such as calculating validity of formulae and computing normal forms. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Use the rules of inference to construct proofs in propositional and predicate logic. </outcome>
@@ -637,23 +620,19 @@
       <outcome importance='tier2' mastery_level='familiarity'>State the  well-ordering  principle and its relationship to mathematical induction. </outcome>
     </knowledgeArea>
     <knowledgeArea id='BOC' name='Basics of Counting'>
-      <topic importance='tier1'> Counting arguments
-        <topic> Set cardinality and counting</topic>
-        <topic> Sum and product rule</topic>
-        <topic> Inclusion-exclusion  principle</topic>
-        <topic> Arithmetic and geometric progressions</topic>
-      </topic>
-      <topic importance='tier1'> The pigeonhole principle
-      </topic>
-      <topic importance='tier1'> Permutations and combinations
-        <topic> Basic definitions</topic>
-        <topic> Pascal’s identity</topic>
-        <topic> The binomial theorem</topic>
-      </topic>
-      <topic importance='tier1'> Solving recurrence relations  (cross-reference:  AL/Basic Analysis)
-        <topic> An example of a simple recurrence relation, such as Fibonacci numbers</topic>
-        <topic> Other examples, showing a variety of solutions</topic>
-      </topic>
+      <topic importance='tier1'> Counting arguments</topic>
+      <topic importance='tier1'> Set cardinality and counting</topic>
+      <topic importance='tier1'> Sum and product rule</topic>
+      <topic importance='tier1'> Inclusion-exclusion  principle</topic>
+      <topic importance='tier1'> Arithmetic and geometric progressions</topic>
+      <topic importance='tier1'> The pigeonhole principle</topic>
+      <topic importance='tier1'> Permutations and combinations</topic>
+      <topic importance='tier1'> Basic definitions</topic>
+      <topic importance='tier1'> Pascal’s identity</topic>
+      <topic importance='tier1'> The binomial theorem</topic>
+      <topic importance='tier1'> Solving recurrence relations  (cross-reference:  AL/Basic Analysis)</topic>
+      <topic importance='tier1'> An example of a simple recurrence relation, such as Fibonacci numbers</topic>
+      <topic importance='tier1'> Other examples, showing a variety of solutions</topic>
       <topic importance='tier1'> Basic modular arithmetic
       </topic>
       <outcome importance='tier1' mastery_level='usage'>Apply counting arguments, including sum and product rules,  inclusion-exclusion  principle and arithmetic/geometric progressions. </outcome>
@@ -665,10 +644,9 @@
       <outcome importance='tier1' mastery_level='usage'>Perform computations involving modular arithmetic. </outcome>
     </knowledgeArea>
     <knowledgeArea id='GAT' name='Graphs and Trees'>
-      <topic importance='tier1'> Trees
-        <topic> Properties</topic>
-        <topic> Traversal strategies</topic>
-      </topic>
+      <topic importance='tier1'> Trees</topic>
+      <topic importance='tier1'> Properties</topic>
+      <topic importance='tier1'> Traversal strategies</topic>
       <topic importance='tier1'> Undirected graphs
       </topic>
       <topic importance='tier1'> Directed graphs
@@ -710,18 +688,6 @@
       <outcome importance='tier1' mastery_level='usage'>Apply the tools of probability to solve problems such as the average case analysis of algorithms or analyzing hashing. </outcome>
       <outcome importance='tier2' mastery_level='usage'>Compute the variance for a given probability distribution. </outcome>
       <outcome importance='tier2' mastery_level='usage'>Explain how events that are independent can be conditionally dependent (and  vice-versa).  Identify real- world examples of such cases. </outcome>
-      <topic importance='tier2'> Fundamentals: Computer graphics depends on an understanding of how humans use vision to perceive information and how information can be rendered on a display device. Every computer scientist should have some understanding of where and how graphics can be appropriately applied as well as the fundamental processes involved in display rendering.
-      </topic>
-      <topic importance='tier2'> Modeling: Information to be displayed must be encoded in computer memory in some form, often in the form of a mathematical specification of shape and form.
-      </topic>
-      <topic importance='tier2'> Rendering: Rendering is the process of displaying the information contained in a model.
-      </topic>
-      <topic importance='tier2'> Animation: Animation is the rendering in a manner that makes images appear to move and the synthesis or acquisition of the time variations of models.
-      </topic>
-      <topic importance='tier2'> Visualization: The field of visualization seeks to determine and present underlying correlated structures and relationships in data sets from a wide variety of application areas. The prime objective of the presentation should be to communicate the information in a dataset so as to enhance understanding
-      </topic>
-      <topic importance='tier2'> Computational Geometry: Computational Geometry is the study of algorithms that are stated in terms of geometry.
-      </topic>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea id='GV'>
@@ -836,11 +802,10 @@
     <knowledgeArea id='AR' name='Advanced Rendering'>
       <topic importance='elective'>Solutions and approximations to the rendering equation, for example:
       </topic>
-      <topic importance='elective'>istribution ray tracing and path tracing
-        <topic>  Photon mapping</topic>
-        <topic>  Bidirectional path tracing</topic>
-        <topic>Reyes (micropolygon) rendering</topic>
-      </topic>
+      <topic importance='elective'>istribution ray tracing and path tracing</topic>
+      <topic importance='elective'>  Photon mapping</topic>
+      <topic importance='elective'>  Bidirectional path tracing</topic>
+      <topic>Reyes (micropolygon) rendering</topic>
       <topic importance='elective'>etropolis light transport
       </topic>
       <topic importance='elective'> Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering
@@ -899,7 +864,7 @@
       <outcome importance='elective' mastery_level='usage'>Compute the orientation of articulated parts of a model from a location and orientation using an inverse kinematic approach. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Describe the tradeoffs in different representations of rotations. </outcome>
       <outcome importance='elective' mastery_level='usage'>Implement the spline interpolation method for producing  in-between  positions and orientations. </outcome>
-      <outcome importance='elective' mastery_level='usage'>Implement algorithms for physical modeling of particle dynamics using simple Newtonian mechanics, for example Witkin & Kass, snakes and worms, symplectic Euler, Stormer/Verlet, or midpoint Euler methods. </outcome>
+      <outcome importance='elective' mastery_level='usage'>Implement algorithms for physical modeling of particle dynamics using simple Newtonian mechanics, for example Witkin &amp; Kass, snakes and worms, symplectic Euler, Stormer/Verlet, or midpoint Euler methods. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Discuss the basic ideas behind some methods for fluid dynamics for modeling ballistic trajectories, for example for splashes, dust, fire, or smoke. </outcome>
       <outcome importance='elective' mastery_level='usage'>Use common animation software to construct simple organic forms using metaball and skeleton. </outcome>
     </knowledgeArea>
@@ -908,13 +873,11 @@
       </topic>
       <topic importance='elective'> Direct volume data rendering:  ray-casting,  transfer functions, segmentation
       </topic>
-      <topic importance='elective'> Visualization of:
-        <topic>Vector fields and flow data</topic>
-      </topic>
-      <topic importance='elective'>ime-varying  data
-        <topic>  High-dimensional  data: dimension reduction, parallel coordinates,</topic>
-        <topic>  Non-spatial  data:  multi-variate,  tree/graph structured, text</topic>
-      </topic>
+      <topic importance='elective'> Visualization of: </topic>
+      <topic importance='elective'>Vector fields and flow data</topic>
+      <topic importance='elective'>ime-varying  data</topic>
+      <topic importance='elective'>  High-dimensional  data: dimension reduction, parallel coordinates,</topic>
+      <topic importance='elective'>  Non-spatial  data:  multi-variate,  tree/graph structured, text</topic>
       <topic importance='elective'> Perceptual and cognitive foundations that drive visual abstractions
       </topic>
       <topic importance='elective'> Visualization design
@@ -1047,29 +1010,23 @@
       </topic>
       <topic importance='elective'>Approaches to design, implementation and evaluation of  non-mouse  interaction
       </topic>
-      <topic importance='elective'>ouch and  multi-touch  interfaces
-        <topic>  Shared, embodied, and large interfaces</topic>
-        <topic>New input modalities (such as sensor and location data)</topic>
-      </topic>
-      <topic importance='elective'>ew Windows, e.g., iPhone, Android
-        <topic>  Speech recognition and natural language processing (cross reference IS/Natural Language Processing)</topic>
-        <topic>Wearable and tangible interfaces</topic>
-      </topic>
-      <topic importance='elective'>ersuasive interaction and emotion
-        <topic>Ubiquitous and  context-aware  interaction technologies (Ubicomp)</topic>
-      </topic>
-      <topic importance='elective'>ayesian inference (e.g. predictive text, guided pointing)
-        <topic>  Ambient/peripheral display and interaction</topic>
-      </topic>
+      <topic importance='elective'>ouch and  multi-touch  interfaces</topic>
+      <topic importance='elective'>  Shared, embodied, and large interfaces</topic>
+      <topic importance='elective'>New input modalities (such as sensor and location data)</topic>
+      <topic importance='elective'>ew Windows, e.g., iPhone, Android</topic>
+      <topic importance='elective'>  Speech recognition and natural language processing (cross reference IS/Natural Language Processing)</topic>
+      <topic importance='elective'>Wearable and tangible interfaces</topic>
+      <topic importance='elective'>ersuasive interaction and emotion</topic>
+      <topic importance='elective'>Ubiquitous and  context-aware  interaction technologies (Ubicomp)</topic>
+      <topic importance='elective'>ayesian inference (e.g. predictive text, guided pointing)</topic>
+      <topic importance='elective'>  Ambient/peripheral display and interaction</topic>
       <outcome importance='elective' mastery_level='familiarity'>Describe when  non-mouse  interfaces are appropriate. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Understand the interaction possibilities beyond  mouse-and-pointer  interfaces. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Discuss the advantages (and disadvantages) of  non-mouse  interfaces. </outcome>
     </knowledgeArea>
     <knowledgeArea id='CAC' name='Collaboration and Communication'>
-      <topic importance='elective'> Asynchronous group communication, e.g.,  e-mail,  forums, social networks
-      </topic>
-      <topic importance='elective'> Synchronous group communication, e.g., chat rooms, conferencing, online games
-      </topic>
+      <topic importance='elective'> Asynchronous group communication, e.g.,  e-mail,  forums, social networks</topic>
+      <topic importance='elective'> Synchronous group communication, e.g., chat rooms, conferencing, online games</topic>
       <topic importance='elective'> Social media, social computing, and social network analysis
       </topic>
       <topic importance='elective'> Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies
@@ -1133,53 +1090,45 @@
     <knowledgeArea id='DH' name='Design-Oriented  HCI'>
       <topic importance='elective'> Intellectual styles and perspectives to technology and its interfaces
       </topic>
-      <topic importance='elective'> Consideration of HCI as a design discipline
-        <topic> Sketching</topic>
-        <topic> Participatory design</topic>
-      </topic>
-      <topic importance='elective'> Critically reflective HCI
-        <topic> Critical technical practice</topic>
-        <topic> Technologies for political activism</topic>
-        <topic> Philosophy of user experience</topic>
-        <topic> Ethnography and ethnomethodology</topic>
-      </topic>
-      <topic importance='elective'> Indicative domains of application
-        <topic> Sustainability</topic>
-        <topic> Arts-informed  computing</topic>
-      </topic>
+      <topic importance='elective'> Consideration of HCI as a design discipline</topic>
+      <topic importance='elective'> Sketching</topic>
+      <topic importance='elective'> Participatory design</topic>
+      <topic importance='elective'> Critically reflective HCI</topic>
+      <topic importance='elective'> Critical technical practice</topic>
+      <topic importance='elective'> Technologies for political activism</topic>
+      <topic importance='elective'> Philosophy of user experience</topic>
+      <topic importance='elective'> Ethnography and ethnomethodology</topic>
+      <topic importance='elective'> Indicative domains of application</topic>
+      <topic importance='elective'> Sustainability</topic>
+      <topic importance='elective'> Arts-informed  computing</topic>
       <outcome importance='elective' mastery_level='familiarity'>Explain what is meant by “HCI is a  design-oriented  discipline”. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Detail the processes of design appropriate to specific design orientations. </outcome>
       <outcome importance='elective' mastery_level='usage'>Apply a variety of design methods to a given problem. </outcome>
     </knowledgeArea>
     <knowledgeArea id='MAAVR' name='Mixed, Augmented and Virtual Reality'>
-      <topic importance='elective'> Output
-        <topic> Sound</topic>
-        <topic> Stereoscopic display</topic>
-        <topic> Force feedback simulation, haptic devices</topic>
-      </topic>
-      <topic importance='elective'> User input
-        <topic> Viewer and object tracking</topic>
-        <topic> Pose and gesture recognition</topic>
-        <topic> Accelerometers</topic>
-        <topic> Fiducial markers</topic>
-        <topic> User interface issues</topic>
-      </topic>
-      <topic importance='elective'> Physical modelling and rendering
-        <topic> Physical simulation: collision detection & response, animation</topic>
-        <topic> Visibility computation</topic>
-        <topic> Time-critical  rendering, multiple levels of details (LOD)</topic>
-      </topic>
-      <topic importance='elective'> System architectures
-        <topic> Game engines</topic>
-        <topic> Mobile augmented reality</topic>
-        <topic> Flight simulators</topic>
-        <topic> CAVEs</topic>
-        <topic> Medical imaging</topic>
-      </topic>
-      <topic importance='elective'> Networking
-        <topic> p2p,  client-server,  dead reckoning, encryption, synchronization</topic>
-        <topic> Distributed collaboration</topic>
-      </topic>
+      <topic importance='elective'> Output</topic>
+      <topic importance='elective'> Sound</topic>
+      <topic importance='elective'> Stereoscopic display</topic>
+      <topic importance='elective'> Force feedback simulation, haptic devices</topic>
+      <topic importance='elective'> User input</topic>
+      <topic importance='elective'> Viewer and object tracking</topic>
+      <topic importance='elective'> Pose and gesture recognition</topic>
+      <topic importance='elective'> Accelerometers</topic>
+      <topic importance='elective'> Fiducial markers</topic>
+      <topic importance='elective'> User interface issues</topic>
+      <topic importance='elective'> Physical modelling and rendering</topic>
+      <topic importance='elective'> Physical simulation: collision detection &amp; response, animation</topic>
+      <topic importance='elective'> Visibility computation</topic>
+      <topic importance='elective'> Time-critical  rendering, multiple levels of details (LOD)</topic>
+      <topic importance='elective'> System architectures</topic>
+      <topic importance='elective'> Game engines</topic>
+      <topic importance='elective'> Mobile augmented reality</topic>
+      <topic importance='elective'> Flight simulators</topic>
+      <topic importance='elective'> CAVEs</topic>
+      <topic importance='elective'> Medical imaging</topic>
+      <topic importance='elective'> Networking</topic>
+      <topic importance='elective'> p2p,  client-server,  dead reckoning, encryption, synchronization</topic>
+      <topic importance='elective'> Distributed collaboration</topic>
       <outcome importance='elective' mastery_level='familiarity'>Describe the optical model realized by a computer graphics system to synthesize stereoscopic view. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe the principles of different viewer tracking technologies. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe the differences between geometry- and  image-based  virtual reality. </outcome>
@@ -1252,13 +1201,11 @@
       </topic>
       <topic importance='tier1'> Choice of programming language and  type-safe  languages
       </topic>
-      <topic importance='tier1'> Examples of input validation and data sanitization errors  (cross-reference  SDF/Development Methods/Program Correctness and SE/Software Construction/Coding Practices)
-        <topic>Buffer overflows</topic>
-      </topic>
-      <topic importance='tier1'>nteger errors
-        <topic>  SQL injection</topic>
-        <topic>  XSS vulnerability</topic>
-      </topic>
+      <topic importance='tier1'> Examples of input validation and data sanitization errors  (cross-reference  SDF/Development Methods/Program Correctness and SE/Software Construction/Coding Practices)</topic>
+      <topic importance='tier1'>Buffer overflows</topic>
+      <topic importance='tier1'>nteger errors</topic>
+      <topic importance='tier1'>  SQL injection</topic>
+      <topic importance='tier1'>  XSS vulnerability</topic>
       <topic importance='tier1'> Race conditions  (cross-reference  SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared vs. distributed memory and PD/Communication and Coordination/Shared Memory and PD/Parallelism Fundamentals/Programming errors not found in sequential programming)
       </topic>
       <topic importance='tier1'> Correct handling of exceptions and unexpected behaviors  (cross-reference  SDF/Development Methods/program correctness)
@@ -1353,36 +1300,32 @@
       </topic>
       <topic importance='elective'> Mathematical Preliminaries essential for cryptography, including topics in linear algebra, number theory, probability theory, and statistics
       </topic>
-      <topic importance='elective'> Cryptographic primitives:
-        <topic> pseudo-random  generators and stream ciphers</topic>
-        <topic> block ciphers  (pseudo-random  permutations), e.g., AES</topic>
-        <topic> pseudo-random  functions</topic>
-        <topic> hash functions, e.g., SHA2, collision resistance</topic>
-        <topic> message authentication codes</topic>
-        <topic> key derivations functions</topic>
-      </topic>
-      <topic importance='elective'> Symmetric key cryptography
-        <topic> Perfect secrecy and the one time pad</topic>
-        <topic> Modes of operation for semantic security and authenticated encryption (e.g.,  encrypt-then-MAC,  OCB, GCM)</topic>
-        <topic> Message integrity (e.g., CMAC, HMAC)</topic>
-      </topic>
-      <topic importance='elective'> Public key cryptography:
-        <topic> Trapdoor permutation, e.g., RSA</topic>
-        <topic> Public key encryption, e.g., RSA encryption, EI Gamal encryption</topic>
-        <topic> Digital signatures</topic>
-        <topic> Public-key  infrastructure (PKI) and certificates</topic>
-        <topic> Hardness assumptions, e.g.,  Diffie-Hellman,  integer factoring</topic>
-      </topic>
+      <topic importance='elective'> Cryptographic primitives:</topic>
+      <topic importance='elective'> pseudo-random  generators and stream ciphers</topic>
+      <topic importance='elective'> block ciphers  (pseudo-random  permutations), e.g., AES</topic>
+      <topic importance='elective'> pseudo-random  functions</topic>
+      <topic importance='elective'> hash functions, e.g., SHA2, collision resistance</topic>
+      <topic importance='elective'> message authentication codes</topic>
+      <topic importance='elective'> key derivations functions</topic>
+      <topic importance='elective'> Symmetric key cryptography</topic>
+      <topic importance='elective'> Perfect secrecy and the one time pad</topic>
+      <topic importance='elective'> Modes of operation for semantic security and authenticated encryption (e.g.,  encrypt-then-MAC,  OCB, GCM)</topic>
+      <topic importance='elective'> Message integrity (e.g., CMAC, HMAC)</topic>
+      <topic importance='elective'> Public key cryptography:</topic>
+      <topic importance='elective'> Trapdoor permutation, e.g., RSA</topic>
+      <topic importance='elective'> Public key encryption, e.g., RSA encryption, EI Gamal encryption</topic>
+      <topic importance='elective'> Digital signatures</topic>
+      <topic importance='elective'> Public-key  infrastructure (PKI) and certificates</topic>
+      <topic importance='elective'> Hardness assumptions, e.g.,  Diffie-Hellman,  integer factoring</topic>
       <topic importance='elective'> Authenticated key exchange protocols, e.g., TLS
       </topic>
       <topic importance='elective'> Cryptographic protocols:  challenge-response  authentication,  zero-knowledge  protocols, commitment, oblivious transfer, secure   or  multi-party  computation, secret sharing, and applications
       </topic>
       <topic importance='elective'> Motivate concepts using  real-world  applications, e.g., electronic cash, secure channels between clients and servers, secure electronic mail, entity authentication, device pairing, voting systems.
       </topic>
-      <topic importance='elective'> Security definitions and attacks on cryptographic primitives:
-        <topic> Goals: indistinguishability, unforgeability,  collision-resistance</topic>
-        <topic> Attacker capabilities:  chosen-message  attack (for signatures), birthday attacks, side channel attacks, fault injection attacks.</topic>
-      </topic>
+      <topic importance='elective'> Security definitions and attacks on cryptographic primitives:  </topic>
+      <topic importance='elective'> Goals: indistinguishability, unforgeability,  collision-resistance</topic>
+      <topic importance='elective'> Attacker capabilities:  chosen-message  attack (for signatures), birthday attacks, side channel attacks, fault injection attacks.</topic>
       <topic importance='elective'> Cryptographic standards and references implementations
       </topic>
       <topic importance='elective'> Quantum cryptography
@@ -1403,23 +1346,19 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe quantum cryptography and the impact of quantum computing on cryptographic algorithms. </outcome>
     </knowledgeArea>
     <knowledgeArea id='WS' name='Web Security'>
-      <topic importance='elective'> Web security model
-        <topic> Browser security model including  same-origin  policy</topic>
-        <topic> Client-server  trust boundaries, e.g., cannot rely on secure execution in the client</topic>
-      </topic>
-      <topic importance='elective'> Session management, authentication
-        <topic> Single  sign-on</topic>
-        <topic> HTTPS and certificates</topic>
-      </topic>
-      <topic importance='elective'> Application vulnerabilities and defenses
-        <topic> SQL injection</topic>
-        <topic> XSS</topic>
-        <topic> CSRF</topic>
-      </topic>
-      <topic importance='elective'> Client-side  security
-        <topic> Cookies security policy</topic>
-        <topic>HTTP security extensions, e.g. HSTS  o  Plugins, extensions, and web apps</topic>
-      </topic>
+      <topic importance='elective'> Web security model</topic>
+      <topic importance='elective'> Browser security model including  same-origin  policy</topic>
+      <topic importance='elective'> Client-server  trust boundaries, e.g., cannot rely on secure execution in the client</topic>
+      <topic importance='elective'> Session management, authentication</topic>
+      <topic importance='elective'> Single  sign-on</topic>
+      <topic importance='elective'> HTTPS and certificates</topic>
+      <topic importance='elective'> Application vulnerabilities and defenses</topic>
+      <topic importance='elective'> SQL injection</topic>
+      <topic importance='elective'> XSS</topic>
+      <topic importance='elective'> CSRF</topic>
+      <topic importance='elective'> Client-side  security</topic>
+      <topic importance='elective'> Cookies security policy</topic>
+      <topic importance='elective'>HTTP security extensions, e.g. HSTS  o  Plugins, extensions, and web apps</topic>
       <topic importance='elective'>eb user tracking
       </topic>
       <topic importance='elective'> Server-side  security tools, e.g. Web Application Firewalls (WAFs) and fuzzers
@@ -1549,7 +1488,7 @@
     <knowledgeArea id='IMC' name='Information Management Concepts'>
       <topic importance='tier1'> Information systems as  socio-technical  systems
       </topic>
-      <topic importance='tier1'> Basic information storage and retrieval (IS&R) concepts
+      <topic importance='tier1'> Basic information storage and retrieval (IS&amp;R) concepts
       </topic>
       <topic importance='tier1'> Information capture and representation
       </topic>
@@ -1729,18 +1668,16 @@
       <outcome importance='elective' mastery_level='assessment'>Identify appropriate transaction boundaries in application programs. </outcome>
     </knowledgeArea>
     <knowledgeArea id='DD' name='Distributed Databases'>
-      <topic importance='elective'> Distributed DBMS
-        <topic> Distributed data storage</topic>
-        <topic> Distributed query processing</topic>
-        <topic> Distributed transaction model</topic>
-        <topic> Homogeneous and heterogeneous solutions</topic>
-        <topic> Client-server  distributed databases  (cross-reference  SF/Computational Paradigms)</topic>
-      </topic>
-      <topic importance='elective'> Parallel DBMS
-        <topic> Parallel DBMS architectures: shared memory, shared disk, shared   nothing;</topic>
-        <topic> Speedup and  scale-up,  e.g., use of the MapReduce processing model  (cross-reference  CN/Processing, PD/Parallel Decomposition)</topic>
-        <topic> Data replication and weak consistency models</topic>
-      </topic>
+      <topic importance='elective'> Distributed DBMS</topic>
+      <topic importance='elective'> Distributed data storage</topic>
+      <topic importance='elective'> Distributed query processing</topic>
+      <topic importance='elective'> Distributed transaction model</topic>
+      <topic importance='elective'> Homogeneous and heterogeneous solutions</topic>
+      <topic importance='elective'> Client-server  distributed databases  (cross-reference  SF/Computational Paradigms)</topic>
+      <topic importance='elective'> Parallel DBMS</topic>
+      <topic importance='elective'> Parallel DBMS architectures: shared memory, shared disk, shared nothing;</topic>
+      <topic importance='elective'> Speedup and  scale-up,  e.g., use of the MapReduce processing model  (cross-reference  CN/Processing, PD/Parallel Decomposition)</topic>
+      <topic importance='elective'> Data replication and weak consistency models</topic>
       <outcome importance='elective' mastery_level='familiarity'>Explain the techniques used for data fragmentation, replication, and allocation during the distributed database design process. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Evaluate simple strategies for executing a distributed query to select the strategy that minimizes the amount of data transfer. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Explain how the  two-phase  commit protocol is used to deal with committing a transaction that accesses databases stored on multiple nodes. </outcome>
@@ -1874,22 +1811,19 @@
     <knowledgeArea id='FI' name='Fundamental Issues'>
       <topic importance='tier2'> Overview of AI problems, examples of successful recent AI applications
       </topic>
-      <topic importance='tier2'> What is intelligent behavior?
-        <topic> The Turing test</topic>
-        <topic> Rational versus  non-rational  reasoning</topic>
-      </topic>
-      <topic importance='tier2'> Problem characteristics
-        <topic> Fully versus partially observable</topic>
-        <topic> Single versus  multi-agent</topic>
-        <topic> Deterministic versus stochastic</topic>
-        <topic> Static versus dynamic</topic>
-        <topic> Discrete versus continuous</topic>
-      </topic>
-      <topic importance='tier2'> Nature of agents
-        <topic> Autonomous versus  semi-autonomous</topic>
-        <topic> Reflexive,  goal-based,  and  utility-based</topic>
-        <topic> The importance of perception and environmental interactions</topic>
-      </topic>
+      <topic importance='tier2'> What is intelligent behavior?</topic>
+      <topic importance='tier2'> The Turing test</topic>
+      <topic importance='tier2'> Rational versus  non-rational  reasoning</topic>
+      <topic importance='tier2'> Problem characteristics</topic>
+      <topic importance='tier2'> Fully versus partially observable</topic>
+      <topic importance='tier2'> Single versus  multi-agent</topic>
+      <topic importance='tier2'> Deterministic versus stochastic</topic>
+      <topic importance='tier2'> Static versus dynamic</topic>
+      <topic importance='tier2'> Discrete versus continuous</topic>
+      <topic importance='tier2'> Nature of agents</topic>
+      <topic importance='tier2'> Autonomous versus  semi-autonomous</topic>
+      <topic importance='tier2'> Reflexive,  goal-based,  and  utility-based</topic>
+      <topic importance='tier2'> The importance of perception and environmental interactions</topic>
       <topic importance='tier2'> Philosophical and ethical issues. [elective]
       </topic>
       <outcome importance='tier2' mastery_level='familiarity'>Describe Turing test and the “Chinese Room” thought experiment. </outcome>
@@ -1954,12 +1888,10 @@
     <knowledgeArea id='AS' name='Advanced Search'>
       <topic importance='elective'> Constructing search trees, dynamic search space, combinatorial explosion of search space
       </topic>
-      <topic importance='elective'> Stochastic search
-        <topic>Simulated annealing</topic>
-      </topic>
-      <topic importance='elective'>enetic algorithms
-        <topic>  Monte-Carlo  tree search</topic>
-      </topic>
+      <topic importance='elective'> Stochastic search</topic>
+      <topic importance='elective'>Simulated annealing</topic>
+      <topic importance='elective'>enetic algorithms</topic>
+      <topic importance='elective'>  Monte-Carlo  tree search</topic>
       <topic importance='elective'> Implementation of A* search, beam search
       </topic>
       <topic importance='elective'> Minimax search,  alpha-beta  pruning
@@ -1976,9 +1908,8 @@
     <knowledgeArea id='ARAR' name='Advanced Representation and Reasoning'>
       <topic importance='elective'>Knowledge representation issues
       </topic>
-      <topic importance='elective'>escription logics
-        <topic>  Ontology engineering</topic>
-      </topic>
+      <topic importance='elective'>escription logics</topic>
+      <topic importance='elective'>  Ontology engineering</topic>
       <topic importance='elective'> Non-monotonic  reasoning (e.g.,  non-classical  logics, default reasoning)
       </topic>
       <topic importance='elective'> Argumentation
@@ -1993,13 +1924,11 @@
       </topic>
       <topic importance='elective'> Model-based  and  Case-based  reasoning
       </topic>
-      <topic importance='elective'> Planning:
-        <topic>Partial and totally ordered planning</topic>
-      </topic>
-      <topic importance='elective'>lan graphs
-        <topic>  Hierarchical planning</topic>
-        <topic>Planning and execution including conditional planning and continuous planning</topic>
-      </topic>
+      <topic importance='elective'> Planning:</topic>
+      <topic importance='elective'>Partial and totally ordered planning</topic>
+      <topic importance='elective'>lan graphs</topic>
+      <topic importance='elective'>  Hierarchical planning</topic>
+      <topic importance='elective'>Planning and execution including conditional planning and continuous planning</topic>
       <topic importance='elective'>obile  agent/Multi-agent  planning
       </topic>
       <outcome importance='elective' mastery_level='assessment'>Compare and contrast the most common models used for structured knowledge representation, highlighting their strengths and weaknesses. </outcome>
@@ -2016,23 +1945,20 @@
     <knowledgeArea id='RUU' name='Reasoning Under Uncertainty'>
       <topic importance='elective'> Review of basic probability  (cross-reference  DS/Discrete Probability)
       </topic>
-      <topic importance='elective'> Random variables and probability distributions
-        <topic> Axioms of probability</topic>
-        <topic> Probabilistic inference</topic>
-        <topic> Bayes’ Rule</topic>
-      </topic>
+      <topic importance='elective'> Random variables and probability distributions</topic>
+      <topic importance='elective'> Axioms of probability</topic>
+      <topic importance='elective'> Probabilistic inference</topic>
+      <topic importance='elective'> Bayes’ Rule</topic>
       <topic importance='elective'> Conditional Independence
       </topic>
-      <topic importance='elective'> Knowledge representations
-        <topic> Bayesian Networks</topic>
-        <topic> Markov Networks</topic>
-        <topic> Relational probability models</topic>
-        <topic> Hidden Markov Models</topic>
-      </topic>
-      <topic importance='elective'> Decision Theory
-        <topic> Preferences and utility functions</topic>
-        <topic> Maximizing expected utility</topic>
-      </topic>
+      <topic importance='elective'> Knowledge representations</topic>
+      <topic importance='elective'> Bayesian Networks</topic>
+      <topic importance='elective'> Markov Networks</topic>
+      <topic importance='elective'> Relational probability models</topic>
+      <topic importance='elective'> Hidden Markov Models</topic>
+      <topic importance='elective'> Decision Theory</topic>
+      <topic importance='elective'> Preferences and utility functions</topic>
+      <topic importance='elective'> Maximizing expected utility</topic>
       <outcome importance='elective' mastery_level='usage'>Apply Bayes’ rule to determine the probability of a hypothesis given evidence. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Explain how conditional independence assertions allow for greater efficiency of probabilistic systems. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Identify examples of knowledge representations for reasoning under uncertainty. </outcome>
@@ -2050,23 +1976,20 @@
       </topic>
       <topic importance='elective'> Agent theory
       </topic>
-      <topic importance='elective'> Rationality, game theory
-        <topic> Decision-theoretic  agents</topic>
-        <topic> Markov decision processes (MDP)</topic>
-      </topic>
-      <topic importance='elective'> Software agents, personal assistants, and information access
-        <topic> Collaborative agents</topic>
-        <topic> Information-gathering  agents</topic>
-        <topic> Believable agents (synthetic characters, modeling emotions in agents)</topic>
-      </topic>
+      <topic importance='elective'> Rationality, game theory</topic>
+      <topic importance='elective'> Decision-theoretic  agents</topic>
+      <topic importance='elective'> Markov decision processes (MDP)</topic>
+      <topic importance='elective'> Software agents, personal assistants, and information access</topic>
+      <topic importance='elective'> Collaborative agents</topic>
+      <topic importance='elective'> Information-gathering  agents</topic>
+      <topic importance='elective'> Believable agents (synthetic characters, modeling emotions in agents)</topic>
       <topic importance='elective'> Learning agents
       </topic>
-      <topic importance='elective'> Multi-agent  systems
-        <topic> Collaborating agents</topic>
-        <topic> Agent teams</topic>
-        <topic> Competitive agents (e.g., auctions, voting)</topic>
-        <topic> Swarm systems and biologically inspired models</topic>
-      </topic>
+      <topic importance='elective'> Multi-agent  systems</topic>
+      <topic importance='elective'> Collaborating agents</topic>
+      <topic importance='elective'> Agent teams</topic>
+      <topic importance='elective'> Competitive agents (e.g., auctions, voting)</topic>
+      <topic importance='elective'> Swarm systems and biologically inspired models</topic>
       <outcome importance='elective' mastery_level='familiarity'>List the defining characteristics of an intelligent agent. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Characterize and contrast the standard agent architectures. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe the applications of agent theory to domains such as software agents, personal assistants, and believable agents. </outcome>
@@ -2076,16 +1999,14 @@
     <knowledgeArea id='NLP' name='Natural Language Processing'>
       <topic importance='elective'> Deterministic and stochastic grammars
       </topic>
-      <topic importance='elective'> Parsing algorithms
-        <topic> CFGs and chart parsers (e.g. CYK)</topic>
-        <topic> Probabilistic CFGs and weighted CYK</topic>
-      </topic>
-      <topic importance='elective'> Representing meaning / Semantics
-        <topic> Logic-based  knowledge representations</topic>
-        <topic> Semantic roles</topic>
-        <topic> Temporal representations</topic>
-        <topic> Beliefs, desires, and intentions</topic>
-      </topic>
+      <topic importance='elective'> Parsing algorithms</topic>
+      <topic importance='elective'> CFGs and chart parsers (e.g. CYK)</topic>
+      <topic importance='elective'> Probabilistic CFGs and weighted CYK</topic>
+      <topic importance='elective'> Representing meaning / Semantics</topic>
+      <topic importance='elective'> Logic-based  knowledge representations</topic>
+      <topic importance='elective'> Semantic roles</topic>
+      <topic importance='elective'> Temporal representations</topic>
+      <topic importance='elective'> Beliefs, desires, and intentions</topic>
       <topic importance='elective'> Corpus-based  methods
       </topic>
       <topic importance='elective'> N-grams  and HMMs
@@ -2094,17 +2015,15 @@
       </topic>
       <topic importance='elective'> Examples of use: POS tagging and morphology
       </topic>
-      <topic importance='elective'> Information retrieval  (Cross-reference  IM/Information Storage and Retrieval)
-        <topic> Vector space model</topic>
-        <topic> Precision and recall</topic>
-      </topic>
+      <topic importance='elective'> Information retrieval  (Cross-reference  IM/Information Storage and Retrieval)</topic>
+      <topic importance='elective'> Vector space model</topic>
+      <topic importance='elective'> Precision and recall</topic>
       <topic importance='elective'> Information extraction
       </topic>
       <topic importance='elective'> Language translation
       </topic>
-      <topic importance='elective'> Text classification, categorization
-        <topic> Bag of words model</topic>
-      </topic>
+      <topic importance='elective'> Text classification, categorization</topic>
+      <topic importance='elective'> Bag of words model</topic>
       <outcome importance='elective' mastery_level='assessment'>Define and contrast deterministic and stochastic grammars, providing examples to show the adequacy of each. </outcome>
       <outcome importance='elective' mastery_level='usage'>Simulate, apply, or implement classic and stochastic algorithms for parsing natural language. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Identify the challenges of representing meaning. </outcome>
@@ -2118,20 +2037,18 @@
       </topic>
       <topic importance='elective'> Inductive logic programming (ILP)
       </topic>
-      <topic importance='elective'> Supervised learning
-        <topic> Learning decision trees</topic>
-        <topic> Learning neural networks</topic>
-        <topic> Support vector machines (SVMs)</topic>
-      </topic>
+      <topic importance='elective'> Supervised learning</topic>
+      <topic importance='elective'> Learning decision trees</topic>
+      <topic importance='elective'> Learning neural networks</topic>
+      <topic importance='elective'> Support vector machines (SVMs)</topic>
       <topic importance='elective'> Ensembles
       </topic>
       <topic importance='elective'> Nearest-neighbor  algorithms
       </topic>
-      <topic importance='elective'> Unsupervised Learning and clustering
-        <topic> EM</topic>
-        <topic> K-means</topic>
-        <topic> Self-organizing  maps</topic>
-      </topic>
+      <topic importance='elective'> Unsupervised Learning and clustering</topic>
+      <topic importance='elective'> EM</topic>
+      <topic importance='elective'> K-means</topic>
+      <topic importance='elective'> Self-organizing  maps</topic>
       <topic importance='elective'> Semi-supervised  learning
       </topic>
       <topic importance='elective'> Learning graphical models  (Cross-reference  IS/Reasoning under Uncertainty)
@@ -2142,10 +2059,9 @@
       </topic>
       <topic importance='elective'> The problem of overfitting, the curse of dimensionality
       </topic>
-      <topic importance='elective'> Reinforcement learning
-        <topic> Exploration vs. exploitation  trade-off</topic>
-        <topic>Markov decision processes</topic>
-      </topic>
+      <topic importance='elective'> Reinforcement learning</topic>
+      <topic importance='elective'> Exploration vs. exploitation  trade-off</topic>
+      <topic importance='elective'>Markov decision processes</topic>
       <topic importance='elective'>alue and policy iteration
       </topic>
       <topic importance='elective'> Application of Machine Learning algorithms to Data Mining  (cross-reference  IM/Data Mining)
@@ -2159,13 +2075,11 @@
       <outcome importance='elective' mastery_level='usage'>Explain the problem of overfitting, along with techniques for detecting and managing the problem. </outcome>
     </knowledgeArea>
     <knowledgeArea id='R' name='Robotics'>
-      <topic importance='elective'> Overview: problems and progress
-        <topic>State-of-the-art  robot systems, including their sensors and an overview of their sensor processing</topic>
-      </topic>
-      <topic importance='elective'>obot control architectures, e.g., deliberative vs. reactive control and Braitenberg vehicles
-        <topic>  World modeling and world models</topic>
-        <topic>  Inherent uncertainty in sensing and in control</topic>
-      </topic>
+      <topic importance='elective'> Overview: problems and progress</topic>
+      <topic importance='elective'>State-of-the-art  robot systems, including their sensors and an overview of their sensor processing</topic>
+      <topic importance='elective'>obot control architectures, e.g., deliberative vs. reactive control and Braitenberg vehicles</topic>
+      <topic importance='elective'>  World modeling and world models</topic>
+      <topic importance='elective'>  Inherent uncertainty in sensing and in control</topic>
       <topic importance='elective'> Configuration space and environmental maps
       </topic>
       <topic importance='elective'> Interpreting uncertain sensor data
@@ -2188,19 +2102,17 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe at least one approach for coordinating the actions and sensing of several robots to accomplish a single task. </outcome>
     </knowledgeArea>
     <knowledgeArea id='PACV' name='Perception and Computer Vision'>
-      <topic importance='elective'> Computer vision
-        <topic> Image acquisition, representation, processing and properties</topic>
-        <topic> Shape representation, object recognition and segmentation</topic>
-        <topic> Motion analysis</topic>
-      </topic>
+      <topic importance='elective'> Computer vision</topic>
+      <topic importance='elective'> Image acquisition, representation, processing and properties</topic>
+      <topic importance='elective'> Shape representation, object recognition and segmentation</topic>
+      <topic importance='elective'> Motion analysis</topic>
       <topic importance='elective'> Audio and speech recognition
       </topic>
       <topic importance='elective'> Modularity in recognition
       </topic>
-      <topic importance='elective'> Approaches to pattern recognition  (cross-reference  IS/Advanced Machine Learning)
-        <topic> Classification algorithms and measures of classification quality</topic>
-        <topic> Statistical techniques</topic>
-      </topic>
+      <topic importance='elective'> Approaches to pattern recognition  (cross-reference  IS/Advanced Machine Learning)</topic>
+      <topic importance='elective'> Classification algorithms and measures of classification quality</topic>
+      <topic> Statistical techniques</topic>
       <outcome importance='elective' mastery_level='familiarity'>Summarize the importance of image and object recognition in AI and indicate several significant applications of this technology. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>List at least three  image-segmentation  approaches, such as thresholding,  edge-based  and  region-based  algorithms, along with their defining characteristics, strengths, and weaknesses. </outcome>
       <outcome importance='elective' mastery_level='usage'>Implement 2d object recognition based on contour- and/or  region-based  shape representations. </outcome>
@@ -2211,12 +2123,6 @@
       <outcome importance='elective' mastery_level='usage'>Implement a classification algorithm that segments input percepts into output categories and quantitatively evaluates the resulting classification. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Evaluate the performance of the underlying  feature-extraction,  relative to at least one alternative possible approach (whether implemented or not) in its contribution to the classification task (8), above. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe at least three classification approaches, their prerequisites for applicability, their strengths, and their shortcomings. </outcome>
-      <topic importance='elective'> Thinking in a networked world. The world is more and more interconnected and the use of networks will continue to increase. Students must understand how the networks behave and the key principles behind the organization and operation of the networks.
-      </topic>
-      <topic importance='elective'> Continued study. The networking domain is rapidly evolving and a first networking course should be a starting point to other more advanced courses on network design, network management, sensor networks, etc.
-      </topic>
-      <topic importance='elective'> Principles and practice interact. Networking is real and many of the design choices that involve networks also depend on practical constraints. Students should be exposed to these practical constraints by experimenting with networking, using tools, and writing networked software.
-      </topic>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea id='NC'>
@@ -2620,20 +2526,6 @@
       <outcome importance='elective' mastery_level='usage'>Design and implement a simple application on a game platform. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe the constraints that game platforms impose on developers. </outcome>
       <outcome importance='elective' mastery_level='assessment'>Compare and contrast game programming with general purpose programming. </outcome>
-      <topic importance='elective'> Parallelism:  Using additional computational resources simultaneously, usually for speedup.
-      </topic>
-      <topic importance='elective'> Concurrency:  Efficiently and correctly managing concurrent access to resources.
-      </topic>
-      <topic importance='elective'> Activity : A computation that may proceed concurrently with others; for example a program, process, thread, or active parallel hardware component.
-      </topic>
-      <topic importance='elective'> Atomicity : Rules and properties governing whether an action is observationally indivisible; for example, setting all of the bits in a word, transmitting a single packet, or completing a transaction.
-      </topic>
-      <topic importance='elective'> Consensus : Agreement among two or more activities about a given predicate; for example, the value of a counter, the owner of a lock, or the termination of a thread.
-      </topic>
-      <topic importance='elective'> Consistency : Rules and properties governing agreement about the values of variables written, or messages produced, by some activities and used by others (thus possibly exhibiting a  data race ); for example,  sequential consistency , stating that the values of all variables in a shared memory parallel program are equivalent to that of a single program performing some interleaving of the memory accesses of these activities.
-      </topic>
-      <topic importance='elective'> Multicast : A message sent to possibly many recipients, generally without any constraints about whether some recipients receive the message before others. An  event  is a multicast message sent to a designated set of  listeners  or  subscribers .
-      </topic>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea id='PD'>
@@ -2642,14 +2534,12 @@
       </topic>
       <topic importance='tier1'> Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)
       </topic>
-      <topic importance='tier1'> Parallelism, communication, and coordination
-        <topic> Programming constructs for coordinating multiple simultaneous computations</topic>
-        <topic> Need for synchronization</topic>
-      </topic>
-      <topic importance='tier1'> Programming errors not found in sequential programming
-        <topic> Data races (simultaneous read/write or write/write of shared state)</topic>
-        <topic>Higher-level  races (interleavings violating program intention, undesired  non-determinism)</topic>
-      </topic>
+      <topic importance='tier1'> Parallelism, communication, and coordination</topic>
+      <topic importance='tier1'> Programming constructs for coordinating multiple simultaneous computations</topic>
+      <topic importance='tier1'> Need for synchronization</topic>
+      <topic importance='tier1'> Programming errors not found in sequential programming</topic>
+      <topic importance='tier1'> Data races (simultaneous read/write or write/write of shared state)</topic>
+      <topic importance='tier1'>Higher-level  races (interleavings violating program intention, undesired  non-determinism)</topic>
       <topic importance='tier1'>ack of liveness/progress (deadlock, starvation)
       </topic>
       <outcome importance='tier1' mastery_level='familiarity'>Distinguish using computational resources for a faster answer from managing efficient access to a shared resource.  (Cross-reference  GV/Fundamental Concepts, outcome 5.) </outcome>
@@ -2663,12 +2553,10 @@
       </topic>
       <topic importance='tier2'> Basic knowledge of parallel decomposition concepts  (cross-reference  SF/System Support for Parallelism)
       </topic>
-      <topic importance='tier2'> Task-based  decomposition
-        <topic> Implementation strategies such as threads</topic>
-      </topic>
-      <topic importance='tier2'> Data-parallel  decomposition
-        <topic> Strategies such as SIMD and MapReduce</topic>
-      </topic>
+      <topic importance='tier2'> Task-based  decomposition</topic>
+      <topic importance='tier2'> Implementation strategies such as threads</topic>
+      <topic importance='tier2'> Data-parallel  decomposition</topic>
+      <topic importance='tier2'> Strategies such as SIMD and MapReduce</topic>
       <topic importance='tier2'> Actors and reactive processes (e.g., request handlers)
       </topic>
       <outcome importance='tier1' mastery_level='usage'>Explain why synchronization is necessary in a specific parallel program. </outcome>
@@ -2683,22 +2571,18 @@
       </topic>
       <topic importance='tier1'> Consistency, and its role in programming language guarantees for  data-race-free  programs
       </topic>
-      <topic importance='tier2'> Message passing
-        <topic> Point-to-point  versus multicast (or  event-based)  messages</topic>
-        <topic> Blocking versus  non-blocking  styles for sending and receiving messages</topic>
-        <topic> Message buffering  (cross-reference  PF/Fundamental Data Structures/Queues)</topic>
-      </topic>
-      <topic importance='tier2'> Atomicity
-        <topic> Specifying and testing atomicity and safety requirements</topic>
-        <topic> Granularity of atomic accesses and updates, and the use of constructs such as critical sections or transactions to describe them</topic>
-        <topic> Mutual Exclusion using locks, semaphores, monitors, or related constructs</topic>
-      </topic>
-      <topic importance='elective'> Consensus
-        <topic> (Cyclic) barriers, counters, or related constructs</topic>
-      </topic>
-      <topic importance='elective'> Conditional actions
-        <topic> Conditional waiting (e.g., using condition variables)</topic>
-      </topic>
+      <topic importance='tier2'> Message passing</topic>
+      <topic importance='tier2'> Point-to-point  versus multicast (or  event-based)  messages</topic>
+      <topic importance='tier2'> Blocking versus  non-blocking  styles for sending and receiving messages</topic>
+      <topic importance='tier2'> Message buffering  (cross-reference  PF/Fundamental Data Structures/Queues)</topic>
+      <topic importance='tier2'> Atomicity</topic>
+      <topic importance='tier2'> Specifying and testing atomicity and safety requirements</topic>
+      <topic importance='tier2'> Granularity of atomic accesses and updates, and the use of constructs such as critical sections or transactions to describe them</topic>
+      <topic importance='tier2'> Mutual Exclusion using locks, semaphores, monitors, or related constructs</topic>
+      <topic importance='elective'> Consensus</topic>
+      <topic importance='elective'> (Cyclic) barriers, counters, or related constructs</topic>
+      <topic importance='elective'> Conditional actions</topic>
+      <topic importance='elective'> Conditional waiting (e.g., using condition variables)</topic>
       <outcome importance='tier1' mastery_level='usage'>Use mutual exclusion to avoid a given race condition. </outcome>
       <outcome importance='tier1' mastery_level='familiarity'>Give an example of an ordering of accesses among concurrent activities (e.g., program with a data race) that is not sequentially consistent. </outcome>
       <outcome importance='tier2' mastery_level='usage'>Give an example of a scenario in which blocking message sends can deadlock. </outcome>
@@ -2719,9 +2603,8 @@
       </topic>
       <topic importance='tier2'> Naturally (embarrassingly) parallel algorithms
       </topic>
-      <topic importance='tier2'> Parallel algorithmic patterns  (divide-and-conquer,  map and reduce,  master-workers,  others)
-        <topic> Specific algorithms (e.g., parallel MergeSort)</topic>
-      </topic>
+      <topic importance='tier2'> Parallel algorithmic patterns  (divide-and-conquer,  map and reduce,  master-workers,  others)</topic>
+      <topic importance='tier2'> Specific algorithms (e.g., parallel MergeSort)</topic>
       <topic importance='elective'> Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree)  (cross-reference  AL/Algorithmic  Strategies/Divide-and-conquer)
       </topic>
       <topic importance='elective'> Parallel matrix computations
@@ -2755,19 +2638,15 @@
       </topic>
       <topic importance='elective'> Flynn’s taxonomy
       </topic>
-      <topic importance='elective'> Instruction level support for parallel programming
-        <topic> Atomic instructions such as Compare and Set</topic>
-      </topic>
-      <topic importance='elective'> Memory issues
-        <topic> Multiprocessor caches and cache coherence</topic>
-        <topic> Non-uniform  memory access (NUMA)</topic>
-      </topic>
-      <topic importance='elective'> Topologies
-        <topic>Interconnects</topic>
-      </topic>
-      <topic importance='elective'>lusters
-        <topic>  Resource sharing (e.g., buses and interconnects)</topic>
-      </topic>
+      <topic importance='elective'> Instruction level support for parallel programming</topic>
+      <topic importance='elective'> Atomic instructions such as Compare and Set</topic>
+      <topic importance='elective'> Memory issues</topic>
+      <topic importance='elective'> Multiprocessor caches and cache coherence</topic>
+      <topic importance='elective'> Non-uniform  memory access (NUMA)</topic>
+      <topic importance='elective'> Topologies</topic>
+      <topic importance='elective'>Interconnects</topic>
+      <topic importance='elective'>lusters</topic>
+      <topic importance='elective'>  Resource sharing (e.g., buses and interconnects)</topic>
       <outcome importance='tier2' mastery_level='familiarity'>Explain the differences between shared and distributed memory. </outcome>
       <outcome importance='tier2' mastery_level='familiarity'>Describe the SMP architecture and note its key features. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Describe the advantages and limitations of GPUs vs. CPUs. </outcome>
@@ -2785,12 +2664,10 @@
       </topic>
       <topic importance='elective'> Evaluating communication overhead
       </topic>
-      <topic importance='elective'> Data management
-        <topic>Non-uniform  communication costs due to proximity  (cross-reference  SF/Proximity)</topic>
-      </topic>
-      <topic importance='elective'>ache effects (e.g., false sharing)
-        <topic>  Maintaining spatial locality</topic>
-      </topic>
+      <topic importance='elective'> Data management</topic>
+      <topic importance='elective'>Non-uniform  communication costs due to proximity  (cross-reference  SF/Proximity)</topic>
+      <topic importance='elective'>ache effects (e.g., false sharing)</topic>
+      <topic importance='elective'>  Maintaining spatial locality</topic>
       <topic importance='elective'> Power usage and management
       </topic>
       <outcome importance='elective' mastery_level='usage'>Detect and correct a load imbalance. </outcome>
@@ -2802,28 +2679,23 @@
       <outcome importance='elective' mastery_level='familiarity'>Explain the impact and  trade-off  related to power usage on parallel performance. </outcome>
     </knowledgeArea>
     <knowledgeArea id='DS' name='Distributed Systems'>
-      <topic importance='elective'> Faults  (cross-reference  OS/Fault Tolerance)
-        <topic> Network-based  (including partitions) and  node-based  failures</topic>
-        <topic> Impact on  system-wide  guarantees (e.g., availability)</topic>
-      </topic>
-      <topic importance='elective'> Distributed message sending
-        <topic> Data conversion and transmission</topic>
-        <topic> Sockets</topic>
-        <topic> Message sequencing</topic>
-        <topic> Buffering, retrying, and dropping messages</topic>
-      </topic>
-      <topic importance='elective'> Distributed system design tradeoffs
-        <topic> Latency versus throughput</topic>
-        <topic> Consistency, availability, partition tolerance</topic>
-      </topic>
-      <topic importance='elective'> Distributed service design
-        <topic> Stateful versus stateless protocols and services</topic>
-        <topic> Session  (connection-based)  designs</topic>
-        <topic> Reactive  (IO-triggered)  and multithreaded designs</topic>
-      </topic>
-      <topic importance='elective'> Core distributed algorithms
-        <topic> Election, discovery</topic>
-      </topic>
+      <topic importance='elective'> Faults  (cross-reference  OS/Fault Tolerance)</topic>
+      <topic importance='elective'> Network-based  (including partitions) and  node-based  failures</topic>
+      <topic importance='elective'> Impact on  system-wide  guarantees (e.g., availability)</topic>
+      <topic importance='elective'> Distributed message sending</topic>
+      <topic importance='elective'> Data conversion and transmission</topic>
+      <topic importance='elective'> Sockets</topic>
+      <topic importance='elective'> Message sequencing</topic>
+      <topic importance='elective'> Buffering, retrying, and dropping messages</topic>
+      <topic importance='elective'> Distributed system design tradeoffs</topic>
+      <topic importance='elective'> Latency versus throughput</topic>
+      <topic importance='elective'> Consistency, availability, partition tolerance</topic>
+      <topic importance='elective'> Distributed service design</topic>
+      <topic importance='elective'> Stateful versus stateless protocols and services</topic>
+      <topic importance='elective'> Session  (connection-based)  designs</topic>
+      <topic importance='elective'> Reactive  (IO-triggered)  and multithreaded designs</topic>
+      <topic importance='elective'> Core distributed algorithms</topic>
+      <topic importance='elective'> Election, discovery</topic>
       <outcome importance='elective' mastery_level='familiarity'>Distinguish network faults from other kinds of failures. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Explain why synchronization constructs such as simple locks are not useful in the presence of distributed faults. </outcome>
       <outcome importance='elective' mastery_level='usage'>Write a program that performs any required marshaling and conversion into message units, such as packets, to communicate interesting data between two hosts. </outcome>
@@ -2835,28 +2707,26 @@
       <outcome importance='elective' mastery_level='usage'>Give examples of problems for which consensus algorithms such as leader election are required. </outcome>
     </knowledgeArea>
     <knowledgeArea id='CC' name='Cloud Computing'>
-      <topic importance='elective'> Internet-Scale  computing
-        <topic> Task partitioning  (cross-reference  PD/Parallel Algorithms, Analysis, and Programming)</topic>
-        <topic> Data access</topic>
-        <topic> Clusters, grids, and meshes</topic>
-      </topic>
-      <topic importance='elective'> Cloud services
-        <topic> Infrastructure as a service</topic>
-        <topic> Software as a service</topic>
-        <topic> Security</topic>
-        <topic> Cost management</topic>
-      </topic>
-      <topic importance='elective'> Virtualization  (cross-reference  SF/Virtualization and Isolation and OS/Virtual Machines)
-        <topic> Shared resource management</topic>
-        <topic> Migration of processes</topic>
-      </topic>
-      <topic importance='elective'> Cloud-based  data storage
-        <topic> Shared access to weakly consistent data stores</topic>
-        <topic> Data synchronization</topic>
-        <topic> Data partitioning</topic>
-        <topic> Distributed file systems  (cross-reference  IM/Distributed Databases)</topic>
-        <topic> Replication</topic>
-      </topic>
+      <topic importance='elective'> Internet-Scale  computing</topic>
+      <topic importance='elective'> Task partitioning  (cross-reference  PD/Parallel Algorithms, Analysis, and Programming)</topic>
+      <topic importance='elective'> Data access</topic>
+      <topic importance='elective'> Clusters, grids, and meshes</topic>
+      <topic importance='elective'> Cloud services</topic>
+      <topic importance='elective'> Infrastructure as a service</topic>
+      <topic importance='elective'> Software as a service</topic>
+      <topic importance='elective'> Security</topic>
+      <topic importance='elective'> Cost management</topic>
+      
+      <topic importance='elective'> Virtualization  (cross-reference  SF/Virtualization and Isolation and OS/Virtual Machines)</topic>
+      <topic importance='elective'> Shared resource management</topic>
+      <topic importance='elective'> Migration of processes</topic>
+      <topic importance='elective'> Cloud-based  data storage</topic>
+      <topic importance='elective'> Shared access to weakly consistent data stores</topic>
+      <topic importance='elective'> Data synchronization</topic>
+      <topic importance='elective'> Data partitioning</topic>
+      <topic importance='elective'> Distributed file systems  (cross-reference  IM/Distributed Databases)</topic>
+      <topic importance='elective'> Replication</topic>
+      
       <outcome importance='elective' mastery_level='familiarity'>Discuss the importance of elasticity and resource management in cloud computing. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Explain strategies to synchronize a common view of shared data across a collection of devices. </outcome>
       <outcome importance='elective' mastery_level='familiarity'>Explain the advantages and disadvantages of using virtualized infrastructure. </outcome>
@@ -2884,17 +2754,12 @@
       <outcome importance='elective' mastery_level='usage'>Use a model to show progress guarantees in a parallel algorithm. </outcome>
       <outcome importance='elective' mastery_level='usage'>Use formal techniques to show that a parallel algorithm is correct with respect to a safety or liveness property. </outcome>
       <outcome importance='elective' mastery_level='usage'>Decide if a specific execution is linearizable or not. </outcome>
-      <topic importance='tier2'> Some topics from one or more of the first three Knowledge Units  ( Object-Oriented  Programming ,  Functional Programming ,  Event-Driven  and Reactive Programming ) are likely to be integrated with topics in the  SF-Software  Development Fundamentals Knowledge Area in a curriculum’s introductory courses. Curricula will differ on which topics are integrated in this fashion and which are delayed until later courses on software development and programming languages.
-      </topic>
-      <topic importance='tier2'> Some of the most important core learning outcomes are relevant to  object-oriented  programming, functional programming, and, in fact, all programming. These learning outcomes are  repeated  in the  Object-Oriented  Programming  and  Functional Programming  Knowledge Units, with a note to this effect. We do not intend that a
-      </topic>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea id='PL'>
     <knowledgeArea id='OP' name='Object-Oriented  Programming'>
-      <topic importance='tier1'> Object-oriented  design
-        <topic>Decomposition into objects carrying state and having behavior</topic>
-      </topic>
+      <topic importance='tier1'> Object-oriented  design</topic>
+      <topic importance='tier1'>Decomposition into objects carrying state and having behavior</topic>
       <topic importance='tier1'>lass-hierarchy  design for modeling
       </topic>
       <topic importance='tier1'> Definition of classes: fields, methods, and constructors
@@ -2903,15 +2768,13 @@
       </topic>
       <topic importance='tier1'> Dynamic dispatch: definition of  method-call
       </topic>
-      <topic importance='tier2'> Subtyping  (cross-reference  PL/Type Systems)
-        <topic> Subtype polymorphism; implicit upcasts in typed languages</topic>
-        <topic> Notion of behavioral replacement: subtypes acting like supertypes</topic>
-        <topic> Relationship between subtyping and inheritance</topic>
-      </topic>
-      <topic importance='tier2'> Object-oriented  idioms for encapsulation
-        <topic> Privacy and visibility of class members</topic>
-        <topic>Interfaces revealing only method signatures</topic>
-      </topic>
+      <topic importance='tier2'> Subtyping  (cross-reference  PL/Type Systems)</topic>
+      <topic importance='tier2'> Subtype polymorphism; implicit upcasts in typed languages</topic>
+      <topic importance='tier2'> Notion of behavioral replacement: subtypes acting like supertypes</topic>
+      <topic importance='tier2'> Relationship between subtyping and inheritance</topic>
+      <topic importance='tier2'> Object-oriented  idioms for encapsulation</topic>
+      <topic importance='tier2'> Privacy and visibility of class members</topic>
+      <topic importance='tier2'>Interfaces revealing only method signatures</topic>
       <topic importance='tier2'>bstract base classes
       </topic>
       <topic importance='tier2'> Using collection classes, iterators, and other common library components
@@ -2923,23 +2786,19 @@
       <outcome importance='tier2' mastery_level='usage'>Use  object-oriented  encapsulation mechanisms such as interfaces and private members. </outcome>
     </knowledgeArea>
     <knowledgeArea id='FP' name='Functional Programming'>
-      <topic importance='tier1'> Effect-free  programming
-        <topic> Function calls have no side effects, facilitating compositional reasoning</topic>
-        <topic> Variables are immutable, preventing unexpected changes to program data by other code</topic>
-        <topic> Data can be freely aliased or copied without introducing unintended effects from mutation</topic>
-      </topic>
-      <topic importance='tier1'> Processing structured data (e.g., trees) via functions with cases for each data variant
-        <topic> Associated language constructs such as discriminated unions and  pattern-matching  over them</topic>
-        <topic> Functions defined over compound data in terms of functions applied to the constituent pieces</topic>
-      </topic>
+      <topic importance='tier1'> Effect-free  programming</topic>
+      <topic importance='tier1'> Function calls have no side effects, facilitating compositional reasoning</topic>
+      <topic importance='tier1'> Variables are immutable, preventing unexpected changes to program data by other code</topic>
+      <topic importance='tier1'> Data can be freely aliased or copied without introducing unintended effects from mutation</topic>
+      <topic importance='tier1'> Processing structured data (e.g., trees) via functions with cases for each data variant</topic>
+      <topic importance='tier1'> Associated language constructs such as discriminated unions and  pattern-matching  over them</topic>
+      <topic importance='tier1'> Functions defined over compound data in terms of functions applied to the constituent pieces</topic>
       <topic importance='tier1'> First-class  functions (taking, returning, and storing functions)
       </topic>
-      <topic importance='tier2'> Function closures (functions using variables in the enclosing lexical environment)
-        <topic>Basic meaning and definition  --  creating closures at  run-time  by capturing the environment  o  Canonical idioms:  call-backs,  arguments to iterators, reusable code via function arguments</topic>
-      </topic>
-      <topic importance='tier2'>sing a closure to encapsulate data in its environment
-        <topic>  Currying and partial application</topic>
-      </topic>
+      <topic importance='tier2'> Function closures (functions using variables in the enclosing lexical environment)</topic>
+      <topic importance='tier2'>Basic meaning and definition  --  creating closures at  run-time  by capturing the environment  o  Canonical idioms:  call-backs,  arguments to iterators, reusable code via function arguments</topic>
+      <topic importance='tier2'>sing a closure to encapsulate data in its environment</topic>
+      <topic importance='tier2'>  Currying and partial application</topic>
       <topic importance='tier2'> Defining  higher-order  operations on aggregates, especially map, reduce/fold, and filter
       </topic>
       <outcome importance='tier1' mastery_level='usage'>Write basic algorithms that avoid assigning to mutable state or considering reference equality. </outcome>
@@ -2952,10 +2811,9 @@
       </topic>
       <topic importance='tier2'> Canonical uses such as GUIs, mobile devices, robots, servers
       </topic>
-      <topic importance='tier2'> Using a reactive framework
-        <topic> Defining event handlers/listeners</topic>
-        <topic> Main event loop not under  event-handler-writer’s  control</topic>
-      </topic>
+      <topic importance='tier2'> Using a reactive framework</topic>
+      <topic importance='tier2'> Defining event handlers/listeners</topic>
+      <topic importance='tier2'> Main event loop not under  event-handler-writer’s  control</topic>
       <topic importance='tier2'> Externally-generated  events and  program-generated  events
       </topic>
       <topic importance='tier2'> Separation of model, view, and controller
@@ -2967,29 +2825,25 @@
     <knowledgeArea id='BTS' name='Basic Type Systems'>
       <topic importance='tier1'>A type as a set of values together with a set of operations
       </topic>
-      <topic importance='tier1'>rimitive types (e.g., numbers, Booleans)
-        <topic>  Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)</topic>
-      </topic>
+      <topic importance='tier1'>rimitive types (e.g., numbers, Booleans)</topic>
+      <topic importance='tier1'>  Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)</topic>
       <topic importance='tier1'> Association of types to variables, arguments, results, and fields
       </topic>
       <topic importance='tier1'> Type safety and errors caused by using values inconsistently given their intended types
       </topic>
-      <topic importance='tier1'> Goals and limitations of static typing
-        <topic> Eliminating some classes of errors without running the program</topic>
-        <topic> Undecidability means static analysis must conservatively approximate program behavior</topic>
-      </topic>
+      <topic importance='tier1'> Goals and limitations of static typing</topic>
+      <topic importance='tier1'> Eliminating some classes of errors without running the program</topic>
+      <topic importance='tier1'> Undecidability means static analysis must conservatively approximate program behavior</topic>
       <topic importance='tier2'>Generic types (parametric polymorphism)
       </topic>
-      <topic importance='tier2'>efinition
-        <topic>  Use for generic libraries such as collections</topic>
-        <topic>  Comparison with ad hoc polymorphism (overloading) and subtype polymorphism</topic>
-      </topic>
-      <topic importance='tier2'> Complementary benefits of static and dynamic typing
-        <topic> Errors early vs. errors late/avoided</topic>
-        <topic> Enforce invariants during code development and code maintenance vs. postpone typing decisions while prototyping and conveniently allow flexible coding patterns such as heterogeneous</topic>
-        <topic> Avoid misuse of code vs. allow more code reuse</topic>
-        <topic> Detect incomplete programs vs. allow incomplete programs to run</topic>
-      </topic>
+      <topic importance='tier2'>efinition</topic>
+      <topic importance='tier2'>  Use for generic libraries such as collections</topic>
+      <topic importance='tier2'>  Comparison with ad hoc polymorphism (overloading) and subtype polymorphism</topic>
+      <topic importance='tier2'> Complementary benefits of static and dynamic typing</topic>
+      <topic importance='tier2'> Errors early vs. errors late/avoided</topic>
+      <topic importance='tier2'> Enforce invariants during code development and code maintenance vs. postpone typing decisions while prototyping and conveniently allow flexible coding patterns such as heterogeneous</topic>
+      <topic importance='tier2'> Avoid misuse of code vs. allow more code reuse</topic>
+      <topic importance='tier2'> Detect incomplete programs vs. allow incomplete programs to run</topic>
       <outcome importance='tier1' mastery_level='familiarity'>For both a primitive and a compound type, informally describe the values that have that type. </outcome>
       <outcome importance='tier1' mastery_level='familiarity'>For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method. </outcome>
       <outcome importance='tier1' mastery_level='familiarity'>Describe examples of program errors detected by a type system. </outcome>
@@ -3018,19 +2872,17 @@
     <knowledgeArea id='LTAE' name='Language Translation and Execution'>
       <topic importance='tier2'> Interpretation vs. compilation to native code vs. compilation to portable intermediate representation
       </topic>
-      <topic importance='tier2'> Language translation pipeline: parsing, optional  type-checking,  translation, linking, execution
-        <topic> Execution as native code or within a virtual machine</topic>
-        <topic> Alternatives like dynamic loading and dynamic (or  “just-in-time”)  code generation</topic>
-      </topic>
-      <topic importance='tier2'> Run-time  representation of core language constructs such as objects (method tables) and  first-class  functions (closures)
-      </topic>
-      <topic importance='tier2'> Run-time  layout of memory:  call-stack,  heap, static data
-        <topic> Implementing loops, recursion, and tail calls</topic>
-      </topic>
-      <topic importance='tier2'> Memory management
-        <topic> Manual memory management: allocating,  de-allocating,  and reusing heap memory</topic>
-        <topic> Automated memory management: garbage collection as an automated technique using the notion of reachability</topic>
-      </topic>
+      <topic importance='tier2'> Language translation pipeline: parsing, optional  type-checking,  translation, linking, execution</topic>
+      <topic importance='tier2'> Execution as native code or within a virtual machine</topic>
+      <topic importance='tier2'> Alternatives like dynamic loading and dynamic (or  “just-in-time”)  code generation</topic>
+      <topic importance='tier2'> Run-time  representation of core language constructs such as objects (method tables) and  first-class  functions (closures)</topic>
+      <topic importance='tier2'> Run-time  layout of memory:  call-stack,  heap, static data</topic>
+      <topic importance='tier2'> Implementing loops, recursion, and tail calls</topic>
+      
+      <topic importance='tier2'> Memory management</topic>
+      <topic importance='tier2'> Manual memory management: allocating,  de-allocating,  and reusing heap memory</topic>
+      <topic importance='tier2'> Automated memory management: garbage collection as an automated technique using the notion of reachability</topic>
+      
       <outcome importance='tier2' mastery_level='familiarity'>Distinguish a language definition (what constructs mean) from a particular language implementation (compiler vs. interpreter,  run-time  representation of data objects, etc.). </outcome>
       <outcome importance='tier2' mastery_level='familiarity'>Distinguish syntax and parsing from semantics and evaluation. </outcome>
       <outcome importance='tier2' mastery_level='familiarity'>Sketch a  low-level   run-time  representation of core language constructs, such as objects or closures. </outcome>
@@ -3230,22 +3082,19 @@
   </knowledgeArea>
   <knowledgeArea id='SDF'>
     <knowledgeArea id='AAD' name='Algorithms and Design'>
-      <topic importance='tier1'> The concept and properties of algorithms
-        <topic> Informal comparison of algorithm efficiency (e.g., operation counts)</topic>
-      </topic>
+      <topic importance='tier1'> The concept and properties of algorithms</topic>
+      <topic importance='tier1'> Informal comparison of algorithm efficiency (e.g., operation counts)</topic>
       <topic importance='tier1'> The role of algorithms in the  problem-solving  process
       </topic>
-      <topic importance='tier1'> Problem-solving  strategies
-        <topic> Iterative and recursive mathematical functions</topic>
-        <topic> Iterative and recursive traversal of data structures</topic>
-        <topic> Divide-and-conquer  strategies</topic>
-      </topic>
-      <topic importance='tier1'> Fundamental design concepts and principles
-        <topic> Abstraction</topic>
-        <topic> Program decomposition</topic>
-        <topic> Encapsulation and information hiding</topic>
-        <topic> Separation of behavior and implementation</topic>
-      </topic>
+      <topic importance='tier1'> Problem-solving  strategies</topic>
+      <topic importance='tier1'> Iterative and recursive mathematical functions</topic>
+      <topic importance='tier1'> Iterative and recursive traversal of data structures</topic>
+      <topic importance='tier1'> Divide-and-conquer  strategies</topic>
+      <topic importance='tier1'> Fundamental design concepts and principles</topic>
+      <topic importance='tier1'> Abstraction</topic>
+      <topic importance='tier1'> Program decomposition</topic>
+      <topic importance='tier1'> Encapsulation and information hiding</topic>
+      <topic importance='tier1'> Separation of behavior and implementation</topic>
       <outcome importance='tier1' mastery_level='familiarity'>Discuss the importance of algorithms in the  problem-solving  process. </outcome>
       <outcome importance='tier1' mastery_level='familiarity'>Discuss how a problem may be solved by multiple algorithms, each with different properties. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Create algorithms for solving simple problems. </outcome>
@@ -3292,13 +3141,11 @@
       </topic>
       <topic importance='tier1'>Abstract data types and their implementation
       </topic>
-      <topic importance='tier1'>tacks
-        <topic>  Queues</topic>
-        <topic>Priority queues</topic>
-      </topic>
-      <topic importance='tier1'>ets
-        <topic>  Maps</topic>
-      </topic>
+      <topic importance='tier1'>tacks</topic>
+      <topic importance='tier1'>  Queues</topic>
+      <topic importance='tier1'>Priority queues</topic>
+      <topic importance='tier1'>ets</topic>
+      <topic importance='tier1'>  Maps</topic>
       <topic importance='tier1'> References and aliasing
       </topic>
       <topic importance='tier1'> Linked lists
@@ -3316,21 +3163,19 @@
     <knowledgeArea id='DM' name='Development Methods'>
       <topic importance='tier1'> Program comprehension
       </topic>
-      <topic importance='tier1'> Program correctness
-        <topic> Types of errors (syntax, logic,  run-time)</topic>
-        <topic> The concept of a specification</topic>
-        <topic> Defensive programming (e.g. secure coding, exception handling)</topic>
-        <topic> Code reviews</topic>
-        <topic> Testing fundamentals and  test-case  generation</topic>
-        <topic> The role and the use of contracts, including pre- and  post-conditions</topic>
-        <topic> Unit testing</topic>
-      </topic>
+      <topic importance='tier1'> Program correctness</topic>
+      <topic importance='tier1'> Types of errors (syntax, logic,  run-time)</topic>
+      <topic importance='tier1'> The concept of a specification</topic>
+      <topic importance='tier1'> Defensive programming (e.g. secure coding, exception handling)</topic>
+      <topic importance='tier1'> Code reviews</topic>
+      <topic importance='tier1'> Testing fundamentals and  test-case  generation</topic>
+      <topic importance='tier1'> The role and the use of contracts, including pre- and  post-conditions</topic>
+      <topic importance='tier1'> Unit testing</topic>
       <topic importance='tier1'> Simple refactoring
       </topic>
-      <topic importance='tier1'> Modern programming environments
-        <topic> Code search</topic>
-        <topic> Programming using library components and their APIs</topic>
-      </topic>
+      <topic importance='tier1'> Modern programming environments</topic>
+      <topic importance='tier1'> Code search</topic>
+      <topic importance='tier1'> Programming using library components and their APIs</topic>
       <topic importance='tier1'> Debugging strategies
       </topic>
       <topic importance='tier1'> Documentation and program style
@@ -3347,33 +3192,14 @@
       <outcome importance='tier1' mastery_level='usage'>Construct and debug programs using the standard libraries available with a chosen programming language. </outcome>
       <outcome importance='tier1' mastery_level='assessment'>Analyze the extent to which another programmer’s code meets documentation and programming style standards. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Apply consistent documentation and program style standards that contribute to the readability and maintainability of software. </outcome>
-      <topic importance='tier1'> Real time systems
-      </topic>
-      <topic importance='tier1'> Client-server  systems
-      </topic>
-      <topic importance='tier1'> Distributed systems
-      </topic>
-      <topic importance='tier1'> Parallel systems
-      </topic>
-      <topic importance='tier1'> Web-based  systems
-      </topic>
-      <topic importance='tier1'> High integrity systems
-      </topic>
-      <topic importance='tier1'> Games
-      </topic>
-      <topic importance='tier1'> Mobile computing
-      </topic>
-      <topic importance='tier1'> Domain specific software (e.g., scientific computing or business applications)
-      </topic>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea id='SE'>
     <knowledgeArea id='SP' name='Software Processes'>
       <topic importance='tier1'> Systems level considerations, i.e., the interaction of software with its intended environment (cross- reference IAS/Secure Software Engineering)
       </topic>
-      <topic importance='tier1'> Introduction to software process models (e.g., waterfall, incremental, agile)
-        <topic> Activities within software lifecycles</topic>
-      </topic>
+      <topic importance='tier1'> Introduction to software process models (e.g., waterfall, incremental, agile)</topic>
+      <topic importance='tier1'> Activities within software lifecycles</topic>
       <topic importance='tier1'> Programming in the large vs. individual programming
       </topic>
       <topic importance='tier2'> Evaluation of software process models
@@ -3402,37 +3228,32 @@
       <outcome importance='elective' mastery_level='usage'>Use project metrics to describe the current state of a project. </outcome>
     </knowledgeArea>
     <knowledgeArea id='SPM' name='Software Project Management'>
-      <topic importance='tier2'> Team participation
-        <topic> Team processes including responsibilities for tasks, meeting structure, and work schedule</topic>
-        <topic> Roles and responsibilities in a software team</topic>
-        <topic> Team conflict resolution</topic>
-        <topic> Risks associated with virtual teams (communication, perception, structure)</topic>
-      </topic>
+      <topic importance='tier2'> Team participation</topic>
+      <topic importance='tier2'> Team processes including responsibilities for tasks, meeting structure, and work schedule</topic>
+      <topic importance='tier2'> Roles and responsibilities in a software team</topic>
+      <topic importance='tier2'> Team conflict resolution</topic>
+      <topic importance='tier2'> Risks associated with virtual teams (communication, perception, structure)</topic>
       <topic importance='tier2'> Effort Estimation (at the personal level)
       </topic>
-      <topic importance='tier2'> Risk (cross reference IAS/Secure Software Engineering)
-        <topic> The role of risk in the lifecycle</topic>
-        <topic> Risk categories including security, safety, market, financial, technology, people, quality, structure and process</topic>
-      </topic>
-      <topic importance='elective'> Team management
-        <topic> Team organization and  decision-making</topic>
-        <topic> Role identification and assignment</topic>
-        <topic> Individual and team performance assessment</topic>
-      </topic>
-      <topic importance='elective'> Project management
-        <topic> Scheduling and tracking</topic>
-        <topic> Project management tools</topic>
-        <topic> Cost/benefit analysis</topic>
-      </topic>
+      <topic importance='tier2'> Risk (cross reference IAS/Secure Software Engineering)</topic>
+      <topic importance='tier2'> The role of risk in the lifecycle</topic>
+      <topic importance='tier2'> Risk categories including security, safety, market, financial, technology, people, quality, structure and process</topic>
+      <topic importance='elective'> Team management</topic>
+      <topic importance='elective'> Team organization and  decision-making</topic>
+      <topic importance='elective'> Role identification and assignment</topic>
+      <topic importance='elective'> Individual and team performance assessment</topic>
+      <topic importance='elective'> Project management</topic>
+      <topic importance='elective'> Scheduling and tracking</topic>
+      <topic importance='elective'> Project management tools</topic>
+      <topic importance='elective'> Cost/benefit analysis</topic>
       <topic importance='elective'> Software measurement and estimation techniques
       </topic>
       <topic importance='elective'> Software quality assurance and the role of measurements
       </topic>
-      <topic importance='elective'> Risk
-        <topic> Risk identification and management</topic>
-        <topic> Risk analysis and evaluation</topic>
-        <topic>Risk tolerance (e.g.,  risk-adverse,   risk-neutral,   risk-seeking)</topic>
-      </topic>
+      <topic importance='elective'> Risk</topic>
+      <topic importance='elective'> Risk identification and management</topic>
+      <topic importance='elective'> Risk analysis and evaluation</topic>
+      <topic importance='elective'>Risk tolerance (e.g.,  risk-adverse,   risk-neutral,   risk-seeking)</topic>
       <topic importance='elective'>isk planning
       </topic>
       <topic importance='elective'> System-wide  approach to risk including hazards associated with tools
@@ -3555,12 +3376,10 @@
       </topic>
       <topic importance='elective'> Middleware: the  object-oriented  paradigm within middleware, object request brokers and marshalling, transaction processing monitors, workflow systems
       </topic>
-      <topic importance='elective'> Principles of secure design and coding  (cross-reference  IAS/Principles of Secure Design)
-        <topic>Principle of least privilege</topic>
-      </topic>
-      <topic importance='elective'>rinciple of  fail-safe  defaults
-        <topic>  Principle of psychological acceptability</topic>
-      </topic>
+      <topic importance='elective'> Principles of secure design and coding  (cross-reference  IAS/Principles of Secure Design)</topic>
+      <topic importance='elective'>Principle of least privilege</topic>
+      <topic importance='elective'>rinciple of  fail-safe  defaults</topic>
+      <topic importance='elective'>  Principle of psychological acceptability</topic>
       <outcome importance='tier1' mastery_level='familiarity'>Articulate design principles including separation of concerns, information hiding, coupling and cohesion, and encapsulation. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Use a design paradigm to design a simple software system, and explain how system design principles have been applied in this design. </outcome>
       <outcome importance='tier1' mastery_level='usage'>Construct models of the design of a simple software system that are appropriate for the paradigm used to design it. </outcome>
@@ -3586,30 +3405,24 @@
       <outcome importance='elective' mastery_level='familiarity'>State and apply the principles of least privilege and  fail-safe  defaults. </outcome>
     </knowledgeArea>
     <knowledgeArea id='SC' name='Software Construction'>
-      <topic importance='tier2'> Coding practices: techniques, idioms/patterns, mechanisms for building quality programs  (cross-reference  IAS/Defensive Programming; SDF/Development Methods)
-        <topic>Defensive coding practices</topic>
-      </topic>
-      <topic importance='tier2'>ecure coding practices
-        <topic>  Using exception handling mechanisms to make programs more robust,  fault-tolerant</topic>
-      </topic>
+      <topic importance='tier2'> Coding practices: techniques, idioms/patterns, mechanisms for building quality programs  (cross-reference  IAS/Defensive Programming; SDF/Development Methods)</topic>
+      <topic importance='tier2'>Defensive coding practices</topic>
+      <topic importance='tier2'>ecure coding practices</topic>
+      <topic importance='tier2'>  Using exception handling mechanisms to make programs more robust,  fault-tolerant</topic>
       <topic importance='tier2'> Coding standards
       </topic>
       <topic importance='tier2'> Integration strategies
       </topic>
-      <topic importance='tier2'> Development context: “green field” vs. existing code base
-        <topic>Change impact analysis</topic>
-      </topic>
+      <topic importance='tier2'> Development context: “green field” vs. existing code base</topic>
+      <topic importance='tier2'>Change impact analysis</topic>
       <topic importance='tier2'>hange actualization
       </topic>
-      <topic importance='elective'> Potential security problems in programs
-        <topic>Buffer and other types of overflows</topic>
-      </topic>
-      <topic importance='elective'>ace conditions
-        <topic>Improper initialization, including choice of privileges</topic>
-      </topic>
-      <topic importance='elective'>hecking input
-        <topic>Assuming success and correctness</topic>
-      </topic>
+      <topic importance='elective'> Potential security problems in programs</topic>
+      <topic importance='elective'>Buffer and other types of overflows</topic>
+      <topic importance='elective'>ace conditions</topic>
+      <topic importance='elective'>Improper initialization, including choice of privileges</topic>
+      <topic importance='elective'>hecking input</topic>
+      <topic importance='elective'>Assuming success and correctness</topic>
       <topic importance='elective'>alidating assumptions
       </topic>
       <outcome importance='tier2' mastery_level='familiarity'>Describe techniques, coding idioms and mechanisms for implementing designs to achieve desired properties such as reliability, efficiency, and robustness. </outcome>
@@ -3629,12 +3442,10 @@
       </topic>
       <topic importance='tier2'> Testing types, including human computer interface, usability, reliability, security, conformance to specification  (cross-reference  IAS/Secure Software Engineering)
       </topic>
-      <topic importance='tier2'> Testing fundamentals  (cross-reference  SDF/Development Methods)
-        <topic>Unit, integration, validation, and system testing</topic>
-      </topic>
-      <topic importance='tier2'>est plan creation and test case generation
-        <topic>Black-box  and  white-box  testing techniques</topic>
-      </topic>
+      <topic importance='tier2'> Testing fundamentals  (cross-reference  SDF/Development Methods)</topic>
+      <topic importance='tier2'>Unit, integration, validation, and system testing</topic>
+      <topic importance='tier2'>est plan creation and test case generation</topic>
+      <topic importance='tier2'>Black-box  and  white-box  testing techniques</topic>
       <topic importance='tier2'>egression testing and test automation
       </topic>
       <topic importance='tier2'> Defect tracking
@@ -3676,9 +3487,8 @@
     <knowledgeArea id='SE' name='Software Evolution'>
       <topic importance='tier2'>Software development in the context of large,  pre-existing  code bases
       </topic>
-      <topic importance='tier2'>oftware change
-        <topic>Concerns and concern location</topic>
-      </topic>
+      <topic importance='tier2'>software change</topic>
+      <topic importance='tier2'>Concerns and concern location</topic>
       <topic importance='tier2'>efactoring
       </topic>
       <topic importance='tier2'> Software evolution
@@ -3687,13 +3497,11 @@
       </topic>
       <topic importance='tier2'> Reengineering systems
       </topic>
-      <topic importance='tier2'> Software reuse
-        <topic> Code segments</topic>
-        <topic>Libraries and frameworks</topic>
-      </topic>
-      <topic importance='tier2'>omponents
-        <topic>  Product lines</topic>
-      </topic>
+      <topic importance='tier2'> Software reuse</topic>
+      <topic importance='tier2'> Code segments</topic>
+      <topic importance='tier2'>Libraries and frameworks</topic>
+      <topic importance='tier2'>omponents</topic>
+      <topic importance='tier2'>  Product lines</topic>
       <outcome importance='tier2' mastery_level='familiarity'>Identify the principal issues associated with software evolution and explain their impact on the software lifecycle. </outcome>
       <outcome importance='tier2' mastery_level='usage'>Estimate the impact of a change request to an existing product of medium size. </outcome>
       <outcome importance='tier2' mastery_level='usage'>Use refactoring in the process of modifying a software component. </outcome>
@@ -3729,9 +3537,8 @@
       </topic>
       <topic importance='elective'> Program assertion languages and analysis approaches (including languages for writing and analyzing pre- and  post-conditions,  such as OCL, JML)
       </topic>
-      <topic importance='elective'> Formal approaches to software modeling and analysis
-        <topic>Model checkers</topic>
-      </topic>
+      <topic importance='elective'> Formal approaches to software modeling and analysis</topic>
+      <topic importance='elective'>Model checkers</topic>
       <topic importance='elective'>odel finders
       </topic>
       <topic importance='elective'> Tools in support of formal methods
@@ -4162,639 +3969,6 @@
       <outcome importance='elective' mastery_level='familiarity'>Discuss the professional's role in security and the  trade-offs  involved. </outcome>
       <outcome importance='elective' mastery_level='usage'>Investigate measures that can be taken by both individuals and organizations including governments to prevent or mitigate the undesirable effects of computer crimes and identity theft. </outcome>
       <outcome importance='elective' mastery_level='usage'>Write a  company-wide  security policy, which includes procedures for managing passwords and employee monitoring. </outcome>
-      <topic importance='tier2'> The core material has been divided into   and   providing more guidance to programs about the relative importance of material.
-      </topic>
-      <topic importance='tier2'> Sets of knowledge areas have been restructured where common themes were identified.
-      </topic>
-      <topic importance='tier2'> The expected depth of coverage has been made explicit. Outcomes listed at the Familiarity level will typically require less coverage than topics at the Usage level, which in turn require less coverage time than Assessment outcomes.
-      </topic>
-      <topic importance='tier2'> Topic emphasis has changed within individual knowledge areas to reflect the state of the art and practice.
-      </topic>
-      <topic importance='tier1'> The Systems Fundamentals knowledge area was created to capture the fundamental principles common among operating systems, networking, and distributed systems.
-      </topic>
-      <topic importance='tier2'> Explain what is meant by “best”, “expected”, and “worst” case behavior of an algorithm.
-      </topic>
-      <topic importance='tier2'> In the context of specific algorithms, identify the characteristics of data and/or other conditions or assumptions that lead to different behaviors.
-      </topic>
-      <topic importance='tier2'> Perform empirical studies to validate hypotheses about runtime stemming from mathematical analysis. Run algorithms on input of various sizes and compare performance.
-      </topic>
-      <topic importance='tier2'> Give examples that illustrate  time-space   trade-offs  of algorithms.
-      </topic>
-      <topic importance='tier2'> Use dynamic programming to solve an appropriate problem.
-      </topic>
-      <topic importance='tier2'> Explain how tree balance affects the efficiency of various binary search tree operations.
-      </topic>
-      <topic importance='tier2'> Define the classes P and NP.
-      </topic>
-      <topic importance='tier2'> Explain the significance of  NP-completeness.
-      </topic>
-      <topic importance='tier2'> Discuss factors other than computational efficiency that influence the choice of algorithms, such as programming time, maintainability, and the use of  application-specific  patterns in the input data.
-      </topic>
-      <topic importance='tier2'> Comprehend the trend of modern computer architectures towards  multi-core  and that parallelism is inherent in all hardware systems.
-      </topic>
-      <topic importance='tier2'> Explain the implications of the “power wall” in terms of further processor performance improvements and the drive towards harnessing parallelism.
-      </topic>
-      <topic importance='tier2'> Design the basic building blocks of a computer:  arithmetic-logic  unit  (gate-level),  registers  (gate-level),  central processing unit (register  transfer-level),  and memory (register  transfer-level).
-      </topic>
-      <topic importance='tier2'> Use CAD tools for capture, synthesis, and simulation to evaluate simple building blocks (e.g.,  arithmetic-logic  unit, registers, movement between registers) of a simple computer design.
-      </topic>
-      <topic importance='tier2'> Evaluate the functional and timing diagram behavior of a simple processor implemented at the logic circuit level.
-      </topic>
-      <topic importance='tier2'> Compute Average Memory Access Time under a variety of cache and memory configurations and mixes of instruction and data references.
-      </topic>
-      <topic importance='tier1'> Explain the concept of modeling and the use of abstraction that allows the use of a machine to solve a problem.
-      </topic>
-      <topic importance='tier1'> Describe the relationship between modeling and simulation, ie, thinking of simulation as dynamic modeling.
-      </topic>
-      <topic importance='tier1'> Create a simple, formal mathematical model of a  real-world  situation and use that model in a simulation.
-      </topic>
-      <topic importance='tier1'> Differentiate among the different types of simulations, including physical simulations,  human-guided  simulations, and virtual reality.
-      </topic>
-      <topic importance='tier1'> Describe several approaches to validating models.
-      </topic>
-      <topic importance='tier1'> Apply the pigeonhole principle in the context of a formal proof.
-      </topic>
-      <topic importance='tier1'> Perform computations involving modular arithmetic.
-      </topic>
-      <topic importance='tier1'> Identify a case of the binomial distribution and compute a probability using that distribution.
-      </topic>
-      <topic importance='tier1'> Compute the variance for a given probability distribution.
-      </topic>
-      <topic importance='tier2'> Compute the variance for a given probability distribution.
-      </topic>
-      <topic importance='tier2'> Explain how events that are independent can be conditionally dependent (and  vice-versa).  Identify  real-world  examples of such cases.
-      </topic>
-      <topic importance='tier2'> Determine if two graphs are isomorphic.
-      </topic>
-      <topic importance='tier1'> Explain in general terms how analog signals can be reasonably represented by discrete samples, for example, how images can be represented by pixels.
-      </topic>
-      <topic importance='tier1'> Explain how the limits of human perception affect choices about the digital representation of analog signals.
-      </topic>
-      <topic importance='tier1'> Describe the differences between lossy and lossless image compression techniques, for example as reflected in common graphics image file formats such as JPG, PNG, MP3, MP4, and GIF.
-      </topic>
-      <topic importance='tier2'> Describe color models and their use in graphics display devices.
-      </topic>
-      <topic importance='tier2'> Describe the tradeoffs between storing information vs storing enough information to reproduce the information, as in the difference between vector and raster rendering.
-      </topic>
-      <topic importance='tier2'> For an identified user group, undertake and document an analysis of their needs.
-      </topic>
-      <topic importance='tier2'> Create a simple application, together with help and documentation, that supports a graphical user interface.
-      </topic>
-      <topic importance='tier2'> Discuss at least one national or international user interface design standard.
-      </topic>
-      <topic importance='tier1'> Analyze the tradeoffs of balancing key security properties (Confidentiality, Integrity, Availability).
-      </topic>
-      <topic importance='tier1'> Describe the concepts of risk, threats, vulnerabilities and attack vectors (including the fact that there is no such thing as perfect security).
-      </topic>
-      <topic importance='tier1'> Explain the concept of trust and trustworthiness.
-      </topic>
-      <topic importance='tier1'> Recognize that there are important ethical issues to consider in computer security, including ethical issues associated with fixing or not fixing vulnerabilities and disclosing or not disclosing vulnerabilities.
-      </topic>
-      <topic importance='tier1'> Describe the principle of least privilege and isolation as applied to system design.
-      </topic>
-      <topic importance='tier1'> Summarize the principle of  fail-safe  and  deny-by-default.
-      </topic>
-      <topic importance='tier1'> Recognize not to rely on the secrecy of design for security (but also that open design alone does not imply security).
-      </topic>
-      <topic importance='tier1'> Explain the goals of  end-to-end  data security.
-      </topic>
-      <topic importance='tier1'> Discuss the benefits of having multiple layers of defenses.
-      </topic>
-      <topic importance='tier1'> Recognize that security has to be a consideration from the point of initial design and throughout the lifecycle of a product.
-      </topic>
-      <topic importance='tier1'> Recognize that security imposes costs and tradeoffs.
-      </topic>
-      <topic importance='tier1'> Explain why input validation and data sanitization is necessary in the face of adversarial control of the input channel.
-      </topic>
-      <topic importance='tier1'> Explain why you might choose to develop a program in a  type-safe  language like Java, in contrast to an unsafe programming language like C/C++.
-      </topic>
-      <topic importance='tier1'> Classify common input validation errors, and write correct input validation code.
-      </topic>
-      <topic importance='tier1'> Demonstrate using a  high-level  programming language how to prevent a race condition from occurring and how to handle an exception.
-      </topic>
-      <topic importance='tier1'> Demonstrate the identification and graceful handling of error conditions.
-      </topic>
-      <topic importance='tier2'> Describe the concept of mediation and the principle of complete mediation.
-      </topic>
-      <topic importance='tier2'> Be aware of standard components for security operations, instead of  re-inventing  fundamentals operations.
-      </topic>
-      <topic importance='tier2'> Explain the concept of trusted computing including trusted computing base and attack surface and the principle of minimizing trusted computing base.
-      </topic>
-      <topic importance='tier2'> Discuss the importance of usability in security mechanism design.
-      </topic>
-      <topic importance='tier2'> Recognize that security does not compose by default; security issues can arise at boundaries between multiple components.
-      </topic>
-      <topic importance='tier2'> Identify the different roles of prevention mechanisms and detection/deterrence mechanisms.
-      </topic>
-      <topic importance='tier2'> Explain the risks with misusing interfaces with  third-party  code and how to correctly use  third-party  code.
-      </topic>
-      <topic importance='tier2'> Discuss the need to update software to fix security vulnerabilities and the lifecycle management of the fix.
-      </topic>
-      <topic importance='tier2'> List examples of direct and indirect information flows.
-      </topic>
-      <topic importance='tier2'> Describe likely attacker types against a particular system.
-      </topic>
-      <topic importance='tier2'> Discuss the limitations of malware countermeasures (eg,  signature-based  detection, behavioral detection).
-      </topic>
-      <topic importance='tier2'> Identify instances of social engineering attacks and Denial of Service attacks.
-      </topic>
-      <topic importance='tier2'> Discuss how Denial of Service attacks can be identified and mitigated.
-      </topic>
-      <topic importance='tier2'> Describe risks to privacy and anonymity in commonly used applications.
-      </topic>
-      <topic importance='tier2'> Discuss the concepts of covert channels and other data leakage procedures.
-      </topic>
-      <topic importance='tier2'> Describe the different categories of network threats and attacks.
-      </topic>
-      <topic importance='tier2'> Describe virtues and limitations of security technologies at each layer of the network stack.
-      </topic>
-      <topic importance='tier2'> Identify the appropriate defense mechanism(s) and its limitations given a network threat.
-      </topic>
-      <topic importance='tier2'> Discuss security properties and limitations of other  non-wired  networks.
-      </topic>
-      <topic importance='tier2'> Define the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology and describe the two basic methods (ciphers) for transforming plain text in cipher text.
-      </topic>
-      <topic importance='tier2'> Discuss the importance of prime numbers in cryptography and explain their use in cryptographic algorithms.
-      </topic>
-      <topic importance='tier2'> Use cryptographic primitives and their basic properties.
-      </topic>
-      <topic importance='tier1'> Describe how humans gain access to information and data to support their needs.
-      </topic>
-      <topic importance='tier1'> Understand advantages and disadvantages of central organizational control over data.
-      </topic>
-      <topic importance='tier1'> Identify the careers/roles associated with information management (e.g., database administrator, data modeler, application developer,  end-user).
-      </topic>
-      <topic importance='tier1'> Demonstrate uses of explicitly stored metadata/schema associated with data.
-      </topic>
-      <topic importance='tier1'> Identify issues of data persistence for an organization.
-      </topic>
-      <topic importance='tier2'> Explain uses of declarative queries.
-      </topic>
-      <topic importance='tier2'> Give a declarative version for a navigational query.
-      </topic>
-      <topic importance='tier2'> Identify vulnerabilities and failure scenarios in common forms of information systems.
-      </topic>
-      <topic importance='tier2'> Describe the most common designs for core database system components including the query optimizer, query executor, storage manager, access methods, and transaction processor.
-      </topic>
-      <topic importance='tier2'> Describe facilities that databases provide supporting structures and/or stream (sequence) data, e.g., text.
-      </topic>
-      <topic importance='tier2'> Compare and contrast appropriate data models, including internal structures, for different types of data.
-      </topic>
-      <topic importance='tier2'> Describe the differences between relational and  semi-structured  data models.
-      </topic>
-      <topic importance='tier2'> Give a  semi-structured  equivalent (e.g., in DTD or XML Schema) for a given relational schema.
-      </topic>
-      <topic importance='tier2'> Translate a natural language (e.g., English) sentence into predicate logic statement.
-      </topic>
-      <topic importance='tier2'> Convert a logic statement into clause form.
-      </topic>
-      <topic importance='tier2'> Apply resolution to a set of logic statements to answer a query.
-      </topic>
-      <topic importance='tier2'> Make a probabilistic inference in a  real-world  problem using Bayes’ theorem to determine the probability of a hypothesis given evidence.
-      </topic>
-      <topic importance='tier2'> List the differences among the three main styles of learning: supervised, reinforcement, and unsupervised.
-      </topic>
-      <topic importance='tier2'> Identify examples of classification tasks, including the available input features and output to be predicted.
-      </topic>
-      <topic importance='tier2'> Explain the difference between inductive and deductive learning.
-      </topic>
-      <topic importance='tier2'> Describe  over-fitting  in the context of a problem.
-      </topic>
-      <topic importance='tier2'> Apply the simple statistical learning algorithm such as Naive Bayesian Classifier to a classification task and measure the classifier's accuracy.
-      </topic>
-      <topic importance='tier1'> Articulate the organization of the Internet.
-      </topic>
-      <topic importance='tier1'> List and define the appropriate network terminology.
-      </topic>
-      <topic importance='tier1'> Identify the different types of complexity in a network (edges, core, etc).
-      </topic>
-      <topic importance='tier1'> List the differences and the relations between names and addresses in a network.
-      </topic>
-      <topic importance='tier1'> Define the principles behind naming schemes and resource location.
-      </topic>
-      <topic importance='tier2'> List the factors that affect the performance of reliable delivery protocols.
-      </topic>
-      <topic importance='tier2'> Design and implement a simple reliable protocol.
-      </topic>
-      <topic importance='tier2'> Describe the organization of the network layer.
-      </topic>
-      <topic importance='tier2'> Describe how packets are forwarded in an IP network.
-      </topic>
-      <topic importance='tier2'> List the scalability benefits of hierarchical addressing.
-      </topic>
-      <topic importance='tier2'> Describe how frames are forwarded in an Ethernet network.
-      </topic>
-      <topic importance='tier2'> Describe the steps used in one common approach to the multiple access problem.
-      </topic>
-      <topic importance='tier2'> Describe how resources can be allocated in a network.
-      </topic>
-      <topic importance='tier2'> Describe the congestion problem in a large network.
-      </topic>
-      <topic importance='tier2'> Compare and contrast fixed and dynamic allocation techniques.
-      </topic>
-      <topic importance='tier2'> Compare and contrast current approaches to congestion.
-      </topic>
-      <topic importance='tier2'> Describe the organization of a wireless network.
-      </topic>
-      <topic importance='tier2'> Describe how wireless networks support mobile users.
-      </topic>
-      <topic importance='tier2'> Articulate the need for protection and security in an OS  (cross-reference  IAS/Security Architecture and Systems Administration/Investigating Operating Systems Security for various systems).
-      </topic>
-      <topic importance='tier2'> Summarize the features and limitations of an operating system used to provide protection and security  (cross-reference  IAS/Security Architecture and Systems Administration).
-      </topic>
-      <topic importance='tier2'> Explain the mechanisms available in an OS to control access to resources (cross- reference IAS/Security Architecture and Systems Administration/Access Control/Configuring systems to operate securely as an IT system).
-      </topic>
-      <topic importance='tier2'> Carry out simple system administration tasks according to a security policy, for example, creating accounts, setting permissions, applying patches, and arranging for regular backups  (cross-reference  IAS/Security Architecture and Systems Administration).
-      </topic>
-      <topic importance='tier1'> Distinguish using computational resources for a faster answer from managing efficient access to a shared resource.
-      </topic>
-      <topic importance='tier1'> Distinguish multiple sufficient programming constructs for synchronization that may be  inter-implementable  but have complementary advantages.
-      </topic>
-      <topic importance='tier1'> Distinguish data races from higher level races.
-      </topic>
-      <topic importance='tier1'> Explain why synchronization is necessary in a specific parallel program.
-      </topic>
-      <topic importance='tier1'> Use mutual exclusion to avoid a given race condition.
-      </topic>
-      <topic importance='tier1'> Explain the differences between shared and distributed memory.
-      </topic>
-      <topic importance='tier2'> Identify opportunities to partition a serial program into independent parallel modules.
-      </topic>
-      <topic importance='tier2'> Write a correct and scalable parallel algorithm.
-      </topic>
-      <topic importance='tier2'> Parallelize an algorithm by applying  task-based  decomposition.
-      </topic>
-      <topic importance='tier2'> Parallelize an algorithm by applying  data-parallel  decomposition.
-      </topic>
-      <topic importance='tier2'> Write a program using actors and/or reactive processes.
-      </topic>
-      <topic importance='tier2'> Give an example of an ordering of accesses among concurrent activities (eg, program with a data race) that is not sequentially consistent.
-      </topic>
-      <topic importance='tier2'> Give an example of a scenario in which blocking message sends can deadlock.
-      </topic>
-      <topic importance='tier2'> Explain when and why multicast or  event-based  messaging can be preferable to alternatives.
-      </topic>
-      <topic importance='tier2'> Write a program that correctly terminates when all of a set of concurrent tasks have completed.
-      </topic>
-      <topic importance='tier2'> Use a properly synchronized queue to buffer data passed among activities.
-      </topic>
-      <topic importance='tier2'> Explain why checks for preconditions, and actions based on these checks, must share the same unit of atomicity to be effective.
-      </topic>
-      <topic importance='tier2'> Write a test program that can reveal a concurrent programming error, for example, missing an update when two activities both try to increment a variable.
-      </topic>
-      <topic importance='tier2'> Describe at least one design technique for avoiding liveness failures in programs using multiple locks or semaphores.
-      </topic>
-      <topic importance='tier2'> Describe the relative merits of optimistic versus conservative concurrency control under different rates of contention among updates.
-      </topic>
-      <topic importance='tier2'> Give an example of a scenario in which an attempted optimistic update may never complete.
-      </topic>
-      <topic importance='tier2'> Define “critical path”, “work”, and “span”.
-      </topic>
-      <topic importance='tier2'> Compute the work and span, and determine the critical path with respect to a parallel execution diagram.
-      </topic>
-      <topic importance='tier2'> Define  “speed-up”  and explain the notion of an algorithm’s scalability in this regard.
-      </topic>
-      <topic importance='tier2'> Identify independent tasks in a program that may be parallelized.
-      </topic>
-      <topic importance='tier2'> Characterize features of a workload that allow or prevent it from being naturally parallelized.
-      </topic>
-      <topic importance='tier2'> Implement a parallel  divide-and-conquer  (and/or graph algorithm) and empirically measure its performance relative to its sequential analog.
-      </topic>
-      <topic importance='tier2'> Decompose a problem (e.g., counting the number of occurrences of some word in a document) via map and reduce operations.
-      </topic>
-      <topic importance='tier2'> Describe the SMP architecture and note its key features.
-      </topic>
-      <topic importance='tier2'> Characterize the kinds of tasks that are a natural match for SIMD machines.
-      </topic>
-      <topic importance='tier1'> Write basic algorithms that avoid assigning to mutable state or considering reference equality.
-      </topic>
-      <topic importance='tier1'> Write useful functions that take and return other functions.
-      </topic>
-      <topic importance='tier1'> Compare and contrast (1) the procedural/functional approach (defining a function for each operation with the function body providing a case for each data variant) and (2) the  object-oriented  approach (defining a class for each data variant with the class definition providing a method for each operation). Understand both as defining a matrix of operations and variants.
-      </topic>
-      <topic importance='tier1'> For both a primitive and a compound type, informally describe the values that have that type.
-      </topic>
-      <topic importance='tier1'> For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method.
-      </topic>
-      <topic importance='tier1'> Describe examples of program errors detected by a type system.
-      </topic>
-      <topic importance='tier1'> For multiple programming languages, identify program properties checked statically and program properties checked dynamically.
-      </topic>
-      <topic importance='tier1'> Give an example program that does not  type-check  in a particular language and yet would have no error if run.
-      </topic>
-      <topic importance='tier1'> Use types and  type-error  messages to write and debug programs.
-      </topic>
-      <topic importance='tier2'> Correctly reason about variables and lexical scope in a program using function closures.
-      </topic>
-      <topic importance='tier2'> Use functional encapsulation mechanisms such as closures and modular interfaces.
-      </topic>
-      <topic importance='tier2'> Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language.
-      </topic>
-      <topic importance='tier2'> Explain why an  event-driven  programming style is natural in domains where programs react to external events.
-      </topic>
-      <topic importance='tier2'> Describe an interactive system in terms of a model, a view, and a controller.
-      </topic>
-      <topic importance='tier2'> Explain how typing rules define the set of operations that are legal for a type.
-      </topic>
-      <topic importance='tier2'> Write down the type rules governing the use of a particular compound type.
-      </topic>
-      <topic importance='tier2'> Explain why undecidability requires type systems to conservatively approximate program behavior.
-      </topic>
-      <topic importance='tier2'> Define and use program pieces (such as functions, classes, methods) that use generic types, including for collections.
-      </topic>
-      <topic importance='tier2'> Discuss the differences among generics, subtyping, and overloading.
-      </topic>
-      <topic importance='tier2'> Explain multiple benefits and limitations of static typing in writing, maintaining, and debugging software.
-      </topic>
-      <topic importance='tier2'> Explain how programs that process other programs treat the other programs as their input data.
-      </topic>
-      <topic importance='tier2'> Describe an abstract syntax tree for a small language.
-      </topic>
-      <topic importance='tier2'> Describe the benefits of having program representations other than strings of source code.
-      </topic>
-      <topic importance='tier2'> Write a program to process some representation of code for some purpose, such as an interpreter, an expression optimizer, or a documentation generator.
-      </topic>
-      <topic importance='tier2'> Distinguish syntax and parsing from semantics and evaluation.
-      </topic>
-      <topic importance='tier2'> Sketch a  low-level   run-time  representation of core language constructs, such as objects or closures.
-      </topic>
-      <topic importance='tier2'> Explain how programming language implementations typically organize memory into global data, text, heap, and stack sections and how features such as recursion and memory management map to this memory model.
-      </topic>
-      <topic importance='tier2'> Identify and fix memory leaks and  dangling-pointer  dereferences.
-      </topic>
-      <topic importance='tier2'> Discuss the benefits and limitations of garbage collection, including the notion of reachability.
-      </topic>
-      <topic importance='tier1'> Discuss how a problem may be solved by multiple algorithms, each with different properties.
-      </topic>
-      <topic importance='tier1'> Identify the data components and behaviors of multiple abstract data types.
-      </topic>
-      <topic importance='tier1'> Implement a coherent abstract data type, with loose coupling between components and behaviors.
-      </topic>
-      <topic importance='tier1'> Identify the relative strengths and weaknesses among multiple designs or implementations for a problem.
-      </topic>
-      <topic importance='tier1'> Trace the execution of a variety of code segments and write summaries of their computations.
-      </topic>
-      <topic importance='tier1'> Explain why the creation of correct program components is important in the production of  high-quality  software.
-      </topic>
-      <topic importance='tier1'> Identify common coding errors that lead to insecure programs (eg, buffer overflows, memory leaks, malicious code) and apply strategies for avoiding such errors.
-      </topic>
-      <topic importance='tier1'> Conduct a personal code review (focused on common coding errors) on a program component using a provided checklist.
-      </topic>
-      <topic importance='tier1'> Describe how a contract can be used to specify the behavior of a program component.
-      </topic>
-      <topic importance='tier1'> Refactor a program by identifying opportunities to apply procedural abstraction.
-      </topic>
-      <topic importance='tier1'> Analyze the extent to which another programmer’s code meets documentation and programming style standards.
-      </topic>
-      <topic importance='tier1'> Apply consistent documentation and program style standards that contribute to the readability and maintainability of software.
-      </topic>
-      <topic importance='tier1'> List the key components of a use case or similar description of some behavior that is required for a system.
-      </topic>
-      <topic importance='tier1'> Describe how the requirements engineering process supports the elicitation and validation of behavioral requirements.
-      </topic>
-      <topic importance='tier1'> Interpret a given requirements model for a simple software system.
-      </topic>
-      <topic importance='tier1'> Use a design paradigm to design a simple software system, and explain how system design principles have been applied in this design.
-      </topic>
-      <topic importance='tier1'> Within the context of a single design paradigm, describe one or more design patterns that could be applicable to the design of a simple software system.
-      </topic>
-      <topic importance='tier2'> Discuss common behaviors that contribute to the effective functioning of a team.
-      </topic>
-      <topic importance='tier2'> Create and follow an agenda for a team meeting.
-      </topic>
-      <topic importance='tier2'> Identify and justify necessary roles in a software development team.
-      </topic>
-      <topic importance='tier2'> Understand the sources, hazards, and potential benefits of team conflict.
-      </topic>
-      <topic importance='tier2'> Apply a conflict resolution strategy in a team setting.
-      </topic>
-      <topic importance='tier2'> Use an ad hoc method to estimate software development effort (e.g., time) and compare to actual effort required.
-      </topic>
-      <topic importance='tier2'> List several examples of software risks.
-      </topic>
-      <topic importance='tier2'> Describe the impact of risk in a software development lifecycle.
-      </topic>
-      <topic importance='tier2'> Describe different categories of risk in software systems.
-      </topic>
-      <topic importance='tier2'> Describe the difference between centralized and distributed software configuration management.
-      </topic>
-      <topic importance='tier2'> Describe how version control can be used to help manage software release management.
-      </topic>
-      <topic importance='tier2'> Identify configuration items and use a source code control tool in a small team- based project.
-      </topic>
-      <topic importance='tier2'> Describe how available static and dynamic test tools can be integrated into the software development environment.
-      </topic>
-      <topic importance='tier2'> Describe the issues that are important in selecting a set of tools for the development of a particular software system, including tools for requirements tracking, design modeling, implementation, build automation, and testing.
-      </topic>
-      <topic importance='tier2'> Demonstrate the capability to use software tools in support of the development of a software product of medium size.
-      </topic>
-      <topic importance='tier2'> Describe the fundamental challenges of and common techniques used for requirements elicitation.
-      </topic>
-      <topic importance='tier2'> List the key components of a data model (eg, class diagrams or ER diagrams).
-      </topic>
-      <topic importance='tier2'> Identify both functional and  non-functional  requirements in a given requirements specification for a software system.
-      </topic>
-      <topic importance='tier2'> For a simple system suitable for a given scenario, discuss and select an appropriate design paradigm.
-      </topic>
-      <topic importance='tier2'> Create appropriate models for the structure and behavior of software products from their requirements specifications.
-      </topic>
-      <topic importance='tier2'> Explain the relationships between the requirements for a software product and its design, using appropriate models.
-      </topic>
-      <topic importance='tier2'> For the design of a simple software system within the context of a single design paradigm, describe the software architecture of that system.
-      </topic>
-      <topic importance='tier2'> Given a  high-level  design, identify the software architecture by differentiating among common software architectures such as    pipe-and-filter,  and client- server.
-      </topic>
-      <topic importance='tier2'> Investigate the impact of software architectures selection on the design of a simple system.
-      </topic>
-      <topic importance='tier2'> Describe a form of refactoring and discuss when it may be applicable.
-      </topic>
-      <topic importance='tier2'> Select suitable components for use in the design of a software product.
-      </topic>
-      <topic importance='tier2'> Explain how suitable components might need to be adapted for use in the design of a software product.
-      </topic>
-      <topic importance='tier2'> Design a contract for a typical small software component for use in a given system.
-      </topic>
-      <topic importance='tier2'> Describe techniques, coding idioms and mechanisms for implementing designs to achieve desired properties such as reliability, efficiency, and robustness.
-      </topic>
-      <topic importance='tier2'> Describe secure coding and defensive coding practices.
-      </topic>
-      <topic importance='tier2'> Select and use a defined coding standard in a small software project.
-      </topic>
-      <topic importance='tier2'> Compare and contrast integration strategies including  top-down,   bottom-up,  and sandwich integration.
-      </topic>
-      <topic importance='tier2'> Describe the process of analyzing and implementing changes to code base developed for a specific project.
-      </topic>
-      <topic importance='tier2'> Describe the process of analyzing and implementing changes to a large existing code base.
-      </topic>
-      <topic importance='tier2'> Describe how to select good regression tests and automate them.
-      </topic>
-      <topic importance='tier2'> Use a defect tracking tool to manage software defects in a small software project.
-      </topic>
-      <topic importance='tier2'> Discuss the limitations of testing in a particular domain.
-      </topic>
-      <topic importance='tier2'> Use refactoring in the process of modifying a software component.
-      </topic>
-      <topic importance='tier2'> Explain the problems that exist in achieving very high levels of reliability.
-      </topic>
-      <topic importance='tier2'> Describe how software reliability contributes to system reliability.
-      </topic>
-      <topic importance='tier2'> List approaches to minimizing faults that can be applied at each stage of the software lifecycle.
-      </topic>
-      <topic importance='tier1'> List commonly encountered patterns of how computations are organized.
-      </topic>
-      <topic importance='tier1'> Articulate the differences between single thread vs. multiple thread, single server vs multiple server models, motivated by real world examples (e.g., cooking recipes, lines for multiple teller machines and couples shopping for food).
-      </topic>
-      <topic importance='tier1'> Articulate the concept of strong vs. weak scaling, i.e., how performance is affected by scale of problem vs. scale of resources to solve the problem. This can be motivated by the simple,  real-world  examples.
-      </topic>
-      <topic importance='tier1'> Use tools for capture, synthesis, and simulation to evaluate a logic design.
-      </topic>
-      <topic importance='tier1'> Write a simple sequential problem and a simple parallel version of the same program.
-      </topic>
-      <topic importance='tier1'> Evaluate performance of simple sequential and parallel versions of a program with different problem sizes, and be able to describe the  speed-ups  achieved.
-      </topic>
-      <topic importance='tier1'> Describe how computing systems are constructed of layers upon layers, based on separation of concerns, with  well-defined  interfaces, hiding details of low layers from the higher layers.
-      </topic>
-      <topic importance='tier1'> Describe that hardware, VM, OS, application are additional layers of interpretation/processing.
-      </topic>
-      <topic importance='tier1'> Describe the mechanisms of how errors are detected, signaled back, and handled through the layers.
-      </topic>
-      <topic importance='tier1'> Construct a simple program using methods of layering, error detection and recovery, and reflection of error status across layers.
-      </topic>
-      <topic importance='tier1'> Find bugs in a layered program by using tools for program tracing, single stepping, and debugging.
-      </topic>
-      <topic importance='tier1'> Describe computations as a system characterized by a known set of configurations with transitions from one unique configuration (state) to another (state).
-      </topic>
-      <topic importance='tier1'> Describe the distinction between systems whose output is only a function of their input (combinational) and those with memory/history (sequential).
-      </topic>
-      <topic importance='tier1'> Describe a computer as a state machine that interprets machine instructions.
-      </topic>
-      <topic importance='tier1'> Explain how a program or network protocol can also be expressed as a state machine, and that alternative representations for the same computation can exist.
-      </topic>
-      <topic importance='tier1'> Develop state machine descriptions for simple problem statement solutions (eg, traffic light sequencing, pattern recognizers).
-      </topic>
-      <topic importance='tier1'> Derive  time-series  behavior of a state machine from its state machine representation.
-      </topic>
-      <topic importance='tier1'> For a given program, distinguish between its sequential and parallel execution, and the performance implications thereof.
-      </topic>
-      <topic importance='tier1'> Demonstrate on an execution time line that parallelism events and operations can take place simultaneously (ie, at the same time) Explain how work can be performed in less elapsed time if this can be exploited.
-      </topic>
-      <topic importance='tier1'> Explain other uses of parallelism, such as for reliability/redundancy of execution.
-      </topic>
-      <topic importance='tier1'> Define the differences between the concepts of Instruction Parallelism, Data Parallelism, Thread Parallelism/Multitasking, and Task/Request Parallelism.
-      </topic>
-      <topic importance='tier1'> Write more than one parallel program (e.g., one simple parallel program in more than one parallel programming paradigm; a simple parallel program that manages shared resources through synchronization primitives; a simple parallel program that performs simultaneous operation on partitioned data through task parallelism (e.g., parallel search terms); a simple parallel program that performs  step-by-step  pipeline processing through message passing).
-      </topic>
-      <topic importance='tier1'> Use performance tools to measure  speed-up  achieved by parallel programs in terms of both problem size and number of resources.
-      </topic>
-      <topic importance='tier1'> Explain how the components of system architecture contribute to improving its performance.
-      </topic>
-      <topic importance='tier1'> Describe Amdahl’s law and discuss its limitations.
-      </topic>
-      <topic importance='tier1'> Design and conduct a  performance-oriented  experiment.
-      </topic>
-      <topic importance='tier1'> Use software tools to profile and measure program performance.
-      </topic>
-      <topic importance='tier2'> Define how finite computer resources (e.g., processor share, memory, storage, and network bandwidth) are managed by their careful allocation to existing entities.
-      </topic>
-      <topic importance='tier2'> Describe the scheduling algorithms by which resources are allocated to competing entities, and the figures of merit by which these algorithms are evaluated, such as fairness.
-      </topic>
-      <topic importance='tier2'> Implement simple schedule algorithms.
-      </topic>
-      <topic importance='tier2'> Use figures of merit of alternative scheduler implementations.
-      </topic>
-      <topic importance='tier2'> Explain the importance of locality in determining performance.
-      </topic>
-      <topic importance='tier2'> Describe why things that are close in space take less time to access.
-      </topic>
-      <topic importance='tier2'> Calculate average memory access time and describe the tradeoffs in memory hierarchy performance in terms of capacity, miss/hit rate, and access time.
-      </topic>
-      <topic importance='tier2'> Describe how the concept of indirection can create the illusion of a dedicated machine and its resources even when physically shared among multiple programs and environments.
-      </topic>
-      <topic importance='tier2'> Measure the performance of two application instances running on separate virtual machines, and determine the effect of performance isolation.
-      </topic>
-      <topic importance='tier2'> Explain the distinction between program errors, system errors, and hardware faults (e.g., bad memory) and exceptions (e.g., attempt to divide by zero).
-      </topic>
-      <topic importance='tier2'> Articulate the distinction between detecting, handling, and recovering from faults, and the methods for their implementation.
-      </topic>
-      <topic importance='tier2'> Describe the role of error correcting codes in providing error checking and correction techniques in memories, storage, and networks.
-      </topic>
-      <topic importance='tier2'> Apply simple algorithms for exploiting redundant information for the purposes of data correction.
-      </topic>
-      <topic importance='tier2'> Compare different error detection and correction methods for their data overhead, implementation complexity, and relative execution time for encoding, detecting, and correcting errors.
-      </topic>
-      <topic importance='tier1'> Summarize the implications of social media on individualism versus collectivism and culture.
-      </topic>
-      <topic importance='tier1'> Recognize the ethical responsibility of ensuring software correctness, reliability and safety.
-      </topic>
-      <topic importance='tier1'> Describe the mechanisms that typically exist for a professional to keep  up-to-  date.
-      </topic>
-      <topic importance='tier1'> Discuss the philosophical bases of intellectual property.
-      </topic>
-      <topic importance='tier1'> Discuss the rationale for the legal protection of intellectual property.
-      </topic>
-      <topic importance='tier1'> Describe legislation aimed at digital copyright infringements.
-      </topic>
-      <topic importance='tier1'> Critique legislation aimed at digital copyright infringements.
-      </topic>
-      <topic importance='tier1'> Identify contemporary examples of intangible digital intellectual property.
-      </topic>
-      <topic importance='tier1'> Justify uses of copyrighted materials.
-      </topic>
-      <topic importance='tier1'> Evaluate the ethical issues inherent in various plagiarism detection mechanisms.
-      </topic>
-      <topic importance='tier1'> Interpret the intent and implementation of software licensing.
-      </topic>
-      <topic importance='tier1'> Discuss the issues involved in securing software patents.
-      </topic>
-      <topic importance='tier1'> Evaluate solutions to privacy threats in transactional databases and data warehouses.
-      </topic>
-      <topic importance='tier1'> Recognize the fundamental role of data collection in the implementation of pervasive surveillance systems (e.g., RFID, face recognition, toll collection, mobile computing).
-      </topic>
-      <topic importance='tier1'> Recognize the ramifications of differential privacy.
-      </topic>
-      <topic importance='tier1'> Investigate the impact of technological solutions to privacy problems.
-      </topic>
-      <topic importance='tier1'> Write clear, concise, and accurate technical documents following  well-defined  standards for format and for including appropriate tables, figures, and references.
-      </topic>
-      <topic importance='tier1'> Evaluate written technical documentation to detect problems of various kinds.
-      </topic>
-      <topic importance='tier1'> Develop and deliver a good quality formal presentation.
-      </topic>
-      <topic importance='tier1'> Plan interactions (e.g., virtual,  face-to-face,  shared documents) with others in which they are able to get their point across, and are also able to listen carefully and appreciate the points of others, even when they disagree, and are able to convey to others that they have heard.
-      </topic>
-      <topic importance='tier1'> Describe the strengths and weaknesses of various forms of communication (e.g., virtual,  face-to-face,  shared documents).
-      </topic>
-      <topic importance='tier1'> Examine appropriate measures used to communicate with stakeholders involved in a project.
-      </topic>
-      <topic importance='tier1'> Compare and contrast various collaboration tools.
-      </topic>
-      <topic importance='tier1'> Identify ways to be a sustainable practitioner.
-      </topic>
-      <topic importance='tier1'> Illustrate global social and environmental impacts of computer use and disposal  (e-waste).
-      </topic>
-      <topic importance='tier2'> Discuss how Internet access serves as a liberating force for people living under oppressive forms of government; explain how limits on Internet access are used as tools of political and social repression.
-      </topic>
-      <topic importance='tier2'> Analyze the pros and cons of reliance on computing in the implementation of democracy (e.g., delivery of social services, electronic voting).
-      </topic>
-      <topic importance='tier2'> Describe the impact of the  under-representation  of diverse populations in the computing profession (e.g., industry culture, product diversity).
-      </topic>
-      <topic importance='tier2'> Explain the implications of context awareness in ubiquitous computing systems.
-      </topic>
-      <topic importance='tier2'> Describe ways in which professionals may contribute to public policy.
-      </topic>
-      <topic importance='tier2'> Describe the consequences of inappropriate professional behavior.
-      </topic>
-      <topic importance='tier2'> Identify examples of how regional culture interplays with ethical dilemmas.
-      </topic>
-      <topic importance='tier2'> Investigate forms of harassment and discrimination and avenues of assistance.
-      </topic>
-      <topic importance='tier2'> Examine various forms of professional credentialing.
-      </topic>
-      <topic importance='tier2'> Explain the relationship between ergonomics in computing environments and people’s health.
-      </topic>
-      <topic importance='tier2'> Describe issues associated with industries’ push to focus on time to market versus enforcing quality professional standards.
-      </topic>
-      <topic importance='tier2'> Describe the environmental impacts of design choices within the field of computing that relate to algorithm design, operating system design, networking design, database design, etc.
-      </topic>
-      <topic importance='tier2'> Investigate the social and environmental impacts of new system designs through projects.
+  </knowledgeArea>
+</knowledgeArea>
 </curriculumStandard>
