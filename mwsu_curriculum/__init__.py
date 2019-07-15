@@ -1,2 +1,2 @@
-from .curriculumlib.py import load_syllabi
-from .curriculumlib.py import hours_per_semester
+from .curriculumlib import load_syllabi
+from .curriculumlib import hours_per_semester
