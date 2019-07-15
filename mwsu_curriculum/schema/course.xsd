@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://csmp.missouriwestern.edu"
+  xmlns="https://csmp.missouriwestern.edu"
+  elementFormDefault="qualified">
+
+  <xs:simpleType name="courseSubject">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseNumber">
+    <xs:restriction base="xs:integer">
+      <xs:pattern value="[0-9][0-9][0-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="prerequisiteCourse">
+    <xs:sequence>
+      <xs:element name="subject" type="courseSubject"/>
+      <xs:element name="number" type="courseNumber"/>
+    </xs:sequence>
+    <xs:attribute name="corequisite" type="xs:boolean" default="false"/>
+    <xs:attribute name="minimumGrade" default="pass">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="A"/>
+          <xs:enumeration value="B"/>
+          <xs:enumeration value="C"/>
+          <xs:enumeration value="pass"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="topic" mixed="true">
+    <xs:sequence>
+      <xs:element name="topic" type="topic" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="covers" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="standard" type="xs:string"/>
+          <xs:attribute name="knowledgeArea" type="xs:string"/>
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="prerequisiteGroup">
+    <xs:sequence>
+      <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="course">
+    <xs:complexType>
+      <xs:sequence>
+
+      <xs:element name="college">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="CSB"/>
+            <xs:enumeration value="FA"/>
+            <xs:enumeration value="LA"/>
+            <xs:enumeration value="PS"/>
+            <xs:enumeration value="WI"/>
+            <xs:enumeration value="GR"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="subject" type="courseSubject"/>
+
+      <xs:element name="number" type="courseNumber"/>
+
+      <xs:element name="title" type="xs:string"/>
+
+      <xs:element name="offered" maxOccurs="5">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="fall"/>
+            <xs:enumeration value="fall-even"/>
+            <xs:enumeration value="fall-odd"/>
+            <xs:enumeration value="spring"/>
+            <xs:enumeration value="spring-even"/>
+            <xs:enumeration value="spring-odd"/>
+            <xs:enumeration value="summer"/>
+            <xs:enumeration value="discretion"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="scheduleType">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="lecture"/>
+            <xs:enumeration value="lab"/>
+            <xs:enumeration value="independent study"/>
+            <xs:enumeration value="online"/>
+            <xs:enumeration value="seminar"/>
+            <xs:enumeration value="research"/>
+	    <xs:enumeration value="internship"/>
+            <xs:enumeration value="practicum"/>
+            <xs:enumeration value="field experience"/>
+            <xs:enumeration value="discussion"/>
+            <xs:enumeration value="other"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="catalogDescription" type="xs:string"/>
+
+      <xs:element name="prerequisites">
+        <xs:complexType>
+          <xs:choice>
+            <xs:element name="prerequisiteCourse" type="prerequisiteCourse" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteGroup" type="prerequisiteGroup" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:choice>
+	</xs:complexType>
+      </xs:element>
+
+      <xs:element name="textbook" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="title" type="xs:string"/>
+          <xs:attribute name="year" type="xs:string"/>
+          <xs:attribute name="publisher" type="xs:string"/>
+          <xs:attribute name="edition" type="xs:string" default="1"/>
+          <xs:attribute name="ISBN" type="xs:string"/>
+	</xs:complexType>
+      </xs:element>
+
+
+      <xs:element name="objectives">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="objective" maxOccurs="unbounded">
+              <xs:complexType mixed="true">
+                <xs:sequence>
+                <xs:element name="covers" minOccurs="0" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:attribute name="standard" type="xs:string"/>
+                    <xs:attribute name="knowledgeArea" type="xs:string"/>
+                    <xs:attribute name="id" type="xs:string"/>
+    	            </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+	      </xs:complexType>
+      </xs:element>
+
+      <xs:element name="outline">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="topic" type="topic" maxOccurs="unbounded"/>
+          </xs:sequence>
+	</xs:complexType>
+      </xs:element>
+
+    </xs:sequence>
+
+    <xs:attribute name="gradingType" default="A-Z">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="A-Z"/>
+	  <xs:enumeration value="CR/F"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+
+    <xs:attribute name="repeatable" type="xs:boolean" default="false"/>
+    <xs:attribute name="equivalentCourse" type="xs:string" default=""/>
+    <xs:attribute name="creditHoursLecture" type="xs:integer" default="3"/>
+    <xs:attribute name="creditHoursLab" type="xs:integer" default="0"/>
+    <xs:attribute name="creditHoursOther" type="xs:integer" default="0"/>
+    <xs:attribute name="contactHoursLecture" type="xs:integer" default="3"/>
+    <xs:attribute name="contactHoursLab" type="xs:integer" default="0"/>
+    <xs:attribute name="contactHoursOther" type="xs:integer" default="0"/>
+    <xs:attribute name="workloadHoursLecture" type="xs:integer" default="3"/>
+    <xs:attribute name="workloadHoursLab" type="xs:integer" default="0"/>
+    <xs:attribute name="workloadHoursOther" type="xs:integer" default="0"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>246</number>
+  <title>Programming Languages and Paradigms</title>
+  <offered>fall-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+  </prerequisites>
+
+  <textbook title="Programming Languages: Principles and Paradigms"
+            publisher="Springer"
+            year="2010"
+            ISBN="978-1-84882-914-5">
+    <author>Gabbrielli</author>
+    <author>Maurizio</author>
+    <author>Martini</author>
+    <author>Simone</author>
+  </textbook>
+
+  <objectives>
+    <objective>Compare and contrast (1) the procedural/functional approach—defining a function for each operation with the function body providing a case for each data variant—and (2) the object-oriented approach—defining a class for each data variant with the class definition providing a method for each operation  Understand both as defining a matrix of operations and variants
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="4"/>
+    </objective>
+    <objective>Use object-oriented encapsulation mechanisms such as interfaces and private members
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="7"/>
+    </objective>
+    <objective>Write basic algorithms that avoid assigning to mutable state or considering reference equality
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="1"/>
+    </objective>
+    <objective>Write useful functions that take and return other functions
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="2"/>
+    </objective>
+    <objective>Compare and contrast (1) the procedural/functional approach—defining a function for each operation with the function body providing a case for each data variant—and (2) the object-oriented approach—defining a class for each data variant with the class definition providing a method for each operation  Understand both as defining a matrix of operations and variants
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="3"/>
+    </objective>
+    <objective>Correctly reason about variables and lexical scope in a program using function closures
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="4"/>
+    </objective>
+    <objective>Use functional encapsulation mechanisms such as closures and modular interfaces
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="5"/>
+    </objective>
+    <objective>Define and use iterators and other operations on aggregates, including operations that take functions as arguments, in multiple programming languages, selecting the most natural idioms for each language
+      <covers standard="acm:2013" knowledgeArea="PL/FP" id="6"/>
+    </objective>
+    <objective>Describe an abstract syntax tree for a small language
+      <covers standard="acm:2013" knowledgeArea="PL/PR" id="2"/>
+    </objective>
+    <objective>Use formal grammars to specify the syntax of languages
+      <covers standard="acm:2013" knowledgeArea="PL/SA" id="1"/>
+    </objective>
+    <objective>Use various advanced programming constructs and idioms correctly
+      <covers standard="acm:2013" knowledgeArea="PL/APC" id="1"/>
+    </objective>
+    <objective>Discuss how various advanced programming constructs aim to improve program structure, software quality, and programmer productivity
+      <covers standard="acm:2013" knowledgeArea="PL/APC" id="2"/>
+    </objective>
+    <objective>Discuss the role of concepts such as orthogonality and well-chosen defaults in language design
+      <covers standard="acm:2013" knowledgeArea="PL/LP" id="1"/>
+    </objective>
+    <objective>Use a logic language to implement a conventional algorithm.
+      <covers standard="acm:2013" knowledgeArea="PL/LOGIC" id="1"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

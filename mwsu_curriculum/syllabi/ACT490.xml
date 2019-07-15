@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  workloadHoursLecture="1">
+  <college>LA</college>
+  <subject>ACT</subject>
+  <number>490</number>
+  <title>Independent Research/Project</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+In this course students will begin applying their MWSU education towards building a career in CS. Students will learn how to navigate a career path in CS, explore alternative career paths, and explore opportunities for continuing education and professional development. Students will develop application materials and attempt entrance, exit, and / or certification exams in preparation for graduation, applying to jobs, and applying to graduate schools. 
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

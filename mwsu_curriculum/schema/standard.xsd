@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://csmp.missouriwestern.edu"
+  xmlns="https://csmp.missouriwestern.edu"
+  elementFormDefault="qualified">
+
+  <xs:simpleType name="id">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{0,6}(\d?)"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="courseName">
+    <xs:restriction base="xs:string">
+      <xs:whiteSpace value="replace"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+   <xs:simpleType name="importance">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value='tier1'/>
+          <xs:enumeration value='tier2'/>
+          <xs:enumeration value='elective'/>
+        </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="mastery_level">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value='familiarity'/>
+          <xs:enumeration value='assessment'/>
+          <xs:enumeration value='usage'/>
+        </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="topics">
+    <xs:sequence>
+      <xs:element name="topic" type="xs:string"/>
+    </xs:sequence>
+     <xs:attribute name="importance" type="importance"/> 
+  </xs:complexType>
+
+  <xs:complexType name="outcome">
+    <xs:sequence>
+      <xs:element name="outcome" type="mastery_level" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="knowledgeArea">
+   <xs:sequence>
+    <xs:element name="topic" type="topics"/>
+    <xs:element name="outcome" type="outcome"/>
+     </xs:sequence>
+    <xs:attribute name="id" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+   </xs:complexType>
+
+    <xs:element name="curriculumStandard">
+     <xs:complexType>
+      <xs:sequence>
+
+     <xs:element name="name" type="xs:string" />
+
+     <xs:element name="body" type="xs:string" />
+
+     <xs:element name="version" type="xs:string" />
+
+     <xs:element name="documentUrl" type="xs:string" />
+       
+  <xs:element name="knowledgeArea" maxOccurs="unbounded">
+   <xs:complexType>
+      <xs:sequence>
+        <xs:element name="knowledgeArea" maxOccurs="unbounded">
+          <xs:complexType>
+           <xs:sequence>    
+            <xs:element name="topic" maxOccurs="unbounded">
+             <xs:complexType>
+              <xs:simpleContent>
+               <xs:extension base="xs:string">
+                <xs:attribute name="importance" type="importance"/>
+               </xs:extension>
+              </xs:simpleContent>
+             </xs:complexType>
+            </xs:element>
+             <xs:element name="outcome" maxOccurs="unbounded">
+              <xs:complexType>
+               <xs:simpleContent>
+                <xs:extension base="xs:string">
+                 <xs:attribute name="importance" type="importance"/>
+                 <xs:attribute name="mastery_level" type="mastery_level"/>
+                </xs:extension>
+               </xs:simpleContent>
+              </xs:complexType>
+             </xs:element>
+            </xs:sequence>
+             <xs:attribute name="id" type="id"/>
+             <xs:attribute name="name" type="courseName"/>
+            </xs:complexType>
+           </xs:element>
+          </xs:sequence>
+           <xs:attribute name="id" type="xs:string"/>
+          </xs:complexType>
+         </xs:element>
+    </xs:sequence>
+   </xs:complexType>
+  </xs:element>
+</xs:schema>

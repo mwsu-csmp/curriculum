@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>254</number>
+  <title>Object Oriented Programming</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+  </prerequisites>
+
+  <objectives>
+    <objective>Implement simple search algorithms and explain the differences in their time complexities.
+      <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="2"/>
+    </objective>
+    <objective>Construct a simple user interface using a standard API.
+      <covers standard="acm:2013" knowledgeArea="GV/FC" id="4"/>
+    </objective>
+    <objective>Demonstrate the identification and graceful handling of error conditions.
+      <covers standard="acm:2013" knowledgeArea="IAS/DP" id="5"/>
+    </objective>
+    <objective>Describe the main concepts of the OO model such as object identity, type constructors, encapsulation, inheritance, polymorphism, and versioning.
+      <covers standard="acm:2013" knowledgeArea="IM/DM" id="6"/>
+    </objective>
+    <objective>Design and implement a class.
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="1"/>
+    </objective>
+    <objective>Use subclassing to design simple class hierarchies that allow code to be reused for distinct subclasses.
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="2"/>
+    </objective>
+    <objective>Correctly reason about control flow in a program using dynamic dispatch.
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="3"/>
+    </objective>
+    <objective>Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="5"/>
+    </objective>
+    <objective>Use object-oriented encapsulation mechanisms such as interfaces and private members.
+      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="6"/>
+    </objective>
+    <objective>Write event handlers for use in reactive systems, such as GUIs.
+      <covers standard="acm:2013" knowledgeArea="PL/EDRP" id="1"/>
+    </objective>
+    <objective>For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method.
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="2"/>
+    </objective>
+    <objective>Explain how typing rules define the set of operations that are legal for a type.
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="7"/>
+    </objective>
+    <objective>Define and use program pieces (such as functions, classes, methods) that use generic types, including for collections.
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="10"/>
+    </objective>
+    <objective>Discuss the differences among generics, subtyping, and overloading.
+      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="11"/>
+    </objective>
+    <objective>Implement a divide-and-conquer algorithm for solving a problem.
+      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="7"/>
+    </objective>
+    <objective>Identify the data components and behaviors of multiple abstract data types.
+      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="9"/>
+    </objective>
+    <objective>Implement a coherent abstract data type, with loose coupling between components and behaviors.
+      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="10"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>
