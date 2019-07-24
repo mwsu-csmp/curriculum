@@ -14,8 +14,10 @@ This course is a study of mathematical reasoning including the nature and method
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>166</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>167</number></prerequisiteCourse>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>166</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>167</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

@@ -15,7 +15,18 @@
   <catalogDescription> Introduction to problem solving utilizing the Python programming language. Topics include algorithm and program development, syntax of python, file input/output, assignment operations, program control structures, functions, and collections. LAS Computer Literacy. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>110</number></prerequisiteCourse>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>ACT</subject><number>102</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>110</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>111</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>112</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>116</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>147</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>165</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>167</number></prerequisiteCourse>
+      <prerequisiteGeneral>an ACT math subscore of at least 22</prerequisiteGeneral>
+      <prerequisiteGeneral>a sufficient score on the math placement exam</prerequisiteGeneral>
+    </prerequisiteDisjunction>
     <!-- will examine outcomes from previous students w/ various levels of math / ACT prep 
    until the style sheet correctly renders this: ACT math subscore of at least 22, a sufficient score on the math placement exam, or a grade of C or higher in either ACT 102 or a general studies math course. 
     

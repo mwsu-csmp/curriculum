@@ -14,7 +14,13 @@ Topics include algorithm analysis and the implementation of stacks, queues, link
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>112</number></prerequisiteCourse>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>112</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>116</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>147</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>165</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>167</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

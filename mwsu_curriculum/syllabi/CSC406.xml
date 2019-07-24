@@ -14,7 +14,7 @@ This course emphasizes the application of Object Oriented Programming (OOP) conc
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>305</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

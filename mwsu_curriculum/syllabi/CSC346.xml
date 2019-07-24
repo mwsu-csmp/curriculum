@@ -13,7 +13,7 @@
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
-      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
   </prerequisites>
 
   <objectives>

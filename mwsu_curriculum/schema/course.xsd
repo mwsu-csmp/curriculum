@@ -34,6 +34,28 @@
     </xs:attribute>
   </xs:complexType>
 
+  <xs:simpleType name="prerequisiteGeneral">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+
+  <xs:complexType name="prerequisiteConjunction">
+      <xs:sequence>
+        <xs:element name="prerequisiteCourse" type="prerequisiteCourse" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteGeneral" type="prerequisiteGeneral" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteConjunction" type="prerequisiteConjunction" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteDisjunction" type="prerequisiteDisjunction" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="prerequisiteDisjunction">
+      <xs:sequence>
+        <xs:element name="prerequisiteCourse" type="prerequisiteCourse" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteGeneral" type="prerequisiteGeneral" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteConjunction" type="prerequisiteConjunction" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="prerequisiteDisjunction" type="prerequisiteDisjunction" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+  </xs:complexType>
+
   <xs:complexType name="topic" mixed="true">
     <xs:sequence>
       <xs:element name="topic" type="topic" minOccurs="0" maxOccurs="unbounded"/>
@@ -44,12 +66,6 @@
           <xs:attribute name="id" type="xs:string"/>
         </xs:complexType>
       </xs:element>
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="prerequisiteGroup">
-    <xs:sequence>
-      <xs:element name="course" type="prerequisiteCourse" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 
@@ -113,11 +129,13 @@
 
       <xs:element name="prerequisites">
         <xs:complexType>
-          <xs:choice>
+          <xs:sequence>
             <xs:element name="prerequisiteCourse" type="prerequisiteCourse" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="prerequisiteGroup" type="prerequisiteGroup" minOccurs="0" maxOccurs="unbounded"/>
-          </xs:choice>
-	</xs:complexType>
+            <xs:element name="prerequisiteGeneral" type="prerequisiteGeneral" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteConjunction" type="prerequisiteConjunction" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="prerequisiteDisjunction" type="prerequisiteDisjunction" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
       </xs:element>
 
       <xs:element name="textbook" minOccurs="0" maxOccurs="unbounded">
