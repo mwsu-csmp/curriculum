@@ -18,16 +18,13 @@
   </prerequisites>
 
   <objectives>
-    <objective>Implement simple search algorithms and explain the differences in their time complexities.
-      <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="2"/>
-    </objective>
     <objective>Construct a simple user interface using a standard API.
       <covers standard="acm:2013" knowledgeArea="GV/FC" id="4"/>
     </objective>
     <objective>Demonstrate the identification and graceful handling of error conditions.
       <covers standard="acm:2013" knowledgeArea="IAS/DP" id="5"/>
     </objective>
-    <objective>Describe the main concepts of the OO model such as object identity, type constructors, encapsulation, inheritance, polymorphism, and versioning.
+    <objective>Describe the main concepts of the OO model.
       <covers standard="acm:2013" knowledgeArea="IM/DM" id="6"/>
     </objective>
     <objective>Design and implement a class.
@@ -60,9 +57,6 @@
     <objective>Discuss the differences among generics, subtyping, and overloading.
       <covers standard="acm:2013" knowledgeArea="PL/BTS" id="11"/>
     </objective>
-    <objective>Implement a divide-and-conquer algorithm for solving a problem.
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="7"/>
-    </objective>
     <objective>Identify the data components and behaviors of multiple abstract data types.
       <covers standard="acm:2013" knowledgeArea="SDF/AD" id="9"/>
     </objective>
@@ -71,6 +65,42 @@
     </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Single Dimensional Arrays
+        <topic>Array Declarations and Initialization</topic>
+        <topic>Processing Array Information</topic>
+        <topic>Sorting and Searching an Array</topic>
+        <topic>Multidimensional Arrays in Java</topic>
+    </topic>
+      <topic>Objects and Classes
+          <topic>Programming Concepts</topic>
+          <topic>Class Declaration</topic>
+          <topic>UML</topic>
+          <topic>Object initialization using constructors</topic>
+          <topic>Object reference variables</topic>
+          <topic>Static variables</topic>
+          <topic>Visibility Modifiers and Access/Mutator Methods</topic>
+          <topic>Passing Objects to Methods</topic>
+          <topic>Array of Objects</topic>
+      </topic>
+      <topic>String and Text
+          <topic>Java API Classes for String Manipulation</topic>
+          <topic>File based Text I/O</topic>
+      </topic>
+      <topic>Inheritance and Polymorphism
+          <topic>Superclass and Subclass</topic>
+          <topic>Method Overriding</topic>
+          <topic>toString and equals methods in Object class</topic>
+          <topic>Polymorphism, dynamic binding and generic programming</topic>
+          <topic>Casting</topic>
+          <topic>The “protected” and “final” visibility modifiers</topic>
+      </topic>
+      <topic>Abstract Classes and Interfaces
+          <topic>Abstract Classes and Abstract Methods</topic>
+          <topic>Definition of an Interface</topic>
+          <topic>Interfaces vs. Abstract Classes</topic>
+          <topic>Wrapper Classes</topic>
+      </topic>
+      <topic>Exception Handling</topic>
+      <topic>GUI Basics</topic>
   </outline>
 </course>
