@@ -10,6 +10,7 @@
   <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
+
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
@@ -70,6 +71,42 @@
     </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>programming language principles
+      <topic>categories of languages</topic>
+      <topic>names and bindings</topic>
+      <topic>scope</topic>
+      <topic>control structures</topic>
+      <topic>data structures</topic>
+      <topic>types
+        <topic>scalar types</topic>
+        <topic>structured types</topic>
+        <topic>generic types</topic>
+        <topic>type equivalence</topic>
+        <topic>type inference</topic>
+      </topic>
+      <topic>introspection</topic>
+      <topic>macros</topic>
+    </topic>
+    <topic>functional programming
+      <topic>recursion vs iteration</topic>
+      <topic>closures</topic>
+      <topic>higher-order functions</topic>
+      <topic>decorators</topic>
+      <topic>iterators</topic>
+      <topic>generators</topic>
+      <topic>streams</topic>
+      <topic>tail-recursion</topic>
+    </topic>
+    <topic>object-oriented programming
+      <topic>dynamic dispatch</topic>
+      <topic>multiple inheritance</topic>
+      <topic>functional interfaces</topic>
+      <topic>fluents</topic>
+    </topic>
+    <topic>logic programming
+      <topic>unification</topic>
+      <topic>non-determinism</topic>
+      <topic>reversible computation</topic>
+    </topic>
   </outline>
 </course>
