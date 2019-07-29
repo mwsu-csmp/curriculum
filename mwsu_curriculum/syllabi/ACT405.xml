@@ -16,7 +16,15 @@ Students learn how to make better business decisions, use fewer resources, and i
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Use application development tools and techniques in a hands-on learning environment to develop web—based database Bl applications.</objective>
+    <objective>Utilized spreadsheet and database skills learned in previous coursework to create internet based portal for use by business decision makers</objective>
+    <objective>Develop an understanding of the importance of security measures that must be taken toensure information integrity and privacy in applications.</objective>
+    <objective>Develop an awareness of the importance of quality in application development.</objective>
+    <objective>Become an informed developer of information portals.</objective>
+    <objective>Usage of the technology current in the industry.</objective>
+    <objective>Become familiar with the concepts and techniques used to implement BusinessIntelligence.</objective>
+    <objective>Understand the importance of skill requirements and team dynamics.</objective>
+    <objective>Understand the critical success factors and goals for a Business Intelligence system</objective>
   </objectives>
   <outline>
     <topic>stub</topic>
