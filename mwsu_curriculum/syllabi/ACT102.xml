@@ -12,14 +12,74 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-Course Description: This course is an introduction to the design, creation, and maintenance of web pages and websites. Students learn how to critically evaluate website quality, create and maintain quality web pages, investigate web design standards, and create and manipulate images. The course progresses through web design tools HTML, XHTML, Cascading Style Sheets, and concludes with PHP. Each student will develop a fictitious organization website.
+This course is an introduction to the design, creation, and maintenance of web pages and websites. Students learn how to critically evaluate website quality, create and maintain quality web pages, investigate web design standards, and create and manipulate images. The course progresses through web design tools HTML, XHTML, Cascading Style Sheets, and concludes with PHP. Each student will develop a fictitious organization website.
   </catalogDescription>
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>gain the skills and project»based experience neededfor web designand website development</objective>
+    <objective>be able to use a variety of strategies and tools to create websites</objective>
+    <objective>develop awareness and appreciation ofthe myriad ways that peopleaccess the web and will be able to create standards~based websites that areaccessible and usable by a full spectrum of users</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Designing and Planning Web Pages
+      <topic>learn to critically evaluate websites</topic>
+      <topic>learn the criteria that experts use in evaluating websites</topic>
+      <topic>develop a website evaluation tool as a way to critically examine the quality of websites.</topic>
+      <topic>develop experience documenting and sharing their ideas concerning what makes a quality website.</topic>
+      <topic>have a better understanding of effcctivc use of color on the web. </topic>
+      <topic>be aware of some excellent color—related resources.</topic>
+      <topic>be able to identify why it is important to develop websites that comply with web standards.</topic>
+      <topic>be able to describe the differences between HTML, CSS, XML, and XI'ITML.</topic>
+      <topic>develop a basic understanding of the variety of methods and technologies used by people with disabilities in accessing computers and the web.</topic>
+      <topic>learn theories and techniques for effectively organizing website content.</topic>
+    </topic>
+    <topic>Creating Web Pages with XHTML
+      <topic>learn pre-coding design steps.</topic>
+      <topic>apply these steps as they prepare to design their own web portfolio sites.</topic>
+      <topic>develop a basic understanding of XHTML elements and their structure.</topic>
+      <topic>learn the basic tags required for all XHTML documents.</topic>
+      <topic>be able to use some common tags for displaying content on a web page and apply the concepts of nesting and assigning attributes to tags.</topic>
+      <topic>be able to code ordered, unordered, and nested lists.</topic>
+      <topic>be able to code relative and absolute links to other web pages.</topic>
+      <topic>be able to code jump—to links and email links.</topic>
+      <topic>be able create a simple and accessible data table.</topic>
+    </topic>
+    <topic>Formatting Web Pages with Style Sheets
+      <topic>develop a basic understanding of Cascading Style Sheets (CSS) markup. </topic>
+      <topic>be able to apply basic CSS properties to HTML elements, classes, and IDso be able to apply basic CSS positioning to align content on a web page. </topic>
+      <topic>be able apply an HTML as an alternative positioning strategy.</topic>
+      <topic>be able to describe the pros and cons of using tables vs. CSS for layout</topic>
+    </topic>
+    <topic>Web Graphics
+      Identify purposeful and effective use of web graphics-Apply copyright law to using graphics on web pages
+Last updated 9-2016-Acquire digital images for use on web pages. Crop and resize images. Identify web file formats and optimize web graphic so Utilize basic drawing tools and layers in graphics software to create simple webgraphics and buttons. Utilize selection tools, image manipulation, and blending techniques to create more advanced graphics and banner images</topic>
+    <topic>Overall Site Design and Management.
+      <topic>be able to describe four common steps in a usability test.</topic>
+      <topic> have an opportunity to conduct their own usability test on a website of theirchoosing.</topic>
+      <topic> organize all web pages in their portfolio so that someone can easily navigate through them and find the pages they're looking for.</topic>
+      <topic> create an HTML list that will serve as the navigational menu for their portfolio website.</topic>
+      <topic> create an external style sheet, and link to it from within their web pages.</topic>
+      <topic> use CSS to stylize an HTML list so that it appears as a navigational menu.</topic>
+      <topic> name and describe some of the advanced technologies that are used to deliver webcontent.</topic>
+      <topic> figure out (or intelligently guess) what technologies are being used to implement particular websites or web features. have learned how a client~side script fits within the context of an HTML page.</topic>
+      <topic> have learned some basic Javascript syntax.. be able to test a web page using the W3C HTML and CSS Validators.</topic>
+      <topic>gain practice interpreting the Validator results and applying them toward correcting invalid HTML and CSS code.' </topic>
+      <topic>learn about available tools for checking the accessibility of web pages. gain practice using these tools to evaluate web pages for accessibility</topic>
+    </topic>
+    <topic>Introduction to Web Authoring Software
+      <topic>have a basic understanding of your software‘s web authoring environment. </topic>
+      <topic>have a basic understanding of the features that are common to most web authoring software programs</topic>
+      <topic>know how to create common HTML elements using web authoring software rather than writing code. </topic>
+      <topic>control and manipulate the style of a web page from within the graphic web editor.</topic>
+      <topic>be able to describe the benefits of using web authoring software for managing websites.</topic>
+      <topic>be able to identify features within their web authoring software that facilitate site management.</topic>
+      <topic>work collaboratively as part ofa web design team.. plan the design and development ofa website with appropriate level of detail and complexity.</topic>
+      <topic>identify, prioritize and organize tasks individually and as part of the team.</topic>
+      <topic>develop a plan with the level of detail and sophistication appropriate to purpose and audience.</topic>
+      <topic> identify areas in which web authoring software can assist in this process.</topic>
+      <topic> use the site management features of your web authoring software to assist in organizing and setting up a website.
+      </topic>
+    </topic>
   </outline>
 </course>
