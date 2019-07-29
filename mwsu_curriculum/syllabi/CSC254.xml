@@ -11,6 +11,7 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
+    This course is a continuation of CSC 184 and introduces the Java programming language. Java is used to introduce Object Oriented Programming concepts including data abstraction, classes, inheritance, and polymorphism. Other programming topics covered include multidimensional arrays and array processing, elementary sorting and searching techniques, dynamic memory allocation, linked lists, and GUI interface creating.
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
