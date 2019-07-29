@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>289</number>
   <title>Computational Methods for Computer Science</title>
-  <offered>spring</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course provides the underlying mathematical foundations and applied algorithms that are used across the basic fields in Computer Science. The course will focus on the computational algorithms in the fields of semantic search, data encryption and computer security, computer graphics, gaming and simulation. Further the course will consider the impact/computational limitations of current hardware on the application of these algorithms.

@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>285</number>
   <title>Data Structures</title>
-  <offered>spring</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 Topics include algorithm analysis and the implementation of stacks, queues, linked lists, trees, and other data structures. Principles of data abstraction are emphasized throughout the course.

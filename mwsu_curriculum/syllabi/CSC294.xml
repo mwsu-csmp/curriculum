@@ -13,7 +13,13 @@
 An examination of current computer communication technologies and their protocol structures as applied to computer networks and telecommunication systems. Topics include the physical layers, architectural elements, and information layers of a communication network; protocols; switching; routing; LANs; and WANs.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+      <prerequisiteConjunction>
+        <prerequisiteCourse minimumGrade="C" concurrent="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+        <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
+      </prerequisiteConjunction>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>stub</objective>
