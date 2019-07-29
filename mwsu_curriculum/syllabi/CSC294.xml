@@ -16,7 +16,7 @@ An examination of current computer communication technologies and their protocol
     <prerequisiteDisjunction>
       <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
       <prerequisiteConjunction>
-        <prerequisiteCourse minimumGrade="C" concurrent="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+        <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
         <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
       </prerequisiteConjunction>
     </prerequisiteDisjunction>

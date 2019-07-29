@@ -15,8 +15,14 @@
  Emphasis is placed upon the core concepts of relational database application development. Students will gain proficiency in Microsoft Access; the concepts learned will allow the students to apply database application development concepts to a real world type application. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
+      <prerequisiteConjunction>
+        <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+        <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
+      </prerequisiteConjunction>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>Purpose of relational database.</objective>

@@ -13,14 +13,7 @@
 This course uses statistics to help solve business problems, examines case examples of statistical analysis in areas such as marketing, finance and management, and teaches descriptive and inferential techniques using a statistical computer software application - Excel. Topics to be covered include Creating Charts, Working with Charts, Using List Features and Templates, Working with Advanced Functions, Analyzing Data, Using PivotTables, and Working with Data Analysis Tools.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteDisjunction>
-      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
-      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
-      <prerequisiteConjunction>
-        <prerequisiteCourse minimumGrade="C" concurrent="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
-        <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
-      </prerequisiteConjunction>
-    </prerequisiteDisjunction>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>
