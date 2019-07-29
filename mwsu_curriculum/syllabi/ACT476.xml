@@ -16,7 +16,11 @@ The capstone course will encompass and consolidate all of the concepts covered i
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>400</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To enhance and facilitate understanding of project development requirements.</objective>
+    <objective>To set guidelines and time constraints for the project deliverables to facilitate timely completion. </objective>
+    <objective>To enhance the quality of your senior project by providing you with information about research/design tools and technologies</objective>
+    <objective>To provide feedback regarding your topic, project proposal and final report.</objective>
+    <objective>To gain experience monitoring and facilitating completion of a software or hardware installation project.</objective>
   </objectives>
   <outline>
     <topic>stub</topic>
