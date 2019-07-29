@@ -17,9 +17,77 @@ This course covers basic internet scripting technologies such as PHP, JavaScript
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Understand the differences between static and dynamic programming</objective>
+    <objective>Understand form processing in PHP.</objective>
+    <objective>Connect to databases and transform data into display formats</objective>
+    <objective>Incorporate good security practices into web page development</objective>
+    <objective>Understand the DOM structure of web pages</objective>
+    <objective>Use JavaScript to enhance display and form processing</objective>
+    <objective>Use JQuery to manipulate page DOM.</objective>
+    <objective>Use JavaScript and PHP together to create dynamic and secure web pages.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Review of HTML and CSS elements needed for this course
+      <topic>Lists</topic>
+      <topic>Tables</topic>
+      <topic>Forms</topic>
+    </topic>
+    <topic>PHP and Server Side Scripting
+      <topic>Role of the server</topic>
+      <topic>Structure of PHP
+        <topic>Tags</topic>
+        <topic>Execution</topic>
+      </topic>
+      <topic>Basic Concepts (assumes prior knowledge of basic Java Programming)
+        <topic>Variables</topic>
+        <topic>Data Types</topic>
+        <topic>Control structures common with Java</topic>
+        <topic>Control structures in PHP and not Java</topic>
+        <topic>Functions
+          <topic>Function Structure</topic>
+          <topic>Local and Global variables</topic>
+        </topic>
+        <topic>Arrays
+          <topic>Numeric Arrays</topic>
+          <topic>Associative Arrays</topic>
+        </topic>
+        <topic>String Processing
+          <topic>Basic operations</topic>
+          <topic>Regular Expressions</topic>
+        </topic>
+        <topic>Form Processing
+          <topic>Retrieving data from fields</topic>
+          <topic>Sanitizing form data</topic>
+          <topic>Data validation</topic>
+        </topic>
+      <topic>PHP and database
+        <topic>Database Concepts</topic>
+        <topic>Table organization</topic>
+        <topic>Database Servers</topic>
+        <topic>Connecting to remote databases</topic>
+        <topic>Basic structure of select statements</topic>
+        <topic>Managing returned data</topic>
+      </topic>
+    </topic>
+  </topic>
+  <topic>Javascript
+      <topic>Client-side scripting</topic>
+      <topic>Variables</topic>
+      <topic>Control Structures</topic>
+      <topic>Java Classes and Objects
+        <topic>Structure of Java Classes</topic>
+        <topic>Instantiating Objects</topic>
+        <topic>JSON for data exchange</topic>
+      </topic>
+      <topic>Use of Restful APIs
+      <topic>DOM structure</topic>
+        <topic>JQuery
+          <topic>Referencing JQuery from CDNs</topic>
+          <topic>Production vs Development</topic>
+          <topic>Manipulating DOM with JQuery</topic>
+        </topic>
+      </topic>
+      <topic>AJAX</topic>
+    </topic>
   </outline>
 </course>
