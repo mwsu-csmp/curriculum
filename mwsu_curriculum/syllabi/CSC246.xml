@@ -10,7 +10,7 @@
   <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-
+This course explores major programming paradigms (including the functional, object-oriented, and logic programming paradigms) and principles of the design of programming languages. Students will learn to adapt quickly to new programming languages, select appropriate programming languages for projects, compare and contrast languages, and make the best use of features of languages they have learned.
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
