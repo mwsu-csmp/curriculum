@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from os import walk
 from collections import defaultdict
+from pkg_resources import resource_filename
 
 class Syllabus:
   title = None
@@ -33,7 +34,10 @@ def parse_syllabus(xmlfile):
   return syllabus
 
 def load_syllabi():
-  return [parse_syllabus(open('syllabi/'+filename)) for filename in next(walk('syllabi'))[2]]
+  syllabi = []
+  for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi')))[2]:
+    syllabi.append(parse_syllabus(open(resource_filename('mwsu_curriculum', 'syllabi/'+filename))))
+  return syllabi
 
 
 def hours_per_semester():
