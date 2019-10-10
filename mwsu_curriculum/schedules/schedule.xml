@@ -2,464 +2,392 @@
 <schedule
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/scheduleSchema.xsd">
-  <course>
-    <subject>ACT</subject>
-    <number>102</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/scheduleSchema.xsd">
+  <courses>
+    <course>
+      <subject>ACT</subject>
+      <number>102</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>11:00</StartTime>
         <EndTime>11:50</EndTime>
         <day>M</day>
         <day>W</day>
         <day>F</day>
-        <building>
-          <buildingRoom>RH 108</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>RH 108</buildingRoom>
+        <max>25</max>
         <instructor>G00043557</instructor>
-      </meeting>
-	</section>
-    <section>
-      <sectionNumber>02</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>02</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>W</day>
-        <building>
-          <buildingRoom>RH 108</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>RH 108</buildingRoom>
+        <max>25</max>
         <instructor>G00043557</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>ACT</subject>
-    <number>301</number>
-    <section>
-      <sectionNumber>40</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>ACT</subject>
+      <number>301</number>
+      <section>
+        <sectionNumber>40</sectionNumber>
         <StartTime>Online</StartTime>
         <EndTime>Online</EndTime>
         <day>Online</day>
-        <building>
-          <buildingRoom>Online</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>Online</buildingRoom>
+        <max>25</max>
         <instructor>G00070723</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>ACT</subject>
-    <number>302</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+    <course>
+      <subject>ACT</subject>
+      <number>302</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>2:00</StartTime>
         <EndTime>3:20</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 123</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>AH 123</buildingRoom>
+        <max>25</max>
         <instructor>G00338276</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>ACT</subject>
-    <number>476</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>ACT</subject>
+      <number>476</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>12:30</StartTime>
         <EndTime>1:50</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>15</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>15</max>
         <instructor>G00070723</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>184</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>184</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>9:30</StartTime>
         <EndTime>10:50</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>RH 105</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>RH 105</buildingRoom>
+        <max>25</max>
         <instructor>G00426196</instructor>
-      </meeting>
-	</section>
-    <section>
-      <sectionNumber>02</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>02</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>T</day>
-        <building>
-          <buildingRoom>RH 108</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>RH 108</buildingRoom>
+        <max>25</max>
         <instructor>G00426196</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>201</number>
-    <section>
-      <sectionNumber>40</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>201</number>
+      <section>
+        <sectionNumber>40</sectionNumber>
         <StartTime>Online</StartTime>
         <EndTime>Online</EndTime>
         <day>Online</day>
-        <building>
-          <buildingRoom>Online</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>Online</buildingRoom>
+        <max>25</max>
         <instructor>G00043557</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>254</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>254</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>T</day>
-        <building>
-          <buildingRoom>AH 126</buildingRoom>
-          <max>25</max>
-        </building>
-        <instructor>G00048593</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>274</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+        <buildingRoom>AH 126</buildingRoom>
+        <max>25</max>
+        <instructor>G00048593</instructor>\
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>274</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>12:30</StartTime>
         <EndTime>1:50</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>25</max>
         <instructor>G00043557</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>285</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>285</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>24</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>24</max>
         <instructor>G00085973</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>289</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>289</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>11:00</StartTime>
         <EndTime>12:20</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>22</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>22</max>
         <instructor>G00338276</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>305</number>
-    <section>
-      <sectionNumber>02</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>305</number>
+      <section>
+        <sectionNumber>02</sectionNumber>
         <StartTime>9:30</StartTime>
         <EndTime>10:50</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 126</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>AH 126</buildingRoom>
+        <max>25</max>
         <instructor>G00070723</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>318</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>318</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>1:00</StartTime>
         <EndTime>3:50</EndTime>
         <day>F</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>22</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>22</max>
         <instructor>G00048593</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>346</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>346</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>5:00</StartTime>
         <EndTime>6:20</EndTime>
         <day>M</day>
         <day>W</day>
-        <building>
-          <buildingRoom>AH 126</buildingRoom>
-          <max>25</max>
-        </building>
+        <buildingRoom>AH 126</buildingRoom>
+        <max>25</max>
         <instructor>G00048593</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>386</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>386</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>2:00</StartTime>
         <EndTime>3:20</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 119</buildingRoom>
-          <max>22</max>
-        </building>
+        <buildingRoom>AH 119</buildingRoom>
+        <max>22</max>
         <instructor>G00426196</instructor>
-      </meeting>
-	</section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>450</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>450</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00426196</instructor>
-      </meeting>
-    </section>
-    <section>
-      <sectionNumber>02</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>02</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00048593</instructor>
-      </meeting>
-	</section>
-    <section>
-      <sectionNumber>03</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>03</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00070723</instructor>
-      </meeting>
-    </section>
-    <section>
-      <sectionNumber>04</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>04</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00412135</instructor>
-      </meeting>
-    </section>
-    <section>
-      <sectionNumber>05</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>05</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00085973</instructor>
-      </meeting>
-    </section>
-    <section>
-      <sectionNumber>06</sectionNumber>
-      <meeting>
+      </section>
+      <section>
+        <sectionNumber>06</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00338276</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>451</number>
-    <section>
-      <sectionNumber>03</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>451</number>
+      <section>
+        <sectionNumber>03</sectionNumber>
         <StartTime>ARR</StartTime>
         <EndTime>ARR</EndTime>
         <day>ARR</day>
-        <building>
-          <buildingRoom>None</buildingRoom>
-          <max>0</max>
-        </building>
+        <buildingRoom>None</buildingRoom>
+        <max>0</max>
         <instructor>G00070723</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>580</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>580</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>M</day>
-        <building>
-          <buildingRoom>AH 126</buildingRoom>
-          <max>20</max>
-        </building>
+        <buildingRoom>AH 126</buildingRoom>
+        <max>20</max>
         <instructor>G00412135</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>615</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>615</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>T</day>
-        <building>
-          <buildingRoom>AH 123</buildingRoom>
-          <max>20</max>
-        </building>
+        <buildingRoom>AH 123</buildingRoom>
+        <max>20</max>
         <instructor>G00412135</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>630</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>630</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>5:00</StartTime>
         <EndTime>6:20</EndTime>
         <day>T</day>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 123</buildingRoom>
-          <max>20</max>
-        </building>
+        <buildingRoom>AH 123</buildingRoom>
+        <max>20</max>
         <instructor>G00412135</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>635</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>635</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>W</day>
-        <building>
-          <buildingRoom>AH 123</buildingRoom>
-          <max>20</max>
-        </building>
+        <buildingRoom>AH 123</buildingRoom>
+        <max>20</max>
         <instructor>G00338276</instructor>
-      </meeting>
-    </section>
-  </course>
-  <course>
-    <subject>CSC</subject>
-    <number>650</number>
-    <section>
-      <sectionNumber>01</sectionNumber>
-      <meeting>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>650</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
         <StartTime>6:30</StartTime>
         <EndTime>9:20</EndTime>
         <day>R</day>
-        <building>
-          <buildingRoom>AH 123</buildingRoom>
-          <max>20</max>
-        </building>
+        <buildingRoom>AH 123</buildingRoom>
+        <max>20</max>
         <instructor>G00426196</instructor>
-      </meeting>
-    </section>
-  </course>
+      </section>
+    </course>
+  </courses>
 </schedule>

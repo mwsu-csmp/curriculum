@@ -17,7 +17,7 @@
   </xs:simpleType>
 
   <xs:simpleType name="courseNumber">
-    <xs:restriction base="xs:integer">
+    <xs:restriction base="xs:string">
       <xs:pattern value="[0-9]{3}"/>
     </xs:restriction>
   </xs:simpleType>
@@ -57,21 +57,21 @@
               <xs:element name="subject" type="courseSubject"/>
 
               <xs:element name="number" type="courseNumber"/>
-     
+
               <xs:element name="section" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
-                   
-                    <xs:element name="sectionNumber" type="courseSection"/> 
-                     
+
+                    <xs:element name="sectionNumber" type="courseSection"/>
+
                      <xs:element name="meeting" maxOccurs="unbounded">
                        <xs:complexType>
                          <xs:sequence>
-                  
+
                            <xs:element name="StartTime" type="courseTime"/>
-                    
+
                            <xs:element name="EndTime" type="courseTime"/>
-                    
+
                            <xs:element name="day" maxOccurs="3">
                              <xs:simpleType>
                                <xs:restriction base="xs:string">
@@ -85,22 +85,22 @@
                                </xs:restriction>
                              </xs:simpleType>
                            </xs:element>
-                    
-                    
+
+
                            <xs:element name="building">
                              <xs:complexType>
                                <xs:sequence>
-                             
+
                                  <xs:element name="buildingRoom" type="courseBuilding"/>
-                           
+
                                  <xs:element name="max" type="courseMax"/>
-                             
+
                                </xs:sequence>
                              </xs:complexType>
                            </xs:element>
-                    
+
                            <xs:element name="instructor" type="courseInstructor"/>
-                    
+
                          </xs:sequence>
                        </xs:complexType>
                      </xs:element>

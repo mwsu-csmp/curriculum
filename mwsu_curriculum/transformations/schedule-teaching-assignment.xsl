@@ -19,50 +19,51 @@
     <h2>Schedule Course List</h2>
     <table border="1">
       <tr bgcolor="#9acd32">
-        <th style="text-align:left">Course Number</th>
+        <th style="text-align:left">Instructor</th>
+        <th style="text-align:left">Course</th>
         <th style="text-align:left">Section</th>
         <th style="text-align:left">Time</th>
         <th style="text-align:left">Days</th>
         <th style="text-align:left">Bldg/Rm</th>
         <th style="text-align:left">Max</th>
-        <th style="text-align:left">G#</th>
       </tr>
-     
+
       <tr>
         <xsl:variable name="start" select="number(1)"/>
-        <xsl:for-each select="//csmp:course">
+        <xsl:for-each select="//csmp:course/csmp:section/csmp:instructor[not(.=preceding::*)]">
         <xsl:call-template name="subject">
         <xsl:with-param name="counter" select="$start"/>
         </xsl:call-template>
-        <xsl:for-each select="csmp:section">
+        <xsl:for-each select="//csmp:course">
         <xsl:call-template name="subjectInfo">
         <xsl:with-param name="counter" select="$start"/>
         </xsl:call-template>
         </xsl:for-each>
         </xsl:for-each>
       </tr>
-     
+
     </table>
-  </body>   
+  </body>
 </html>
 </xsl:template>
 
 <!-- first loop contains the information for each class. Which include section, time, days, building/room, max seats, and instrustor G# -->
 <xsl:template name="subjectInfo">
   <xsl:param name = "counter"/>
-  <xsl:if test="$counter &lt;= $end">
+  <xsl:if test=" @type = 'instructor'">
   <tr>
   <td></td>
-  <td><xsl:value-of select="csmp:sectionNumber"/></td>
-  <td><xsl:value-of select="csmp:StartTime"/> - <xsl:value-of select="csmp:EndTime"/></td>
+  <td><xsl:value-of select="csmp:subject"/><xsl:value-of select="csmp:number"/></td>
+  <td><xsl:value-of select="csmp:section/csmp:sectionNumber"/></td>
+  <td><xsl:value-of select="csmp:section/csmp:StartTime"/> - <xsl:value-of select="csmp:section/csmp:EndTime"/></td>
   <td>
-    <xsl:for-each select="csmp:day">
+    <xsl:for-each select="csmp:section/csmp:day">
       <xsl:value-of select="."/>
-    </xsl:for-each> 
+    </xsl:for-each>
   </td>
-  <td><xsl:value-of select="csmp:buildingRoom"/></td>
-  <td><xsl:value-of select="csmp:max"/></td>
-  <td><xsl:value-of select="csmp:instructor"/></td>
+  <td><xsl:value-of select="csmp:section/csmp:buildingRoom"/></td>
+  <td><xsl:value-of select="csmp:section/csmp:max"/></td>
+  <td><xsl:value-of select="csmp:section/csmp:instructor"/></td>
   </tr>
   <xsl:call-template name="subjectInfo">
   </xsl:call-template>
@@ -73,7 +74,7 @@
 <xsl:template name="subject">
   <xsl:param name = "counter"/>
   <xsl:if test="$counter &lt;= $end">
-  <td><xsl:value-of select="csmp:subject"/><xsl:value-of select="csmp:number"/></td>
+  <tr><td><xsl:value-of select="."/></td></tr>
   <xsl:call-template name="subject">
   </xsl:call-template>
   </xsl:if>
