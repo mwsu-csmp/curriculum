@@ -18,17 +18,6 @@ class Syllabus:
     topic = None
 
 
-class Schedule:
-    course = None
-    sectionNumber = None
-    StartTime = None
-    EndTime = None
-    day = None
-    buildingRoom = None
-    max = None
-    instructor = None
-
-
 def parse_syllabus(xmlfile):
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(xmlfile).getroot()
@@ -96,16 +85,7 @@ def load_courses():
 
 def parse_schedule(filename):
     ns = '{https://csmp.missouriwestern.edu}'
-    schedule = Schedule()
     dt = ET.parse(filename).getroot()
-    schedule.course = list()
-    schedule.sectionNumber = list()
-    schedule.StartTime = list()
-    schedule.EndTime = list()
-    schedule.buildingRoom = list()
-    schedule.instructor = list()
-    schedule.day = list()
-    schedule.max = list()
     courseinfolist = list()
     returnlist = list()
 
@@ -144,10 +124,28 @@ def parse_schedule(filename):
                 courseinfolist = list()
 
 
-        print(returnlist)
-
     return returnlist
 
+def parse_assignments(filename):
+    ns = '{https://csmp.missouriwestern.edu}'
+    dt = ET.parse(filename).getroot()
+    returnlist = list()
+    for assignments in dt.findall(ns + 'assignment'):
+        assignment_instructor = assignments.find(ns + 'instructor').text
+        assignment_credits = assignments.find(ns + 'workhours').text
+        returnlist.append(assignment_instructor)
+        returnlist.append(assignment_credits)
+        print(assignment_instructor)
+    return returnlist
+
+def load_assignments():
+    schedule = []
+    path = 'curriculum/mwsu_curriculum/schedules/'
+    for filename in os.listdir(path):
+        if not filename.endswith(filename): continue
+        fullname = path + filename
+        schedule.append(parse_assignments(open(fullname)))
+    return schedule
 
 def load_schedule():
     schedule = []
@@ -156,8 +154,6 @@ def load_schedule():
         if not filename.endswith(filename): continue
         fullname = path + filename
         schedule.append(parse_schedule(open(fullname)))
-    #for filename in next(walk(resource_filename('mwsu_curriculum', 'schedules')))[2]:
-    #  schedule.append(parse_course(open(resource_filename('mwsu_curriculum', 'schedules/' + filename))))
     return schedule
 
 
