@@ -12,14 +12,24 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-This course is an introduction to the design, creation, and maintenance of web pages and websites. Students learn how to critically evaluate website quality, create and maintain quality web pages, investigate web design standards, and create and manipulate images. The course progresses through web design tools HTML, XHTML, Cascading Style Sheets, and concludes with PHP. Each student will develop a fictitious organization website.
+This course is an introduction to the design, creation, and maintenance of web pages and websites. Students learn how to
+      critically evaluate website quality, create and maintain quality web pages, investigate web design standards, and
+      create and manipulate images. The course progresses through web design tools HTML, XHTML, Cascading Style Sheets,
+      and concludes with PHP. Each student will develop a fictitious organization website.
   </catalogDescription>
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>gain the skills and project»based experience neededfor web designand website development</objective>
-    <objective>be able to use a variety of strategies and tools to create websites</objective>
-    <objective>develop awareness and appreciation ofthe myriad ways that peopleaccess the web and will be able to create standards~based websites that areaccessible and usable by a full spectrum of users</objective>
+    <objective>
+        gain the skills and project»based experience neededfor web designand website development
+    </objective>
+    <objective>
+        be able to use a variety of strategies and tools to create websites
+    </objective>
+    <objective>
+        develop awareness and appreciation ofthe myriad ways that peopleaccess the web and will be able to create
+        standards~based websites that areaccessible and usable by a full spectrum of users
+    </objective>
   </objectives>
   <outline>
     <topic>Designing and Planning Web Pages
