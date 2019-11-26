@@ -1,5 +1,7 @@
 from setuptools import setup
 
+""" This is used to setup the web application. Be careful when altering """
+
 setup(name='mwsu_curriculum',
       version='0.1',
       description='Curriculum definitions and utilities for MWSU Computer Science',

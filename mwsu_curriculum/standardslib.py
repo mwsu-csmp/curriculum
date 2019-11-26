@@ -3,6 +3,7 @@ from os import walk
 from collections import defaultdict
 
 class Standards:
+  """ Creates class for Standards """
   knowledgeArea = None
   topic = None
   tier1 = None
@@ -10,6 +11,7 @@ class Standards:
   name = None
 
 def parse_standards(xmlfile):
+  """ Goes through and collects information in selected standards xml file """
   ns = '{https://csmp.missouriwestern.edu}'
   tree = ET.parse(xmlfile)
   dt = tree.getroot()
@@ -32,6 +34,7 @@ def parse_standards(xmlfile):
   return standards
 
 def load_standards():
+  """ Uses parse_standards for each xml file in standards folder """
   return [parse_standards(open('standards/'+filename)) for filename in next(walk('standards'))[2]]
 
 

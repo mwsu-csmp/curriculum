@@ -6,6 +6,9 @@ from pkg_resources import resource_filename
 
 
 class Syllabus:
+    """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
+      the workload hours, the schedule type, the course description, course prerequisites, course objectices,
+      and course topics"""
     title = None
     subject = None
     number = None
@@ -19,6 +22,8 @@ class Syllabus:
 
 
 def parse_syllabus(xmlfile):
+    """ parses the XML file and collects the information which includes title, subject, number, workload hours,
+     offered, and what semester offered """
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(xmlfile).getroot()
     syllabus = Syllabus()
@@ -43,6 +48,7 @@ def parse_syllabus(xmlfile):
 
 
 def load_syllabi():
+    """ Goes through and calls parse_syllabus for each XML file inside of the syllabi folder, and puts then in a list """
     syllabi = []
     for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi')))[2]:
         syllabi.append(parse_syllabus(open(resource_filename('mwsu_curriculum', 'syllabi/' + filename))))
@@ -50,6 +56,9 @@ def load_syllabi():
 
 
 def parse_course(filename):
+    """ parses the XML file and collects the information which includes title, subject, number, workload hours,
+     offered, and what semester offered, schedule Type, course description, course prerequisites, course objectives,
+     and all course topics"""
     ns = '{https://csmp.missouriwestern.edu}'
     syllabus = Syllabus()
     dt = ET.parse(filename).getroot()
@@ -77,6 +86,7 @@ def parse_course(filename):
 
 
 def load_courses():
+    """ Goes through and calls parse_syllabus for each XML file inside of the syllabi folder, and puts then in a list """
     syllabi = []
     for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi')))[2]:
         syllabi.append(parse_course(open(resource_filename('mwsu_curriculum', 'syllabi/' + filename))))
@@ -84,6 +94,8 @@ def load_courses():
 
 
 def parse_schedule(filename):
+    """ Goes though and parses each schedule XML file for the courses, course subject and number. course section,
+     start time, end time, building room, room capacity, instructor, and days offered """
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
     courseinfolist = list()
@@ -127,6 +139,8 @@ def parse_schedule(filename):
     return returnlist
 
 def parse_assignments(filename):
+    """ Parses Assignment XML file, which gets information that includes the instructor, instructor workload, and
+     any additional assignments """
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
     returnlist = list()
@@ -139,6 +153,7 @@ def parse_assignments(filename):
     return returnlist
 
 def load_assignments():
+    """ runs parse_assignments for each XML file in Assignments folder """
     schedule = []
     path = 'curriculum/mwsu_curriculum/schedules/'
     for filename in os.listdir(path):
@@ -148,6 +163,7 @@ def load_assignments():
     return schedule
 
 def load_schedule():
+    """ runs parse_schedule for each XML file in Schedule folder """
     schedule = []
     path = 'curriculum/mwsu_curriculum/schedules/'
     for filename in os.listdir(path):
@@ -158,6 +174,7 @@ def load_schedule():
 
 
 def hours_per_semester():
+    """ goes through all the courses and adds up the hours per semester """
     # update to use credit hours instead of # of courses
     semesters = defaultdict(list)
     for course in load_syllabi():
@@ -170,6 +187,7 @@ def hours_per_semester():
 
 
 def courses_per_semester():
+    """ goes through the syllabi and collects all of the courses in each semester """
     # update to use credit hours instead of # of courses
     syllabus = Syllabus
     semesters = []
