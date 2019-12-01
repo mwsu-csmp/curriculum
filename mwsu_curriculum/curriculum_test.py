@@ -44,9 +44,6 @@ def test_hours_per_semester_contains_discretion():
 def test_hours_per_semester_contains_summer():
     assert any('summer' in t for t in hours_per_semester())
 
-def test_hours_per_semester_contains_int():
-    assert any('' in t for t in hours_per_semester())
-
 #Testing courses_per_semester
 
 def test_courses_per_semester_is_not_none():
