@@ -25,9 +25,41 @@ def test_hours_per_semester_is_not_none():
 def test_hours_per_semester_is_not_an_empty_list():
     assert hours_per_semester() is not []
 
+def test_hours_per_semester_contains_spring_even():
+    for t in hours_per_semester():
+        if 'sping-even' in t:
+            assert True
+
+def test_hours_per_semester_contains_spring_odd():
+    for t in hours_per_semester():
+        if 'spring-odd' in t:
+            assert True
+
+def test_hours_per_semester_contains_fall_even():
+    for t in hours_per_semester():
+        if 'fall-even' in t:
+            assert True
+
+def test_hours_per_semester_contains_fall_odd():
+    for t in hours_per_semester():
+        if 'fall-odd' in t:
+            assert True
+
+def test_hours_per_semester_contains_discretion():
+    for t in hours_per_semester():
+        if 'discretion' in t:
+            assert True
+
+def test_hours_per_semester_contains_summer():
+    for t in hours_per_semester():
+        if 'summer' in t:
+            assert True
+
+
+
 #Testing courses_per_semester
 
-def test_coursees_per_semester_is_not_none():
+def test_courses_per_semester_is_not_none():
     assert courses_per_semester() is not None
 
 def test_courses_per_semester_is_a_class():
