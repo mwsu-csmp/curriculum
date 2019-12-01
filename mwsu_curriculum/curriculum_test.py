@@ -1,4 +1,4 @@
-import pytest
+import inspect
 from .curriculumlib import load_syllabi
 from .curriculumlib import hours_per_semester
 from .curriculumlib import courses_per_semester
@@ -31,7 +31,6 @@ def test_hours_per_semester_contains_spring_even():
 def test_hours_per_semester_contains_spring_odd():
     assert any('spring-odd' in t for t in hours_per_semester())
 
-
 def test_hours_per_semester_contains_fall_even():
     assert any('fall-even' in t for t in hours_per_semester())
 
@@ -49,8 +48,8 @@ def test_hours_per_semester_contains_summer():
 def test_courses_per_semester_is_not_none():
     assert courses_per_semester() is not None
 
-def test_courses_per_semester_is_a_class():
-    assert courses_per_semester()
+def test_courses_per_semester_returns_a_class():
+    assert inspect.isclass(courses_per_semester())
 
 # Testing parse_course
 #Even in linux I was unable to get this function to work so there is only the one generic test for it
