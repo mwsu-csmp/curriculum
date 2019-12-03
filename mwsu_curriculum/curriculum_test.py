@@ -10,7 +10,6 @@ def test_standard():
     pass
 
 #Testing load_syllabi
-
 def test_load_syllabi_is_not_none():
     assert load_syllabi() is not None
 
@@ -20,15 +19,38 @@ def test_load_syllabi_is_not_an_empty_list():
 def test_load_syllabi_returns_a_list():
     assert isinstance(load_syllabi(), list)
 
-#Testing hours_per_semester
 
+#Testing hours_per_semester
 def test_hours_per_semester_is_not_none():
     assert hours_per_semester() is not None
 
 def test_hours_per_semester_is_not_an_empty_list():
     assert hours_per_semester() is not []
 
-#This set of tests asserts that hours_per_semester returns a list with tuples containing 'spring-even', 'spring-odd', 'fall-even', 'fall-odd', 'discretion', and 'summer'
+def test_hours_per_semester_returns_a_list():
+    assert isinstance(hours_per_semester(), list)
+
+#This set of tests asserts that hours_per_semester returns a list of tuples
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[0], tuple)
+
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[1], tuple)
+
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[2], tuple)
+
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[3], tuple)
+
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[4], tuple)
+
+def test_hours_per_semester_returns_a_list_of_tuples():
+    assert isinstance(hours_per_semester()[5], tuple)
+
+# This set of tests asserts that hours_per_semester returns a list with tuples containing 'spring-even',
+# 'spring-odd', 'fall-even', 'fall-odd', 'discretion', and 'summer'
 def test_hours_per_semester_contains_spring_even():
     assert any('spring-even' in t for t in hours_per_semester())
 
@@ -46,7 +68,6 @@ def test_hours_per_semester_contains_discretion():
 
 def test_hours_per_semester_contains_summer():
     assert any('summer' in t for t in hours_per_semester())
-
 
 #This set of tests asserts that hours_per_semester returns a list with tuples with length 2
 def test_hours_per_semester_returns_tuples_length_2():
@@ -86,9 +107,27 @@ def test_hours_per_semester_returns_tuples_with_int():
 def test_hours_per_semester_returns_tuples_with_int():
     assert isinstance(hours_per_semester()[5][1], int)
 
+# This set of tests asserts that the first item in the tuple produced by hours_per_semester is a string
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[0][0], str)
+
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[1][0], str)
+
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[2][0], str)
+
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[3][0], str)
+
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[4][0], str)
+
+def test_hours_per_semester_returns_tuples_with_string():
+    assert isinstance(hours_per_semester()[5][0], str)
+
 
 #Testing courses_per_semester
-
 def test_courses_per_semester_is_not_none():
     assert courses_per_semester() is not None
 
@@ -99,7 +138,7 @@ def test_courses_per_semester_returns_a_class():
 def test_courses_per_semester_syllabus_class_catalogDescription_returns_none():
     assert courses_per_semester().catalogDescription is None
 
-def test_courses_per_semester_syllabus_class_returns_none():
+def test_courses_per_semester_syllabus_class_number_returns_none():
     assert courses_per_semester().number is None
 
 def test_courses_per_semester_syllabus_class_objective_returns_none():
@@ -126,11 +165,13 @@ def test_courses_per_semester_syllabus_class_topic_returns_none():
 def test_courses_per_semester_syllabus_class_workload_hours_returns_zero():
     assert courses_per_semester().workload_hours is 0
 
+
 # Testing parse_course
 #Even in linux I was unable to get this function to work so there is only the one generic test for it
 #Since the generic test would not pass I commented it out to get Github actions to run
 """def test_parse_course_is_not_none():
     assert parse_course() is not None"""
+
 
 #Testing load_assignments
 #Even in linux I was Unable to get this function to work so there is only the generic test for it
