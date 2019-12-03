@@ -43,6 +43,9 @@ def test_hours_per_semester_contains_discretion():
 def test_hours_per_semester_contains_summer():
     assert any('summer' in t for t in hours_per_semester())
 
+def test_hours_per_semester_():
+    assert len(hours_per_semester()[1])
+
 #Testing courses_per_semester
 
 def test_courses_per_semester_is_not_none():
@@ -50,6 +53,36 @@ def test_courses_per_semester_is_not_none():
 
 def test_courses_per_semester_returns_a_class():
     assert inspect.isclass(courses_per_semester())
+
+def test_courses_per_semester_syllabus_class_catalogDescription_returns_none():
+    assert courses_per_semester().catalogDescription is None
+
+def test_courses_per_semester_syllabus_class_returns_none():
+    assert courses_per_semester().number is None
+
+def test_courses_per_semester_syllabus_class_objective_returns_none():
+    assert courses_per_semester().objective is None
+
+def test_courses_per_semester_syllabus_class_offered_returns_none():
+    assert courses_per_semester().offered is None
+
+def test_courses_per_semester_syllabus_class_prerequisites_returns_none():
+    assert courses_per_semester().prerequisites is None
+
+def test_courses_per_semester_syllabus_class_scheduleType_returns_none():
+    assert courses_per_semester().scheduleType is None
+
+def test_courses_per_semester_syllabus_class_subject_returns_none():
+    assert courses_per_semester().subject is None
+
+def test_courses_per_semester_syllabus_class_title_returns_none():
+    assert courses_per_semester().title is None
+
+def test_courses_per_semester_syllabus_class_topic_returns_none():
+    assert courses_per_semester().topic is None
+
+def test_courses_per_semester_syllabus_class_workload_hours_returns_zero():
+    assert courses_per_semester().workload_hours is 0
 
 # Testing parse_course
 #Even in linux I was unable to get this function to work so there is only the one generic test for it
