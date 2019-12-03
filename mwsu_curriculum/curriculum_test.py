@@ -17,6 +17,9 @@ def test_load_syllabi_is_not_none():
 def test_load_syllabi_is_not_an_empty_list():
     assert load_syllabi() is not []
 
+def test_load_syllabi_returns_a_list():
+    assert isinstance(load_syllabi(), list)
+
 #Testing hours_per_semester
 
 def test_hours_per_semester_is_not_none():
