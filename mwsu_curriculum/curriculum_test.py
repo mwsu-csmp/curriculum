@@ -25,6 +25,7 @@ def test_hours_per_semester_is_not_none():
 def test_hours_per_semester_is_not_an_empty_list():
     assert hours_per_semester() is not []
 
+#This set of tests asserts that hours_per_semester returns a list with tuples containing 'spring-even', 'spring-odd', 'fall-even', 'fall-odd', 'discretion', and 'summer'
 def test_hours_per_semester_contains_spring_even():
     assert any('spring-even' in t for t in hours_per_semester())
 
@@ -43,8 +44,45 @@ def test_hours_per_semester_contains_discretion():
 def test_hours_per_semester_contains_summer():
     assert any('summer' in t for t in hours_per_semester())
 
-def test_hours_per_semester_():
-    assert len(hours_per_semester()[1])
+
+#This set of tests asserts that hours_per_semester returns a list with tuples with length 2
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[0]) == 2
+
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[1]) == 2
+
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[2]) == 2
+
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[3]) == 2
+
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[4]) == 2
+
+def test_hours_per_semester_returns_tuples_length_2():
+    assert len(hours_per_semester()[5]) == 2
+
+#This set of tests checks that the second element in each tuple returned is an int
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[0][1], int)
+
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[1][1], int)
+
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[2][1], int)
+
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[3][1], int)
+
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[4][1], int)
+
+def test_hours_per_semester_returns_tuples_with_int():
+    assert isinstance(hours_per_semester()[5][1], int)
+
 
 #Testing courses_per_semester
 
@@ -54,6 +92,7 @@ def test_courses_per_semester_is_not_none():
 def test_courses_per_semester_returns_a_class():
     assert inspect.isclass(courses_per_semester())
 
+#This set of tests asserts that the default values of the syllabus class are set to None or 0
 def test_courses_per_semester_syllabus_class_catalogDescription_returns_none():
     assert courses_per_semester().catalogDescription is None
 
