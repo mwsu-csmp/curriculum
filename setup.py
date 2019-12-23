@@ -3,7 +3,7 @@ from setuptools import setup
 """ This is used to setup the web application. Be careful when altering """
 
 setup(name='mwsu_curriculum',
-      version='0.1',
+      version='2019',
       description='Curriculum definitions and utilities for MWSU Computer Science',
       url='https://github.com/mwsu-csmp/curriculum',
       author='MWSU Computer Science Department',
