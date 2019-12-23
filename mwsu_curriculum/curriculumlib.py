@@ -31,17 +31,17 @@ class Syllabus:
             self.offered.append('fall-odd')
         else:
             self.offered.append(semester)
-    title = None
-    subject = None
-    number = None
-    ay = None
-    offered = None
-    workload_hours = 0
-    scheduleType = None
-    catalogDescription = None
-    prerequisites = None
-    objective = None
-    topic = None
+      self.scheduleType = dt.find(ns + 'scheduleType').text
+      self.catalogDescription = dt.find(ns + 'catalogDescription').text
+      self.prerequisites = dt.find(ns + 'prerequisites').text
+      self.objective = list()
+      for objectivet in dt.findall(ns + 'objectives'):
+        objective = objectivet.find(ns + 'objective').text
+        self.objective.append(objective)
+      self.topic = list()
+      for topict in dt.findall(ns + 'outline'):
+        topic = topict.find(ns + 'topic').text
+        self.topic.append(topic)
 
 def available_years():
     """ returns a list of academic-year (20XX-20YY) strings for all available years of curriculum definitions"""
@@ -59,42 +59,12 @@ def load_syllabi(ay):
                 open(resource_filename('mwsu_curriculum', 'syllabi/' + ay + '/' + filename))))
     return syllabi
 
-def parse_course(filename):
-    """ parses the XML file and collects the information which includes title, subject, number, workload hours,
-     offered, and what semester offered, schedule Type, course description, course prerequisites, course objectives,
-     and all course topics"""
-    ns = '{https://csmp.missouriwestern.edu}'
-    syllabus = Syllabus()
-    dt = ET.parse(filename).getroot()
-    syllabus.title = dt.find(ns + 'title').text
-    syllabus.subject = dt.find(ns + 'subject').text
-    syllabus.number = dt.find(ns + 'number').text
-    syllabus.workload_hours = \
-            int(3 if not 'workloadHoursLecture' in dt.attrib else dt.attrib['workloadHoursLecture'])
-    syllabus.offered = list()
-    for semestert in dt.findall(ns + 'offered'):
-        semester = semestert.text
-        syllabus.offered.append(semester)
-    syllabus.scheduleType = dt.find(ns + 'scheduleType').text
-    syllabus.catalogDescription = dt.find(ns + 'catalogDescription').text
-    syllabus.prerequisites = dt.find(ns + 'prerequisites').text
-    syllabus.objective = list()
-    for objectivet in dt.findall(ns + 'objectives'):
-        objective = objectivet.find(ns + 'objective').text
-        syllabus.objective.append(objective)
-    syllabus.topic = list()
-    for topict in dt.findall(ns + 'outline'):
-        topic = topict.find(ns + 'topic').text
-        syllabus.topic.append(topic)
 
-    return syllabus
-
-
-def load_courses(year):
+def load_courses(ay):
     """ Goes through and calls parse_syllabus for each XML file inside of the syllabi folder, and puts then in a list """
     syllabi = []
-    for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi')))[2]:
-        syllabi.append(parse_course(open(resource_filename('mwsu_curriculum', 'syllabi/' + filename))))
+    for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi/'+ay)))[2]:
+        syllabi.append(Syllabus(ay, open(resource_filename('mwsu_curriculum', 'syllabi/'+ay+'/'+ filename))))
     return syllabi
 
 
@@ -189,11 +159,3 @@ def hours_per_semester(ay):
         ret.append((semester, sum(map((lambda course: course.workload_hours), semesters[semester]))))
     return ret
 
-
-def courses_per_semester(ay):
-    """ goes through the syllabi and collects all of the courses in each semester """
-    # update to use credit hours instead of # of courses
-    syllabus = Syllabus
-    semesters = []
-    for course in load_syllabi(ay):
-        return syllabus

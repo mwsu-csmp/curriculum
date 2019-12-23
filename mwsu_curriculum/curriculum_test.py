@@ -1,8 +1,7 @@
 import inspect
 from .curriculumlib import load_syllabi
 from .curriculumlib import hours_per_semester
-from .curriculumlib import courses_per_semester
-from .curriculumlib import parse_course
+from .curriculumlib import Syllabus
 from .curriculumlib import load_assignments
 from .curriculumlib import available_years
 
@@ -139,57 +138,4 @@ def test_hours_per_semester_returns_tuples_with_string():
 def test_hours_per_semester_returns_tuples_with_string():
     assert isinstance(hours_per_semester('2019-2020')[5][0], str)
 
-
-#Testing courses_per_semester
-def test_courses_per_semester_is_not_none():
-    assert courses_per_semester('2019-2020') is not None
-
-def test_courses_per_semester_returns_a_class():
-    assert inspect.isclass(courses_per_semester('2019-2020'))
-
-#This set of tests asserts that the default values of the syllabus class are set to None or 0
-def test_courses_per_semester_syllabus_class_catalogDescription_returns_none():
-    assert courses_per_semester('2019-2020').catalogDescription is None
-
-def test_courses_per_semester_syllabus_class_number_returns_none():
-    assert courses_per_semester('2019-2020').number is None
-
-def test_courses_per_semester_syllabus_class_objective_returns_none():
-    assert courses_per_semester('2019-2020').objective is None
-
-def test_courses_per_semester_syllabus_class_offered_returns_none():
-    assert courses_per_semester('2019-2020').offered is None
-
-def test_courses_per_semester_syllabus_class_prerequisites_returns_none():
-    assert courses_per_semester('2019-2020').prerequisites is None
-
-def test_courses_per_semester_syllabus_class_scheduleType_returns_none():
-    assert courses_per_semester('2019-2020').scheduleType is None
-
-def test_courses_per_semester_syllabus_class_subject_returns_none():
-    assert courses_per_semester('2019-2020').subject is None
-
-def test_courses_per_semester_syllabus_class_title_returns_none():
-    assert courses_per_semester('2019-2020').title is None
-
-def test_courses_per_semester_syllabus_class_topic_returns_none():
-    assert courses_per_semester('2019-2020').topic is None
-
-def test_courses_per_semester_syllabus_class_workload_hours_returns_zero():
-    assert courses_per_semester('2019-2020').workload_hours is 0
-
-
-# Testing parse_course
-#Even in linux I was unable to get this function to work so there is only the one generic test for it
-#Since the generic test would not pass I commented it out to get Github actions to run
-"""def test_parse_course_is_not_none():
-    assert parse_course() is not None"""
-
-
-#Testing load_assignments
-#Even in linux I was Unable to get this function to work so there is only the generic test for it
-#Since the generic test would not pass I commented it out to get Github actions to run
-
-"""def test_load_assignment_is_not_none():
-    assert load_assignments() is not None"""
 
