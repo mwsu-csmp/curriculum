@@ -11,5 +11,9 @@ setup(name='mwsu_curriculum',
       license='GPL',
       packages=['mwsu_curriculum'],  
       package_dir={'mwsu_curriculum': 'mwsu_curriculum'}, 
-      package_data={'mwsu_curriculum': ['syllabi/*.xml']},
+      package_data={'mwsu_curriculum': ['syllabi/*.xml', \
+                                        'schedules/*.xml', \
+                                        'schema/*.xml', \
+                                        'transformations/*.xml', \
+                                        'standards/*.xml']},
       zip_safe=False)
