@@ -30,7 +30,7 @@
 
   <xs:simpleType name="courseBuilding">
     <xs:restriction base="xs:string">
-      <xs:pattern value="([A-Z][A-Z][\s][0-9][0-9][0-9])|([A-Za-z])*"/>
+      <xs:pattern value="[A-Z][A-Z]"/>
     </xs:restriction>
   </xs:simpleType>
 
@@ -49,70 +49,40 @@
   <xs:element name="schedule">
     <xs:complexType>
       <xs:sequence>
-
         <xs:element name="course" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-
               <xs:element name="subject" type="courseSubject"/>
-
               <xs:element name="number" type="courseNumber"/>
-
               <xs:element name="section" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
-
                     <xs:element name="sectionNumber" type="courseSection"/>
-
-                     <xs:element name="meeting" maxOccurs="unbounded">
-                       <xs:complexType>
-                         <xs:sequence>
-
-                           <xs:element name="StartTime" type="courseTime"/>
-
-                           <xs:element name="EndTime" type="courseTime"/>
-
-                           <xs:element name="day" maxOccurs="3">
-                             <xs:simpleType>
-                               <xs:restriction base="xs:string">
-                                 <xs:enumeration value="M"/>
-                                 <xs:enumeration value="T"/>
-                                 <xs:enumeration value="W"/>
-                                 <xs:enumeration value="R"/>
-                                 <xs:enumeration value="F"/>
-                                 <xs:enumeration value="Online"/>
-                                 <xs:enumeration value="ARR"/>
-                               </xs:restriction>
-                             </xs:simpleType>
-                           </xs:element>
-
-
-                           <xs:element name="building">
-                             <xs:complexType>
-                               <xs:sequence>
-
-                                 <xs:element name="buildingRoom" type="courseBuilding"/>
-
-                                 <xs:element name="max" type="courseMax"/>
-
-                               </xs:sequence>
-                             </xs:complexType>
-                           </xs:element>
-
-                           <xs:element name="instructor" type="courseInstructor"/>
-
-                         </xs:sequence>
-                       </xs:complexType>
-                     </xs:element>
-
+                    <xs:element name="instructor" type="courseInstructor"/>
+                    <xs:element name="max" type="courseMax"/>
+                    <xs:element name="StartTime" type="courseTime" minOccurs="0"/>
+                    <xs:element name="EndTime" type="courseTime" minOccurs="0"/>
+                    <xs:element name="day" maxOccurs="3" minOccurs="0">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="M"/>
+                          <xs:enumeration value="T"/>
+                          <xs:enumeration value="W"/>
+                          <xs:enumeration value="R"/>
+                          <xs:enumeration value="F"/>
+                          <xs:enumeration value="Online"/>
+                          <xs:enumeration value="ARR"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="building" type="courseBuilding" minOccurs="0"/>
+                    <xs:element name="room" type="xs:string" minOccurs="0"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-
       </xs:sequence>
     </xs:complexType>
   </xs:element>     

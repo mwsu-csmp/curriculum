@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roster
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
+  <instructor>
+    <id>G00412135</id>
+    <name>Yipei Kwok</name>
+    <assignments>
+      <assignment>
+        <description>G00412135</description>
+        <hours>3</hours>
+      </assignment>
+    </assignments>
+  </instructor>
+
+</roster>
