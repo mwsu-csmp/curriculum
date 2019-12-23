@@ -155,20 +155,18 @@ def parse_assignments(filename):
 def load_assignments():
     """ runs parse_assignments for each XML file in Assignments folder """
     schedule = []
-    path = 'curriculum/mwsu_curriculum/schedules/'
+    path = resource_filename('mwsu_curriculum', 'schedules')
     for filename in os.listdir(path):
-        if not filename.endswith(filename): continue
-        fullname = path + filename
+        fullname = path + '/' + filename
         schedule.append(parse_assignments(open(fullname)))
     return schedule
 
 def load_schedule():
     """ runs parse_schedule for each XML file in Schedule folder """
     schedule = []
-    path = 'curriculum/mwsu_curriculum/schedules/'
+    path = resource_filename('mwsu_curriculum', 'schedules')
     for filename in os.listdir(path):
-        if not filename.endswith(filename): continue
-        fullname = path + filename
+        fullname = path + '/' + filename
         schedule.append(parse_schedule(open(fullname)))
     return schedule
 
