@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  workloadHoursLecture="2">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>274</number>
+  <title>Introduction to UNIX/Linux</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+An introductory course on UNIX/Linux and its applications. Topics covered include: basic commands and system structures; system tools; output redirection; command line text editing, e-mail and system calls; file system basics; and, basic shell scripting. Basic security issues will also be discussed. The course material is intended to prepare students for versatile use of any UNIX/Linux system and as a foundation for numerous UNIX/Linux certification programs.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

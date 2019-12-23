@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>264</number>
+  <title>Computer Architecture and Assembly Language Programming </title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course is an investigation of the logical basis of computers at the machine language level. Machine representation of numbers and characters, instruction formats, machine operations, addressing techniques, and assembly level programming techniques will be covered. 
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

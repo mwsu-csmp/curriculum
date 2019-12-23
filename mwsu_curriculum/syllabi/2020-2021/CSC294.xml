@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>294</number>
+  <title>Networking and Telecommunications </title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+An examination of current computer communication technologies and their protocol structures as applied to computer networks and telecommunication systems. Topics include the physical layers, architectural elements, and information layers of a communication network; protocols; switching; routing; LANs; and WANs.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+      <prerequisiteConjunction>
+        <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+        <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
+      </prerequisiteConjunction>
+    </prerequisiteDisjunction>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>
