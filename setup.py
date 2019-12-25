@@ -15,5 +15,6 @@ setup(name='mwsu_curriculum',
                                         'schedules/*.xml', \
                                         'schema/*.xsd', \
                                         'transformations/*.xsl', \
+                                        'rosters/*.xml', \
                                         'standards/*.xml']},
       zip_safe=False)

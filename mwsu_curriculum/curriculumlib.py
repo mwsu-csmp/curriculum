@@ -87,7 +87,7 @@ def load_roster(ay):
         releases = {}
         for sectiont in instructort.findall(ns + 'release'):
             description = sectiont.find(ns + 'description').text
-            hours = sectiont.find(ns + 'hours').text
+            hours = int(sectiont.find(ns + 'hours').text)
             releases[description] = hours
         instructor = Instructor(instructorId, name, releases)
         roster.append(instructor)
