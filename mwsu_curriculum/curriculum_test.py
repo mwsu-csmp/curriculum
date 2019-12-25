@@ -1,9 +1,5 @@
 import inspect
-from .curriculumlib import load_syllabi
-from .curriculumlib import hours_per_semester
-from .curriculumlib import Syllabus
-from .curriculumlib import load_assignments
-from .curriculumlib import available_years
+from .curriculumlib import *
 
 
 def test_standard():
@@ -137,5 +133,31 @@ def test_hours_per_semester_returns_tuples_with_string():
 
 def test_hours_per_semester_returns_tuples_with_string():
     assert isinstance(hours_per_semester('2019-2020')[5][0], str)
+
+
+########################################################################
+# Test Schedules
+########################################################################
+
+def test_parse_schedule():
+  sp19schedule = load_schedule('sp', '19')
+  assert len(sp19schedule) > 0
+  for course in sp19schedule:
+    assert isinstance(course, Syllabus)
+    assert len(sp19schedule[course]) > 0
+    for section in sp19schedule[course]:
+      assert isinstance(section, Section)
+
+
+
+########################################################################
+# Test Schedules
+########################################################################
+
+def test_parse_roster():
+  roster = load_roster('2019-2020')
+  assert len(roster) > 0
+  for instructor in roster:
+    assert isinstance(instructor, Instructor)
 
 

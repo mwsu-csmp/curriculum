@@ -6,12 +6,10 @@
   <instructor>
     <id>G00412135</id>
     <name>Yipei Kwok</name>
-    <assignments>
-      <assignment>
-        <description>G00412135</description>
-        <hours>3</hours>
-      </assignment>
-    </assignments>
+    <release>
+      <description>Graduate Program Director</description>
+      <hours>3</hours>
+    </release>
   </instructor>
 
 </roster>

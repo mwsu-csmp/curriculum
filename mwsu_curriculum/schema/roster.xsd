@@ -10,7 +10,7 @@
     </xs:restriction>
   </xs:simpleType> 
 
-  <xs:complexType name="assignment">
+  <xs:complexType name="release">
     <xs:sequence>
       <xs:element name="description" type="xs:string"/>
       <xs:element name="hours" type="xs:integer"/>
@@ -21,13 +21,7 @@
     <xs:sequence>
       <xs:element name="id" type="instructorId"/>
       <xs:element name="name" type="xs:string"/>
-      <xs:element name="assignments" minOccurs="0" maxOccurs="1">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element name="assignment" type="assignment" minOccurs="0" maxOccurs="unbounded"/>
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
+      <xs:element name="release" type="release" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>  
 

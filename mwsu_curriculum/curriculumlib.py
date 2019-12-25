@@ -4,7 +4,7 @@ from os import listdir
 from os import walk
 from collections import defaultdict
 from pkg_resources import resource_filename
-
+from collections import defaultdict
 
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
@@ -43,10 +43,27 @@ class Syllabus:
         topic = topict.find(ns + 'topic').text
         self.topic.append(topic)
 
-def available_years():
-    """ returns a list of academic-year (20XX-20YY) strings for all available years of curriculum definitions"""
-    return list(listdir(resource_filename('mwsu_curriculum', 'syllabi/')))
+class Section:
+    def __init__(self,course,section,instructorId,maxEnrollment,startTime=None,endTime=None,days=[],building=None,room=None):
+        self.course = course
+        self.section = section
+        self.instructorId = instructorId
+        self.maxEnrollment = maxEnrollment
+        self.startTime = startTime
+        self.endTime = endTime
+        self.days = days
+        self.building = building
+        self.room = room
 
+class Instructor:
+    def __init__(self, instructorId, name, releases={}):
+        self.id = instructorId
+        self.name = name
+        self.releases = releases
+
+def load_syllabus(ay, subject, number):
+    """ loads the specified course (if it exists)"""
+    return Syllabus(ay, resource_filename('mwsu_curriculum', 'syllabi/'+ay+'/'+subject+number+'.xml'))
 
 def load_syllabi(ay):
     """ returns a list containing syllabi for every course defined in the specified academic year's curriculum
@@ -59,93 +76,53 @@ def load_syllabi(ay):
                 open(resource_filename('mwsu_curriculum', 'syllabi/' + ay + '/' + filename))))
     return syllabi
 
-
-def load_courses(ay):
-    """ Goes through and calls parse_syllabus for each XML file inside of the syllabi folder, and puts then in a list """
-    syllabi = []
-    for filename in next(walk(resource_filename('mwsu_curriculum', 'syllabi/'+ay)))[2]:
-        syllabi.append(Syllabus(ay, open(resource_filename('mwsu_curriculum', 'syllabi/'+ay+'/'+ filename))))
-    return syllabi
-
-
-def parse_schedule(filename):
-    """ Goes though and parses each schedule XML file for the courses, course subject and number. course section,
-     start time, end time, building room, room capacity, instructor, and days offered """
-    ay = str(year) + '-' + str(year+1)   # AY is something like 2020-2021
+def load_roster(ay):
+    filename = resource_filename('mwsu_curriculum', 'rosters/'+ay+'.xml')
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
-    courseinfolist = list()
-    returnlist = list()
+    roster = []
+    for instructort in dt.findall(ns + 'instructor'):
+        instructorId = instructort.find(ns + 'id').text
+        name = instructort.find(ns + 'name').text
+        releases = {}
+        for sectiont in instructort.findall(ns + 'release'):
+            description = sectiont.find(ns + 'description').text
+            hours = sectiont.find(ns + 'hours').text
+            releases[description] = hours
+        instructor = Instructor(instructorId, name, releases)
+        roster.append(instructor)
+    return roster
 
-    for courses in dt.findall(ns + 'courses/'+ay):
-        for courset in courses.findall(ns + 'course'):
-            count = 0
-            subject = courset.find(ns + 'subject').text
-            number = courset.find(ns + 'number').text
-            course = subject + number
-            courseinfolist.append(course)
-            for sectiont in courset.findall(ns + 'section'):
-                count += 1
-                if count >= 2:
-                    courseinfolist.append(course)
-
-                sectionNumber = sectiont.find(ns + 'sectionNumber').text
-                StartTime = sectiont.find(ns + 'StartTime').text
-                EndTime = sectiont.find(ns + 'EndTime').text
-                buildingRoom = sectiont.find(ns + 'buildingRoom').text
-                max = sectiont.find(ns + 'max').text
-                instructor = sectiont.find(ns + 'instructor').text
-
-                courseinfolist.append(sectionNumber)
-                courseinfolist.append(StartTime)
-                courseinfolist.append(EndTime)
-                courseinfolist.append(buildingRoom)
-                courseinfolist.append(max)
-                courseinfolist.append(instructor)
-                dayslist = list()
-                for days in sectiont.findall(ns + 'day'):
-                    day = days.text
-                    dayslist.append(day)
-                courseinfolist.append(dayslist)
-                a = courseinfolist
-                returnlist.append(a)
-                courseinfolist = list()
-
-
-    return returnlist
-
-def parse_assignments(filename):
-    """ Parses Assignment XML file, which gets information that includes the instructor, instructor workload, and
-     any additional assignments """
+def load_schedule(semester, year):
+    if semester == 'fa':
+        ay = '20'+str(int(year)-1)+'-20'+year
+    else:
+        ay = '20'+year+'-20'+str(int(year)+1)
+    filename = resource_filename('mwsu_curriculum', 'schedules/'+semester+year+'.xml')
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
-    returnlist = list()
-    for assignments in dt.findall(ns + 'assignment'):
-        assignment_instructor = assignments.find(ns + 'instructor').text
-        assignment_credits = assignments.find(ns + 'workhours').text
-        returnlist.append(assignment_instructor)
-        returnlist.append(assignment_credits)
-        print(assignment_instructor)
-    return returnlist
+    courses = defaultdict(list)
+    for courset in dt.findall(ns + 'course'):
+        count = 0
+        subject = courset.find(ns + 'subject').text
+        number = courset.find(ns + 'number').text
+        course = load_syllabus(ay, subject, number)
 
-def load_assignments():
-    """ runs parse_assignments for each XML file in Assignments folder """
-    schedule = []
-    path = resource_filename('mwsu_curriculum', 'schedules')
-    for filename in os.listdir(path):
-        fullname = path + '/' + filename
-        schedule.append(parse_assignments(open(fullname)))
-    return schedule
+        for sectiont in courset.findall(ns + 'section'):
+            sectionNumber = sectiont.find(ns + 'sectionNumber').text
+            instructorId = sectiont.find(ns + 'instructor').text
+            maxEnrollment = sectiont.find(ns + 'max').text
+            daysList = list()
+            for days in sectiont.findall(ns + 'day'):
+                day = days.text
+                daysList.append(day)
+            section = Section(course,sectionNumber,instructorId,maxEnrollment,days=daysList)
+            courses[course].append(section)
+    return courses
 
-def load_schedule():
-    """ runs parse_schedule for each XML file in Schedule folder """
-    schedule = []
-    path = resource_filename('mwsu_curriculum', 'schedules')
-    for filename in os.listdir(path):
-        fullname = path + '/' + filename
-        schedule.append(parse_schedule(open(fullname)))
-    return schedule
-
+def available_years():
+    """ returns a list of academic-year (20XX-20YY) strings for all available years of curriculum definitions"""
+    return list(listdir(resource_filename('mwsu_curriculum', 'syllabi/')))
 
 def hours_per_semester(ay):
     """ goes through all the courses and adds up the hours per semester """
@@ -158,4 +135,3 @@ def hours_per_semester(ay):
     for semester in semesters:
         ret.append((semester, sum(map((lambda course: course.workload_hours), semesters[semester]))))
     return ret
-
