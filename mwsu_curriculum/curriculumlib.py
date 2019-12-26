@@ -67,6 +67,37 @@ class Section:
             h2 += 12
         return (60*(h2 - h1) + (m2 - m1))
 
+    def conflicts_with(self, otherSection):
+        if not self.startTime or \
+                not self.endTime or \
+                not otherSection.startTime or \
+                not otherSection.endTime:
+            return False # at least one course does not meet at a scheduled time
+
+        if not (set(self.days) & set(otherSection.days)):
+            return False # no intersecting days
+
+        h1, m1 = map(int, self.startTime.split(':'))
+        h2, m2 = map(int, self.endTime.split(':'))
+        if h1 < 8:
+            h1 += 12
+            h2 += 12
+        elif h2 < h1:
+            h2 += 12
+        m1 += h1*60
+        m2 += h2*60
+        oh1, om1 = map(int, otherSection.startTime.split(':'))
+        oh2, om2 = map(int, otherSection.endTime.split(':'))
+        if oh1 < 8:
+            oh1 += 12
+            oh2 += 12
+        elif oh2 < oh1:
+            oh2 += 12
+        om1 += oh1*60
+        om2 += oh2*60
+        
+        return (m1 >= om1 and m1 < om2) or (om1 >= m1 and om1 < m2)
+
 class Instructor:
     def __init__(self, instructorId, name, releases={}):
         self.id = instructorId
