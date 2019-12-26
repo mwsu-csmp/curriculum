@@ -62,7 +62,8 @@ class Section:
         h2, m2 = map(int, self.endTime.split(':'))
         if h1 < 8:
             h1 += 12
-        if h2 < 8:
+            h2 += 12
+        elif h2 < h1:
             h2 += 12
         return (60*(h2 - h1) + (m2 - m1))
 
