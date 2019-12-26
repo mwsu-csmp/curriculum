@@ -60,8 +60,8 @@
                     <xs:element name="sectionNumber" type="courseSection"/>
                     <xs:element name="instructor" type="courseInstructor"/>
                     <xs:element name="max" type="courseMax"/>
-                    <xs:element name="StartTime" type="courseTime" minOccurs="0"/>
-                    <xs:element name="EndTime" type="courseTime" minOccurs="0"/>
+                    <xs:element name="startTime" type="courseTime" minOccurs="0"/>
+                    <xs:element name="endTime" type="courseTime" minOccurs="0"/>
                     <xs:element name="day" maxOccurs="3" minOccurs="0">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">

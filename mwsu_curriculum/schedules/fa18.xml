@@ -10,8 +10,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00043557</instructor>
         <max>25</max>
-        <StartTime>11:00</StartTime>
-        <EndTime>11:50</EndTime>
+        <startTime>11:00</startTime>
+        <endTime>11:50</endTime>
         <day>M</day>
         <day>W</day>
         <day>F</day>
@@ -22,8 +22,8 @@
         <sectionNumber>02</sectionNumber>
         <instructor>G00043557</instructor>
         <max>25</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>W</day>
         <building>RH</building>
         <room>108</room>
@@ -49,8 +49,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00338276</instructor>
         <max>25</max>
-        <StartTime>2:00</StartTime>
-        <EndTime>3:20</EndTime>
+        <startTime>2:00</startTime>
+        <endTime>3:20</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -66,8 +66,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00070723</instructor>
         <max>15</max>
-        <StartTime>12:30</StartTime>
-        <EndTime>1:50</EndTime>
+        <startTime>12:30</startTime>
+        <endTime>1:50</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -83,8 +83,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00426196</instructor>
         <max>25</max>
-        <StartTime>9:30</StartTime>
-        <EndTime>10:50</EndTime>
+        <startTime>9:30</startTime>
+        <endTime>10:50</endTime>
         <day>T</day>
         <day>R</day>
         <building>RH</building>
@@ -94,8 +94,8 @@
         <sectionNumber>02</sectionNumber>
         <instructor>G00426196</instructor>
         <max>25</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>T</day>
         <building>RH</building>
         <room>108</room>
@@ -121,8 +121,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00048593</instructor>
         <max>25</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>T</day>
         <building>AH</building>
         <room>126</room>
@@ -137,8 +137,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00043557</instructor>
         <max>25</max>
-        <StartTime>12:30</StartTime>
-        <EndTime>1:50</EndTime>
+        <startTime>12:30</startTime>
+        <endTime>1:50</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -154,8 +154,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00085973</instructor>
         <max>24</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>R</day>
         <building>AH</building>
         <room>119</room>
@@ -170,8 +170,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00338276</instructor>
         <max>22</max>
-        <StartTime>11:00</StartTime>
-        <EndTime>12:20</EndTime>
+        <startTime>11:00</startTime>
+        <endTime>12:20</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -187,8 +187,8 @@
         <sectionNumber>02</sectionNumber>
         <instructor>G00070723</instructor>
         <max>25</max>
-        <StartTime>9:30</StartTime>
-        <EndTime>10:50</EndTime>
+        <startTime>9:30</startTime>
+        <endTime>10:50</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -204,8 +204,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00085973</instructor>
         <max>22</max>
-        <StartTime>1:00</StartTime>
-        <EndTime>3:50</EndTime>
+        <startTime>1:00</startTime>
+        <endTime>3:50</endTime>
         <day>F</day>
         <building>AH</building>
         <room>119</room>
@@ -220,8 +220,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00048593</instructor>
         <max>25</max>
-        <StartTime>5:00</StartTime>
-        <EndTime>6:20</EndTime>
+        <startTime>5:00</startTime>
+        <endTime>6:20</endTime>
         <day>M</day>
         <day>W</day>
         <building>AH</building>
@@ -237,8 +237,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00426196</instructor>
         <max>22</max>
-        <StartTime>2:00</StartTime>
-        <EndTime>3:20</EndTime>
+        <startTime>2:00</startTime>
+        <endTime>3:20</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -301,8 +301,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00412135</instructor>
         <max>20</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>M</day>
         <building>AH</building>
         <room>126</room>
@@ -317,8 +317,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00412135</instructor>
         <max>20</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>T</day>
         <building>AH</building>
         <room>123</room>
@@ -333,8 +333,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00412135</instructor>
         <max>20</max>
-        <StartTime>5:00</StartTime>
-        <EndTime>6:20</EndTime>
+        <startTime>5:00</startTime>
+        <endTime>6:20</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -350,8 +350,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00338276</instructor>
         <max>20</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>W</day>
         <building>AH</building>
         <room>123</room>
@@ -366,8 +366,8 @@
         <sectionNumber>01</sectionNumber>
         <instructor>G00426196</instructor>
         <max>20</max>
-        <StartTime>6:30</StartTime>
-        <EndTime>9:20</EndTime>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
         <day>R</day>
         <building>AH</building>
         <room>123</room>

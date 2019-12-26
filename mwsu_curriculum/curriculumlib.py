@@ -55,6 +55,17 @@ class Section:
         self.building = building
         self.room = room
 
+    def duration(self):
+        if not self.startTime or not self.endTime:
+            return 0
+        h1, m1 = map(int, self.startTime.split(':'))
+        h2, m2 = map(int, self.endTime.split(':'))
+        if h1 < 8:
+            h1 += 12
+        if h2 < 8:
+            h2 += 12
+        return (60*(h2 - h1) + (m2 - m1))
+
 class Instructor:
     def __init__(self, instructorId, name, releases={}):
         self.id = instructorId
@@ -112,11 +123,20 @@ def load_schedule(semester, year):
             sectionNumber = sectiont.find(ns + 'sectionNumber').text
             instructorId = sectiont.find(ns + 'instructor').text
             maxEnrollment = sectiont.find(ns + 'max').text
+            startTime = sectiont.find(ns + 'startTime')
+            startTime = startTime.text if startTime is not None else None
+            endTime = sectiont.find(ns + 'endTime')
+            endTime = endTime.text if endTime is not None else None
+            building = sectiont.find(ns + 'building')
+            building = building.text if building is not None else None
+            room = sectiont.find(ns + 'room')
+            room = room.text if room is not None else None
             daysList = list()
             for days in sectiont.findall(ns + 'day'):
                 day = days.text
                 daysList.append(day)
-            section = Section(course,sectionNumber,instructorId,maxEnrollment,days=daysList)
+            section = Section(course,sectionNumber,instructorId,maxEnrollment,days=daysList,
+                    startTime=startTime, endTime=endTime, building=building, room=room)
             courses[course].append(section)
     return courses
 

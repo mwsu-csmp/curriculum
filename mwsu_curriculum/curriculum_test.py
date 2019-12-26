@@ -134,7 +134,6 @@ def test_hours_per_semester_returns_tuples_with_string():
 def test_hours_per_semester_returns_tuples_with_string():
     assert isinstance(hours_per_semester('2019-2020')[5][0], str)
 
-
 ########################################################################
 # Test Schedules
 ########################################################################
@@ -148,6 +147,14 @@ def test_parse_schedule():
     for section in sp19schedule[course]:
       assert isinstance(section, Section)
 
+def test_section_duration():
+  sp19schedule = load_schedule('sp', '19')
+  for course in sp19schedule:
+      if course.subject+course.number == 'CSC184':
+          for section in sp19schedule[course]:
+              if section.section == '01':
+                  assert section.startTime == '9:30'
+                  assert section.duration() == 80
 
 
 ########################################################################
