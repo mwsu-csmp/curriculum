@@ -138,9 +138,9 @@ def load_roster(ay):
 
 def load_schedule(semester, year):
     if semester == 'fa':
-        ay = '20'+str(int(year)-1)+'-20'+year
-    else:
         ay = '20'+year+'-20'+str(int(year)+1)
+    else:
+        ay = '20'+str(int(year)-1)+'-20'+year
     filename = resource_filename('mwsu_curriculum', 'schedules/'+semester+year+'.xml')
     ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
