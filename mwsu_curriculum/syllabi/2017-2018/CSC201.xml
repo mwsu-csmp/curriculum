@@ -5,12 +5,13 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
+  <number>201</number>
+  <title>Microcomputer Applications </title>
   <offered>fall</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+Applications of productivity software such as Microsoft Office Word, Excel, Access, and PowerPoint for careers, school, and home. Impact of technology on society by computer information systems, networks, e-commerce, and the Internet is included. Previous computer experience recommended.
   </catalogDescription>
   <prerequisites>
   </prerequisites>

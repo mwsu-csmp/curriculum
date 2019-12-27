@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>254</number>
+  <title>Enterprise System Computing with Java</title>
+  <offered>spring-even</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>This course covers the front and back end development of large software systems. The course includes data exchange and the use of APIs. Use of frameworks and professional development tools is emphasized.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>305</number></prerequisiteCourse>
+  </prerequisites>
+
+  <objectives>
+    <objective>Describe the differences between relational and semi-structured data models.
+      <covers standard="acm:2013" knowledgeArea="IM/DM" id="7"/>
+    </objective>
+    <objective>Give a semi-structured equivalent (eg, in DTD or XML Schema) for a given relational schema.
+      <covers standard="acm:2013" knowledgeArea="IM/DM" id="8"/>
+    </objective>
+    <objective>Describe how platform-based development differs from general purpose programming.
+      <covers standard="acm:2013" knowledgeArea="PBD/I" id="1"/>
+    </objective>
+    <objective>List characteristics of platform languages.
+      <covers standard="acm:2013" knowledgeArea="PBD/I" id="2"/>
+    </objective>
+    <objective>Write and execute a simple platform-based program.
+      <covers standard="acm:2013" knowledgeArea="PBD/I" id="3"/>
+    </objective>
+    <objective>List the advantages and disadvantages of programming with platform constraints.
+      <covers standard="acm:2013" knowledgeArea="PBD/I" id="4"/>
+    </objective>
+    <objective>Describe an interactive system in terms of a model, a view, and a controller.
+      <covers standard="acm:2013" knowledgeArea="PL/EDRP" id="3"/>
+    </objective>
+    <objective>Design and Implement a simple web application.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="1"/>
+    </objective>
+    <objective>Describe the constraints that the web puts on developers.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="2"/>
+    </objective>
+    <objective>Compare and contrast web programming with general purpose programming.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="3"/>
+    </objective>
+    <objective>Describe the differences between Software-as-a-Service and traditional software products.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="4"/>
+    </objective>
+    <objective>Discuss how web standards impact software development.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="5"/>
+    </objective>
+    <objective>Review an existing web application against a current web standard.
+      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="6"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

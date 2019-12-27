@@ -5,12 +5,12 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
+  <number>550</number>
+  <title>Applied Cryptography </title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+This course focuses on the issues associated with the design, provision and management of security services for modern communication and information systems. Students will learn different practical encryption methods for data protection. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>

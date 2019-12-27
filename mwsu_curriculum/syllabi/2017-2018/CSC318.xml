@@ -5,14 +5,15 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
-  <offered>fall</offered>
+  <number>318</number>
+  <title>Simulation and Modeling</title>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+An introduction to computerized simulations. Focus is on the architecture and development of time-step and event-sequenced models used extensively by industry and government. Other topics include process generators for random events, the development of computerized games for management training, and current simulation research.  
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

@@ -5,9 +5,10 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
+  <number>200</number>
+  <title>Computer Systems and Architecture</title>
   <offered>fall</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 	  stub

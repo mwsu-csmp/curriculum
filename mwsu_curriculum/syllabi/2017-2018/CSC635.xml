@@ -5,12 +5,12 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
-  <offered>fall</offered>
+  <number>635</number>
+  <title>Software and Computer Security</title>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+This course covers fundamental issues and first principles of software and computer security. This course will discuss basics of physical security, operating system security, and network security, web/e-commerce security as well as distributed application security. Security models and policies, standards and methodologies for security evaluation and certification will also be covered. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>

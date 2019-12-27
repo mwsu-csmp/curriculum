@@ -5,12 +5,12 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>590</number>
-  <title>Information Technology Project Management</title>
-  <offered>fall</offered>
+  <number>650</number>
+  <title>Information Assurance</title>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+This course will explore cyber-security principles by examining security policies and procedures for managing critical and sensitive data. Implications for government compliance, professional ethics, and organizational risk management will be addressed in relation to the task of preserving the confidentiality, authenticity, integrity, and availability of such data.
   </catalogDescription>
   <prerequisites>
   </prerequisites>
