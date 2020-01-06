@@ -8,7 +8,7 @@
       <number>102</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00043557</instructor>
+        <instructor>Lawson</instructor>
         <max>25</max>
         <startTime>11:00</startTime>
         <endTime>11:50</endTime>
@@ -20,7 +20,7 @@
       </section>
       <section>
         <sectionNumber>02</sectionNumber>
-        <instructor>G00043557</instructor>
+        <instructor>Lawson</instructor>
         <max>25</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -36,7 +36,7 @@
       <number>301</number>
       <section>
         <sectionNumber>40</sectionNumber>
-        <instructor>G00070723</instructor>
+        <instructor>Hecker</instructor>
         <max>25</max>
       </section>
     </course>
@@ -47,7 +47,7 @@
       <number>302</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00338276</instructor>
+        <instructor>Yan</instructor>
         <max>25</max>
         <startTime>2:00</startTime>
         <endTime>3:20</endTime>
@@ -64,7 +64,7 @@
       <number>476</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00070723</instructor>
+        <instructor>Hecker</instructor>
         <max>15</max>
         <startTime>12:30</startTime>
         <endTime>1:50</endTime>
@@ -81,7 +81,7 @@
       <number>184</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00426196</instructor>
+        <instructor>Morwick</instructor>
         <max>25</max>
         <startTime>9:30</startTime>
         <endTime>10:50</endTime>
@@ -92,7 +92,7 @@
       </section>
       <section>
         <sectionNumber>02</sectionNumber>
-        <instructor>G00426196</instructor>
+        <instructor>Morwick</instructor>
         <max>25</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -108,7 +108,7 @@
       <number>201</number>
       <section>
         <sectionNumber>40</sectionNumber>
-        <instructor>G00043557</instructor>
+        <instructor>Lawson</instructor>
         <max>25</max>
       </section>
     </course>
@@ -119,7 +119,7 @@
       <number>254</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00048593</instructor>
+        <instructor>Noynaert</instructor>
         <max>25</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -135,7 +135,7 @@
       <number>274</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00043557</instructor>
+        <instructor>Lawson</instructor>
         <max>25</max>
         <startTime>12:30</startTime>
         <endTime>1:50</endTime>
@@ -152,7 +152,7 @@
       <number>285</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00085973</instructor>
+        <instructor>Pickett</instructor>
         <max>24</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -168,7 +168,7 @@
       <number>289</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00338276</instructor>
+        <instructor>Yan</instructor>
         <max>22</max>
         <startTime>11:00</startTime>
         <endTime>12:20</endTime>
@@ -185,7 +185,7 @@
       <number>305</number>
       <section>
         <sectionNumber>02</sectionNumber>
-        <instructor>G00070723</instructor>
+        <instructor>Hecker</instructor>
         <max>25</max>
         <startTime>9:30</startTime>
         <endTime>10:50</endTime>
@@ -202,7 +202,7 @@
       <number>318</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00085973</instructor>
+        <instructor>Pickett</instructor>
         <max>22</max>
         <startTime>1:00</startTime>
         <endTime>3:50</endTime>
@@ -218,7 +218,7 @@
       <number>346</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00048593</instructor>
+        <instructor>Noynaert</instructor>
         <max>25</max>
         <startTime>5:00</startTime>
         <endTime>6:20</endTime>
@@ -235,7 +235,7 @@
       <number>386</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00426196</instructor>
+        <instructor>Morwick</instructor>
         <max>22</max>
         <startTime>2:00</startTime>
         <endTime>3:20</endTime>
@@ -252,32 +252,32 @@
       <number>450</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00426196</instructor>
+        <instructor>Morwick</instructor>
         <max>0</max>
       </section>
       <section>
         <sectionNumber>02</sectionNumber>
-        <instructor>G00048593</instructor>
+        <instructor>Noynaert</instructor>
         <max>0</max>
       </section>
       <section>
         <sectionNumber>03</sectionNumber>
-        <instructor>G00070723</instructor>
+        <instructor>Hecker</instructor>
         <max>0</max>
       </section>
       <section>
         <sectionNumber>04</sectionNumber>
-        <instructor>G00412135</instructor>
+        <instructor>Kwok</instructor>
         <max>0</max>
       </section>
       <section>
         <sectionNumber>05</sectionNumber>
-        <instructor>G00085973</instructor>
+        <instructor>Pickett</instructor>
         <max>0</max>
       </section>
       <section>
         <sectionNumber>06</sectionNumber>
-        <instructor>G00338276</instructor>
+        <instructor>Yan</instructor>
         <max>0</max>
       </section>
     </course>
@@ -288,7 +288,7 @@
       <number>451</number>
       <section>
         <sectionNumber>03</sectionNumber>
-        <instructor>G00070723</instructor>
+        <instructor>Hecker</instructor>
         <max>0</max>
       </section>
     </course>
@@ -299,7 +299,7 @@
       <number>580</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00412135</instructor>
+        <instructor>Kwok</instructor>
         <max>20</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -315,7 +315,7 @@
       <number>615</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00412135</instructor>
+        <instructor>Kwok</instructor>
         <max>20</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -331,7 +331,7 @@
       <number>630</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00412135</instructor>
+        <instructor>Kwok</instructor>
         <max>20</max>
         <startTime>5:00</startTime>
         <endTime>6:20</endTime>
@@ -348,7 +348,7 @@
       <number>635</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00338276</instructor>
+        <instructor>Yan</instructor>
         <max>20</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
@@ -364,7 +364,7 @@
       <number>650</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>G00426196</instructor>
+        <instructor>Morwick</instructor>
         <max>20</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>

@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
   <instructor>
-    <id>G00412135</id>
+    <id>Kwok</id>
     <name>Yipkei Kwok</name>
     <release>
       <description>Graduate Program Director</description>
@@ -12,27 +12,27 @@
     </release>
   </instructor>
   <instructor>
-    <id>G00048593</id>
+    <id>Noynaert</id>
     <name>Evan Noynaert</name>
   </instructor>
   <instructor>
-    <id>G00426196</id>
+    <id>Morwick</id>
     <name>Joseph Kendall-Morwick</name>
   </instructor>
   <instructor>
-    <id>G00070723</id>
+    <id>Hecker</id>
     <name>Connie Hecker</name>
   </instructor>
   <instructor>
-    <id>G00338276</id>
+    <id>Yan</id>
     <name>Baoqiang Yan</name>
   </instructor>
   <instructor>
-    <id>G00085973</id>
+    <id>Pickett</id>
     <name>Kent Pickett</name>
   </instructor>
   <instructor>
-    <id>G00043557</id>
+    <id>Lawson</id>
     <name>Greg Lawson</name>
   </instructor>
   
