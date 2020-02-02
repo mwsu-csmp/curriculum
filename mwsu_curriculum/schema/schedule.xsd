@@ -35,9 +35,7 @@
   </xs:simpleType>
 
   <xs:simpleType name="courseInstructor">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[G][0-9]{8}"/>
-    </xs:restriction>
+    <xs:restriction base="xs:string"/>
   </xs:simpleType> 
 
   <xs:simpleType name="courseMax">

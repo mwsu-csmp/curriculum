@@ -5,9 +5,7 @@
   elementFormDefault="qualified">
 
   <xs:simpleType name="instructorId">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[G][0-9]{8}"/>
-    </xs:restriction>
+    <xs:restriction base="xs:string"/>
   </xs:simpleType> 
 
   <xs:complexType name="release">
