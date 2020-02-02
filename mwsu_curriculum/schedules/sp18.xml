@@ -10,10 +10,11 @@
         <sectionNumber>01</sectionNumber>
         <instructor>Lawson</instructor>
         <max>25</max>
-        <startTime>12:30</startTime>
-        <endTime>1:50</endTime>
-        <day>T</day>
-        <day>R</day>
+        <startTime>11:00</startTime>
+        <endTime>11:50</endTime>
+        <day>M</day>
+        <day>W</day>
+        <day>F</day>
         <building>RH</building>
         <room>108</room>
       </section>
@@ -29,29 +30,13 @@
       </section>
     </course>
 
-    <course>
-      <subject>ACT</subject>
-      <number>211</number>
-      <section>
-        <sectionNumber>40</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>25</max>
-        <startTime>11:00</startTime>
-        <endTime>11:50</endTime>
-        <day>M</day>
-        <day>W</day>
-        <day>F</day>
-        <building>RH</building>
-        <room>108</room>
-      </section>
-    </course>
 
     <course>
       <subject>ACT</subject>
       <number>301</number>
       <section>
         <sectionNumber>40</sectionNumber>
-        <instructor>Noynaert</instructor>
+        <instructor>Hecker</instructor>
         <max>25</max>
       </section>
     </course>
@@ -59,20 +44,37 @@
 
     <course>
       <subject>ACT</subject>
-      <number>405</number>
+      <number>302</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Yan</instructor>
+        <max>25</max>
+        <startTime>2:00</startTime>
+        <endTime>3:20</endTime>
+        <day>T</day>
+        <day>R</day>
+        <building>AH</building>
+        <room>123</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>ACT</subject>
+      <number>476</number>
       <section>
         <sectionNumber>01</sectionNumber>
         <instructor>Hecker</instructor>
-        <max>25</max>
-        <startTime>10:00</startTime>
-        <endTime>10:50</endTime>
-        <day>M</day>
-        <day>W</day>
-        <day>F</day>
+        <max>15</max>
+        <startTime>12:30</startTime>
+        <endTime>1:50</endTime>
+        <day>T</day>
+        <day>R</day>
         <building>AH</building>
         <room>119</room>
       </section>
     </course>
+
 
     <course>
       <subject>CSC</subject>
@@ -81,13 +83,12 @@
         <sectionNumber>01</sectionNumber>
         <instructor>Morwick</instructor>
         <max>25</max>
-        <startTime>10:00</startTime>
+        <startTime>9:30</startTime>
         <endTime>10:50</endTime>
-        <day>M</day>
-        <day>W</day>
-        <day>F</day>
+        <day>T</day>
+        <day>R</day>
         <building>RH</building>
-        <room>108</room>
+        <room>105</room>
       </section>
       <section>
         <sectionNumber>02</sectionNumber>
@@ -101,42 +102,93 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
       <number>201</number>
       <section>
         <sectionNumber>40</sectionNumber>
-        <instructor>Noynaert</instructor>
+        <instructor>Lawson</instructor>
         <max>25</max>
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>208</number>
+      <number>254</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>Kwok</instructor>
+        <instructor>Noynaert</instructor>
         <max>25</max>
-        <startTime>9:00</startTime>
-        <endTime>9:50</endTime>
-        <day>M</day>
-        <day>W</day>
-        <day>F</day>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
+        <day>T</day>
+        <building>AH</building>
+        <room>126</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>274</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Lawson</instructor>
+        <max>25</max>
+        <startTime>12:30</startTime>
+        <endTime>1:50</endTime>
+        <day>T</day>
+        <day>R</day>
         <building>AH</building>
         <room>119</room>
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>245</number>
+      <number>285</number>
       <section>
         <sectionNumber>01</sectionNumber>
+        <instructor>Pickett</instructor>
+        <max>24</max>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
+        <day>R</day>
+        <building>AH</building>
+        <room>119</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>289</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Yan</instructor>
+        <max>22</max>
+        <startTime>11:00</startTime>
+        <endTime>12:20</endTime>
+        <day>T</day>
+        <day>R</day>
+        <building>AH</building>
+        <room>119</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>305</number>
+      <section>
+        <sectionNumber>02</sectionNumber>
         <instructor>Hecker</instructor>
         <max>25</max>
-        <startTime>12:30</startTime>
-        <endTime>1:50</endTime>
+        <startTime>9:30</startTime>
+        <endTime>10:50</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
@@ -144,9 +196,26 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>254</number>
+      <number>318</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Pickett</instructor>
+        <max>22</max>
+        <startTime>1:00</startTime>
+        <endTime>3:50</endTime>
+        <day>F</day>
+        <building>AH</building>
+        <room>119</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
+      <number>346</number>
       <section>
         <sectionNumber>01</sectionNumber>
         <instructor>Noynaert</instructor>
@@ -160,99 +229,23 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>294</number>
+      <number>386</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>Lawson</instructor>
-        <max>24</max>
+        <instructor>Morwick</instructor>
+        <max>22</max>
         <startTime>2:00</startTime>
         <endTime>3:20</endTime>
         <day>T</day>
         <day>R</day>
         <building>AH</building>
-        <room>126</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>328</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Pickett</instructor>
-        <max>22</max>
-        <startTime>6:30</startTime>
-        <endTime>9:20</endTime>
-        <day>R</day>
-        <building>AH</building>
         <room>119</room>
       </section>
     </course>
 
-    <course>
-      <subject>CSC</subject>
-      <number>264</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>25</max>
-        <startTime>1:00</startTime>
-        <endTime>2:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>400</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>22</max>
-        <startTime>9:30</startTime>
-        <endTime>10:50</endTime>
-        <day>T</day>
-        <day>R</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>406</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Pickett</instructor>
-        <max>25</max>
-        <startTime>1:00</startTime>
-        <endTime>3:50</endTime>
-        <day>F</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>410</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Lawson</instructor>
-        <max>15</max>
-        <startTime>2:00</startTime>
-        <endTime>3:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>123</room>
-      </section>
-    </course>
 
     <course>
       <subject>CSC</subject>
@@ -289,6 +282,7 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
       <number>451</number>
@@ -299,9 +293,10 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>520</number>
+      <number>580</number>
       <section>
         <sectionNumber>01</sectionNumber>
         <instructor>Kwok</instructor>
@@ -314,90 +309,68 @@
       </section>
     </course>
 
+
     <course>
       <subject>CSC</subject>
-      <number>550</number>
+      <number>615</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
+        <instructor>Kwok</instructor>
         <max>20</max>
         <startTime>6:30</startTime>
         <endTime>9:20</endTime>
         <day>T</day>
         <building>AH</building>
-        <room>127</room>
+        <room>123</room>
       </section>
     </course>
 
-    <course>
-      <subject>CSC</subject>
-      <number>570</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>20</max>
-        <startTime>6:30</startTime>
-        <endTime>9:20</endTime>
-        <day>R</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
 
     <course>
       <subject>CSC</subject>
-      <number>590</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>20</max>
-        <startTime>6:30</startTime>
-        <endTime>9:20</endTime>
-        <day>W</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>625</number>
+      <number>630</number>
       <section>
         <sectionNumber>01</sectionNumber>
         <instructor>Kwok</instructor>
         <max>20</max>
         <startTime>5:00</startTime>
         <endTime>6:20</endTime>
-        <day>M</day>
-        <day>W</day>
+        <day>T</day>
+        <day>R</day>
         <building>AH</building>
-        <room>127</room>
+        <room>123</room>
       </section>
     </course>
+
 
     <course>
       <subject>CSC</subject>
-      <number>660</number>
+      <number>635</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>Kwok</instructor>
-        <max>4</max>
+        <instructor>Yan</instructor>
+        <max>20</max>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
+        <day>W</day>
+        <building>AH</building>
+        <room>123</room>
       </section>
     </course>
 
+
     <course>
-      <subject>UNV</subject>
-      <number>198</number>
+      <subject>CSC</subject>
+      <number>650</number>
       <section>
         <sectionNumber>01</sectionNumber>
         <instructor>Morwick</instructor>
         <max>20</max>
-        <startTime>2:00</startTime>
-        <endTime>2:50</endTime>
-        <day>M</day>
+        <startTime>6:30</startTime>
+        <endTime>9:20</endTime>
+        <day>R</day>
         <building>AH</building>
-        <room>330</room>
+        <room>123</room>
       </section>
     </course>
-
 </schedule>

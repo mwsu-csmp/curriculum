@@ -395,19 +395,5 @@
       </section>
     </course>
 
-    <course>
-      <subject>UNV</subject>
-      <number>198</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>20</max>
-        <startTime>2:00</startTime>
-        <endTime>2:50</endTime>
-        <day>M</day>
-        <building>AH</building>
-        <room>330</room>
-      </section>
-    </course>
 
 </schedule>
