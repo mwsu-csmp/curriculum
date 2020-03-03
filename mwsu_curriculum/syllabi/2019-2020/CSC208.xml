@@ -20,9 +20,46 @@ This course is a study of mathematical reasoning including the nature and method
     </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>The goal of this course is to provide students with skills and experience in the following areas of (1) formal logic, (2) counting, (3)functions and (4) induction and recurrence.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+	<topic>Preliminary Formal Logic
+		<topic>Statement and Logic</topic>
+		<topic>Logical Connectives</topic>
+		<topic>Truth Tables</topic>
+		<topic>Tautology and Contradiction</topic>
+		<topic>De Morgan's Law</topic>
+		<topic>Variables, Quantifiers and Predicates</topic>
+	</topic>
+	<topic>Sets, Combinatorics and Probability
+		<topic>Set Theory</topic>
+		<topic>Counting</topic>
+		<topic>Principle of Inclusion and Exclusion</topic>
+		<topic>Counting Permutations and Combinations</topic>
+		<topic>Pascal Triangles and Binomial Theorem</topic>
+		<topic>Introduction to Finite Probability</topic>
+	</topic>
+	<topic>Relations, Functions and Matrices
+		<topic>Types of Relations</topic>
+		<topic>Equivalance Relation</topic>
+		<topic>Topological Sorting</topic>
+		<topic>ER Model in Database</topic>
+		<topic>Functions</topic>
+		<topic>Matrix</topic>
+	</topic>
+	<topic>Induction, Recursion and Recurrences
+		<topic>Mathemcatical Induction</topic>
+		<topic>Recursion, Recurrences and Induction</topic>
+		<topic>Growth Rates of Solutions to Recurrences
+			<topic>Big-O notations</topic>
+		</topic>
+	</topic>
+	<topic>Graphs and Trees
+		<topic>Graph Terminology</topic>
+		<topic>Tree Terminology</topic>
+		<topic>Tree Traversal Algorithms</topic>
+		<topic>Huffman Encoding</topic>
+		<topic>Eulerian and Hamiltonian Graphs</topic>
+	</topic>
   </outline>
 </course>
