@@ -1,0 +1,669 @@
+  
+<curriculumStandard
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
+
+ <name>Cybersecurity Curricula</name>
+ <body>acm</body>
+ <version>2017</version>
+ <documentUrl>https://cybered.hosting.acm.org/wp-content/uploads/2018/02/newcover_csec2017.pdf</documentUrl>
+
+  <knowledgeArea name="4.1 Knowledge Area: Data Security"  id="1">
+    <knowledgeArea name="Cryptography" id="1" >
+      <topic>Basic concepts</topic>
+      <topic>Advanced concepts</topic>
+      <topic>Mathematical background</topic>
+      <topic>Historical ciphers</topic>
+      <topic>Symmetric (private key) ciphers</topic>
+      <topic>Asymmetric (public-key) ciphers</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Digital Forensics" id="2" >
+      <topic>Introduction</topic>
+      <topic>Legal Issues</topic>
+      <topic>Digital forensic tools</topic>
+      <topic>Investigatory process</topic>
+      <topic>Acquisition and preservation of evidence</topic>
+      <topic>Analysis of evidence</topic>
+      <topic>Presentation of results</topic>
+      <topic>Authentication of evidence</topic>
+      <topic>Reporting, incident response and handling</topic>
+      <topic>Mobile forensics</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Data Integrity and Authentication" id="3" >
+      <topic>Authentication strength</topic>
+      <topic>Password attack techniques</topic>
+      <topic>Password storage techniques</topic>
+      <topic>Data integrity</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Access Control" id="4" >
+      <topic>Physical data security</topic>
+      <topic>Logical data access control</topic>
+      <topic>Secure architecture design</topic>
+      <topic>Data leak prevention techniques</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Secure Communication Protocols" id="5" >
+      <topic>Application and transport layer protocols</topic>
+      <topic>Attacks on TLS</topic>
+      <topic>Internet/Network layer</topic>
+      <topic>Privacy preserving protocols</topic>
+      <topic>Data link layer</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Cryptanalysis" id="6" >
+      <topic>Classical attacks</topic>
+      <topic>Side-channel attacks</topic>
+      <topic>Attacks against private-key ciphers</topic>
+      <topic>Attacks against public-key ciphers</topic>
+      <topic>Algorithms for solving the Discrete Log Problem</topic>
+      <topic>Attacks on RSA</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Data Privacy" id="7" >
+      <topic>Overview</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Information Storage Security" id="8" >
+      <topic>Disk and file encryption encryption</topic>
+      <topic>Data erasure</topic>
+      <topic>Data masking</topic>
+      <topic>Database security</topic>
+      <topic>Data security law</topic>
+    </knowledgeArea>
+    <outcome>Describe the purpose of cryptography and list ways it is used in</outcome>
+    <outcome>data communications.</outcome>
+    <outcome>Describe the following terms: cipher, cryptanalysis, cryptographic</outcome>
+    <outcome>algorithm, and cryptology, and describe the two basic methods</outcome>
+    <outcome>(ciphers) for transforming plaintext in ciphertext.</outcome>
+    <outcome>Explain how public key infrastructure supports digital signing and</outcome>
+    <outcome>encryption and discuss the limitations/vulnerabilities.</outcome>
+    <outcome>Discuss the dangers of inventing one’s own cryptographic methods.</outcome>
+    <outcome>Describe which cryptographic protocols, tools and techniques are</outcome>
+    <outcome>appropriate for a given situation.</outcome>
+    <outcome>Explain the goals of end-to-end data security.</outcome>
+    <outcome>Describe what a digital investigation is, the sources of digital</outcome>
+    <outcome>evidence, and the limitations of forensics.</outcome>
+    <outcome>Compare and contrast variety of forensics tools.</outcome>
+    <outcome>Explain the concepts of authentication, authorization, access</outcome>
+    <outcome>control, and data integrity.</outcome>
+    <outcome>Explain the various authentication techniques and their strengths</outcome>
+    <outcome>and weaknesses.</outcome>
+    <outcome>Explain the various possible attacks on passwords.</outcome>
+    <outcome>Describe the various techniques for data erasure.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.2 Knowledge Area: Software Security"  id="2">
+    <knowledgeArea name="Fundamental Principles" id="1" >
+      <topic>Least privilege</topic>
+      <topic>Fail-safe defaults</topic>
+      <topic>Complete mediation</topic>
+      <topic>Separation</topic>
+      <topic>Minimize trust</topic>
+      <topic>Economy of mechanism</topic>
+      <topic>Minimize common mechanism</topic>
+      <topic>Least astonishment</topic>
+      <topic>Open design</topic>
+      <topic>Layering</topic>
+      <topic>Abstraction</topic>
+      <topic>Modularity</topic>
+      <topic>Complete linkage</topic>
+      <topic>Design for iteration</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Design" id="2" >
+      <topic>Derivation of security requirements</topic>
+      <topic>Specification of security requirements</topic>
+      <topic>Software development lifecycle/Security development lifecycle</topic>
+      <topic>Programming languages and type-safe languages</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Implementation" id="3" >
+      <topic>Validating input and checking its representation</topic>
+      <topic>Using APIs correctly</topic>
+      <topic>Using security features</topic>
+      <topic>Checking time and state relationships</topic>
+      <topic>Handling exceptions and errors properly</topic>
+      <topic>Programming robustly</topic>
+      <topic>Encapsulating structures and modules</topic>
+      <topic>Taking environment into account</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Analysis and Testing" id="4" >
+      <topic>Static and dynamic analysis</topic>
+      <topic>Unit testing</topic>
+      <topic>Integration testing</topic>
+      <topic>Software testing</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Deployment and Maintenance" id="5" >
+      <topic>Configuring</topic>
+      <topic>Patching and the vulnerability lifecycle</topic>
+      <topic>Checking environment</topic>
+      <topic>DevOps</topic>
+      <topic>Decommissioning/Retiring</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Documentation" id="6" >
+      <topic>Installation documents</topic>
+      <topic>User guides and manuals</topic>
+      <topic>Assurance documentation</topic>
+      <topic>Security documentation</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Ethics" id="7" >
+      <topic>Ethical issues in software development</topic>
+      <topic>Social aspects of software development</topic>
+      <topic>Legal aspects of software development</topic>
+      <topic>Vulnerability disclosure</topic>
+      <topic>What, when and why to test</topic>
+    </knowledgeArea>
+    <outcome>Discuss the implications of relying on open design or the secrecy of</outcome>
+    <outcome>design for security.</outcome>
+    <outcome>List the three principles of security.</outcome>
+    <outcome>Describe why each principle is important to security.</outcome>
+    <outcome>Identify the needed design principle.</outcome>
+    <outcome>Explain why security requirements are important.</outcome>
+    <outcome>Identify common attack vectors.</outcome>
+    <outcome>Describe the importance of writing secure and robust programs.</outcome>
+    <outcome>Describe the concept of privacy including personally identifiable</outcome>
+    <outcome>information.</outcome>
+    <outcome>Explain why input validation and data sanitization are necessary.</outcome>
+    <outcome>Explain the difference between pseudorandom numbers and</outcome>
+    <outcome>random numbers.</outcome>
+    <outcome>Differentiate between secure coding and patching and explain the</outcome>
+    <outcome>advantage of using secure coding techniques.</outcome>
+    <outcome>Describe a buffer overflow and why it is a potential security</outcome>
+    <outcome>problem.</outcome>
+    <outcome>Explain the difference between static and dynamic analysis.</outcome>
+    <outcome>Discuss a problem that static analysis cannot reveal.</outcome>
+    <outcome>Discuss a problem that dynamic analysis cannot reveal.</outcome>
+    <outcome>Discuss the need to update software to fix security vulnerabilities.</outcome>
+    <outcome>Explain the need to test software after an update but before the</outcome>
+    <outcome>patch is distributed.</outcome>
+    <outcome>Explain the importance of correctly configuring software.</outcome>
+    <outcome>Explain the concept that because you can do it, it doesn’t mean you</outcome>
+    <outcome>should do it.</outcome>
+    <outcome>Discuss the ethical issues in disclosing vulnerabilities.</outcome>
+    <outcome>Discuss the ethics of thorough testing, especially corner cases.</outcome>
+    <outcome>Identify the ethical effects and impacts of design decisions.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.3 Knowledge Area: Component Security"  id="3">
+    <knowledgeArea name="Component Design" id="1" >
+      <topic>Component design security</topic>
+      <topic>Principles of secure component design</topic>
+      <topic>Component identification</topic>
+      <topic>Anti-reverse engineering techniques</topic>
+      <topic>Side-channel attack mitigation</topic>
+      <topic>Anti-tamper technologies</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Component Procurement" id="2" >
+      <topic>Supply chain risks</topic>
+      <topic>Supply chain security</topic>
+      <topic>Supplier vetting</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Component Testing" id="3" >
+      <topic>Principles of unit testing</topic>
+      <topic>Security testing</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Component Reverse Engineering" id="4" >
+      <topic>Design reverse engineering</topic>
+      <topic>Hardware reverse</topic>
+      <topic>engineering</topic>
+      <topic>Software reverse engineering</topic>
+    </knowledgeArea>
+    <outcome>Explain how the security of a system’s components might impact</outcome>
+    <outcome>the security of the system.</outcome>
+    <outcome>Describe ways in which the confidentiality of a component’s design</outcome>
+    <outcome>may be compromised.</outcome>
+    <outcome>Describe ways to learn information about component’s</outcome>
+    <outcome>functionality with limited information about its design and</outcome>
+    <outcome>implementation.</outcome>
+    <outcome>List the phases of a component’s lifecycle.</outcome>
+    <outcome>List component design artifacts which may require protection.</outcome>
+    <outcome>Give examples of several secure component design principles and</outcome>
+    <outcome>explain how each protects the security of components.</outcome>
+    <outcome>Describe several techniques for protecting the design elements of</outcome>
+    <outcome>an integrated circuit.</outcome>
+    <outcome>List common points of vulnerability in a component’s supply chain.</outcome>
+    <outcome>Describe security risks in a component supply chain.</outcome>
+    <outcome>Describe ways to mitigate supply chain risks.</outcome>
+    <outcome>Differentiate between unit and system testing.</outcome>
+    <outcome>List several techniques for testing security properties of a</outcome>
+    <outcome>component.</outcome>
+    <outcome>List reasons why someone would reverse engineer a component.</outcome>
+    <outcome>Explain the difference between static and dynamic analysis in</outcome>
+    <outcome>reverse engineering software.</outcome>
+    <outcome>Describe a technique for reverse engineering the functionality of an</outcome>
+    <outcome>integrated circuit.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.4 Knowledge Area: Connection Security"  id="4">
+    <knowledgeArea name="Physical Media" id="1" >
+      <topic>Transmission in a medium</topic>
+      <topic>Shared and point-to-point media</topic>
+      <topic>Sharing models</topic>
+      <topic>Common technologies</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Physical Interfaces and Connectors" id="2" >
+      <topic>Hardware characteristics and materials</topic>
+      <topic>Standards</topic>
+      <topic>Common connectors</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Hardware Architecture" id="3" >
+      <topic>Standard architectures</topic>
+      <topic>Hardware interface standards</topic>
+      <topic>Common architectures</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Distributed Systems Architecture" id="4" >
+      <topic>General concepts</topic>
+      <topic>World-wide-web</topic>
+      <topic>The Internet</topic>
+      <topic>Protocols and layering</topic>
+      <topic>High performance computing (supercomputers)</topic>
+      <topic>Hypervisors and cloud computing implementations</topic>
+      <topic>Vulnerabilities and example exploits</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Network Architecture" id="5" >
+      <topic>General concepts</topic>
+      <topic>Common architectures</topic>
+      <topic>Forwarding</topic>
+      <topic>Routing</topic>
+      <topic>Switching/Bridging</topic>
+      <topic>Emerging trends</topic>
+      <topic>Virtualization and virtual hypervisor architecture</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Network Implementations" id="6" >
+      <topic>IEEE 802/ISO networks</topic>
+      <topic>IETF networks and TCP/IP</topic>
+      <topic>Practical integration and glue protocols</topic>
+      <topic>Vulnerabilities and example exploits</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Network Services" id="7" >
+      <topic>Concept of a service</topic>
+      <topic>Service models (client-server, peer-to-peer)</topic>
+      <topic>Service protocol concepts (IPC, APIs, IDLs)</topic>
+      <topic>Common service communication architectures</topic>
+      <topic>Service virtualization</topic>
+      <topic>Vulnerabilities and example exploits</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Network Defense" id="8" >
+      <topic>Network hardening</topic>
+      <topic>Implementing IDS/IPS</topic>
+      <topic>Implementing firewalls and virtual private networks (VPNs)</topic>
+      <topic>Defense in depth</topic>
+      <topic>Honeypots and honeynets</topic>
+      <topic>Network monitoring</topic>
+      <topic>Network traffic analysis</topic>
+      <topic>Minimizing exposure (attack surface and vectors)</topic>
+      <topic>Network access control (internal and external)</topic>
+      <topic>Perimeter networks (also known as demilitarized zones or DMZs) / Proxy Servers</topic>
+      <topic>Network policy development and enforcement</topic>
+      <topic>Network operational procedures</topic>
+      <topic>Network attacks (e.g., session hijacking, man-in-the-middle)</topic>
+      <topic>Threat hunting and machine learning</topic>
+    </knowledgeArea>
+    <outcome>Discuss the need for common models and architectures in order to</outcome>
+    <outcome>describe systems.</outcome>
+    <outcome>Describe a model of systems that consists of components and</outcome>
+    <outcome>interfaces for connections.</outcome>
+    <outcome>Explain why a component requires at least one interface.</outcome>
+    <outcome>List several standards that define models consisting of systems of</outcome>
+    <outcome>components and interfaces.</outcome>
+    <outcome>Describe the components and interfaces of a networking standard</outcome>
+    <outcome>provided.</outcome>
+    <outcome>Explain why a hardware device is always modeled a physical</outcome>
+    <outcome>component.</outcome>
+    <outcome>List several examples of physical component interfaces with their</outcome>
+    <outcome>associated vulnerabilities.</outcome>
+    <outcome>Describe an exploit for a vulnerability of a physical interface</outcome>
+    <outcome>provided.</outcome>
+    <outcome>Explain why every physical interface has a corresponding</outcome>
+    <outcome>software component to provide a corresponding software</outcome>
+    <outcome>interface.</outcome>
+    <outcome>Explain how software components are organized to represent</outcome>
+    <outcome>logical layers in a standard model.</outcome>
+    <outcome>Discuss how the Internet 5 layer model can be viewed as software</outcome>
+    <outcome>components and interfaces that represent levels of services</outcome>
+    <outcome>encapsulated by lower-level services.</outcome>
+    <outcome>Discuss how TCP/IP as a service is represented by different</outcome>
+    <outcome>interfaces in different software systems.</outcome>
+    <outcome>Explain how connection attacks can be understood in terms of</outcome>
+    <outcome>attacks on software component interfaces.</outcome>
+    <outcome>Describe how a specified standard interface could expose</outcome>
+    <outcome>vulnerabilities in a software component that implements the</outcome>
+    <outcome>interface.</outcome>
+    <outcome>Describe how an implementation could protect itself from a</outcome>
+    <outcome>specified vulnerability in a specified standard interface.</outcome>
+    <outcome>Explain how transmission attacks are often implemented as attacks</outcome>
+    <outcome>on components that provide the service of relaying information.</outcome>
+    <outcome>Describe an attack on a specified node in a TCP/IP network given</outcome>
+    <outcome>the description of a vulnerability.</outcome>
+    <outcome>Explain why transmission attacks can often be viewed as</outcome>
+    <outcome>connection attacks on network components (physical or software).</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.5 Knowledge Area: System Security"  id="5">
+    <knowledgeArea name="System Thinking" id="1" >
+      <topic>What is a system?</topic>
+      <topic>What is systems engineering?</topic>
+      <topic>Holistic approaches</topic>
+      <topic>Security of general-purpose systems</topic>
+      <topic>Security of special-purposes systems</topic>
+      <topic>Threat models</topic>
+      <topic>Requirements analysis</topic>
+      <topic>Fundamental principles</topic>
+      <topic>Development for testing</topic>
+    </knowledgeArea>
+    <knowledgeArea name="System Management" id="2" >
+      <topic>Policy models</topic>
+      <topic>Policy composition</topic>
+      <topic>Use of automation</topic>
+      <topic>Patching and the vulnerability life cycle</topic>
+      <topic>Operation</topic>
+      <topic>Commissioning and decommissioning</topic>
+      <topic>Insider threat</topic>
+      <topic>Documentation</topic>
+      <topic>Systems and procedures</topic>
+    </knowledgeArea>
+    <knowledgeArea name="System Access" id="3" >
+      <topic>Authentication methods</topic>
+      <topic>Identity</topic>
+    </knowledgeArea>
+    <knowledgeArea name="System Control" id="4" >
+      <topic>Access control</topic>
+      <topic>Authorization models</topic>
+      <topic>Intrusion detection</topic>
+      <topic>Attacks</topic>
+      <topic>Defenses</topic>
+      <topic>Audit</topic>
+      <topic>Malware</topic>
+      <topic>Vulnerabilities models</topic>
+      <topic>Penetration testing</topic>
+      <topic>Forensics</topic>
+      <topic>Recovery, resilience</topic>
+    </knowledgeArea>
+    <knowledgeArea name="System Retirement" id="5" >
+      <topic>Decommissioning</topic>
+      <topic>Disposal</topic>
+    </knowledgeArea>
+    <knowledgeArea name="System Testing" id="6" >
+      <topic>Validating requirements</topic>
+      <topic>Validating composition of components</topic>
+      <topic>Unit versus system testing</topic>
+      <topic>Formal verification of systems</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Common System Architectures" id="7" >
+      <topic>Virtual machines</topic>
+      <topic>Industrial control systems</topic>
+      <topic>Internet of Things (IoT)</topic>
+      <topic>Embedded systems</topic>
+      <topic>Mobile systems</topic>
+      <topic>Autonomous systems</topic>
+      <topic>General-purpose systems</topic>
+    </knowledgeArea>
+    <outcome>Explain the concepts of trust and trustworthiness.</outcome>
+    <outcome>Explain what is meant by confidentiality, integrity, and</outcome>
+    <outcome>availability.</outcome>
+    <outcome>Explain what a security policy is, and its role in protecting data</outcome>
+    <outcome>and resources.</outcome>
+    <outcome>Discuss the importance of a security policy.</outcome>
+    <outcome>Explain why different sites have different security policies.</outcome>
+    <outcome>Explain the relationship among a security group, system</outcome>
+    <outcome>configuration, and procedures to maintain the security of the</outcome>
+    <outcome>system.</outcome>
+    <outcome>Explain three properties commonly used for authentication.</outcome>
+    <outcome>Explain the importance of multifactor authentication.</outcome>
+    <outcome>Explain the advantages of pass phrases over passwords.</outcome>
+    <outcome>Describe an access control list.</outcome>
+    <outcome>Describe physical and logical access control, and compare and</outcome>
+    <outcome>contrast them.</outcome>
+    <outcome>Distinguish between authorization and authentication.</outcome>
+    <outcome>Discuss how intrusion detection systems contribute to security.</outcome>
+    <outcome>Describe the limits of anti-malware software such as antivirus</outcome>
+    <outcome>programs.</outcome>
+    <outcome>Discuss uses of system monitoring.</outcome>
+    <outcome>Explain what resilience is and identify an environment in which it</outcome>
+    <outcome>is important.</outcome>
+    <outcome>Discuss the basics of a disaster recovery plan.</outcome>
+    <outcome>Explain why backups pose a potential security risk.</outcome>
+    <outcome>Describe what a penetration test is and why it is valuable.</outcome>
+    <outcome>Discuss how to document a test that reveals a vulnerability.</outcome>
+    <outcome>Discuss the importance of validating requirements.</outcome>
+    <outcome>Discuss the importance of documenting proper installation and</outcome>
+    <outcome>configuration of a system.</outcome>
+    <outcome>Be able to write host and network intrusions documentation.</outcome>
+    <outcome>Be able to explain the security implications of unclear or</outcome>
+    <outcome>incomplete documentation of system operation.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.6 Knowledge Area: Human Security"  id="6">
+    <knowledgeArea name="Identity Management" id="1" >
+      <topic>Identification and authentication of people and devices</topic>
+      <topic>Physical and logical assets control</topic>
+      <topic>Identity as a Service (IaaS)</topic>
+      <topic>Third-party identity services</topic>
+      <topic>Access control attacks and mitigation measures</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Social Engineering" id="2" >
+      <topic>Types of social engineering attacks</topic>
+      <topic>Psychology of social engineering attacks</topic>
+      <topic>Misleading users</topic>
+      <topic>Detection and mitigation of social engineering attacks</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Personal Compliance with Cybersecurity Rules/Policy/Ethical Norms" id="3" >
+      <topic>System misuse and user misbehavior</topic>
+      <topic>Enforcement and rules of behavior</topic>
+      <topic>Proper behavior under uncertainty</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Awareness and Understanding" id="4" >
+      <topic>Risk perception and communication</topic>
+      <topic>Cyber hygiene</topic>
+      <topic>Cybersecurity user education</topic>
+      <topic>Cyber vulnerabilities and threats awareness</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Social and Behavioral Privacy" id="5" >
+      <topic>Social theories of privacy</topic>
+      <topic>Social media privacy and security</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Personal Data Privacy and Security" id="6" >
+      <topic>Sensitive personal data (SPD)</topic>
+      <topic>Personal tracking and digital footprint</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Usable Security and Privacy" id="7" >
+      <topic>Usability and user experience</topic>
+      <topic>Human security factors</topic>
+      <topic>Policy awareness and understanding</topic>
+      <topic>Privacy policy</topic>
+      <topic>Design guidance and implications</topic>
+    </knowledgeArea>
+    <outcome>Explain the difference between identification, authentication, and</outcome>
+    <outcome>access authorization of people and devices.</outcome>
+    <outcome>Discuss the importance of audit trails and logging in identification</outcome>
+    <outcome>and authentication.</outcome>
+    <outcome>Demonstrate the ability to implement the concept of least privilege</outcome>
+    <outcome>and segregation of duties.</outcome>
+    <outcome>Demonstrate the overall understanding of access control attacks</outcome>
+    <outcome>and mitigation measures.</outcome>
+    <outcome>Demonstrate overall understanding of the types of social</outcome>
+    <outcome>engineering attacks, psychology of social engineering attacks, and</outcome>
+    <outcome>misleading users.</outcome>
+    <outcome>Demonstrate the ability to identify types of social engineering</outcome>
+    <outcome>attacks.</outcome>
+    <outcome>Demonstrate the ability to implement approaches for detection and</outcome>
+    <outcome>mitigation of social engineering attacks.</outcome>
+    <outcome>Discuss the importance of cyber hygiene, cybersecurity user</outcome>
+    <outcome>education, as well as cyber vulnerabilities and threats awareness.</outcome>
+    <outcome>Describe the major topics within Security Education, Training,</outcome>
+    <outcome>and Awareness (SETA) programs.</outcome>
+    <outcome>Discuss the importance of SETA as countermeasures.</outcome>
+    <outcome>Discuss the importance of risk perception and communication in</outcome>
+    <outcome>the context of mental models of cybersecurity and privacy.</outcome>
+    <outcome>Compare and contrast various theories of privacy from social</outcome>
+    <outcome>psychology and social science.</outcome>
+    <outcome>Describe the concepts of privacy tradeoffs and risks in the social</outcome>
+    <outcome>context, control and awareness of data consent, personal</outcome>
+    <outcome>information monitoring, regulatory protections and concerns on</outcome>
+    <outcome>maintaining social privacy.</outcome>
+    <outcome>Discuss the importance of social media privacy and security.</outcome>
+    <outcome>Discuss the importance of protection of Sensitive Personal Data</outcome>
+    <outcome>(SPD) and Personally Identifiable Information (PII).</outcome>
+    <outcome>Discuss the importance of regulations governing the collection,</outcome>
+    <outcome>use and distribution of SPD, and possibilities for inference of</outcome>
+    <outcome>SPD.</outcome>
+    <outcome>Describe the concepts of personal tracking and digital footprint,</outcome>
+    <outcome>while understanding the invasiveness of such tools in the context</outcome>
+    <outcome>of privacy.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.7 Knowledge Area: Organizational Security"  id="7">
+    <knowledgeArea name="Risk Management" id="1" >
+      <topic>Risk identification</topic>
+      <topic>Risk assessment and analysis</topic>
+      <topic>Insider threats</topic>
+      <topic>Risk measurement and evaluation models and methodologies</topic>
+      <topic>Risk control</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Security Governance and Policy" id="2" >
+      <topic>Organizational context</topic>
+      <topic>Privacy</topic>
+      <topic>Laws, ethics, and compliance</topic>
+      <topic>Security governance</topic>
+      <topic>Executive and board level communication</topic>
+      <topic>Managerial policy</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Analytical Tools" id="3" >
+      <topic>Performance measurements (metrics)</topic>
+      <topic>Data analytics</topic>
+      <topic>Security intelligence</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Systems Administration" id="4" >
+      <topic>Operating system administration</topic>
+      <topic>Database system administration</topic>
+      <topic>Network administration</topic>
+      <topic>Cloud administration</topic>
+      <topic>Cyber-physical system administration</topic>
+      <topic>System hardening</topic>
+      <topic>Availability</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Cybersecurity Planning" id="5" >
+      <topic>Strategic planning</topic>
+      <topic>Operational and tactical management</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Business Continuity, Disaster Recovery, and Management Security" id="6" >
+      <topic>Incident response</topic>
+      <topic>Disaster recovery</topic>
+      <topic>Business continuity</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Security Program Management" id="7" >
+      <topic>Project management</topic>
+      <topic>Resource management</topic>
+      <topic>Security metrics</topic>
+      <topic>Quality assurance and quality control</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Personnel Security" id="8" >
+      <topic>Security awareness, training, and education</topic>
+      <topic>Security hiring practices</topic>
+      <topic>Security termination practices</topic>
+      <topic>Third-party security</topic>
+      <topic>Security in review processes</topic>
+      <topic>Special issue in privacy of employee personal information</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Security Operations" id="9" >
+      <topic>Security convergence</topic>
+      <topic>Global security operations centers (GSOCs)</topic>
+    </knowledgeArea>
+    <outcome>Describe risk management and its role in the organization.</outcome>
+    <outcome>Describe risk management techniques to identify and prioritize</outcome>
+    <outcome>risk factors for information assets and how risk is assessed.</outcome>
+    <outcome>Discuss the strategy options used to treat risk and be prepared to</outcome>
+    <outcome>select from them when given background information.</outcome>
+    <outcome>Describe popular methodologies used in the industry to manage</outcome>
+    <outcome>risk.</outcome>
+    <outcome>Discuss the importance, benefits, and desired outcomes of</outcome>
+    <outcome>cybersecurity governance and how such a program would be</outcome>
+    <outcome>implemented.</outcome>
+    <outcome>Describe information security policy and its role in a successful</outcome>
+    <outcome>information security program.</outcome>
+    <outcome>Describe the major types of information security policy and the</outcome>
+    <outcome>major components of each.</outcome>
+    <outcome>Explain what is necessary to develop, implement, and maintain</outcome>
+    <outcome>effective policy and what consequences the organization may face</outcome>
+    <outcome>if it does not do so.</outcome>
+    <outcome>Differentiate between law and ethics.</outcome>
+    <outcome>Describe why ethical codes of conduct are important to</outcome>
+    <outcome>cybersecurity professionals and their organizations.</outcome>
+    <outcome>Identify significant national and international laws that relate to</outcome>
+    <outcome>cybersecurity.</outcome>
+    <outcome>Explain how organizations achieve compliance with national and</outcome>
+    <outcome>international laws and regulations, and specific industry standards.</outcome>
+    <outcome>Explain strategic organizational planning for cybersecurity and its</outcome>
+    <outcome>relationship to organization-wide and IT strategic planning.</outcome>
+    <outcome>Identify the key organizational stakeholders and their roles.</outcome>
+    <outcome>Describe the principal components of cybersecurity system</outcome>
+    <outcome>implementation planning.</outcome>
+  </knowledgeArea>
+  <knowledgeArea name="4.8 Knowledge Area: Societal Security"  id="8">
+    <knowledgeArea name="Cybercrime" id="1" >
+      <topic>Cybercriminal behavior</topic>
+      <topic>Cyber terrorism</topic>
+      <topic>Cybercriminal investigations</topic>
+      <topic>Economics of cybercrime</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Cyber Law" id="2" >
+      <topic>Constitutional foundations of cyber law</topic>
+      <topic>Intellectual property related to cybersecurity</topic>
+      <topic>Privacy laws</topic>
+      <topic>Data security law</topic>
+      <topic>Computer hacking laws</topic>
+      <topic>Digital evidence</topic>
+      <topic>Digital contracts</topic>
+      <topic>Multinational conventions (accords)</topic>
+      <topic>Cross-border privacy and data security laws</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Cyber Ethics" id="3" >
+      <topic>Defining ethics</topic>
+      <topic>Professional ethics and codes of conduct</topic>
+      <topic>Ethics and equity/diversity</topic>
+      <topic>Ethics and law</topic>
+      <topic>Autonomy/robot ethics</topic>
+      <topic>Ethics and conflict</topic>
+      <topic>Ethical hacking</topic>
+      <topic>Ethical frameworks and normative theories</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Cyber Policy" id="4" >
+      <topic>International cyber policy</topic>
+      <topic>U.S. federal cyber policy</topic>
+      <topic>Global impact</topic>
+      <topic>Cybersecurity policy and national security</topic>
+      <topic>National economic implications of cybersecurity</topic>
+      <topic>New adjacencies to diplomacy</topic>
+    </knowledgeArea>
+    <knowledgeArea name="Privacy" id="5" >
+      <topic>Defining privacy</topic>
+      <topic>Privacy rights</topic>
+      <topic>Safeguarding privacy</topic>
+      <topic>Privacy norms and attitudes</topic>
+      <topic>Privacy breaches</topic>
+      <topic>Privacy in societies</topic>
+    </knowledgeArea>
+    <outcome>Discuss various motives for cybercrime behavior.</outcome>
+    <outcome>Summarize terror activities in cyberspace geared toward</outcome>
+    <outcome>generating societal fear and certainty.</outcome>
+    <outcome>Describe methods for investigating both domestic and</outcome>
+    <outcome>international crimes.</outcome>
+    <outcome>Explain why preserving the chain of digital evidence is necessary</outcome>
+    <outcome>in prosecuting cybercrimes.</outcome>
+    <outcome>Describe the constitutional foundations of cyber law.</outcome>
+    <outcome>Describe international data security and computer hacking laws.</outcome>
+    <outcome>Interpret intellectual property laws related to security.</outcome>
+    <outcome>Summarize laws governing online privacy.</outcome>
+    <outcome>Distinguish among virtue ethics, utilitarian ethics and</outcome>
+    <outcome>deontological ethics.</outcome>
+    <outcome>Paraphrase professional ethics and codes of conduct from</outcome>
+    <outcome>prominent professional societies, such as ACM, IEEE-CS, AIS</outcome>
+    <outcome>and (ISC)</outcome>
+    <outcome>Describe ways in which decision-making algorithms could over-</outcome>
+    <outcome>represent or under-represent majority and minority groups in</outcome>
+    <outcome>society.</outcome>
+    <outcome>Describe major international public policy positions and the</outcome>
+    <outcome>impact they have on organizations and individuals.</outcome>
+    <outcome>Summarize nation-specific cybersecurity public policy with</outcome>
+    <outcome>respect to the protection of sensitive information and protection of</outcome>
+    <outcome>critical infrastructure.</outcome>
+    <outcome>Explain global impact of cybersecurity to culture including areas</outcome>
+    <outcome>such as the economy, social issues, policy and laws.</outcome>
+    <outcome>Describe the concept of privacy including the societal definition of</outcome>
+    <outcome>what constitutes personally private information and the tradeoffs</outcome>
+    <outcome>between individual privacy and security.</outcome>
+    <outcome>Summarize the tradeoff between the rights to privacy by the</outcome>
+    <outcome>individual versus the needs of society.</outcome>
+    <outcome>Describe the common practices and technologies used to</outcome>
+    <outcome>safeguard personal privacy.</outcome>
+  </knowledgeArea>
+</curriculumStandard>

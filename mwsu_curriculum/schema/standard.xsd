@@ -57,50 +57,40 @@
     <xs:element name="curriculumStandard">
      <xs:complexType>
       <xs:sequence>
-
-     <xs:element name="name" type="xs:string" />
-
-     <xs:element name="body" type="xs:string" />
-
-     <xs:element name="version" type="xs:string" />
-
-     <xs:element name="documentUrl" type="xs:string" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="body" type="xs:string" />
+        <xs:element name="version" type="xs:string" />
+        <xs:element name="documentUrl" type="xs:string" />
        
-  <xs:element name="knowledgeArea" maxOccurs="unbounded">
-   <xs:complexType>
-      <xs:sequence>
         <xs:element name="knowledgeArea" maxOccurs="unbounded">
           <xs:complexType>
-           <xs:sequence>    
-            <xs:element name="topic" maxOccurs="unbounded">
-             <xs:complexType>
-              <xs:simpleContent>
-               <xs:extension base="xs:string">
-                <xs:attribute name="importance" type="importance"/>
-               </xs:extension>
-              </xs:simpleContent>
-             </xs:complexType>
-            </xs:element>
-             <xs:element name="outcome" maxOccurs="unbounded">
-              <xs:complexType>
-               <xs:simpleContent>
-                <xs:extension base="xs:string">
-                 <xs:attribute name="importance" type="importance"/>
-                 <xs:attribute name="mastery_level" type="mastery_level"/>
-                </xs:extension>
-               </xs:simpleContent>
-              </xs:complexType>
-             </xs:element>
+            <xs:sequence>
+	      <xs:element name="knowledgeArea" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="topic" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="importance" type="importance"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="outcome" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="importance" type="importance"/>
+                      <xs:attribute name="mastery_level" type="mastery_level"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
             </xs:sequence>
-             <xs:attribute name="id" type="id"/>
-             <xs:attribute name="name" type="courseName"/>
-            </xs:complexType>
-           </xs:element>
-          </xs:sequence>
-           <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="id" type="id"/>
+            <xs:attribute name="name" type="courseName"/>
           </xs:complexType>
-         </xs:element>
-    </xs:sequence>
-   </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
   </xs:element>
 </xs:schema>
