@@ -11,3 +11,9 @@ Syllabi are codified to include all necessary catalog information, all necessary
 ## Alignment of Curriculum to External Standards
 
 The standards folder contains initial efforts towards development of XML codification of external (or internal) standards, but is still a work in progress. 
+
+## Dependencies (ubuntu packages listed)
+* python3
+* pytest-benchmark
+* libxml2-utils
+* xmllint
