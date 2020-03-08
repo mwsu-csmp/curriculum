@@ -5,11 +5,11 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
 
  <name>Computer Science Curricula</name>
- <body>acm</body>
+ <body>acm/ieee</body>
  <version>2013</version> 
  <documentUrl>https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf</documentUrl>
 
-  <knowledgeArea id='AL'>
+  <knowledgeArea id='AL' name='Algorithms and Complexity'>
     <knowledgeArea id='BA' name='Basic Analysis'>
       <topic importance='tier1'> Differences among best, expected, and worst case behaviors of an algorithm
       </topic>
@@ -220,7 +220,7 @@
       <outcome importance='elective' mastery_level='assessment'>Select and apply advanced analysis techniques (e.g., amortized, probabilistic, etc.) to algorithms. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='AR'>
+  <knowledgeArea id='AR' name='Architecture and Organization'>
     <knowledgeArea id='DLADS' name='Digital Logic and Digital Systems'>
       <topic importance='tier2'> Overview and history of computer architecture
       </topic>
@@ -400,7 +400,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe the relevance of scalability to performance. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='CN'>
+  <knowledgeArea id='CN' name='Computational Science'>
     <knowledgeArea id='ITMAS' name='Introduction to Modeling and Simulation'>
       <topic importance='tier1'> Models as abstractions of situations
       </topic>
@@ -547,7 +547,7 @@
       <outcome importance='elective' mastery_level='usage'>Implement algorithms for solving differential equations. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='DS'>
+  <knowledgeArea id='DS' name='Discrete Structures'>
     <knowledgeArea id='SRAF' name='Sets, Relations, and Functions'>
       <topic importance='tier1'> Sets</topic>
       <topic importance='tier1'> Venn diagrams</topic>
@@ -689,7 +689,7 @@
       <outcome importance='tier2' mastery_level='usage'>Explain how events that are independent can be conditionally dependent (and  vice-versa).  Identify real- world examples of such cases. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='GV'>
+  <knowledgeArea id='GV' name='Graphics and Visualization'>
     <knowledgeArea id='FC' name='Fundamental Concepts'>
       <topic importance='tier1'> Media applications including user interfaces, audio and video editing, game engines, cad, visualization, virtual reality
       </topic>
@@ -893,7 +893,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Recognize a variety of applications of visualization including representations of scientific, medical, and mathematical data; flow visualization; and spatial analysis. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='HCI'>
+  <knowledgeArea id='HCI' name='Human-Computer Interaction'>
     <knowledgeArea id='F' name='Foundations'>
       <topic importance='tier1'> Contexts for HCI (anything with a user interface, e.g., webpage, business applications, mobile applications, and games)
       </topic>
@@ -1136,7 +1136,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe several possible uses for games engines, including their potential and their limitations. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='IAS'>
+  <knowledgeArea id='IAS' name='Information Assurance and Security'>
     <knowledgeArea id='FCIS' name='Foundational Concepts in Security'>
       <topic importance='tier1'> CIA (Confidentiality, Integrity, Availability)
       </topic>
@@ -1483,7 +1483,7 @@
       <outcome importance='elective' mastery_level='usage'>Conduct a security verification and assessment (static and dynamic) of a software application. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='IM'>
+  <knowledgeArea id='IM' name='Information Management'>
     <knowledgeArea id='IMC' name='Information Management Concepts'>
       <topic importance='tier1'> Information systems as  socio-technical  systems
       </topic>
@@ -1806,7 +1806,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe the characteristics of a computer system (including identification of support tools and appropriate standards) that has to host the implementation of one of a range of possible multimedia applications. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='IS'>
+  <knowledgeArea id='IS' name='Intelligent Systems'>
     <knowledgeArea id='FI' name='Fundamental Issues'>
       <topic importance='tier2'> Overview of AI problems, examples of successful recent AI applications
       </topic>
@@ -2124,7 +2124,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Describe at least three classification approaches, their prerequisites for applicability, their strengths, and their shortcomings. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='NC'>
+  <knowledgeArea id='NC' name='Networking and Communications'>
     <knowledgeArea id='I' name='Introduction'>
       <topic importance='tier1'> Organization of the Internet (Internet Service Providers, Content Providers, etc.)
       </topic>
@@ -2242,7 +2242,7 @@
       <outcome importance='elective' mastery_level='assessment'>Evaluate a given interpretation of a social network question with associated data. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='OS'>
+  <knowledgeArea id='OS' name='Operating Systems'>
     <knowledgeArea id='OOOS' name='Overview of Operating Systems'>
       <topic importance='tier1'> Role and purpose of the operating system
       </topic>
@@ -2453,7 +2453,7 @@
       <outcome importance='elective' mastery_level='familiarity'>Explain the main evaluation models used to evaluate a system. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='PBD'>
+  <knowledgeArea id='PBD' name='Platform-based Development'>
     <knowledgeArea id='I' name='Introduction'>
       <topic importance='elective'> Overview of platforms (e.g., Web, Mobile, Game, Industrial)
       </topic>
@@ -2527,7 +2527,7 @@
       <outcome importance='elective' mastery_level='assessment'>Compare and contrast game programming with general purpose programming. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='PD'>
+  <knowledgeArea id='PD' name='Parallel and Distributed Computing'>
     <knowledgeArea id='PF' name='Parallelism Fundamentals'>
       <topic importance='tier1'> Multiple simultaneous computations
       </topic>
@@ -2755,7 +2755,7 @@
       <outcome importance='elective' mastery_level='usage'>Decide if a specific execution is linearizable or not. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='PL'>
+  <knowledgeArea id='PL' name='Programming Languages'>
     <knowledgeArea id='OP' name='Object-Oriented  Programming'>
       <topic importance='tier1'> Object-oriented  design</topic>
       <topic importance='tier1'>Decomposition into objects carrying state and having behavior</topic>
@@ -3079,7 +3079,7 @@
       <outcome importance='elective' mastery_level='usage'>Use a logic language to implement an algorithm employing implicit search using clauses, relations, and cuts. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='SDF'>
+  <knowledgeArea id='SDF' name='Software Development Fundamentals'>
     <knowledgeArea id='AAD' name='Algorithms and Design'>
       <topic importance='tier1'> The concept and properties of algorithms</topic>
       <topic importance='tier1'> Informal comparison of algorithm efficiency (e.g., operation counts)</topic>
@@ -3193,7 +3193,7 @@
       <outcome importance='tier1' mastery_level='usage'>Apply consistent documentation and program style standards that contribute to the readability and maintainability of software. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='SE'>
+  <knowledgeArea id='SE' name='Software Engineering'>
     <knowledgeArea id='SP' name='Software Processes'>
       <topic importance='tier1'> Systems level considerations, i.e., the interaction of software with its intended environment (cross- reference IAS/Secure Software Engineering)
       </topic>
@@ -3549,7 +3549,7 @@
       <outcome importance='elective' mastery_level='usage'>Using a common formal specification language, formulate the specification of a simple software system and derive examples of test cases from the specification. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='SF'>
+  <knowledgeArea id='SF' name='Systems Fundamentals'>
     <knowledgeArea id='CP' name='Computational Paradigms'>
       <topic importance='tier1'> Basic building blocks and components of a computer (gates,  flip-flops,  registers, interconnections; Datapath + Control + Memory)
       </topic>
@@ -3711,7 +3711,7 @@
       <outcome importance='elective' mastery_level='assessment'>Conduct a performance experiment on a layered system to determine the effect of a system parameter on figure of system performance. </outcome>
     </knowledgeArea>
   </knowledgeArea>
-  <knowledgeArea id='SP'>
+  <knowledgeArea id='SP' name='Social Issues and Professional Practice'>
     <knowledgeArea id='SC' name='Social Context'>
       <topic importance='tier1'> Social implications of computing in a networked world  (cross-reference  HCI/Foundations/social models; IAS/Fundamental Concepts/social issues)
       </topic>

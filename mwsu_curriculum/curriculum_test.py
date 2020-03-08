@@ -157,7 +157,7 @@ def test_section_duration():
                   assert section.duration() == 80
 
 ########################################################################
-# Test Schedules
+# Test Roster
 ########################################################################
 
 def test_parse_roster():
@@ -166,4 +166,28 @@ def test_parse_roster():
   for instructor in roster:
     assert isinstance(instructor, Instructor)
 
+########################################################################
+# Test Standards
+########################################################################
 
+def test_parse_standards():
+  standards = load_standards()
+  assert len(standards) > 0
+  for standard in standards:
+    assert isinstance(standard, str)
+    assert isinstance(standards[standard], Standard)
+
+def test_cs2017_standard_content():
+    standards = load_standards()
+    cs2017 = standards['Computer Science Curricula-acm/ieee-2013']
+    assert cs2017
+    assert cs2017.name == 'Computer Science Curricula'
+    assert cs2017.body == 'acm/ieee'
+    assert cs2017.version == '2013'
+    assert cs2017.kas
+    assert cs2017.kas['SE']
+    sp = cs2017.kas['SE']
+    assert sp.name == 'Software Engineering'
+    assert sp.kas['SVAV']
+    svav = sp.kas['SVAV']
+    assert svav.name == 'Software Verification and Validation'

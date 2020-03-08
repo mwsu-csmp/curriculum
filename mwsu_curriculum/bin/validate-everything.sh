@@ -59,4 +59,4 @@ do
 		exit
 	fi
 done  
-pytest-3
+pytest-3 -v

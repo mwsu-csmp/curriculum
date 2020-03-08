@@ -6,6 +6,40 @@ from collections import defaultdict
 from pkg_resources import resource_filename
 from collections import defaultdict
 
+class KnowledgeArea:
+    def __init__(self, dt):
+      ns = '{https://csmp.missouriwestern.edu}'
+      self.id = dt.attrib['id']
+      self.name = dt.attrib['name']
+      self.kas = {}
+      for kat in dt.findall(ns + 'knowledgeArea'):
+        ka = KnowledgeArea(kat)
+        self.kas[ka.id] = ka
+
+      self.topics = list()
+      for topict in dt.findall(ns + 'topic'):
+        topic = topict.text
+        self.topics.append(topic)
+
+      self.outcomes = list()
+      for outcomet in dt.findall(ns + 'outcome'):
+        outcome = outcomet.text
+        self.outcomes.append(outcome)
+
+class Standard:
+    """Represents an external standard for curriculum content and objectives"""
+    def __init__(self, xmlfile):
+      ns = '{https://csmp.missouriwestern.edu}'
+      dt = ET.parse(xmlfile).getroot()
+      self.name = dt.find(ns + 'name').text
+      self.body = dt.find(ns + 'body').text
+      self.version = dt.find(ns + 'version').text
+      self.url = dt.find(ns + 'documentUrl').text
+      self.kas = {}
+      for kat in dt.findall(ns + 'knowledgeArea'):
+        ka = KnowledgeArea(kat)
+        self.kas[ka.id] = ka
+
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
       the workload hours, the schedule type, the course description, course prerequisites, course objectices,
@@ -103,6 +137,15 @@ class Instructor:
         self.id = instructorId
         self.name = name
         self.releases = releases
+
+def load_standard(name):
+    return Standard(ay, resource_filename('mwsu_curriculum', 'standards/'+name+'.xml'))
+
+def load_standards():
+    standards = []
+    for filename in next(walk(resource_filename('mwsu_curriculum', 'standards/')))[2]:
+        standards.append(Standard(open(resource_filename('mwsu_curriculum', 'standards/' + filename))))
+    return {standard.name+'-'+standard.body+'-'+standard.version : standard for standard in standards}
 
 def load_syllabus(ay, subject, number):
     """ loads the specified course (if it exists)"""
