@@ -19,6 +19,16 @@ Study of structured systems development. Emphasis on strategies and techniques o
     <objective>stub</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Project Selection and Client Sponsor approval</topic>
+    <topic>Request for Service and Project Charter</topic>
+    <topic>Risk analysis and project budget</topic>
+    <topic>UML analysis documents and schedules</topic>
+    <topic>Use Case development through level III</topic>
+    <topic>Constraint documentation</topic>
+    <topic>Work Breakdown Schedule</topic>
+    <topic>Inventory of personnel, hardware, software and all tools used to develop your project.</topic>
+    <topic>Database analysis and implementation</topic>
+    <topic>Human Factors Analysis and wireframes</topic>
+    <topic>User Screen Prototype creation</topic>
   </outline>
 </course>

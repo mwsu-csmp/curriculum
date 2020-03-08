@@ -16,9 +16,82 @@ This course is an investigation of the logical basis of computers at the machine
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>The student learns the structure and organization of a computer system, by learning and using the assembler language of the system.</objective>
+    <objective>The student will examine the computer architecture of the Intel micro-processors. </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Representing Data in a Computer
+      <topic>Binary and Hexadecimal Numbers </topic>
+      <topic>Character Codes </topic>
+      <topic>Unsigned and Signed Integers </topic>
+      <topic>Integer Addition and Subtraction </topic>
+      <topic>Other Systems for Representing Numbers </topic>
+      <topic> </topic>
+      <topic> </topic>
+    </topic>
+    <topic>Parts of a Computer System
+      <topic>PC Hardware: Memory
+        <topic>Memory Management </topic>
+      </topic>
+      <topic>PC Hardware: The CPU
+        <topic>Pipelining and Superscalar Designs </topic>
+        <topic>CISC vs RISC Designs </topic>
+      </topic>
+      <topic>PC Hardware: Input / Output System </topic>
+      <topic>PC Software </topic>
+    </topic>
+    <topic>Elements of Assembly Language 
+      <topic>Assembly Language Statements</topic>
+      <topic>A Complete 32-Bit Example using the Debugger</topic>
+      <topic>Data Declarations </topic>
+      <topic>Instruction Operands </topic>
+      <topic>A Complete 32-Bit Example using Windows Input/Output </topic>
+      <topic>Input/Output and Data Conversion using Macros Defined in IO.H </topic>
+      <topic>64-Bit Examples</topic>
+    </topic>
+    <topic>Basic Instructions
+      <topic>Copying Data</topic>
+      <topic>Integer Addition and Subtraction Instructions `</topic>
+      <topic>Multiplication Instructions</topic>
+      <topic>Division Instructions</topic>
+    </topic>
+    <topic>Branching and Looping
+      <topic>Unconditional Jumps</topic>
+      <topic>Implementing Loop Structures </topic>
+      <topic>for Loops in Assembly Language </topic>
+      <topic>Arrays</topic>
+    </topic>
+    <topic>Procedures
+      <topic>The 80x86 Stack</topic>
+      <topic>32-Bit Procedures with Value Parameters</topic>
+      <topic>Additional 32-Bit Procedure Options</topic>
+      <topic>64-Bit Procedures</topic>
+      <topic>Macro Definition and Expansion</topic>
+    </topic>
+    <topic>Bit Manipulation
+      <topic>Logical Operations </topic>
+      <topic>Shift and Rotate Instructions </topic>
+      <topic>Converting an ASCII String to a 2’s Complement Integer</topic>
+    </topic>
+    <topic>String Operations
+      <topic>Using String Instructions</topic>
+      <topic>Repeat Prefixes and More String Instructions `</topic>
+      <topic>Character Translation </topic>
+      <topic>Converting a 2’s Complement Integer to an ASCII String </topic>
+    </topic>
+    <topic>Floating-Point Arithmetic 
+      <topic>Floating Point Format </topic>
+      <topic>80x86 Floating-Point Architecture</topic>
+      <topic>Converting Floating Point to and from ASCII</topic>
+      <topic>Single-Instruction Multiple-Data Instructions</topic>
+      <topic>Floating-Point Assembly Language Procedures with C/C++ (optional) </topic>
+    </topic>
+    <topic>Input/output — BIOS Level Programming 
+      <topic>Keyboard Input </topic>
+      <topic>Video Programming Using INT 10h (optional) </topic>
+      <topic>Drawing Graphics Using INT 10h (Optional)</topic>
+      <topic>Memory Mapped Graphics (Optional) </topic>
+      <topic>Mouse Programming (Optional)</topic>
+    </topic>
   </outline>
 </course>

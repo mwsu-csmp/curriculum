@@ -17,9 +17,35 @@ An introductory course on UNIX/Linux and its applications. Topics covered includ
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Understand the basic history of the Unix operating System.</objective>
+    <objective>Use common linux shell commands</objective>
+    <objective>Use command redirection and pipes</objective>
+    <objective>Write simple shell scripts </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Overview
+      <topic>History Of Unix</topic>
+      <topic>Major flavors of Unix</topic>
+    </topic>
+    <topic>Linux Commands
+      <topic>Command philosophy </topic>
+      <topic>Connecting to remote machines</topic>
+      <topic>Environment variables </topic>
+      <topic>Stdin/Stdout </topic>
+      <topic>Common commands </topic>
+      <topic>Less common but useful commands  </topic>
+      <topic>Redirection of input and output  </topic>
+      <topic>Pipes H. /dev/null  </topic>
+    </topic>
+    <topic>Bash Shell
+    </topic>
+    <topic>Shell Scripting 
+      <topic>Basic command-only scripts  </topic>
+      <topic>Variables and command-line arguments </topic>
+    </topic>
+    <topic>Desktop Environments
+      <topic>Gnome</topic>
+      <topic>X</topic>
+    </topic>
   </outline>
 </course>
