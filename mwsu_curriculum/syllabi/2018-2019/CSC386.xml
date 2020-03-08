@@ -18,9 +18,38 @@ This course is an introduction to operating system principles. Topics include pr
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>264</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Understand the role of an operating system as an intermediary between a user program (or, a user) and the computer hardware. Explain how different operating system components facilitate the role.</objective>
+    <objective>Compare different operating system design alternatives.</objective>
+    <objective>Understand how an operating system provides to user programs an illusion of exclusive access to the hardware, while facilitating collaborations between them.</objective>
+    <objective>Understand and compare scheduling algorithms designed for various operating system components.</objective>
+    <objective>Examine some popular scheduling algorithms for problems that they address and their tradeoffs in terms of various factors including time/space complexity and possibilities of starvation.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Operating System overview
+      <topic>System calls</topic>
+      <topic>Operating system structures</topic>
+    </topic>
+    <topic>Processes
+      <topic>Inter-process communication</topic>
+      <topic>Process scheduling</topic>
+    </topic>
+    <topic>Input/Output
+      <topic>Principles of I/O hardware</topic>
+      <topic>Principles of I/O software</topic>
+      <topic>Deadlocks</topic>
+    </topic>
+    <topic>Memory Management
+      <topic>Swapping</topic>
+      <topic>Virtual Memory </topic>
+      <topic>Paging</topic>
+      <topic>Segmentation</topic>
+    </topic>
+    <topic>File Systems
+      <topic>Files</topic>
+      <topic>Directories</topic>
+      <topic>File system implementation</topic>
+      <topic>Security</topic>
+      <topic>Protection mechanisms </topic>
+    </topic>
   </outline>
 </course>
