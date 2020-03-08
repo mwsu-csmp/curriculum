@@ -16,9 +16,51 @@ This course uses statistics to help solve business problems, examines case examp
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Apply advanced techniques of spreadsheet software to the task of data analysis. </objective>
+    <objective>Gather data from public sources and transform raw datasets to prepare them for analysis.</objective>
+    <objective>Categorize the attributes of data objects and analyze the properties of datasets.</objective>
+    <objective>Explain the differences among the three main styles of learning: supervised, reinforcement, and unsupervised. </objective>
+    <objective>Determine which of the three learning styles is appropriate to a particular problem domain. </objective>
+    <objective>Identify examples of classification tasks, including the available input features and output to be predicted. </objective>
+    <objective>Describe over-fitting in the context of a problem. </objective>
+    <objective>Apply a simple statistical learning algorithm to a classification task and measure the classifier's effectiveness.</objective>
+    <objective>Evaluate the performance of a simple learning system on a real-world dataset.</objective>
+    <objective>Use statistical software packages to apply machine learning algorithms.</objective>
+    <objective>Apply good ethical judgment to data driven decision making.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Overview of analytics techniques </topic>
+    <topic>Review of basic statistics </topic>
+    <topic>Data wrangling 
+      <topic>Gathering data</topic>
+      <topic>Categorizing attributes of data objects </topic>
+      <topic>Basic descriptive analytics </topic>
+      <topic>Visualizing datasets  </topic>
+      <topic>Preprocessing raw datasets  </topic>
+      <topic> </topic>
+    </topic>
+    <topic>Advanced spreadsheet techniques 
+      <topic>Complex formulas</topic>
+      <topic>Conditional formatting  </topic>
+      <topic>Creating charts  </topic>
+      <topic>Pivot tables  </topic>
+      <topic>Macros </topic>
+      <topic>Using the solver  </topic>
+    </topic>
+    <topic>Reinforcement learning
+      <topic>Genetic algorithms</topic>
+    </topic>
+    <topic>Unsupervised learning 
+      <topic>Clustering</topic>
+    </topic>
+    <topic>Review of basic probability and introduction to Bayes Theorem </topic>
+    <topic>Supervised learning
+      <topic>Well-posed learning problems </topic>
+      <topic>Classification </topic>
+      <topic>Regression</topic>
+      <topic>Evaluating supervised learning models  </topic>
+    </topic>
+    <topic>Working with Data Analysis Tools</topic>
+    <topic>Ethical issues in data collection and analytics</topic>
   </outline>
 </course>
