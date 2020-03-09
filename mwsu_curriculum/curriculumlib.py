@@ -7,9 +7,10 @@ from pkg_resources import resource_filename
 from collections import defaultdict
 
 class Topic:
-    def __init__(self, dt):
+    def __init__(self, dt, id):
       ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
+      self.id = id
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
 
       self.coverages = []
@@ -18,17 +19,16 @@ class Topic:
 
       self.subtopics = list()
       for topict in dt.findall(ns + 'topic'):
-        self.subtopics.append(Topic(topict))
-
-    def add_coverage(self, syllabus):
-      """adds coverage from syllabus to each topic/outcome"""
-      for topic in self.topics:
-          topic.add_coverage(syllabus)
+        self.subtopics.append(Topic(topict, id + '/' + str(len(self.subtopics)+1)))
 
 class Outcome:
-    def __init__(self, dt):
+    def __init__(self, dt, id, parentid='', standardid=''):
       ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
+      self.id = id
+      self.parentid = parentid
+      self.standardid = standardid
+      self.covered_by = set()
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
       self.mastery_level = dt.attrib['mastery_level'] if 'mastery_level' in dt.attrib else None
 
@@ -36,37 +36,36 @@ class Outcome:
       for coverage in dt.findall(ns + 'covers'):
         self.coverages.append(coverage.attrib)
 
-
     def add_coverage(self, syllabus):
-      """adds coverage from syllabus to each topic/outcome"""
-      pass
+        """record if the given syllabus covers this outcome """
+        coverages = syllabus.get_outcome_coverages()
+        for oid in coverages:
+            for coverage in coverages[oid]:
+                # todo: wrong filename (.xml) and ka name not being checked
+                if self.standardid == coverage['standard'] and \
+                        str(self.id) == coverage['id'] and \
+                        self.parentid == coverage['knowledgeArea']:
+                    self.covered_by.add((syllabus.subject, syllabus.number, oid))
 
 class KnowledgeArea:
-    def __init__(self, dt):
+    def __init__(self, dt, parentid = None, standardid=None):
       ns = '{https://csmp.missouriwestern.edu}'
       self.id = dt.attrib['id']
+      self.standardid = standardid
+      self.fullid = parentid + '/' + self.id if parentid else self.id
       self.name = dt.attrib['name']
       self.kas = {}
       for kat in dt.findall(ns + 'knowledgeArea'):
-        ka = KnowledgeArea(kat)
+        ka = KnowledgeArea(kat, self.id, standardid)
         self.kas[ka.id] = ka
 
       self.topics = list()
       for topict in dt.findall(ns + 'topic'):
-        self.topics.append(Topic(topict))
+        self.topics.append(Topic(topict, str(len(self.topics)+1)))
 
       self.outcomes = list()
       for outcomet in dt.findall(ns + 'outcome'):
-        self.outcomes.append(Outcome(outcomet))
-
-    def add_coverage(self, syllabus):
-      """adds coverage from syllabus to each topic/outcome"""
-      for ka in self.kas:
-          ka.add_coverage(syllabus)
-      for topic in self.topics:
-          topic.add_coverage(syllabus)
-      for outcome in self.outcomes:
-          outcome.add_coverage(syllabus)
+        self.outcomes.append(Outcome(outcomet, len(self.outcomes)+1, self.fullid, standardid))
 
     def outcome_lookup(self, kas, oid):
         """find topic in this ka"""
@@ -94,18 +93,48 @@ class KnowledgeArea:
           topics = topics[1:]
         return topic
 
+    def add_coverage(self, syllabus):
+        """ record what outcomes are covered by the given syllabus """
+        for ka in self.kas:
+            self.kas[ka].add_coverage(syllabus)
+
+        for outcome in self.outcomes:
+            outcome.add_coverage(syllabus)
+
+    def outcome_coverage(self):
+        """ determine the coverage level of this ka's outcomes from previously observed syllabi"""
+        kas = 0
+        total = 0
+        for ka in self.kas:
+            total += self.kas[ka].outcome_coverage()
+            kas += 1
+
+
+        covered = 0
+        for outcome in self.outcomes:
+            if outcome.covered_by:
+                covered += 1
+        if covered:
+            total += covered / len(self.outcomes)
+            kas += 1
+        if kas:
+            return total / kas
+
+        return 0
+
 class Standard:
     """Represents an external standard for curriculum content and objectives"""
-    def __init__(self, xmlfile):
+    def __init__(self, xmlfile, id):
       ns = '{https://csmp.missouriwestern.edu}'
       dt = ET.parse(xmlfile).getroot()
+      self.id = id
       self.name = dt.find(ns + 'name').text
       self.body = dt.find(ns + 'body').text
       self.version = dt.find(ns + 'version').text
       self.url = dt.find(ns + 'documentUrl').text
       self.kas = {}
       for kat in dt.findall(ns + 'knowledgeArea'):
-        ka = KnowledgeArea(kat)
+        ka = KnowledgeArea(kat, None, id)
         self.kas[ka.id] = ka
 
     def outcome_coverage_lookup(self, coverage):
@@ -125,7 +154,7 @@ class Standard:
     def add_coverage(self, syllabus):
       """adds coverage from syllabus to each topic/outcome"""
       for ka in self.kas:
-          ka.add_coverage(syllabus)
+          self.kas[ka].add_coverage(syllabus)
 
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
@@ -158,12 +187,17 @@ class Syllabus:
       self.objectives = list()
       for objlist in dt.findall(ns + 'objectives'):
         for objectivet in objlist.findall(ns + 'objective'):
-          objective = Outcome(objectivet)
-          self.objectives.append(objective)
+          self.objectives.append(Outcome(objectivet, len(self.objectives)+1))
       self.topics = list()
       for outline in dt.findall(ns + 'outline'):
         for topict in outline.findall(ns + 'topic'):
-          self.topics.append(Topic(topict))
+          self.topics.append(Topic(topict, str(len(self.topics)+1)))
+    
+    def get_outcome_coverages(self):
+        coverages = {}
+        for outcome in self.objectives:
+            coverages[outcome.id] = outcome.coverages
+        return coverages
 
 class Section:
     def __init__(self,course,section,instructorId,maxEnrollment,startTime=None,endTime=None,days=[],building=None,room=None):
@@ -227,7 +261,7 @@ class Instructor:
         self.releases = releases
 
 def load_standard(name, ay=None):
-    standard = Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')))
+    standard = Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')), name)
     if ay:
       for syllabus in load_syllabi(ay):
          standard.add_coverage(syllabus)
@@ -236,7 +270,7 @@ def load_standard(name, ay=None):
 def load_standards():
     standards = {}
     for filename in next(walk(resource_filename('mwsu_curriculum', 'standards/')))[2]:
-        standards[filename[0:-4]] = Standard(open(resource_filename('mwsu_curriculum', 'standards/' + filename)))
+        standards[filename[0:-4]] = Standard(open(resource_filename('mwsu_curriculum', 'standards/' + filename)) ,filename[0:-4])
     return standards
 
 def load_syllabus(ay, subject, number):
@@ -322,3 +356,4 @@ def hours_per_semester(ay):
     for semester in semesters:
         ret.append((semester, sum(map((lambda course: course.workload_hours), semesters[semester]))))
     return ret
+

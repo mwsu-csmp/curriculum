@@ -218,14 +218,18 @@ def test_cs2017_standard_content():
     assert outcome.importance == 'tier2'
     assert outcome.mastery_level == 'familiarity'
 
+def test_outcome_coverage_list():
+    standards = load_standards()
+    cs2017 = standards['acm-cs2013']
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    assert syl.get_outcome_coverages()
+
 def test_outcome_coverage_lookup():
     standards = load_standards()
     cs2017 = standards['acm-cs2013']
     syl = load_syllabus('2019-2020', 'ACT', '324')
     outcome = syl.objectives[0]
     coverage = outcome.coverages[0]
-    print(str(outcome.text))
-    print(str(coverage))
     loutcome = cs2017.outcome_coverage_lookup(coverage)
     assert loutcome
 
@@ -281,4 +285,13 @@ def test_every_topic_coverage():
                       topic = standard.topic_coverage_lookup(coverage)
                       assert topic, str(coverage) + " not found"
 
+
+def test_add_coverage():
+    standards = load_standards()
+    cs2013 = standards['acm-cs2013']
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    ka = cs2013.kas['SE']
+    assert ka.outcome_coverage() == 0.0
+    cs2013.add_coverage(syl)
+    assert ka.outcome_coverage() > 0  # TODO: update later with specific number once coverages settle
 
