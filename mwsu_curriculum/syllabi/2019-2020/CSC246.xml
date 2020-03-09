@@ -28,7 +28,7 @@ This course explores major programming paradigms (including the functional, obje
 
   <objectives>
     <objective>Compare and contrast procedural, functional, object-oriented, and logic approaches to programming
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="4"/>
       <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="3"/>
     </objective>
     <objective>Write basic algorithms that avoid assigning to mutable state or considering reference equality
@@ -41,10 +41,8 @@ This course explores major programming paradigms (including the functional, obje
     </objective>
     <objective>Use closures and correctly reason about their implications for variable scope
       <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="4"/>
-      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="5"/>
     </objective>
     <objective>Define and use iterators, generators, and comprehensions and apply fluent interfaces in stream processing
-      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="6"/>
     </objective>
     <objective>Work with a formal definition of a language to produce an abstract syntax tree
       <covers standard="acm-cs2013" knowledgeArea="PL/PR" id="2"/>
@@ -60,7 +58,7 @@ This course explores major programming paradigms (including the functional, obje
       <covers standard="acm-cs2013" knowledgeArea="PL/LP" id="1"/>
     </objective>
     <objective>Use a logic language to implement a conventional algorithm
-      <covers standard="acm-cs2013" knowledgeArea="PL/LOGIC" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/LP2" id="1"/>
     </objective>
   </objectives>
   <outline>

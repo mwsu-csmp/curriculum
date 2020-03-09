@@ -33,7 +33,6 @@
       <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="3"/>
     </objective>
     <objective>Apply a variety of software testing practices to a software development project
-      <covers standard="acm-cs2013" knowledgeArea="" id=""/>
     </objective>
     <objective>Describe and distinguish among the different types and levels of testing (unit, integration, systems, and acceptance)
     </objective>
@@ -56,22 +55,22 @@
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="8"/>
     </objective>
     <objective>Describe the difference between centralized and distributed software configuration management
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="1"/>
     </objective>
     <objective>Describe how version control can be used to help manage software release management
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="2"/>
     </objective>
     <objective>Identify configuration items and use a source code control tool in a small team-based project
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="3"/>
     </objective>
     <objective>Describe how available static and dynamic test tools can be integrated into the software development environment
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="4"/>
     </objective>
     <objective>Describe the issues that are important in selecting a set of tools for the development, testing, and deployment of a particular software system
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="5"/>
     </objective>
     <objective>Develop virtual environments for software development and deployment
-      <covers standard="acm-cs2013" knowledgeArea="SE/TE" id="6"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="6"/>
     </objective>
     <objective>Explain the ethical responsibility of ensuring software correctness, reliability and safety
       <covers standard="acm-cs2013" knowledgeArea="SP/PE" id="2"/>

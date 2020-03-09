@@ -28,22 +28,21 @@
       <covers standard="acm-cs2013" knowledgeArea="IM/DM" id="6"/>
     </objective>
     <objective>Design and implement a class.
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="1"/>
     </objective>
     <objective>Use subclassing to design simple class hierarchies that allow code to be reused for distinct subclasses.
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="2"/>
     </objective>
     <objective>Correctly reason about control flow in a program using dynamic dispatch.
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="3"/>
     </objective>
     <objective>Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="5"/>
     </objective>
     <objective>Use object-oriented encapsulation mechanisms such as interfaces and private members.
-      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="6"/>
     </objective>
     <objective>Write event handlers for use in reactive systems, such as GUIs.
-      <covers standard="acm-cs2013" knowledgeArea="PL/EDRP" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/EARP" id="1"/>
     </objective>
     <objective>For a language with a static type system, describe the operations that are forbidden statically, such as passing the wrong type of value to a function or method.
       <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="2"/>

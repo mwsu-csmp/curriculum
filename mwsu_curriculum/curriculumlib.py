@@ -32,6 +32,11 @@ class Outcome:
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
       self.mastery_level = dt.attrib['mastery_level'] if 'mastery_level' in dt.attrib else None
 
+      self.coverages = []
+      for coverage in dt.findall(ns + 'covers'):
+        self.coverages.append(coverage.attrib)
+
+
     def add_coverage(self, syllabus):
       """adds coverage from syllabus to each topic/outcome"""
       pass
@@ -63,6 +68,15 @@ class KnowledgeArea:
       for outcome in self.outcomes:
           outcome.add_coverage(syllabus)
 
+    def outcome_lookup(self, kas, oid):
+        """find topic in this ka"""
+        if kas:
+          if not self.kas or kas[0] not in self.kas:
+            return None
+          return self.kas[kas[0]].outcome_lookup(kas[1:], oid)
+        if oid <= len(self.outcomes):
+          return self.outcomes[oid-1]
+
     def topic_lookup(self, kas = (), topics = ()):
         """find topic in this ka"""
         if kas:
@@ -93,6 +107,13 @@ class Standard:
       for kat in dt.findall(ns + 'knowledgeArea'):
         ka = KnowledgeArea(kat)
         self.kas[ka.id] = ka
+
+    def outcome_coverage_lookup(self, coverage):
+      return self.outcome_lookup(coverage['knowledgeArea'].split('/'), int(coverage['id']))
+
+    def outcome_lookup(self, kas, oid):
+      if kas and self.kas and kas[0] in self.kas:
+        return self.kas[kas[0]].outcome_lookup(kas[1:], oid)
 
     def topic_coverage_lookup(self, coverage):
       return self.topic_lookup(coverage['knowledgeArea'].split('/'), coverage['id'].split('/'))
@@ -135,9 +156,10 @@ class Syllabus:
       self.catalogDescription = dt.find(ns + 'catalogDescription').text
       self.prerequisites = dt.find(ns + 'prerequisites').text
       self.objectives = list()
-      for objectivet in dt.findall(ns + 'objectives'):
-        objective = Outcome(objectivet)
-        self.objectives.append(objective)
+      for objlist in dt.findall(ns + 'objectives'):
+        for objectivet in objlist.findall(ns + 'objective'):
+          objective = Outcome(objectivet)
+          self.objectives.append(objective)
       self.topics = list()
       for outline in dt.findall(ns + 'outline'):
         for topict in outline.findall(ns + 'topic'):

@@ -36,7 +36,7 @@
       <covers standard="acm-cs2013" knowledgeArea="PBD/I" id="4"/>
     </objective>
     <objective>Describe an interactive system in terms of a model, a view, and a controller.
-      <covers standard="acm-cs2013" knowledgeArea="PL/EDRP" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/EARP" id="3"/>
     </objective>
     <objective>Design and Implement a simple web application.
       <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="1"/>

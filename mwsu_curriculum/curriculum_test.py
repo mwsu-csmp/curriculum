@@ -218,6 +218,17 @@ def test_cs2017_standard_content():
     assert outcome.importance == 'tier2'
     assert outcome.mastery_level == 'familiarity'
 
+def test_outcome_coverage_lookup():
+    standards = load_standards()
+    cs2017 = standards['acm-cs2013']
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    outcome = syl.objectives[0]
+    coverage = outcome.coverages[0]
+    print(str(outcome.text))
+    print(str(coverage))
+    loutcome = cs2017.outcome_coverage_lookup(coverage)
+    assert loutcome
+
 def test_topic_coverage_lookup():
     standards = load_standards()
     cs2017 = standards['acm-cs2013']
@@ -238,6 +249,20 @@ def test_topic_coverage_lookup_direct():
     topic = ska.topics[1]
     assert topic
    
+
+def test_every_outcome_coverage():
+    standards = load_standards()
+    for ay in listdir('syllabi'):
+        syllabi = load_syllabi(ay)
+        for syllabus in syllabi:
+            for outcome in syllabus.objectives:
+                for coverage in outcome.coverages:
+                    if coverage['standard'] in standards: # todo: change to assertion once all standards are in place
+                      standard = standards[coverage['standard']]
+                      assert coverage['id'].isdigit(), syllabus.subject + "-" + syllabus.number + " has bad coverage"
+                      outcome = standard.outcome_coverage_lookup(coverage)
+                      assert outcome, str(coverage) + " not found"
+
 
 def test_every_topic_coverage():
     standards = load_standards()
