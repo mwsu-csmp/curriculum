@@ -154,13 +154,13 @@ class Instructor:
         self.releases = releases
 
 def load_standard(name):
-    return Standard(ay, resource_filename('mwsu_curriculum', 'standards/'+name+'.xml'))
+    return Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')))
 
 def load_standards():
-    standards = []
+    standards = {}
     for filename in next(walk(resource_filename('mwsu_curriculum', 'standards/')))[2]:
-        standards.append(Standard(open(resource_filename('mwsu_curriculum', 'standards/' + filename))))
-    return {standard.name+'-'+standard.body+'-'+standard.version : standard for standard in standards}
+        standards[filename[0:-4]] = Standard(open(resource_filename('mwsu_curriculum', 'standards/' + filename)))
+    return standards
 
 def load_syllabus(ay, subject, number):
     """ loads the specified course (if it exists)"""

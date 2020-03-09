@@ -179,7 +179,7 @@ def test_parse_standards():
 
 def test_cs2017_standard_content():
     standards = load_standards()
-    cs2017 = standards['Computer Science Curricula-acm/ieee-2013']
+    cs2017 = standards['acm-cs2013']
     assert cs2017
     assert cs2017.name == 'Computer Science Curricula'
     assert cs2017.body == 'acm/ieee'
