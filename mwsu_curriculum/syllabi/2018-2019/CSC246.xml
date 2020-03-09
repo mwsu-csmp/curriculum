@@ -28,39 +28,39 @@ This course explores major programming paradigms (including the functional, obje
 
   <objectives>
     <objective>Compare and contrast procedural, functional, object-oriented, and logic approaches to programming
-      <covers standard="acm:2013" knowledgeArea="PL/OOP" id="4"/>
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/OOP" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="3"/>
     </objective>
     <objective>Write basic algorithms that avoid assigning to mutable state or considering reference equality
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="1"/>
     </objective>
     <objective>Write useful higher-order functions
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="2"/>
     </objective>
     <objective>Use functional encapsulation mechanisms such as closures and modular interfaces
     </objective>
     <objective>Use closures and correctly reason about their implications for variable scope
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="4"/>
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="5"/>
     </objective>
     <objective>Define and use iterators, generators, and comprehensions and apply fluent interfaces in stream processing
-      <covers standard="acm:2013" knowledgeArea="PL/FP" id="6"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="6"/>
     </objective>
     <objective>Work with a formal definition of a language to produce an abstract syntax tree
-      <covers standard="acm:2013" knowledgeArea="PL/PR" id="2"/>
-      <covers standard="acm:2013" knowledgeArea="PL/SA" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/PR" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/SA" id="1"/>
     </objective>
     <objective>Use various advanced programming constructs and idioms correctly
-      <covers standard="acm:2013" knowledgeArea="PL/APC" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/APC" id="1"/>
     </objective>
     <objective>Discuss how various advanced programming constructs aim to improve program structure, software quality, and programmer productivity
-      <covers standard="acm:2013" knowledgeArea="PL/APC" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/APC" id="2"/>
     </objective>
     <objective>Discuss the role of concepts such as orthogonality and well-chosen defaults in language design
-      <covers standard="acm:2013" knowledgeArea="PL/LP" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/LP" id="1"/>
     </objective>
     <objective>Use a logic language to implement a conventional algorithm
-      <covers standard="acm:2013" knowledgeArea="PL/LOGIC" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/LOGIC" id="1"/>
     </objective>
   </objectives>
   <outline>

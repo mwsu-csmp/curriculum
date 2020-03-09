@@ -42,70 +42,70 @@
 
   <objectives>
     <objective>Discuss the importance of algorithms in the problem-solving process
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="1"/>
     </objective>
     <objective>Write pseudocode algorithms for solving simple problems
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="3"/>
     </objective>
     <objective>Write programs that implement basic numerical algorithms
-      <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="AL/FDSAA" id="1"/>
     </objective>
     <objective>Informally describe possible values for a variety of basic Python types
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="1"/>
     </objective>
     <objective>Identify and describe examples of program errors
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="3"/>
     </objective>
     <objective>Use Python to implement, test, and debug simple functions and programs
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="4"/>
     </objective>
     <objective>Apply the techniques of decomposition to break a program into smaller pieces
-      <covers standard="acm:2013" knowledgeArea="SDF/AD" id="8"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="8"/>
     </objective>
     <objective>Trace the execution of a variety of Python code segments and write summaries of their computations
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="1"/>
     </objective>
     <objective>Construct, execute and debug programs using a modern IDE and associated tools such as unit testing tools and visual debuggers
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="9"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="9"/>
     </objective>
     <objective>Construct and debug programs using the standard python libraries
-      <covers standard="acm:2013" knowledgeArea="SDF/DM" id="10"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="10"/>
     </objective>
     <objective>Identify and describe uses of primitive data types
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="2"/>
     </objective>
     <objective>Write programs that use primitive data types
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="3"/>
     </objective>
     <objective>Modify and expand short programs that use standard conditional and iterative control structures and functions
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="4"/>
     </objective>
     <objective>Design, implement, test, and debug a program that uses each of the following fundamental programming constructs: basic computation, simple I/O, standard conditional and iterative structures, the definition of functions, and parameter passing
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="5"/>
     </objective>
     <objective>Develop a Python script to solve a significant problem
     </objective>
     <objective>Write a program that uses file I/O to provide persistence across multiple executions
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="6"/>
     </objective>
     <objective>Choose appropriate conditional and iteration constructs for a given programming task
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="7"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="7"/>
     </objective>
     <objective>Describe the concept of recursion and give examples of its use
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="8"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="8"/>
     </objective>
   </objectives>
   <outline>
 
     <topic>Algorithms
       <topic>The algorithm concept
-        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="1"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="1"/>
       </topic>
       <topic>Writing pseudocode to solve problems
-        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="2"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="2"/>
       </topic>
       <topic>Simple numerical algorithms
-        <covers standard="acm:2013" knowledgeArea="AL/FDSA" id="1"/>
+        <covers standard="acm-cs2013" knowledgeArea="AL/FDSAA" id="1"/>
       </topic>
     </topic>
 
@@ -114,16 +114,16 @@
         <topic>Syntax</topic>
         <topic>Semantics</topic>
         <topic>Structure of python programs</topic>
-        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="1"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="1"/>
       </topic>
       <topic>Reading programs for understanding
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="1"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="1"/>
       </topic>
       <topic>Abstraction
-        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4/1"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="4"/>
       </topic>
       <topic>Program decomposition
-        <covers standard="acm:2013" knowledgeArea="SDF/AD" id="4/2"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="4"/>
       </topic>
       <topic>Nesting</topic>
       <topic>Predicates</topic>
@@ -147,19 +147,19 @@
       </topic>
       <topic>References</topic>
       <topic>Type safety
-        <covers standard="acm:2013" knowledgeArea="PL/BTS" id="3"/>
+        <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="3"/>
       </topic>
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="1"/>
     </topic>
 
     <topic>Variables
       <topic>Scope</topic>
       <topic>Parameters / arguments
-        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="6"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="6"/>
       </topic>
       <topic>Fields</topic>
-      <covers standard="acm:2013" knowledgeArea="PL/BTS" id="2"/>
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="2"/>
     </topic>
 
     <topic>Basic expressions and statements
@@ -171,7 +171,7 @@
         <topic>Boolean operators</topic>
         <topic>Short circuiting</topic>
       </topic>
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="3"/>
     </topic>
 
     <topic>Control constructs in imperative programming
@@ -180,31 +180,31 @@
       <topic>Conditional statements and expressions</topic>
       <topic>Loops and iteration</topic>
       <topic>Simple recursion
-        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="7"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="7"/>
       </topic>
-      <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="5"/>
     </topic>
 
     <topic>Program development 
 
       <topic>Program correctness
         <topic>The concept of a specification
-          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/2"/>
+          <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="2"/>
         </topic>
         <topic>Incremental development and test cases
-          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/5"/>
+          <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="2"/>
         </topic>
         <topic>Types of errors 
           <topic>Syntax and other compilation errors</topic>
           <topic>Runtime errors</topic>
           <topic>Logic errors</topic>
-          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/1"/>
+          <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="2"/>
         </topic>
         <topic>Debugging strategies
-          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="5"/>
+          <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="5"/>
         </topic>
         <topic>Unit testing
-          <covers standard="acm:2013" knowledgeArea="SDF/DM" id="2/7"/>
+          <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="2"/>
         </topic>
       </topic>
     
@@ -212,11 +212,11 @@
         <topic>Identifier naming conventions</topic>
         <topic>Inline commenting</topic>
         <topic>Documentation comments</topic>
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="6"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="6"/>
       </topic>
 
       <topic>Simple refactoring
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="3"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="3"/>
       </topic>	
 
       <topic>Program development tools
@@ -224,13 +224,13 @@
         <topic>REPLs</topic>
         <topic>Debuggers</topic>
         <topic>Integrated development environments (IDEs)</topic>
-        <covers standard="acm:2013" knowledgeArea="SDF/DM" id="4"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="4"/>
       </topic>
 
       <topic>Basic input / output
         <topic>Standard input and standard output</topic>
         <topic>Reading from and writing to files</topic>
-        <covers standard="acm:2013" knowledgeArea="SDF/FPC" id="4"/>
+        <covers standard="acm-cs2013" knowledgeArea="SDF/FPC" id="4"/>
       </topic>
 
       <topic>Executing and sharing programs

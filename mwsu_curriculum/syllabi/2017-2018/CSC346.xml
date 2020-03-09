@@ -18,43 +18,43 @@
 
   <objectives>
     <objective>Describe the differences between relational and semi-structured data models.
-      <covers standard="acm:2013" knowledgeArea="IM/DM" id="7"/>
+      <covers standard="acm-cs2013" knowledgeArea="IM/DM" id="7"/>
     </objective>
     <objective>Give a semi-structured equivalent (eg, in DTD or XML Schema) for a given relational schema.
-      <covers standard="acm:2013" knowledgeArea="IM/DM" id="8"/>
+      <covers standard="acm-cs2013" knowledgeArea="IM/DM" id="8"/>
     </objective>
     <objective>Describe how platform-based development differs from general purpose programming.
-      <covers standard="acm:2013" knowledgeArea="PBD/I" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/I" id="1"/>
     </objective>
     <objective>List characteristics of platform languages.
-      <covers standard="acm:2013" knowledgeArea="PBD/I" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/I" id="2"/>
     </objective>
     <objective>Write and execute a simple platform-based program.
-      <covers standard="acm:2013" knowledgeArea="PBD/I" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/I" id="3"/>
     </objective>
     <objective>List the advantages and disadvantages of programming with platform constraints.
-      <covers standard="acm:2013" knowledgeArea="PBD/I" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/I" id="4"/>
     </objective>
     <objective>Describe an interactive system in terms of a model, a view, and a controller.
-      <covers standard="acm:2013" knowledgeArea="PL/EDRP" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/EDRP" id="3"/>
     </objective>
     <objective>Design and Implement a simple web application.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="1"/>
     </objective>
     <objective>Describe the constraints that the web puts on developers.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="2"/>
     </objective>
     <objective>Compare and contrast web programming with general purpose programming.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="3"/>
     </objective>
     <objective>Describe the differences between Software-as-a-Service and traditional software products.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="4"/>
     </objective>
     <objective>Discuss how web standards impact software development.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="5"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="5"/>
     </objective>
     <objective>Review an existing web application against a current web standard.
-      <covers standard="acm:2013" knowledgeArea="PBD/WP" id="6"/>
+      <covers standard="acm-cs2013" knowledgeArea="PBD/WP" id="6"/>
     </objective>
   </objectives>
   <outline>

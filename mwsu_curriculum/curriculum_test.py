@@ -1,9 +1,10 @@
 import inspect
 from .curriculumlib import *
+from os import listdir
 
-
-def test_standard():
-    pass
+########################################################################
+# Test Syllabi 
+########################################################################
 
 #Testing available_years
 def test_available_years_count():
@@ -26,6 +27,22 @@ def test_load_syllabi_is_not_an_empty_list():
 
 def test_load_syllabi_returns_a_list():
     assert isinstance(load_syllabi('2019-2020'), list)
+
+def test_topic_coverage():
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    assert len(syl.topics) == 9
+    topic = syl.topics[1]
+    assert topic is not None
+    assert topic.text.strip() == 'Software Testing Practices'
+    subtopic = topic.subtopics[0]
+    assert subtopic is not None
+    assert subtopic.text.strip() == 'Test driven development'
+    assert subtopic.coverages is not None
+    assert len(subtopic.coverages) == 1
+    coverage = subtopic.coverages[0]
+    assert coverage['standard'] == 'acm-cs2013'
+    assert coverage['id']== '8'
+    assert coverage['knowledgeArea'] == 'SE/SVAV'
 
 
 #Testing hours_per_semester
@@ -200,3 +217,43 @@ def test_cs2017_standard_content():
     assert outcome.text.strip() == 'Distinguish between program validation and verification.'
     assert outcome.importance == 'tier2'
     assert outcome.mastery_level == 'familiarity'
+
+def test_topic_coverage_lookup():
+    standards = load_standards()
+    cs2017 = standards['acm-cs2013']
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    topic = syl.topics[1]
+    subtopic = topic.subtopics[0]
+    coverage = subtopic.coverages[0]
+    ltopic = cs2017.topic_coverage_lookup(coverage)
+    assert ltopic
+
+def test_topic_coverage_lookup_direct():
+    standards = load_standards()
+    cs2017 = standards['acm-cs2013']
+    ka = cs2017.kas['SDF']
+    assert ka
+    ska = ka.kas['AAD']
+    assert ska
+    topic = ska.topics[1]
+    assert topic
+   
+
+def test_every_topic_coverage():
+    standards = load_standards()
+    for ay in listdir('syllabi'):
+        syllabi = load_syllabi(ay)
+        for syllabus in syllabi:
+            topics = syllabus.topics
+            while topics:
+                topic = topics[0]
+                topics = topics[1:]
+                if topic.subtopics:
+                    topics.extend(topic.subtopics)
+                for coverage in topic.coverages:
+                    if coverage['standard'] in standards: # todo: change to assertion once all standards are in place
+                      standard = standards[coverage['standard']]
+                      topic = standard.topic_coverage_lookup(coverage)
+                      assert topic, str(coverage) + " not found"
+
+

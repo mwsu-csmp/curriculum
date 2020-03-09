@@ -11,10 +11,19 @@ class Topic:
       ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
-      
+
+      self.coverages = []
+      for coverage in dt.findall(ns + 'covers'):
+        self.coverages.append(coverage.attrib)
+
       self.subtopics = list()
       for topict in dt.findall(ns + 'topic'):
         self.subtopics.append(Topic(topict))
+
+    def add_coverage(self, syllabus):
+      """adds coverage from syllabus to each topic/outcome"""
+      for topic in self.topics:
+          topic.add_coverage(syllabus)
 
 class Outcome:
     def __init__(self, dt):
@@ -22,6 +31,10 @@ class Outcome:
       self.text = dt.text
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
       self.mastery_level = dt.attrib['mastery_level'] if 'mastery_level' in dt.attrib else None
+
+    def add_coverage(self, syllabus):
+      """adds coverage from syllabus to each topic/outcome"""
+      pass
 
 class KnowledgeArea:
     def __init__(self, dt):
@@ -41,6 +54,32 @@ class KnowledgeArea:
       for outcomet in dt.findall(ns + 'outcome'):
         self.outcomes.append(Outcome(outcomet))
 
+    def add_coverage(self, syllabus):
+      """adds coverage from syllabus to each topic/outcome"""
+      for ka in self.kas:
+          ka.add_coverage(syllabus)
+      for topic in self.topics:
+          topic.add_coverage(syllabus)
+      for outcome in self.outcomes:
+          outcome.add_coverage(syllabus)
+
+    def topic_lookup(self, kas = (), topics = ()):
+        """find topic in this ka"""
+        if kas:
+          if not self.kas or kas[0] not in self.kas:
+            return None
+          return self.kas[kas[0]].topic_lookup(kas[1:], topics)
+        topic = None
+        search_topics = self.topics
+        while topics:
+          id = int(topics[0])
+          if not search_topics or id > len(search_topics):
+            return None
+          topic = search_topics[int(topics[0])-1]
+          search_topics = topic.subtopics
+          topics = topics[1:]
+        return topic
+
 class Standard:
     """Represents an external standard for curriculum content and objectives"""
     def __init__(self, xmlfile):
@@ -54,6 +93,18 @@ class Standard:
       for kat in dt.findall(ns + 'knowledgeArea'):
         ka = KnowledgeArea(kat)
         self.kas[ka.id] = ka
+
+    def topic_coverage_lookup(self, coverage):
+      return self.topic_lookup(coverage['knowledgeArea'].split('/'), coverage['id'].split('/'))
+
+    def topic_lookup(self, kas = (), topics = ()):
+      if kas and self.kas and kas[0] in self.kas:
+        return self.kas[kas[0]].topic_lookup(kas[1:], topics)
+
+    def add_coverage(self, syllabus):
+      """adds coverage from syllabus to each topic/outcome"""
+      for ka in self.kas:
+          ka.add_coverage(syllabus)
 
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
@@ -83,14 +134,14 @@ class Syllabus:
       self.scheduleType = dt.find(ns + 'scheduleType').text
       self.catalogDescription = dt.find(ns + 'catalogDescription').text
       self.prerequisites = dt.find(ns + 'prerequisites').text
-      self.objective = list()
+      self.objectives = list()
       for objectivet in dt.findall(ns + 'objectives'):
-        objective = objectivet.find(ns + 'objective').text
-        self.objective.append(objective)
-      self.topic = list()
-      for topict in dt.findall(ns + 'outline'):
-        topic = topict.find(ns + 'topic').text
-        self.topic.append(topic)
+        objective = Outcome(objectivet)
+        self.objectives.append(objective)
+      self.topics = list()
+      for outline in dt.findall(ns + 'outline'):
+        for topict in outline.findall(ns + 'topic'):
+          self.topics.append(Topic(topict))
 
 class Section:
     def __init__(self,course,section,instructorId,maxEnrollment,startTime=None,endTime=None,days=[],building=None,room=None):
@@ -153,8 +204,12 @@ class Instructor:
         self.name = name
         self.releases = releases
 
-def load_standard(name):
-    return Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')))
+def load_standard(name, ay=None):
+    standard = Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')))
+    if ay:
+      for syllabus in load_syllabi(ay):
+         standard.add_coverage(syllabus)
+    return standard
 
 def load_standards():
     standards = {}
