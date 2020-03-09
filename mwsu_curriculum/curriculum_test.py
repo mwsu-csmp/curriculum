@@ -289,9 +289,19 @@ def test_every_topic_coverage():
 def test_add_coverage():
     standards = load_standards()
     cs2013 = standards['acm-cs2013']
+    assert cs2013.outcome_coverage() == 0
+    assert cs2013.topic_coverage() == 0
     syl = load_syllabus('2019-2020', 'ACT', '324')
     ka = cs2013.kas['SE']
     assert ka.outcome_coverage() == 0.0
+    assert ka.topic_coverage() == 0.0
+
+    # add ACT324 syllabus coverages and check coverage level
     cs2013.add_coverage(syl)
-    assert ka.outcome_coverage() > 0  # TODO: update later with specific number once coverages settle
+    # TODO: update later with specific number once coverages settle
+    assert cs2013.outcome_coverage() > 0
+    assert cs2013.topic_coverage() > 0
+    assert ka.outcome_coverage() > 0
+    assert ka.topic_coverage() > 0 
+
 

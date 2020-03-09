@@ -7,10 +7,13 @@ from pkg_resources import resource_filename
 from collections import defaultdict
 
 class Topic:
-    def __init__(self, dt, id):
+    def __init__(self, dt, id, parentid='', standardid=''):
       ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
       self.id = id
+      self.covered_by = set()
+      self.parentid = parentid
+      self.standardid = standardid
       self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
 
       self.coverages = []
@@ -19,7 +22,34 @@ class Topic:
 
       self.subtopics = list()
       for topict in dt.findall(ns + 'topic'):
-        self.subtopics.append(Topic(topict, id + '/' + str(len(self.subtopics)+1)))
+        self.subtopics.append(Topic(topict, id + '/' + str(len(self.subtopics)+1), parentid, standardid))
+
+    def add_coverage(self, syllabus):
+        """record if the given syllabus covers this topic"""
+        for subtopic in self.subtopics:
+            subtopic.add_coverage(syllabus)
+
+        coverages = syllabus.get_topic_coverages()
+        for oid in coverages:
+            for coverage in coverages[oid]:
+                # todo: wrong filename (.xml) and ka name not being checked
+                if self.standardid == coverage['standard'] and \
+                        str(self.id) == coverage['id'] and \
+                        self.parentid == coverage['knowledgeArea']:
+                    self.covered_by.add((syllabus.subject, syllabus.number, oid))
+
+    def coverage(self):
+        """determines the extent to which this topic is covered by recoreded syllabi"""
+        if self.covered_by: # covered by something
+            return 1
+        if not self.subtopics: # not covered by anything and no subtopics for partial coverage
+            return 0
+        # determine proportion of covered subtopics
+        total = 0
+        for subtopic in self.subtopics:
+            total += subtopic.coverage()
+        return total / len(self.subtopics)
+
 
 class Outcome:
     def __init__(self, dt, id, parentid='', standardid=''):
@@ -61,7 +91,7 @@ class KnowledgeArea:
 
       self.topics = list()
       for topict in dt.findall(ns + 'topic'):
-        self.topics.append(Topic(topict, str(len(self.topics)+1)))
+        self.topics.append(Topic(topict, str(len(self.topics)+1), self.fullid, standardid))
 
       self.outcomes = list()
       for outcomet in dt.findall(ns + 'outcome'):
@@ -97,9 +127,10 @@ class KnowledgeArea:
         """ record what outcomes are covered by the given syllabus """
         for ka in self.kas:
             self.kas[ka].add_coverage(syllabus)
-
         for outcome in self.outcomes:
             outcome.add_coverage(syllabus)
+        for topic in self.topics:
+            topic.add_coverage(syllabus)
 
     def outcome_coverage(self):
         """ determine the coverage level of this ka's outcomes from previously observed syllabi"""
@@ -109,13 +140,31 @@ class KnowledgeArea:
             total += self.kas[ka].outcome_coverage()
             kas += 1
 
-
         covered = 0
         for outcome in self.outcomes:
             if outcome.covered_by:
                 covered += 1
         if covered:
             total += covered / len(self.outcomes)
+            kas += 1
+        if kas:
+            return total / kas
+
+        return 0
+
+    def topic_coverage(self):
+        """ determine the coverage level of this ka's topics from previously observed syllabi"""
+        kas = 0
+        total = 0
+        for ka in self.kas:
+            total += self.kas[ka].topic_coverage()
+            kas += 1
+
+        covered = 0
+        for topic in self.topics:
+            covered += topic.coverage()
+        if covered:
+            total += covered / len(self.topics)
             kas += 1
         if kas:
             return total / kas
@@ -156,6 +205,19 @@ class Standard:
       for ka in self.kas:
           self.kas[ka].add_coverage(syllabus)
 
+    def outcome_coverage(self):
+      total = 0
+      for ka in self.kas:
+          total += self.kas[ka].outcome_coverage()
+      return total / len(self.kas)
+
+    def topic_coverage(self):
+      total = 0
+      for ka in self.kas:
+          total += self.kas[ka].topic_coverage()
+      return total / len(self.kas)
+
+
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
       the workload hours, the schedule type, the course description, course prerequisites, course objectices,
@@ -193,6 +255,19 @@ class Syllabus:
         for topict in outline.findall(ns + 'topic'):
           self.topics.append(Topic(topict, str(len(self.topics)+1)))
     
+    def get_topic_coverages(self):
+        coverages = {}
+        queue = self.topics
+        while queue:
+            # pop off topic
+            topic = queue[0]
+            queue = queue[1:]
+            # update coverages
+            coverages[topic.id] = topic.coverages
+            # queue up subtopics
+            queue.extend(topic.subtopics)
+        return coverages
+
     def get_outcome_coverages(self):
         coverages = {}
         for outcome in self.objectives:
