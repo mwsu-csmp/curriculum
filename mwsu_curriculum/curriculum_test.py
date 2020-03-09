@@ -256,7 +256,7 @@ def test_topic_coverage_lookup_direct():
 
 def test_every_outcome_coverage():
     standards = load_standards()
-    for ay in listdir('syllabi'):
+    for ay in available_years():
         syllabi = load_syllabi(ay)
         for syllabus in syllabi:
             for outcome in syllabus.objectives:
@@ -270,7 +270,7 @@ def test_every_outcome_coverage():
 
 def test_every_topic_coverage():
     standards = load_standards()
-    for ay in listdir('syllabi'):
+    for ay in available_years():
         syllabi = load_syllabi(ay)
         for syllabus in syllabi:
             topics = syllabus.topics
