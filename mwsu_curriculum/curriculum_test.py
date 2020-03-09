@@ -191,3 +191,12 @@ def test_cs2017_standard_content():
     assert sp.kas['SVAV']
     svav = sp.kas['SVAV']
     assert svav.name == 'Software Verification and Validation'
+    assert len(svav.topics) == 17
+    assert len(svav.outcomes) == 17
+    topic = svav.topics[1]
+    assert topic.text.strip() == 'Inspections, reviews, audits'
+    assert topic.importance == 'tier2'
+    outcome = svav.outcomes[0]
+    assert outcome.text.strip() == 'Distinguish between program validation and verification.'
+    assert outcome.importance == 'tier2'
+    assert outcome.mastery_level == 'familiarity'

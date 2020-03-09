@@ -6,6 +6,23 @@ from collections import defaultdict
 from pkg_resources import resource_filename
 from collections import defaultdict
 
+class Topic:
+    def __init__(self, dt):
+      ns = '{https://csmp.missouriwestern.edu}'
+      self.text = dt.text
+      self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
+      
+      self.subtopics = list()
+      for topict in dt.findall(ns + 'topic'):
+        self.subtopics.append(Topic(topict))
+
+class Outcome:
+    def __init__(self, dt):
+      ns = '{https://csmp.missouriwestern.edu}'
+      self.text = dt.text
+      self.importance = dt.attrib['importance'] if 'importance' in dt.attrib else None
+      self.mastery_level = dt.attrib['mastery_level'] if 'mastery_level' in dt.attrib else None
+
 class KnowledgeArea:
     def __init__(self, dt):
       ns = '{https://csmp.missouriwestern.edu}'
@@ -18,13 +35,11 @@ class KnowledgeArea:
 
       self.topics = list()
       for topict in dt.findall(ns + 'topic'):
-        topic = topict.text
-        self.topics.append(topic)
+        self.topics.append(Topic(topict))
 
       self.outcomes = list()
       for outcomet in dt.findall(ns + 'outcome'):
-        outcome = outcomet.text
-        self.outcomes.append(outcome)
+        self.outcomes.append(Outcome(outcomet))
 
 class Standard:
     """Represents an external standard for curriculum content and objectives"""
