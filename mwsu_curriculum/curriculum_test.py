@@ -55,6 +55,26 @@ def test_hours_per_semester_is_not_an_empty_list():
 def test_hours_per_semester_returns_a_list():
     assert isinstance(hours_per_semester('2019-2020'), list)
 
+#Testing courses_in_semester 
+def test_courses_in_semester_is_not_none():
+    assert courses_in_semester('2019-2020', 'fa') is not None
+
+def test_every_year_courses():
+    assert 'CSC184' in courses_in_semester('2019-2020', 'fa')
+    assert 'CSC254' in courses_in_semester('2019-2020', 'fa')
+    assert 'CSC184' in courses_in_semester('2019-2020', 'sp')
+    assert 'CSC254' in courses_in_semester('2019-2020', 'sp')
+
+def test_wrong_semester_courses():
+    assert 'CSC406' not in courses_in_semester('2019-2020', 'fa')
+    assert 'CSC406' in courses_in_semester('2019-2020', 'sp')
+
+def test_oddg_semester_courses():
+    assert 'CSC345' not in courses_in_semester('2019-2020', 'fa')
+    assert 'CSC345' not in courses_in_semester('2019-2020', 'sp')
+    assert 'CSC345' not in courses_in_semester('2018-2019', 'fa')
+    assert 'CSC345' in courses_in_semester('2018-2019', 'sp')
+
 #This set of tests asserts that hours_per_semester returns a list of tuples
 def test_hours_per_semester_returns_a_list_of_tuples():
     assert isinstance(hours_per_semester('2019-2020')[0], tuple)

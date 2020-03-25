@@ -432,3 +432,26 @@ def hours_per_semester(ay):
         ret.append((semester, sum(map((lambda course: course.workload_hours), semesters[semester]))))
     return ret
 
+
+def courses_in_semester(ay, qsemester):
+    """ goes through all the courses and adds up the hours per semester """
+    # update to use credit hours instead of # of courses
+    semesters = defaultdict(list)
+    for course in load_syllabi(ay):
+        for semester in course.offered:
+            semesters[semester].append(course)
+    if qsemester == 'su':
+        qsemester = 'summer'
+    elif qsemester == 'fa':
+        if int(ay[-2:]) % 2 == 1: # spring is odd, thus fall is even
+            qsemester = 'fall-even'
+        else:
+            qsemester = 'fall-odd'
+    else:
+        if int(ay[-2:]) % 2 == 0:
+            qsemester = 'spring-even'
+        else:
+            qsemester = 'spring-odd'
+
+    return set(map(lambda course: course.subject + str(course.number), semesters[qsemester]))
+
