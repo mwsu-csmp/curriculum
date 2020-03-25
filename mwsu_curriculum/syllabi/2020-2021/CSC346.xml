@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>254</number>
+  <number>346</number>
   <title>Enterprise System Computing with Java</title>
   <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
