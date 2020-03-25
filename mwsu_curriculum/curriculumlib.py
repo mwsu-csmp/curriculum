@@ -232,6 +232,8 @@ class Syllabus:
       self.subject = dt.find(ns + 'subject').text
       self.number = dt.find(ns + 'number').text
       self.workload_hours = int(3 if not 'workloadHoursLecture' in dt.attrib else dt.attrib['workloadHoursLecture'])
+      if 'workloadHoursExpected' in dt.attrib:
+          self.workload_hours = int(dt.attrib['workloadHoursExpected'])
       self.offered = list()
       for semestert in dt.findall(ns + 'offered'):
         semester = semestert.text

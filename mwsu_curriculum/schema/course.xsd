@@ -138,6 +138,7 @@
         </xs:complexType>
       </xs:element>
 
+
       <xs:element name="textbook" minOccurs="0" maxOccurs="unbounded">
         <xs:complexType>
           <xs:sequence>
@@ -202,6 +203,7 @@
     <xs:attribute name="workloadHoursLecture" type="xs:integer" default="3"/>
     <xs:attribute name="workloadHoursLab" type="xs:integer" default="0"/>
     <xs:attribute name="workloadHoursOther" type="xs:integer" default="0"/>
+    <xs:attribute name="workloadHoursExpected" type="xs:integer" default="3"/>
     </xs:complexType>
   </xs:element>
 
