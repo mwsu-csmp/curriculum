@@ -10,3 +10,4 @@ from .curriculumlib import load_roster
 from .curriculumlib import load_schedule
 from .curriculumlib import available_years
 from .curriculumlib import hours_per_semester
+from .curriculumlib import courses_in_semester

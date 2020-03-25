@@ -162,6 +162,23 @@
 
     <course>
       <subject>CSC</subject>
+      <number>264</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Yan</instructor>
+        <max>16</max>
+        <startTime>12:30</startTime>
+        <endTime>1:50</endTime>
+        <day>M</day>
+        <day>W</day>
+        <building>AH</building>
+        <room>126</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
       <number>289</number>
       <section>
         <sectionNumber>01</sectionNumber>
