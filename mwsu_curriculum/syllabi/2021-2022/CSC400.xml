@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>400</number>
+  <title>Systems Analysis and Design</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+Study of structured systems development. Emphasis on strategies and techniques of structured analysis and object oriented design for producing logical methodologies for dealing with the development of information systems.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>305</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>Project Selection and Client Sponsor approval</topic>
+    <topic>Request for Service and Project Charter</topic>
+    <topic>Risk analysis and project budget</topic>
+    <topic>UML analysis documents and schedules</topic>
+    <topic>Use Case development through level III</topic>
+    <topic>Constraint documentation</topic>
+    <topic>Work Breakdown Schedule</topic>
+    <topic>Inventory of personnel, hardware, software and all tools used to develop your project.</topic>
+    <topic>Database analysis and implementation</topic>
+    <topic>Human Factors Analysis and wireframes</topic>
+    <topic>User Screen Prototype creation</topic>
+  </outline>
+</course>

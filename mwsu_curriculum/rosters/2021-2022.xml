@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roster
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
+  <instructor>
+    <id>Kwok</id>
+    <name>Yipkei Kwok</name>
+    <release>
+      <description>Graduate Program Director</description>
+      <hours>3</hours>
+    </release>
+  </instructor>
+  <instructor>
+    <id>Noynaert</id>
+    <name>Evan Noynaert</name>
+  </instructor>
+  <instructor>
+    <id>Morwick</id>
+    <name>Joseph Kendall-Morwick</name>
+  </instructor>
+  <instructor>
+    <id>Hecker</id>
+    <name>Connie Hecker</name>
+  </instructor>
+  <instructor>
+    <id>Yan</id>
+    <name>Baoqiang Yan</name>
+  </instructor>
+  <instructor>
+    <id>Pickett</id>
+    <name>Kent Pickett</name>
+  </instructor>
+</roster>

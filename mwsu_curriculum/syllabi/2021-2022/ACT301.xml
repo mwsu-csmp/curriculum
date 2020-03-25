@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>ACT</subject>
+  <number>301</number>
+  <title>Applied Database Systems</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <offered>summer</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+ Emphasis is placed upon the core concepts of relational database application development. Students will gain proficiency in Microsoft Access; the concepts learned will allow the students to apply database application development concepts to a real world type application. 
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
+      <prerequisiteConjunction>
+        <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+        <prerequisiteGeneral>Completion of general studies</prerequisiteGeneral>
+      </prerequisiteConjunction>
+    </prerequisiteDisjunction>
+  </prerequisites>
+  <objectives>
+    <objective>Purpose of relational database.</objective>
+    <objective>How tables are used to store data in a pre-defined database.</objective>
+    <objective>Relationships between tables utilizing primary and foreign keys.</objective>
+    <objective>Relational diagrams and how to build one.</objective>
+    <objective>Building advanced queries.</objective>
+    <objective>Derived fields using calculations, expressions and functions.</objective>
+    <objective>Aggregate functions and grouping.</objective>
+    <objective>Creation of various types of forms and how they connect to tables.</objective>
+    <objective>Creation of various types of report and how they are derived from queries and/or tables.</objective>
+    <objective>Data validation techniques in tables, forms and data macros.</objective>
+    <objective>Action queries.</objective>
+    <objective>Importing and exporting data.</objective>
+    <objective>Basics of normalization.</objective>
+    <objective>Introduction to SQL.</objective>
+    <objective>Introduction to database administration concepts.</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

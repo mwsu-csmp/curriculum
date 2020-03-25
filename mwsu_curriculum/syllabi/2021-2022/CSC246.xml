@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>246</number>
+  <title>Programming Languages and Paradigms</title>
+  <offered>fall-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course explores major programming paradigms (including the functional, object-oriented, and logic programming paradigms) and principles of the design of programming languages. Students will learn to adapt quickly to new programming languages, select appropriate programming languages for projects, compare and contrast languages, and make the best use of features of languages they have learned.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+  </prerequisites>
+
+  <textbook title="Programming Languages: Principles and Paradigms"
+            publisher="Springer"
+            year="2010"
+            ISBN="978-1-84882-914-5">
+    <author>Gabbrielli</author>
+    <author>Maurizio</author>
+    <author>Martini</author>
+    <author>Simone</author>
+  </textbook>
+
+  <objectives>
+    <objective>Compare and contrast procedural, functional, object-oriented, and logic approaches to programming
+      <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="3"/>
+    </objective>
+    <objective>Write basic algorithms that avoid assigning to mutable state or considering reference equality
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="1"/>
+    </objective>
+    <objective>Write useful higher-order functions
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="2"/>
+    </objective>
+    <objective>Use functional encapsulation mechanisms such as closures and modular interfaces
+    </objective>
+    <objective>Use closures and correctly reason about their implications for variable scope
+      <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="4"/>
+    </objective>
+    <objective>Define and use iterators, generators, and comprehensions and apply fluent interfaces in stream processing
+    </objective>
+    <objective>Work with a formal definition of a language to produce an abstract syntax tree
+      <covers standard="acm-cs2013" knowledgeArea="PL/PR" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="PL/SA" id="1"/>
+    </objective>
+    <objective>Use various advanced programming constructs and idioms correctly
+      <covers standard="acm-cs2013" knowledgeArea="PL/APC" id="1"/>
+    </objective>
+    <objective>Discuss how various advanced programming constructs aim to improve program structure, software quality, and programmer productivity
+      <covers standard="acm-cs2013" knowledgeArea="PL/APC" id="2"/>
+    </objective>
+    <objective>Discuss the role of concepts such as orthogonality and well-chosen defaults in language design
+      <covers standard="acm-cs2013" knowledgeArea="PL/LP" id="1"/>
+    </objective>
+    <objective>Use a logic language to implement a conventional algorithm
+      <covers standard="acm-cs2013" knowledgeArea="PL/LP2" id="1"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>programming language principles
+      <topic>categories of languages</topic>
+      <topic>syntax</topic>
+      <topic>names and bindings</topic>
+      <topic>scope</topic>
+      <topic>control structures</topic>
+      <topic>data structures</topic>
+      <topic>types
+        <topic>scalar types</topic>
+        <topic>structured types</topic>
+        <topic>generic types</topic>
+        <topic>type equivalence</topic>
+        <topic>type inference</topic>
+      </topic>
+      <topic>introspection</topic>
+      <topic>macros</topic>
+    </topic>
+    <topic>functional programming
+      <topic>recursion vs iteration</topic>
+      <topic>closures</topic>
+      <topic>higher-order functions</topic>
+      <topic>decorators</topic>
+      <topic>iterators</topic>
+      <topic>generators</topic>
+      <topic>streams</topic>
+      <topic>tail-recursion</topic>
+    </topic>
+    <topic>object-oriented programming
+      <topic>dynamic dispatch</topic>
+      <topic>multiple inheritance</topic>
+      <topic>functional interfaces</topic>
+      <topic>fluents</topic>
+    </topic>
+    <topic>logic programming
+      <topic>unification</topic>
+      <topic>non-determinism</topic>
+      <topic>reversible computation</topic>
+    </topic>
+  </outline>
+</course>

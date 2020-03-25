@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  workloadHoursLecture="2">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>274</number>
+  <title>Introduction to UNIX/Linux</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+An introductory course on UNIX/Linux and its applications. Topics covered include: basic commands and system structures; system tools; output redirection; command line text editing, e-mail and system calls; file system basics; and, basic shell scripting. Basic security issues will also be discussed. The course material is intended to prepare students for versatile use of any UNIX/Linux system and as a foundation for numerous UNIX/Linux certification programs.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>Understand the basic history of the Unix operating System.</objective>
+    <objective>Use common linux shell commands</objective>
+    <objective>Use command redirection and pipes</objective>
+    <objective>Write simple shell scripts </objective>
+  </objectives>
+  <outline>
+    <topic>Overview
+      <topic>History Of Unix</topic>
+      <topic>Major flavors of Unix</topic>
+    </topic>
+    <topic>Linux Commands
+      <topic>Command philosophy </topic>
+      <topic>Connecting to remote machines</topic>
+      <topic>Environment variables </topic>
+      <topic>Stdin/Stdout </topic>
+      <topic>Common commands </topic>
+      <topic>Less common but useful commands  </topic>
+      <topic>Redirection of input and output  </topic>
+      <topic>Pipes H. /dev/null  </topic>
+    </topic>
+    <topic>Bash Shell
+    </topic>
+    <topic>Shell Scripting 
+      <topic>Basic command-only scripts  </topic>
+      <topic>Variables and command-line arguments </topic>
+    </topic>
+    <topic>Desktop Environments
+      <topic>Gnome</topic>
+      <topic>X</topic>
+    </topic>
+  </outline>
+</course>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
+
+    <course>
+      <subject>ACT</subject>
+      <number>301</number>
+      <section>
+        <sectionNumber>40</sectionNumber>
+        <instructor>Noynaert</instructor>
+        <max>25</max>
+      </section>
+    </course>
+
+</schedule>
