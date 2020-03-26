@@ -32,9 +32,9 @@
     <course>
       <subject>ACT</subject>
       <number>211</number>
-      <section>
+      <section workloadHoursExpected="1">
         <sectionNumber>01</sectionNumber>
-        <instructor>Hecker</instructor>
+        <instructor>Noynaert</instructor>
         <max>0</max>
         <startTime>11:00</startTime>
         <endTime>12:20</endTime>
@@ -59,7 +59,7 @@
     <course>
       <subject>ACT</subject>
       <number>405</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Hecker</instructor>
         <max>25</max>
@@ -261,7 +261,7 @@
     <course>
       <subject>CSC</subject>
       <number>445</number>
-      <section>
+      <section workloadHoursExpected="1">
         <sectionNumber>01</sectionNumber>
         <instructor>Yan</instructor>
         <max>12</max>
@@ -276,7 +276,7 @@
     <course>
       <subject>CSC</subject>
       <number>450</number>
-      <section>
+      <section workloadHoursExpected="1">
         <sectionNumber>01</sectionNumber>
         <instructor>Morwick</instructor>
         <max>0</max>
@@ -321,8 +321,23 @@
 
     <course>
       <subject>CSC</subject>
-      <number>520</number>
+      <number>490</number>
       <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor></instructor>
+        <max>20</max>
+        <startTime>11:00</startTime>
+        <endTime>11:55</endTime>
+        <day>W</day>
+        <building>AH</building>
+        <room>119</room>
+      </section>
+    </course>
+
+    <course>
+      <subject>CSC</subject>
+      <number>520</number>
+      <section workloadHoursExpected="0">
         <sectionNumber>01</sectionNumber>
         <instructor>Kwok</instructor>
         <max>20</max>
@@ -338,7 +353,7 @@
     <course>
       <subject>CSC</subject>
       <number>550</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Yan</instructor>
         <max>20</max>
@@ -353,7 +368,7 @@
     <course>
       <subject>CSC</subject>
       <number>570</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Yan</instructor>
         <max>20</max>
@@ -384,8 +399,8 @@
 
     <course>
       <subject>CSC</subject>
-      <number>630</number>
-      <section>
+      <number>625</number>
+      <section workloadHoursExpected="0">
         <sectionNumber>01</sectionNumber>
         <instructor>Kwok</instructor>
         <max>20</max>

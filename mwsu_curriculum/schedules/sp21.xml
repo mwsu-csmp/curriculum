@@ -204,10 +204,10 @@
 
     <course>
       <subject>CSC</subject>
-      <number>346</number>
+      <number>345</number>
       <section>
         <sectionNumber>01</sectionNumber>
-        <instructor>Noynaert</instructor>
+        <instructor>Hecker</instructor>
         <max>25</max>
         <startTime>11:00</startTime>
         <endTime>12:20</endTime>
@@ -286,7 +286,7 @@
     <course>
       <subject>CSC</subject>
       <number>580</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Kwok</instructor>
         <max>20</max>
@@ -302,7 +302,7 @@
     <course>
       <subject>CSC</subject>
       <number>635</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Yan</instructor>
         <max>20</max>

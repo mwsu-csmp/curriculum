@@ -321,6 +321,22 @@
 
     <course>
       <subject>CSC</subject>
+      <number>490</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor></instructor>
+        <max>20</max>
+        <startTime>11:00</startTime>
+        <endTime>11:55</endTime>
+        <day>W</day>
+        <building>AH</building>
+        <room>119</room>
+      </section>
+    </course>
+
+
+    <course>
+      <subject>CSC</subject>
       <number>520</number>
       <section>
         <sectionNumber>01</sectionNumber>
