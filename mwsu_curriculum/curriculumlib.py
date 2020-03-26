@@ -277,7 +277,7 @@ class Syllabus:
         return coverages
 
 class Section:
-    def __init__(self,course,section,instructorId,maxEnrollment,startTime=None,endTime=None,days=[],building=None,room=None):
+    def __init__(self,course,section,instructorId,maxEnrollment,startTime=None,endTime=None,days=[],building=None,room=None,workloadHours=None):
         self.course = course
         self.section = section
         self.instructorId = instructorId
@@ -287,6 +287,7 @@ class Section:
         self.days = days
         self.building = building
         self.room = room
+        self.workload_hours = wrokloadHours if workloadHours else course.workload_hours
 
     def duration(self):
         if not self.startTime or not self.endTime:
@@ -409,6 +410,8 @@ def load_schedule(semester, year):
             building = building.text if building is not None else None
             room = sectiont.find(ns + 'room')
             room = room.text if room is not None else None
+            workload_hours = int(sectiont.attrib['workloadHoursExpected']) \
+                    if 'workloadHoursExpected' in sectiont.attrib else course.workload_hours
             daysList = list()
             for days in sectiont.findall(ns + 'day'):
                 day = days.text

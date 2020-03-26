@@ -369,7 +369,7 @@
     <course>
       <subject>CSC</subject>
       <number>590</number>
-      <section>
+      <section workloadHoursExpected="2">
         <sectionNumber>01</sectionNumber>
         <instructor>Morwick</instructor>
         <max>20</max>

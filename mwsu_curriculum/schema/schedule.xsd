@@ -76,6 +76,7 @@
                     <xs:element name="building" type="courseBuilding" minOccurs="0"/>
                     <xs:element name="room" type="xs:string" minOccurs="0"/>
                   </xs:sequence>
+	          <xs:attribute name="workloadHoursExpected" type="xs:integer"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>

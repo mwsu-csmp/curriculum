@@ -203,7 +203,7 @@
     <xs:attribute name="workloadHoursLecture" type="xs:integer" default="3"/>
     <xs:attribute name="workloadHoursLab" type="xs:integer" default="0"/>
     <xs:attribute name="workloadHoursOther" type="xs:integer" default="0"/>
-    <xs:attribute name="workloadHoursExpected" type="xs:integer" default="3"/>
+    <xs:attribute name="workloadHoursExpected" type="xs:integer"/>
     </xs:complexType>
   </xs:element>
 
