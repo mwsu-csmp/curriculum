@@ -287,7 +287,7 @@ class Section:
         self.days = days
         self.building = building
         self.room = room
-        self.workload_hours = wrokloadHours if workloadHours else course.workload_hours
+        self.workload_hours = workloadHours if workloadHours else course.workload_hours
 
     def duration(self):
         if not self.startTime or not self.endTime:
@@ -416,7 +416,7 @@ def load_schedule(semester, year):
             for days in sectiont.findall(ns + 'day'):
                 day = days.text
                 daysList.append(day)
-            section = Section(course,sectionNumber,instructorId,maxEnrollment,days=daysList,
+            section = Section(course,sectionNumber,instructorId,maxEnrollment,days=daysList, workloadHours=workload_hours,
                     startTime=startTime, endTime=endTime, building=building, room=room)
             courses[course].append(section)
     return courses

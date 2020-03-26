@@ -76,11 +76,14 @@ def test_oddg_semester_courses():
     assert 'CSC345' in courses_in_semester('2018-2019', 'sp')
 
 def test_hours_adjusted_in_schedule():
-    sp19schedule = load_schedule('sp', '19')
-    for course in sp19schedule:
+    schedule = load_schedule('fa', '21')
+    found = False
+    for course in schedule:
         if course.subject+course.number == 'CSC590':
-            section = sp19schedule[course][0]
+            found = True
+            section = schedule[course][0]
             assert section.workload_hours == 2
+    assert found
 
 
 #This set of tests asserts that hours_per_semester returns a list of tuples
