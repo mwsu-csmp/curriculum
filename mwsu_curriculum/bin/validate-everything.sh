@@ -59,4 +59,17 @@ do
 		exit
 	fi
 done  
+
+for dir in programs/*
+do
+  for f in $dir/*
+  do
+	xmllint --schema schema/program.xsd --noout $f
+	if [ $? -ne 0 ]; then
+	    	echo "*** $f failed to validate"
+		exit
+	fi
+  done  
+done  
+
 pytest-3 -v

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="https://csmp.missouriwestern.edu"
+  xmlns="https://csmp.missouriwestern.edu"
+  elementFormDefault="qualified">
+
+  <xs:simpleType name="courseSubject">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="courseNumber">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="courseName">
+    <xs:sequence>
+      <xs:element name="subject" type="courseSubject"/>
+      <xs:element name="number" type="courseNumber"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="conjunction">
+    <xs:sequence>
+      <xs:element name="course" type="courseName" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="disjunction">
+    <xs:sequence>
+      <xs:element name="conjunction" type="conjunction" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="section">
+    <xs:sequence>
+      <xs:element name="requirement" type="disjunction" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="blank" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="header" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:element name="program">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="section" type="section" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="parent" type="xs:string" default=""/>
+      <xs:attribute name="name" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
