@@ -12,7 +12,7 @@
 
   <xs:simpleType name="courseNumber">
     <xs:restriction base="xs:string">
-      <xs:pattern value="[0-9]{3}"/>
+      <xs:pattern value="[0-9]{3}E?"/>
     </xs:restriction>
   </xs:simpleType>
 

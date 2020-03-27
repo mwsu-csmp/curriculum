@@ -28,6 +28,11 @@ def test_load_syllabi_is_not_an_empty_list():
 def test_load_syllabi_returns_a_list():
     assert isinstance(load_syllabi('2019-2020'), list)
 
+def test_syllabus_credits():
+    syl = load_syllabus('2019-2020', 'ACT', '324')
+    assert syl.credit_hours == 3
+    assert syl.workload_hours == 3
+
 def test_topic_coverage():
     syl = load_syllabus('2019-2020', 'ACT', '324')
     assert len(syl.topics) == 9
@@ -84,6 +89,11 @@ def test_hours_adjusted_in_schedule():
             section = schedule[course][0]
             assert section.workload_hours == 2
     assert found
+
+def test_program_hours():
+    cs = load_program('2019-2020', 'cs')
+    assert cs.min_hours() == 65
+    assert cs.max_hours() == 67
 
 
 #This set of tests asserts that hours_per_semester returns a list of tuples

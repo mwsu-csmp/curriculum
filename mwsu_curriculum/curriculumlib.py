@@ -217,6 +217,82 @@ class Standard:
           total += self.kas[ka].topic_coverage()
       return total / len(self.kas)
 
+class ProgramSection:
+    def __init__(self, courses, blanks=[]):
+      self.courses = courses
+      self.blanks = blanks
+
+    def max_hours(self):
+      total = 0
+      for disj in self.courses:
+        max_hours = None
+        for conj in disj:
+          hours = 0
+          for course in conj:
+            hours += course.credit_hours
+          if not max_hours or max_hours < hours:
+            max_hours = hours
+        total += max_hours
+      
+      for blank in self.blanks:
+        total += blank
+      return total
+
+    def min_hours(self):
+      total = 0
+      for disj in self.courses:
+        min_hours = None
+        for conj in disj:
+          hours = 0
+          for course in conj:
+            hours += course.credit_hours
+          if not min_hours or min_hours > hours:
+            min_hours = hours
+        total += min_hours
+      
+      for blank in self.blanks:
+        total += blank
+      return total
+
+class Program:
+    def __init__(self, ay, xmlfile):
+      ns = '{https://csmp.missouriwestern.edu}'
+      dt = ET.parse(xmlfile).getroot()
+      self.name = dt.attrib['name']
+      self.parent = load_program(ay, dt.attrib['parent']) if 'parent' in dt.attrib else None
+      self.sections = []
+
+      for sectiont in dt.findall(ns + 'section'):
+        courses = []
+        for requirementt in sectiont.findall(ns + 'requirement'):
+          disj = []
+          for conjunctiont in requirementt.findall(ns + 'conjunction'):
+            conj = []
+            for courset in conjunctiont.findall(ns + 'course'):
+              course = load_syllabus(ay, courset.find(ns + 'subject').text, courset.find(ns + 'number').text)
+              conj.append(course)
+            disj.append(conj)
+          courses.append(disj)
+
+        blanks = []
+        for blankt in sectiont.findall(ns + 'blank'):
+          blanks.append(int(blankt.text))
+
+        section = ProgramSection(courses, blanks)
+        self.sections.append(section)
+
+    def max_hours(self):
+        total = self.parent.max_hours() if self.parent else 0
+        for section in self.sections:
+            total += section.max_hours()
+        return total
+
+    def min_hours(self):
+        total = self.parent.min_hours() if self.parent else 0
+        for section in self.sections:
+            total += section.min_hours()
+        return total
+
 
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
@@ -231,6 +307,10 @@ class Syllabus:
       self.ay = ay
       self.subject = dt.find(ns + 'subject').text
       self.number = dt.find(ns + 'number').text
+      self.credit_hours = \
+              (int(dt.attrib['creditHoursLecture']) if 'creditHoursLecture' in dt.attrib else 3) + \
+              (int(dt.attrib['creditHoursLab']) if 'creditHoursLab' in dt.attrib else 0) + \
+              (int(dt.attrib['creditHoursOther']) if 'creditHoursOther' in dt.attrib else 0) 
       self.workload_hours = int(3 if not 'workloadHoursLecture' in dt.attrib else dt.attrib['workloadHoursLecture'])
       if 'workloadHoursExpected' in dt.attrib:
           self.workload_hours = int(dt.attrib['workloadHoursExpected'])
@@ -337,6 +417,10 @@ class Instructor:
         self.id = instructorId
         self.name = name
         self.releases = releases
+
+def load_program(ay,name):
+    program = Program(ay, open(resource_filename('mwsu_curriculum', 'programs/'+ay+'/'+name+'.xml')) )
+    return program 
 
 def load_standard(name, ay=None):
     standard = Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')), name)

@@ -25,6 +25,7 @@
     <requirement><conjunction><course><subject>CSC</subject><number>490</number></course></conjunction></requirement>
     <requirement>
       <conjunction><course><subject>MAT</subject><number>111</number></course></conjunction>
+      <conjunction><course><subject>MAT</subject><number>111E</number></course></conjunction>
       <conjunction><course><subject>GBA</subject><number>210</number></course></conjunction>
     </requirement>
   </section>
