@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program
+  name="cs"
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <section>
+    <requirement><conjunction><course><subject>CSC</subject><number>184</number></course></conjunction></requirement>
+    <requirement>
+      <conjunction><course><subject>CSC</subject><number>245</number></course></conjunction>
+      <conjunction><course><subject>CSC</subject><number>246</number></course></conjunction>
+    </requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>254</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>274</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>285</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>289</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>294</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>ACT</subject><number>301</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>305</number></course></conjunction></requirement>
+    <requirement>
+      <conjunction><course><subject>CSC</subject><number>345</number></course></conjunction>
+      <conjunction><course><subject>CSC</subject><number>346</number></course></conjunction>
+    </requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>406</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>410</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>490</number></course></conjunction></requirement>
+    <requirement>
+      <conjunction><course><subject>MAT</subject><number>111</number></course></conjunction>
+      <conjunction><course><subject>GBA</subject><number>210</number></course></conjunction>
+    </requirement>
+  </section>
+</program>
