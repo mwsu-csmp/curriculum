@@ -4,16 +4,15 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>CSC</subject>
-  <number>328</number>
-  <title>Computer Graphics</title>
-  <offered>spring</offered>
+  <subject>SEC</subject>
+  <number>530</number>
+  <title>Threat Analysis and Mitigation</title>
+  <offered>fall-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 	  stub
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

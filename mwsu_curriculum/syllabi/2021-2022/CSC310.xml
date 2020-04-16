@@ -5,14 +5,14 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>650</number>
-  <title>Information Assurance</title>
+  <number>310</number>
+  <title>Introduction to Cybersecurity</title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>
-This course will explore cyber-security principles by examining security policies and procedures for managing critical and sensitive data. Implications for government compliance, professional ethics, and organizational risk management will be addressed in relation to the task of preserving the confidentiality, authenticity, integrity, and availability of such data.
+  <catalogDescription>stub
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

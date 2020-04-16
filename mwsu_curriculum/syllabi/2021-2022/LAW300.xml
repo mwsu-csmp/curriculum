@@ -4,10 +4,10 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>GBA</subject>
-  <number>210</number>
-  <title>stub</title>
-  <offered>fall</offered>
+  <subject>LAW</subject>
+  <number>300</number>
+  <title>Cybercrime and Investigation</title>
+  <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 	  stub

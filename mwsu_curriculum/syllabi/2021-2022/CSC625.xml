@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>625</number>
   <title>Network Information Systems Security</title>
-  <offered>fall</offered>
+  <offered>fall-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course is designed to instruct students on various facets of network security and to introduce students to the tools that are available to secure and monitor TCP/IP-based networks. Students will have an opportunity to see both commercial and open source tools in action and to learn about the technology behind each tool. Some of the technologies discussed include public keys cryptography, firewalls, authentication, intrusion detection and control of malicious code. Students also learn about OS hardening fundamentals as well as security assessment tools and techniques. A research project is required.

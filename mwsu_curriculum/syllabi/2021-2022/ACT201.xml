@@ -5,15 +5,14 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>318</number>
-  <title>Simulation and Modeling</title>
+  <number>201</number>
+  <title>Microcomputer Applications </title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-An introduction to computerized simulations. Focus is on the architecture and development of time-step and event-sequenced models used extensively by industry and government. Other topics include process generators for random events, the development of computerized games for management training, and current simulation research.  
+Applications of productivity software such as Microsoft Office Word, Excel, Access, and PowerPoint for careers, school, and home. Impact of technology on society by computer information systems, networks, e-commerce, and the Internet is included. Previous computer experience recommended.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

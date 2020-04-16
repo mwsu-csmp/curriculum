@@ -4,10 +4,10 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>CSC</subject>
+  <subject>SEC</subject>
   <number>590</number>
   <title>Information Technology Project Management</title>
-  <offered>fall</offered>
+  <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course will provide coverage of core project management concepts and their application to managing information technology projects such as software development. Course content will prepare students for both the CompTIA Project+ and PMI Certified Associate of Project Management certification exams. Students will apply project management concepts through a significant semester-long project.
   </catalogDescription>

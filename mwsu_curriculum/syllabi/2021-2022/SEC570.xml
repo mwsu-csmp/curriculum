@@ -4,13 +4,13 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>CSC</subject>
-  <number>635</number>
-  <title>Software and Computer Security</title>
+  <subject>SEC</subject>
+  <number>570</number>
+  <title>Ethical Hacking</title>
   <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-This course covers fundamental issues and first principles of software and computer security. This course will discuss basics of physical security, operating system security, and network security, web/e-commerce security as well as distributed application security. Security models and policies, standards and methodologies for security evaluation and certification will also be covered. 
+This course will introduce the student to the essential concepts and skills in ethical hacking. A practical, hands-on approach will be adopted to examine computer/networking security for protection of sensitive data. Topics include security policy, vulnerability assessment, port scanning, penetration testing, WIFI hacking, foot printing, social engineering, etc. This course helps the student prepare for an ethical hacking certification test. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>

@@ -7,7 +7,7 @@
   <subject>ACT</subject>
   <number>324</number>
   <title>Software Testing and DevOps</title>
-  <offered>fall-odd</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
   This course covers fundamentals of software testing and DevOps important to software developers, system administrators, and quality assurance / software testing engineers. A vendor neutral approach will be taken, focusing on popular open source tools for unit testing, integration testing, system testing, version control, build automation, configuration management, virtualization, continuous integration, and deployment management. Relevant software development principles and philosophies such as test-driven development and agile software development will also be discussed.

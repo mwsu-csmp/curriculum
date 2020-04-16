@@ -31,22 +31,6 @@
 
     <course>
       <subject>ACT</subject>
-      <number>211</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>0</max>
-        <startTime>11:00</startTime>
-        <endTime>12:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>RH</building>
-        <room>124</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>ACT</subject>
       <number>301</number>
       <section>
         <sectionNumber>40</sectionNumber>
@@ -54,23 +38,6 @@
         <max>25</max>
       </section>
     </course>
-
-
-    <course>
-      <subject>ACT</subject>
-      <number>405</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>25</max>
-        <startTime>9:30</startTime>
-        <endTime>10:50</endTime>
-        <day>R</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
-
 
     <course>
       <subject>CSC</subject>
@@ -86,22 +53,11 @@
         <building>RH</building>
         <room>108</room>
       </section>
-      <section>
-        <sectionNumber>02</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>25</max>
-        <startTime>12:30</startTime>
-        <endTime>1:50</endTime>
-        <day>T</day>
-        <day>R</day>
-        <building>RH</building>
-        <room>108</room>
-      </section>
     </course>
 
 
     <course>
-      <subject>CSC</subject>
+      <subject>ACT</subject>
       <number>201</number>
       <section>
         <sectionNumber>40</sectionNumber>
@@ -207,210 +163,6 @@
         <day>R</day>
         <building>AH</building>
         <room>126</room>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>328</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Pickett</instructor>
-        <max>22</max>
-        <startTime>6:30</startTime>
-        <endTime>9:10</endTime>
-        <day>R</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>400</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>25</max>
-        <startTime>12:30</startTime>
-        <endTime>1:50</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>410</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Kwok</instructor>
-        <max>25</max>
-        <startTime>2:00</startTime>
-        <endTime>3:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>126</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>445</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>12</max>
-        <startTime>12:30</startTime>
-        <endTime>1:50</endTime>
-        <day>T</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>450</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>0</max>
-      </section>
-      <section>
-        <sectionNumber>02</sectionNumber>
-        <instructor>Noynaert</instructor>
-        <max>0</max>
-      </section>
-      <section>
-        <sectionNumber>03</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>0</max>
-      </section>
-      <section>
-        <sectionNumber>04</sectionNumber>
-        <instructor>Kwok</instructor>
-        <max>0</max>
-      </section>
-      <section>
-        <sectionNumber>05</sectionNumber>
-        <instructor>Pickett</instructor>
-        <max>0</max>
-      </section>
-      <section>
-        <sectionNumber>06</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>0</max>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>451</number>
-      <section>
-        <sectionNumber>03</sectionNumber>
-        <instructor>Hecker</instructor>
-        <max>0</max>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>490</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor></instructor>
-        <max>20</max>
-        <startTime>11:00</startTime>
-        <endTime>11:55</endTime>
-        <day>W</day>
-        <building>AH</building>
-        <room>119</room>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>520</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Kwok</instructor>
-        <max>20</max>
-        <startTime>6:30</startTime>
-        <endTime>9:10</endTime>
-        <day>M</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>550</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>20</max>
-        <startTime>6:30</startTime>
-        <endTime>9:10</endTime>
-        <day>T</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>570</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>20</max>
-        <startTime>6:30</startTime>
-        <endTime>9:10</endTime>
-        <day>R</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>590</number>
-      <section workloadHoursExpected="2">
-        <sectionNumber>01</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>20</max>
-        <startTime>5:00</startTime>
-        <endTime>6:20</endTime>
-        <day>T</day>
-        <day>R</day>
-        <building>AH</building>
-        <room>127</room>
-      </section>
-    </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>630</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Kwok</instructor>
-        <max>20</max>
-        <startTime>5:00</startTime>
-        <endTime>6:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>127</room>
       </section>
     </course>
 

@@ -5,12 +5,12 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>615</number>
-  <title>Routing and Switching</title>
+  <number>601</number>
+  <title>Accelerated Introduction to Cybersecurity</title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-This course introduces students to the vendor-specific knowledge in designing, implementing, maintaining, and troubleshooting local and wide-area enterprise networks. Students will acquire understanding of network infrastructures and protocols, and how they work together in practice. In addition, they will learn about the concept of quality of service (QoS) elements and their applicability, securing networks by setting up firewalls, and configuring wireless controllers and access points. Students will also learn to work with IPv6. After the completion of this course, students may apply the knowledge and skills they have learned to related technologies such as cloud, data center, and advanced network security.
+	  stub
   </catalogDescription>
   <prerequisites>
   </prerequisites>

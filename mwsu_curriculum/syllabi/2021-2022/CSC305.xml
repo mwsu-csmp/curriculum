@@ -13,7 +13,7 @@
 An introduction to Database Concepts and Architecture, with an emphasis on the Relational Database Model. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>ACT</subject><number>301</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>stub</objective>

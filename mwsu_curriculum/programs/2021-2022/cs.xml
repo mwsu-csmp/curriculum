@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
-  name="cis"
-  parent="cs"
+  name="cs"
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section header="Computer Information Systems Concentration">
+    <requirement><conjunction><course><subject>CSC</subject><number>101</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>184</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>208</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>254</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>264</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>274</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>289</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>294</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>305</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>324</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>386</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>410</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>476</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>490</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>MAT</subject><number>111</number></course></conjunction></requirement>
     <requirement>
       <conjunction>
         <course><subject>MAT</subject><number>165</number></course>
@@ -12,13 +26,13 @@
       </conjunction>
       <conjunction><course><subject>MAT</subject><number>167</number></course></conjunction>
     </requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>208</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>264</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>318</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>386</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>246</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>285</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>387</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>400</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>406</number></course></conjunction></requirement>
   </section>
-  <section header="PLUS--9 credits of ACT, CSC, or MAT courses numbered 300 - 599">
-    <blank>3</blank>
+  <section header="PLUS--6 credits of CSC courses numbered 300 - 599">
     <blank>3</blank>
     <blank>3</blank>
   </section>

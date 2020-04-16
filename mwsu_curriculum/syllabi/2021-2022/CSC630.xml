@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>630</number>
   <title>Database Management and Security</title>
-  <offered>spring</offered>
+  <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course will introduce the student to the essential best practices in database security strategies. The student will be provided with the tools, techniques and industry accepted methodologies so that upon completion of the course the student will be able to describe key concepts database security and how to apply those concepts to securing database management systems within their organization. It will also acquaint the student with key concepts in database security. The student will learn DBMS concepts: modeling, modeling languages, relational database theory as applied to database security/integrity and concurrency. 
