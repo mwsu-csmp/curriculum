@@ -23,9 +23,71 @@ Topics include algorithm analysis and the implementation of stacks, queues, link
     </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>be able to choose appropriate and efficient data structures and algorithms to solve a problem.</objective>
+    <objective>be able to compare data structures and algorithms for efficiency using algorithm analysis and experiments.</objective>
+    <objective>be able to apply algorithm analysis and knowledge of discrete mathematics to evaluate algorithms and data
+structures.</objective>
+    <objective>be able to implement and use linear data structures, including stacks, queues, lists</objective>
+    <objective>be able to implement and use search structures and algorithms including binary search, search trees, and
+hash tables</objective>
+    <objective>be able to use and implement search data structures, including search trees and hash tables.</objective>
+    <objective>be able to use and implement priority queues.</objective>
+    <objective>be able to know and implement sorting algorithms and compare their performance analytically and
+empirically</objective>
+    <objective>be able to understand of graphs and their representations; implement graph search using BFS, DFS, and
+Dijkstra's Algorithm.</objective>
+    <objective>be able to solve problems using pointers and dynamically managed memory.</objective>
+    <objective>be able to write recursive functions and understand when recursion is appropriate to a problem.</objective>
+    <objective>be able to design, document, and implement classes and object hierarchies.</objective>
+    <objective>be able to apply tools and techniques for program correctness, such as unit testing, use of a symbolic
+debugger, and assert statements</objective>
+    <objective>be able to write readable and maintainable code.</objective>
+    <objective>be able to explain computational solutions in person and in writing.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Object oriented programming
+        <topic>Object oriented programming</topic>
+        <topic>Encapsulation</topic>
+        <topic>Inheritance</topic>
+        <topic>Polymorphism</topic>
+    </topic>
+    <topic>Programming Skills
+        <topic>Xtreme Programming</topic>
+        <topic>debugging</topic>
+        <topic>testing</topic>
+        <topic>application of OO concepts</topic>
+    </topic>
+    <topic>Basic data structures
+        <topic>Stacks</topic>
+        <topic>queues</topic>
+        <topic>linked lists</topic>
+        <topic>heaps</topic>
+    </topic>
+    <topic>Algorithm analysis</topic>
+    <topic>Recursion</topic>
+    <topic>Algorithm analysis</topic>
+    <topic>Algorithm analysis</topic>
+    <topic>Sorting
+        <topic>Mergesort</topic>
+        <topic>Quicksort</topic>
+        <topic>Bin sort</topic>
+        <topic>Heap sort</topic>
+    </topic>
+    <topic>Trees
+        <topic>Traversals</topic>
+        <topic>Binary Search Trees</topic>
+    </topic>
+    <topic>Hash Tables</topic>
+    <topic>Balanced Trees
+        <topic>Splay Trees</topic>
+        <topic>AVL Trees</topic>
+        <topic>Red-Black Trees</topic>
+        <topic>B Trees</topic>
+        <topic>Union-Find Trees</topic>
+    </topic>
+    <topic>Priority Queues</topic>
+    <topic>Binary Heaps</topic>
+    <topic>Graphs</topic>
+    <topic>Graph Algorithms</topic>
   </outline>
 </course>
