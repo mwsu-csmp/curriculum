@@ -22,9 +22,44 @@ An examination of current computer communication technologies and their protocol
     </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+	<objective>Understand the architectural principles of networking.</objective>
+	<objective>Describe the structure and component of a layered network model.</objective>
+	<objective>Compare different layered network design alternatives. Identify their advantages and tradeoffs</objective>
+	<objective>Describe the services, functions, and inter-operation mechanisms of different layers in a layered network model.</objective>
+	<objective>Understand the role of each layer in a network model and how each layer facilitates its role.</objective>
+	<objective>Identify and compare different data link, network, and transport layer protocols.</objective>
+	<objective>Identify the performance properties of physical, datalink and network protocols.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+	<topic>Computer networking overview
+		<topic>Reference models</topic>
+	</topic>
+	<topic>The physical layer
+		<topic>Wired and wireless transmission</topic>
+		<topic>Digital modulation and multiplexing</topic>
+	</topic>
+	<topic>The datalink layer
+		<topic>Design issues and protocols</topic>
+		<topic>Error detection and correction</topic>
+	</topic>
+	<topic>The medium access control sublayer
+		<topic>Multiple access protocols</topic>
+		<topic>Ethernet and wireless LANs</topic>
+	</topic>
+	<topic>The network layer
+		<topic>Routing algorithms</topic>
+		<topic>Congestion control algorithms</topic>
+		<topic>Quality of Service</topic>
+		<topic>Internetworking</topic>
+	</topic>
+	<topic>The transport layer
+		<topic>The transport service and protocol</topic>
+		<topic>Congestion control</topic>
+	</topic>
+	<topic>The application layer
+		<topic>Domain Name system</topic>
+		<topic>World-wide web and streaming media</topic>
+		<topic>Content delivery</topic>
+	</topic>
   </outline>
 </course>

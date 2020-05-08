@@ -16,9 +16,23 @@ This course covers various facets of network security and the tools that are ava
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>demonstrate the ability to implement software that is robust against common security attacks</objective>
+    <objective>understand the capabilities of modern cryptographic systems and apply them appropriately</objective>
+    <objective>decompose system security requirements into confidentiality, integrity, and availability components</objective>
+    <objective>assess threats to and vulnerabilities of a computer system</objective>
+    <objective>evaluate the level of risk associated with various types of threats</objective>
+    <objective>justify appropriate countermeasures in response to identified threats</objective>
+    <objective>identify legal and ethical ramifications of policy decisions and defend those decision</objective>
+    <objective>distinguish desired system features (policy) from their implementation (mechanism)</objective>
+    <objective>design a security plan for an instructor-supplied system description</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>System Security: hacker behavior, intrusion and anomaly detection, hacker and admin tools</topic>
+    <topic>Networks and Infrastructure: TCP/IP, Denial of Service, IPSEC, TLS/SSL</topic>
+    <topic>Basic Cryptography: Shared key crypto (AES/DES), Public Key Crypto (RSA), hashes</topic>
+    <topic>Crypto software: Open SSL library, applications (authentication, digital signatures)</topic>
+    <topic>Trust and Configuration management</topic>
+    <topic>Malicious code: buffer overflows, viruses, worms, protection mechanisms</topic>
+    <topic>Covert channels</topic>
   </outline>
 </course>
