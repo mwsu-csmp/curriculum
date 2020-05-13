@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>500</number>
+  <title>Research Methods</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+The purpose of this course is to equip ITAA students with the professional skills to understand and to stay current at the technological development through studying research in a specific area of IT. Students will learn to (1) identify and analyze research articles from reliable sources, including reputable conference proceedings and journals, (2) document past and current research into a coherent body of literature, and (3) communicate with fellow IT participants to convey knowledge in oral and written forms.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>Understand the basics of research, including its definition, purpose and expected outcomes</objective>
+    <objective>Apprehend the empirical research process and its stages such as identifying research problems, deducing hypotheses, prototyping, designing experiments and publishing results</objective>
+    <objective>Conduct literature survey using digital resources</objective>
+    <objective>Identify and critically analyze research articles</objective>
+    <objective>Evaluate credibility of sources, where research articles are published</objective>
+    <objective>Keep track of the technological development by maintaining an update-to-date annotated bibliography and a survey paper</objective>
+    <objective>Communicate, in professional settings, with fellow IT participants about the landscape of an IT area, including information such as goals, a progress of technological development, and open (unsolved) problems</objective>
+  </objectives>
+  <outline>
+    <topic> The Basics of Reading Research Articles
+	<topic>Students read research articles and apprehend the materials in the same way as how they read conventional Computer Science textbooks</topic>
+    </topic>
+    <topic>Reading Research Articles as a Professional
+	<topic>Writing paper reviews</topic>
+	<topic>Critically analyzing research articles</topic>
+	<topic>Assessing impacts and contributions of published research</topic>
+    </topic>
+    <topic>Scientific Research Process</topic>
+	<topic>Identifying information of various research stages from research articles</topic>
+    <topic>Literature Survey
+		<topic>Writing an annotated bibliography</topic>
+		<topic>Writing a survey paper</topic>
+		<topic>Presenting a literature survey</topic>
+	</topic>
+  </outline>
+</course>
