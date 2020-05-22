@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>ACT</subject>
+  <number>202</number>
+  <title>Web Design Tools</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>This course provides a comprehensiveintroduction to the Adobe Design Suite exploring the design applications Fireworks, Illustrator, and Photoshop.  With the use of exercises and projects, the student will developan extensive understanding of the tools and methods associated with the software.Real-world issues will be addressed to build problem-solving and critical thinking skills necessary for advanced course work.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective> Navigate and produce work with the Windows operating system.</objective>
+    <objective> Identify, connect and use basic Windows hardware and peripherals. </objective>
+    <objective> Select and use criteria-based graphic arts software for given tasks.</objective>
+    <objective> Produce work using a combination of page layout, illustration, and photo manipulation software.</objective>
+    <objective> Identify and use basic typographic measurement and terms.</objective>
+    <objective> Identify and use sound webpage development and construction.</objective>
+    <objective> Digitize images using the industry standard format and resolution for given media.</objective>
+    <objective> Research problems and capabilities with software documentation manuals and books.</objective>
+  </objectives>
+  <outline>
+    <topic>Fireworks
+      <topic>Menus and Tools</topic>
+      <topic>Creating layered objects</topic>
+      <topic>Bitmap images: cropping, importing, merging</topic>
+      <topic>Vector images: working with masks, adding text to images, creating new styles</topic>
+      <topic>Slicing and optimizing </topic>
+      <topic>Creating and using symbols</topic>
+      <topic></topic>
+    </topic>
+    <topic>Illustrator
+      <topic>Menus and Tools</topic>
+      <topic>Working with text in the workspace</topic>
+      <topic>Drawing in Illustrator</topic>
+      <topic>Creating curved lines, using anchor points</topic>
+      <topic>Drawing from scratch in Illustrator: creating logo and small images</topic>
+      <topic>Creating and modifying layers: Distorting, fading, merging</topic>
+    </topic>
+    <topic>Photoshop
+      <topic>Menus and Tools</topic>
+      <topic>Layering and cloning images: working with multiple layers and layer types</topic>
+      <topic>Grouping and color management </topic>
+      <topic>Flattening images</topic>
+      <topic>Using guides and layouts</topic>
+      <topic>Borders, filters, opacity, blending</topic>
+    </topic>
+  </outline>
+</course>
