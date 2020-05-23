@@ -11,14 +11,43 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+	 This course will cover applications of productivity software such as Microsoft Office® Word, Excel, Access, and PowerPoint for careers, school, and home. Impact of technology on society by computer information systems, networks, e-commerce, and the Internet is included. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Emphasizes problem-solving, critical thinking, andanalysis to challenge students to find efficient and effective solutions to business situations. </objective>
+    <objective>Understand the broad picture of Information Technology and the scope of the different career paths.</objective>
+    <objective>Understand the basic hardware configurations and parts of a personal computer.</objective>
+    <objective>Understand the different types of softwareapplications; operating systems, production application, software as service applications.</objective>
+    <objective>Understand the basic database concepts and how they relate to business as well as how businesses rely on computer networks in day to day operations.</objective>
+    <objective>Effectively work together in teams.</objective>
+    <objective></objective>
+    <objective></objective>
+    <objective></objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Information Systems in Perspective
+      <topic>An Introduction to Information Systems in Organizations. </topic>
+    </topic>
+    <topic>Technology
+      <topic>Hardware and Software.</topic>
+      <topic>Database Systems and Business Intelligence.</topic>
+      <topic>Telecommunications, the Internet, Intranets, and Extranets.</topic>
+    </topic>
+    <topic>Business Information Systems
+      <topic>Electronic and Mobile Commerce and Enterprise Systems.</topic>
+      <topic>Information and Decision Support Systems.</topic>
+      <topic>Knowledge Management and Specialized Information Systems.</topic>
+    </topic>
+    <topic>Systems Development and Social Issues
+      <topic>Systems Development</topic>
+    </topic>
+    <topic>Information Systems in Business and Society
+      <topic>The Personal and Social Impact of Computers.</topic>
+    </topic>
+    <topic>Hardware Configuration and Topics
+      <topic>Personal computer organization, number theory, operating systems</topic>
+    </topic>
   </outline>
 </course>
