@@ -16,9 +16,23 @@ Study of structured systems development. Emphasis on strategies and techniques o
     <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>305</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To understand the object-oriented approach to information system design.</objective>
+    <objective>To enhance and facilitate understanding of project development requirements. </objective>
+    <objective>To set guidelines and time constraints for the project deliverablesto facilitate timely completion.</objective>
+    <objective>To give students exposure to live project development.</objective>
+    <objective>To providing information about and exposure to current researchand design tools and technologies</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Project Selection and Client Sponsor approval</topic>
+    <topic>Request for Service and Project Charter</topic>
+    <topic>Risk analysis and project budget</topic>
+    <topic>UML analysis documentsand schedules</topic>
+    <topic>Use Case development through level III</topic>
+    <topic>Constraint documentation</topic>
+    <topic>Work Breakdown Schedule</topic>
+    <topic>Inventory of personnel, hardware, software and all tools used to develop your project.</topic>
+    <topic>Database analysis and implementation</topic>
+    <topic>Human Factors Analysis and wireframes</topic>
+    <topic>User Screen Prototype creation</topic>
   </outline>
 </course>
