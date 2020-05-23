@@ -5,20 +5,32 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>328</number>
+  <number>318</number>
   <title>Computer Graphics</title>
-  <offered>spring</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+	  A course in the techniquesfor picture transformation structure; organization of graphical systems; use of the microcomputer as tools for displaying g, curve and surface approximation; study and implementation of graphical languages and data raphical data.
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective> </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Introduction, Motivation, Uses, History</topic>
+    <topic>Graphics Systems and Models</topic>
+    <topic>Graphics Programming : Getting started with OpenGL</topic>
+    <topic>Input and Interaction in OpenGL</topic>
+    <topic>Geometrical  Objects  and  Transformations  in  2D  and  3D,  homogeneous  coordinates,  matrix representation, windows and viewports</topic>
+    <topic>Viewing in 3D, projections, hidden surface removal</topic>
+    <topic>Light, shading and materials. Illumination and Shading, light sources, (surface detail, ray tracing, radiosity)</topic>
+    <topic>Vertices  to  Fragments  :  modeling,  geometry  processing,  rasterization,  fragment  processing. Clipping, hidden surface removal, antialiasing.</topic>
+    <topic>Discrete techniques: buffers, bit and pixel operations, texture mapping, compositing.</topic>
+    <topic>Programmable shaders : OpenGL shading language, fragment shaders, cub and bump maps.</topic>
+    <topic>Modelling Techniques, trees, scene graphs.</topic>
+    <topic>Curve and surface representation.</topic>
+    <topic>Advanced rendering techniques: ray tracing, radiosity, image based rendering.</topic>
   </outline>
 </course>
