@@ -16,9 +16,37 @@ Applications of productivity software such as Microsoft Office Word, Excel, Acce
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>The  primary  purpose  of  this  course  is  to  prepare  students  who  have  not  had  a  background  in computers to be better consumers and more productive in their college work or job performance. </objective>
+    <objective>Specific  topics  include  advanced  word  processing  techniques,  multi-media,  Internet,  e-mail, personal computers, and basic concepts of networking, databases, and spreadsheet topics.</objective>
+    <objective>A  strong  emphasis  is  placed  on  issues  of  ethics,  societal  impacts,  and  appropriate  use  of  all technologies that are covered. </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Introduction to Windows
+    </topic>
+    <topic>Microsoft Word
+        <topic>Document Presentation: Editing and Formatting</topic>
+        <topic>Document Productivity: Working with Tables and Mail Merge</topic>
+        <topic>ollaboration and Research: Communicating and Producing Professional  Papers</topic>
+    </topic>
+    <topic>Microsoft Excel
+        <topic>Introduction to Excel: What Is a Spreadsheet? </topic>
+        <topic>Formulas and Functions: Performing Quantitative Analysis </topic>
+        <topic>Charts: Depicting Data Visually  </topic>
+        <topic>Datasets and Tables: Managing Large Volumes of Data </topic>
+    </topic>
+    <topic>Microsoft Access
+        <topic> Introduction to Access: Finding Your Way Through an Access Database</topic>
+        <topic>Tables and Queries in Relational Databases: Designing Databases and Extracting Data</topic>
+        <topic> Customize, Analyze, and Summarize Query Data: Using Queries to Make Decisions</topic>
+        <topic>Creating and Using Professional Forms and Reports: Moving Beyond Tables and Queries </topic>
+    </topic>
+    <topic>Microsoft Powerpoint
+        <topic>Introduction to PowerPoint: Creating a Basic Presentation</topic>
+        <topic>Presentation Development: Planning and Preparing a Presentation</topic>
+        <topic>Presentation Design: Illustrations and Infographics</topic>
+        <topic>PowerPoint Rich Media Tools: Enhancing with Multimedia</topic>
+    </topic>
+    <topic>Application Integration
+    </topic>
   </outline>
 </course>
