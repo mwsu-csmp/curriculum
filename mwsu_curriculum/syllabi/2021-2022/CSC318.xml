@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>318</number>
+  <title>Simulation and Modeling</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+An introduction to computerized simulations. Focus is on the architecture and development of time-step and event-sequenced models used extensively by industry and government. Other topics include process generators for random events, the development of computerized games for management training, and current simulation research.  
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>285</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>Create a simulation that has a time stepped architecture.</objective>
+    <objective>Identify  the  appropriate  time  step  for  their  simulation  architecture  to  model  the  process being simulated. </objective>
+    <objective>Identify the random process generators needed to appropriately model the process being simulated.</objective>
+    <objective>Understand the relationship between the time step and the random processes</objective>
+    <objective>Understand  the  probability  and  statistical  methods  necessary  to  create  finite  random process generators.</objective>
+    <objective>Develop and program the random processes generators supporting the random activities in a simulation.  First Introduction is to generators with finite outcomes.</objective>
+    <objective>Develop a time stepped simulation in an Object Oriented programming language context.  </objective>
+    <objective>Design and develop Event Based Simulation Architectures.</objective>
+    <objective>Identify key events in a process so that the process can be adequately modeled/simulated with an event based architecture.</objective>
+    <objective>Identify  and  create  processes  for  each  event  that  represents  the  event’s  impact  on  the simulation space.</objective>
+    <objective>Understand the structure of classic game types (.i.e.single shooter first person, multiplayer, etc</objective>
+    <objective>Design  and  develop  a  two  player  game  using  simple  AI  techniques  to  simulate  the movements by each player. </objective>
+    <objective>Understand minimax theory as applied in a gaming strategy. </objective>
+  </objectives>
+  <outline>
+    <topic>Serial Model Execution
+      <topic>Process generators for time step enviornments</topic>
+    </topic>
+    <topic>Probability Review
+      <topic>Generation of process generators from frequency data</topic>
+    </topic>
+    <topic>Object Oriented Time Step Simulations
+      <topic>Drivers for Simulations in object oriented architectures </topic>
+    </topic>
+    <topic>Event Based Simulations
+      <topic>Events</topic>
+      <topic>Event Queue</topic>
+      <topic>Clock</topic>
+    </topic>
+    <topic>Random Process predicting time till next event
+      <topic>Normal distributio</topic>
+      <topic>Poisson Processes</topic>
+    </topic>
+    <topic>Artificial Intelligence in gaming architectures
+      <topic>Minimax</topic>
+      <topic>Markov Chains</topic>
+      <topic>Finite State Machines</topic>
+    </topic>
+  </outline>
+</course>
