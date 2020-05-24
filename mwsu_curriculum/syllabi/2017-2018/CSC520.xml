@@ -26,5 +26,11 @@
     <topic>
 	Topics in Network Basics are: (1) Differentiate between common network topologies, (2) Familiar with different standards, practices, and network theory, (3) Analyze a scenario and determine the corresponding OSI layer, (4) Explain the basics of network theory and concepts, (5) Install and properly terminate various cable type and connectors using appropriate tools, (6) Explain the functions and applications of various network devices, and (7) Install and configure various networking services/applications
     </topic>
+	<topic>
+	Topics in Routing and Packet Switching are (1) Explain the basics of routing concepts and protocols, (2) Given a scenario, configure a switch using proper features, (3) Install and configure wireless LAN infrastructure and implement the appropriate technologies in support of wireless capable devices, (4) Given a scenario, implement network hardening techniques, (5) Given a scenario, troubleshoot and resolve common wireless issues, and (6) Given a scenario, deploy the appropriate wireless standard.
+	</topic> 
+	<topic>
+	Topics in Authentication and Access Control are (1) Given a scenario, implement network hardening techniques, (2) Given a scenario, configure and apply the appropriate ports and protocols, (3) Explain the purpose of various network access control models. 
+	</topic>
   </outline>
 </course>
