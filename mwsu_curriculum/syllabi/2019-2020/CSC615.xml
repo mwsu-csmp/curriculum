@@ -15,15 +15,14 @@ This course introduces students to the vendor-specific knowledge in designing, i
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>To understand, master and secure network communications on multiple scales: intra-network communication (LAN Switching Technologies) inter-network communications (Routing Technologies), and long-distance communications (WAN Technologies), and infrastructure services, security and management.</objective>
-    <objective>To secure and manage infrastructure services.</objective>
+    <objective>To understand, master and secure network communications on multiple scales: intra-network communication (LAN Switching Technologies) inter-network communications (Routing Technologies), and long-distance communications (WAN Technologies)</objective>
+    <objective>To secure and manage infrastructure services</objective>
   </objectives>
   <outline>
     <topic>Network Fundamentals
 	<topic>Understanding OSI Model, concepts of IP (IPv4 and IPv6), routing, and purpose of subnetting</topic>
 	<topic>Configuring Ethernet interfaces</topic>
 	<topic>Using CISCO Packet Tracer to create network topologies and imitate computer networks</topic>
-	<topic></topic>
     </topic>
     <topic>LAN Switching Technologies
 	<topic>Understanding of common LAN protocols</topic>

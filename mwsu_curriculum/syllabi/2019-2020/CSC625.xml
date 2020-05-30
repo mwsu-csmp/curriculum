@@ -25,11 +25,13 @@ This course is designed to instruct students on various facets of network securi
 	<topic>Identify threats associated with common networking protocols</topic>
 	<topic>Secure wired and wireless network against different forms of malicious attacks using different network security concepts.</topic>
     </topic>
-    <topic>Authentication, Access Control, Risk Management and Assessment, Monitoring and Auditing
+    <topic>Authentication, Access Control and Risk Management
 	<topic>Apply models to authenticate a person prior to granting accesses to resources</topic>
 	<topic>Design security policies based on access control models</topic>
 	<topic>Understand common access models and identify their differences</topic>
 	<topic>Create plans of action to enforce security policies</topic>
+    </topic>
+    <topic>Assessment, Monitoring and Auditing
 	<topic>Conduct risk assessments and vulnerability assessments with security tools</topic>
 	<topic>Understand common network monitoring methodologies. Apply monitoring tools on hosts and networks</topic>
 	<topic>Audit resource usage and log user activities for security breach investigations</topic>

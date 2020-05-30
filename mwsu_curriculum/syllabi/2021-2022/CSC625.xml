@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>625</number>
   <title>Network Information Systems Security</title>
-  <offered>fall-even</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course is designed to instruct students on various facets of network security and to introduce students to the tools that are available to secure and monitor TCP/IP-based networks. Students will have an opportunity to see both commercial and open source tools in action and to learn about the technology behind each tool. Some of the technologies discussed include public keys cryptography, firewalls, authentication, intrusion detection and control of malicious code. Students also learn about OS hardening fundamentals as well as security assessment tools and techniques. A research project is required.
@@ -15,9 +15,32 @@ This course is designed to instruct students on various facets of network securi
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To identify and eliminate threats in wired and wireless networks</objective>
+    <objective>To restrict, monitor and audit network access</objective>
+    <objective>To secure network access on the application layer of the OSI model</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Network Security
+	<topic>Understand the fundamentals of network design including network elements, network addressing, and network zoning.</topic>
+	<topic>Identify threats associated with common networking protocols</topic>
+	<topic>Secure wired and wireless network against different forms of malicious attacks using different network security concepts.</topic>
+    </topic>
+    <topic>Authentication, Access Control and Risk Management
+	<topic>Apply models to authenticate a person prior to granting accesses to resources</topic>
+	<topic>Design security policies based on access control models</topic>
+	<topic>Understand common access models and identify their differences</topic>
+	<topic>Create plans of action to enforce security policies</topic>
+    </topic>
+    <topic>Assessment, Monitoring and Auditing
+	<topic>Conduct risk assessments and vulnerability assessments with security tools</topic>
+	<topic>Understand common network monitoring methodologies. Apply monitoring tools on hosts and networks</topic>
+	<topic>Audit resource usage and log user activities for security breach investigations</topic>
+    </topic>
+    <topic>Web Security
+	<topic>Understand common browser security models and mechanisms</topic>
+	<topic>Apprehend server-side authentication and session management</topic>
+	<topic>Recognize common vulnerability and attacks to web-application servers</topic>
+	<topic>Comprehend secure browser-sever communication based on encryption techniques</topic>
+    </topic>
   </outline>
 </course>
