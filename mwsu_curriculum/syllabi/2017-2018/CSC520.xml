@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>620</number>
+  <title>Advance Networking and Network Administration</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>This course is designed to instruct students on various facets of network security and to introduce students to the tools that are available to secure and monitor TCP/IP based networks. Students will have an opportunity to learn about both commercial and open source tools and to study the technology behind each tool. Some of the technologies discussed include public keys cryptography, firewalls, authentication, intrusion detection and control of malicious code. Students also learn about OS hardening fundamentals as well as security assessment tools and techniques.</catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>
+	To review network basics
+    </objective>
+    <objective>
+	To learn about datagram switching in subnets, and to build subnets using switches
+    </objective>
+    <objective>To learn about packet routing, and to connect subnets together using routers</objective>
+    <objective>To secure networks through authenticating users and defining access control</objective>
+  </objectives>
+  <outline>
+    <topic> Network Basics 
+	<topic>Differentiate between common network topologies</topic>
+	<topic>Familiar with different standards, practices, and network theory</topic>
+	<topic>Analyze a scenario and determine the corresponding OSI layer</topic>
+	<topic>Explain the basics of network theory and concepts</topic>
+	<topic>Install and properly terminate various cable type and connectors using appropriate tools</topic>
+	<topic>Explain the functions and applications of various network devices</topic>
+	<topic>Install and configure various networking services/applications</topic>
+    </topic>
+	<topic>Routing and Packet Switching
+		<topic>Explain the basics of routing concepts and protocols</topic>
+		<topic>Given a scenario, configure a switch using proper features</topic>
+		<topic>Install and configure wireless LAN infrastructure and implement the appropriate technologies in support of wireless capable devices</topic>
+		<topic>Given a scenario, implement network hardening techniques</topic>
+		<topic>Given a scenario, troubleshoot and resolve common wireless issues</topic>
+		<topic>Given a scenario, deploy the appropriate wireless standard</topic>
+	</topic> 
+	<topic>Authentication and Access Control
+		<topic>Given a scenario, implement network hardening techniques</topic>
+		<topic>Given a scenario, configure and apply the appropriate ports and protocols</topic>
+		<topic>Explain the purpose of various network access control models</topic>
+	</topic>
+  </outline>
+</course>
