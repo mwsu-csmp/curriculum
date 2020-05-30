@@ -15,9 +15,26 @@ Enterprise-scale cloud computing is proliferating because of its cost effectiven
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Describe cloud characteristics, and its fundamental and technical concepts</objective>
+    <objective>Identify cloud management platforms that manage virtual machines, and virtualized infrastructures and workloads</objective>
+    <objective>Compare various cloud management strategies</objective>
+    <objective>Apply common security concepts and tools to identify potential risks and security threats</objective>
+    <objective>Differentiate well-known security measures and decide their applicability in given scenarios</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Enterprise-scale cloud computing
+	<topic>business value of cloud computing</topic>
+	<topic>different types of cloud computing</topic>
+	<topic>transitioning from traditional IT infrastructures to cloud computing</topic>
+	<topic>identifying and handling security threats</topic>
+	<topic>securing sensitive data in cloud environment</topic>
+	<topic>cloud service management</topic>
+    </topic>
+    <topic>Cloud security architecture
+	<topic>Deterrent controls</topic>
+	<topic>Preventive controls</topic>
+	<topic>Detective controls</topic>
+	<topic>Corrective controls</topic>
+    </topic>
   </outline>
 </course>
