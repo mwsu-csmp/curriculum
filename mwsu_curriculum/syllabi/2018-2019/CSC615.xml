@@ -15,9 +15,33 @@ This course introduces students to the vendor-specific knowledge in designing, i
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To understand, master and secure network communications on multiple scales: intra-network communication (LAN Switching Technologies) inter-network communications (Routing Technologies), and long-distance communications (WAN Technologies)</objective>
+    <objective>To secure and manage infrastructure services</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Network Fundamentals
+	<topic>Understanding OSI Model, concepts of IP (IPv4 and IPv6), routing, and purpose of subnetting</topic>
+	<topic>Configuring Ethernet interfaces</topic>
+	<topic>Using CISCO Packet Tracer to create network topologies and imitate computer networks</topic>
+    </topic>
+    <topic>LAN Switching Technologies
+	<topic>Understanding of common LAN protocols</topic>
+	<topic>Working with Cisco IOS</topic>
+	<topic>Managing MAC address tables</topic>
+	<topic>Securing LAN switches</topic>
+    </topic>
+    <topic>Routing Technologies
+	<topic>Understanding common dynamic routing protocols, including OSPF and EIGRP</topic>
+	<topic>Configuring commercial routers</topic>
+    </topic>
+    <topic>WAN Technologies
+	<topic>Understanding the Point-to-Point Protocol</topic>
+	<topic>Implementing Point-to-Point Protocol connections with PPP</topic>
+    </topic>
+    <topic>Infrastructure Services, Security and Management
+	<topic>Configuring HSRP and VRRP</topic>
+	<topic>Hardening Cisco IOS devices</topic>
+	<topic>Managing Switch Operating System files and Startup Configuration files </topic>
+    </topic>
   </outline>
 </course>
