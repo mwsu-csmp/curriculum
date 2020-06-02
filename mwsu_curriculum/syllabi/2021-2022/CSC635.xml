@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>635</number>
   <title>Software and Computer Security</title>
-  <offered>spring-even</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course covers fundamental issues and first principles of software and computer security. This course will discuss basics of physical security, operating system security, and network security, web/e-commerce security as well as distributed application security. Security models and policies, standards and methodologies for security evaluation and certification will also be covered. 
@@ -15,9 +15,62 @@ This course covers fundamental issues and first principles of software and compu
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Security issues and their countermeasures</objective>
+    <objective>Security models and policies</objective>
+    <objective>Security administration and evaluation</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Introduction
+      <topic>Fundamental Concepts</topic>
+      <topic>Access Control Models</topic>
+      <topic>Cryptographic Concepts</topic>
+      <topic>Implementation and Usability Issues</topic>
+    </topic>
+    <topic>Physical Security
+      <topic>Lock and Safe</topic>
+      <topic>Authentication Technologies</topic>
+      <topic>Direct Attacks against Computers</topic>
+      <topic>Physical Intrusion Detection</topic>
+    </topic>
+    <topic>Operating System Security
+      <topic>Operating System Concepts</topic>
+      <topic>Process Security</topic>
+      <topic>Memory and Filesystem Security</topic>
+      <topic>Application Program Security</topic>
+    </topic>
+    <topic>Malware
+      <topic>Virus vs. Malware</topic>
+      <topic>Privacy Invasive Software</topic>
+      <topic>Countermeasures</topic>
+    </topic>
+    <topic>Network Security
+      <topic>Network Security Concepts</topic>
+      <topic>Firewalls</topic>
+      <topic>Tunneling</topic>
+      <topic>Wireless Network Security</topic>
+      <topic>Intrusion Detection</topic>
+    </topic>
+    <topic>Web/E-Commerce Security
+      <topic>Attacks on Clients</topic>
+      <topic>Attacks on Server</topic>
+      <topic>Countermeasures</topic>
+    </topic>
+    <topic>Security Model and Practice
+      <topic>Policy, Models and Trust</topic>
+      <topic>Access Control Models</topic>
+      <topic>Security Standards and Evaluation</topic>
+      <topic>Software Vulnerability Assessment</topic>
+      <topic>Administration and Auditing</topic>
+      <topic>Kerberos</topic>
+      <topic>Secure Storage</topic>
+    </topic>
+    <topic>Distributed Application Security
+      <topic>Database Security</topic>
+      <topic>Email Security</topic>
+      <topic>Payment Systems and Auctions</topic>
+      <topic>Digital Rights Management</topic>
+      <topic>Social Networking</topic>
+      <topic>Secure Programming</topic>
+    </topic>
   </outline>
 </course>
