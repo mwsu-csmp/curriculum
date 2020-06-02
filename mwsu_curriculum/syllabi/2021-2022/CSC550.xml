@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>550</number>
+  <title>Applied Cryptography </title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course focuses on the issues associated with the design, provision and management of security services for modern communication and information systems. Students will learn different practical encryption methods for data protection. 
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>The student learns different cryptographic protocols, techniques and algorithms.</objective>
+    <objective>The student will study how cryptography is implemented in the real world.</objective>
+  </objectives>
+  <outline>
+    <topic>Introduction to Cryptography and Data Security</topic>
+    <topic>Stream Ciphers</topic>
+    <topic>DES (Data Encryption Standard)</topic>
+    <topic>AES (Advanced Encryption Standard)</topic>
+    <topic>More about Block Ciphers</topic>
+    <topic>Introduction to Public-Key Cryptography</topic>
+    <topic>The RSA Cryptosystem</topic>
+    <topic>Public-Key Cryptosystems Based on the Discrete Logarithm Problem</topic>
+    <topic>Elliptic Curve Cryptosystems</topic>
+    <topic>Digital Signatures</topic>
+    <topic>Hash Functions</topic>
+    <topic>Message Authentication Codes (MACs)</topic>
+    <topic>Key Establishment</topic>
+  </outline>
+</course>
