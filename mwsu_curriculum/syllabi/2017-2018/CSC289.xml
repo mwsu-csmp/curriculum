@@ -16,9 +16,37 @@ This course provides the underlying mathematical foundations and applied algorit
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>provide students with basic mathematicalskills for compiler construction</objective>
+    <objective>provide students with basic mathematicalskills for computer graphics</objective>
+    <objective>provide students with basic mathematicalskills for simulation and modeling</objective>
+    <objective>provide students with basic mathematicalskills for cryptography</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Regular Expression and Automatafor Compiler Construction
+      <topic>Scanning and Tokens</topic>
+      <topic>Regular Expressions</topic>
+      <topic>Finite Automata
+        <topic>DFA–Deterministic Finite Automation</topic>
+        <topic>NFA –Non-Deterministic Finite Automation</topic>
+        <topic>Implementing Finite Automata</topic>
+      </topic>
+    </topic>
+    <topic>Computational Geometry for Computer Graphics
+      <topic>Coordinate system for graphics</topic>
+      <topic>Vectors and Matrix Operation</topic>
+      <topic>Geometric Transformations</topic>
+    </topic>
+    <topic>Probability for Simulationand Modeling
+      <topic>Probability Basics</topic>
+      <topic>Probability Models</topic>
+      <topic>Discrete Event Simulation</topic>
+      <topic>Single Server Queuing System</topic>
+    </topic>
+    <topic>Number Theory for Cryptography
+      <topic>Cryptography and Modular Arithmetic</topic>
+      <topic>Affine TransformationEncryption</topic>
+      <topic>DigraphTransformationEncryption</topic>
+      <topic>RSA Encryption</topic>
+    </topic>
   </outline>
 </course>

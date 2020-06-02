@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>487</number>
+  <title>Digital Animation and Production</title>
+  <offered>fall-even</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This class will concentrate on the methods used to build digital animated characters. Subjects will include character design and development, animation of characters, lighting, camera shots, sound and production editing.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>Students will demonstrate understanding of the following principles and techniques:</objective>
+    <objective>Imaging Concepts and Terminology</objective>
+    <objective>Motion aesthetics, Duration,Pacing/Tempo, Sequence, The Narrative/Storyline, Temporal Relationship</objective>
+    <objective>Application of software for still image/time based media and animation</objective>
+    <objective>Project Development</objective>
+  </objectives>
+  <outline>
+    <topic>An introduction to historical references, background, and contemporary concepts of animation</topic>
+    <topic>Storyboarding</topic>
+    <topic>Stop motion animation</topic>
+    <topic>Digital animation methods</topic>
+    <topic>Framing and Composition</topic>
+    <topic>Basic Lighting</topic>
+    <topic>Professional Production Techniques (sizing for output, video and audio capture, photo import and animation of still images)</topic>
+    <topic>Rendering</topic>
+  </outline>
+</course>
