@@ -10,7 +10,11 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-This course is an introduction to operating system principles. Topics include processor management, real and virtual storage management, device management and scheduling, multiprocessing, concurrent programming, and other topics related to operating systems. The course also includes a survey of major operating systems.
+​ This course is an introduction to operating system principles.
+Students will become familiar with the function and implementation of modern operating
+systems from the perspectives of a user, designer, and developer. Topics include user
+interfaces, programming interfaces, system resource management, multiprocessing,
+concurrent programming, and system security.
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
@@ -18,9 +22,55 @@ This course is an introduction to operating system principles. Topics include pr
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>264</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Explain the objectives and functions of modern operating systems and describe the functions of a contemporary operating system with respect to convenience, efficiency, and the ability to evolve.</objective>
+    <objective>Describe the value of APIs and middleware and their relationship to operating systems.</objective>
+    <objective>Explain the role of abstraction in operating system design and analyze the tradeoffs inherent in implementation decisions.</objective>
+    <objective>Describe how an operating system provides to user programs an illusion of exclusive access to the hardware while facilitating collaborations between them.</objective>
+    <objective>Summarize the principles of virtual memory, paging, and segmentation and explain cost-performance trade-offs and the usage of caching throughout the memory hierarchy, especially as they relate to the concept of locality.</objective>
+    <objective>Describe the need for concurrency within the framework of an operating system. </objective>
+    <objective>Describe the difference between processes and threads.</objective>
+    <objective>Demonstrate the potential run-time problems arising from the concurrent operation of many separate tasks by writing a test program that can reveal a concurrent programming error.</objective>
+    <objective>Distinguish multiple programming constructs for synchronization such as mutex locks, semaphores, monitors, and atomic operations.</objective>
+    <objective>Explain why synchronization is necessary in a specific parallel program.</objective>
+    <objective>Develop a program that uses mutual exclusion to avoid a given race condition.</objective>
+    <objective>Develop system-level software in an appropriate programming language (such as C).</objective>
+    <objective>Read, understand, and evaluate portions of the source code for an open-source operating system.</objective>
+    <objective>Describe the choices to be made in designing file systems and data storage virtualization strategies, particularly the impact of journaling and RAID.</objective>
+    <objective>Understand the operating system’s function in protecting system resources from malicious users or software and the responsibilities of software developers to avoid compromising this function.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Basic Operating System and Middleware Concepts
+      <topic>System software</topic>
+      <topic>The Boot Process</topic>
+      <topic>User Interfaces and Shells</topic>
+      <topic>Kernel Mode and System Calls</topic>
+      <topic>System Libraries and API’s</topic>
+    </topic>
+    <topic>Job Scheduling and Concurrency
+      <topic>Multiprogramming and Multiprocessing</topic>
+      <topic>The process and Thread Concepts</topic>
+      <topic>Process and Thread Scheduling</topic>
+    </topic>
+    <topic>Memory Management
+      <topic>Swapping</topic>
+      <topic>Virtual Memory</topic>
+      <topic>Paging</topic>
+      <topic>Segmentation</topic>
+    </topic>
+    <topic>File System, I/O, and Other System Resource Management
+      <topic>Principles of I/O Hardware and Software</topic>
+      <topic>Starvation and Deadlocks</topic>
+      <topic>File System Concepts</topic>
+      <topic>File System Implementation</topic>
+      <topic>File System Virtualization</topic>
+    </topic>
+    <topic>System Security Concepts
+      <topic>Authentication Mechanisms and Access Control</topic>
+      <topic>File System Protection</topic>
+      <topic>Memory Protection</topic>
+      <topic>Types of System Level Attacks</topic>
+      <topic>Common System Software Vulnerabilities</topic>
+      <topic>Malware</topic>
+    </topic>
   </outline>
 </course>
