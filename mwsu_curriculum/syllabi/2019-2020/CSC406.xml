@@ -17,9 +17,34 @@ This course emphasizes the application of Object Oriented Programming (OOP) conc
     <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>305</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Be able to design and implement object-oriented programs in Java, using a large sub-set of the language effectively.</objective>
+    <objective>Have knowledge of key object-oriented principles and design strategies.</objective>
+    <objective>Understand how core data structures are implemented.</objective>
+    <objective>Be able to use programming tools such as an integrated development environment (IDE), debugger, and code repository.</objective>
+    <objective>Be able to design, document and implement the software for a real-world client application, which could be a mobile app, cloud app or web services.</objective>
+    <objective>Be able to design and implement graphical user interfaces suitable for scaling on multiple devices and resolutions.</objective>
+    <objective>Have experience of effective team work methods and project organization skills.</objective>
+    <objective>Have experience of interacting with a real client..</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Course Introduction</topic>
+    <topic>Java Review – Multithreading</topic>
+    <topic>Developing classes.</topic>
+    <topic>Inheritance and dynamic binding.</topic>
+    <topic>Exceptions.</topic>
+    <topic>Object-Oriented Programming</topic>
+    <topic>Class Development</topic>
+    <topic>Identifying and implementing class relationships.</topic>
+    <topic>Using abstract classes, interfaces and inheritance.</topic>
+    <topic>UML class diagrams.</topic>
+    <topic>User interfaces</topic>
+    <topic>Principles of graphical user interface design and implementation.</topic>
+    <topic>Event driven programming.</topic>
+    <topic>User interface design and implementation.</topic>
+    <topic>Project Management</topic>
+    <topic>Working as an effective software development team</topic>
+    <topic>Preparing project timelines and document templates.</topic>
+    <topic>Reporting effectively and meeting requirements.</topic>
+    <topic>Project work</topic>
   </outline>
 </course>
