@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
-  name="cybersecurity"
+  name="cybersecurity-bs"
   parent="cs-core"
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

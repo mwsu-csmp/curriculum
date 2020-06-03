@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program
+  name="act-its"
+  parent="act"
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <section>
+    <requirement><conjunction><course><subject>CSC</subject><number>254</number></course></conjunction></requirement>
+    <requirement><conjunction><course><subject>CSC</subject><number>410</number></course></conjunction></requirement>
+    <requirement>
+        <conjunction><course><subject>MAT</subject><number>112</number></course></conjunction>
+        <conjunction><course><subject>MAT</subject><number>116</number></course></conjunction>
+    </requirement>
+  </section>
+  <section header="PLUS--9 credits from ACT324, CSC386, CSC520, CSC550, CSC570, CSC580, CSC590">
+    <blank>3</blank>
+    <blank>3</blank>
+    <blank>3</blank>
+  </section>
+</program>
