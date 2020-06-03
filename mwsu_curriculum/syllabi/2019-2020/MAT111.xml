@@ -6,18 +6,28 @@
   <college>LA</college>
   <subject>MAT</subject>
   <number>111</number>
-  <title>stub</title>
+  <title>Introductory Statistics</title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>
-	  stub
-  </catalogDescription>
+  <catalogDescription>A general introduction to statistics for students whose academic interests involve the analysis and interpretation of data. Emphasis is placed on the development of statistical thinking and the use of technology. Topics include graphical and numerical methods for summarizing univariate and bivariate data, basic probability, discrete and continuous probability distributions, linear regression, characteristics of good study designs, confidence intervals and hypothesis testing. Same as MAT 111E.</catalogDescription>
   <prerequisites>
+	<prerequisiteDisjunction>
+		<prerequisiteGeneral>ACT math subscore of at least 22</prerequisiteGeneral>
+		<prerequisiteGeneral>a sufficient score on the math placement exam</prerequisiteGeneral>
+		<prerequisiteGeneral>departmental approval</prerequisiteGeneral>
+	</prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To introduce general statistics to students</objective>
+    <objective>To develop statistics thinking and the use of technology</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Graphical and numerical methods for summarizing univariate and bivariate data</topic>
+    <topic>Basic probability</topic>
+    <topic>Discrete and continuous probability distributions</topic>
+    <topic>Linear regression</topic>
+    <topic>Characteristics of good study designs</topic>
+    <topic>Confidence intervals</topic>
+    <topic>Hypothesis testing</topic>
   </outline>
 </course>
