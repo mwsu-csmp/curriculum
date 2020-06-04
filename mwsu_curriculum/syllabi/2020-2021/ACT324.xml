@@ -41,6 +41,7 @@
     </objective>
     <objective>Outline the process of regression testing and its role in release management
       <covers standard="acm-cs2013" knowledgeArea="SE/SE" id="5"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
     <objective>Create and document a set of tests for a medium-size code segment
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="6"/>
