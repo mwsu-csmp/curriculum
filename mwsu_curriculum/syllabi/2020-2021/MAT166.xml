@@ -6,18 +6,39 @@
   <college>LA</college>
   <subject>MAT</subject>
   <number>166</number>
-  <title>stub</title>
-  <offered>fall</offered>
+  <title>Calculus with Analytic Geometry I: Integration</title>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-	  stub
+	  Includes the study of the integral, and the derivative and integral of exponential logarithmic, and other transcendental functions.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C">
+        <subject>MAT</subject><number>165</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To introduce integration</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Integration
+      <topic>Antiderivatives and Indefinite Integration</topic>
+      <topic>Area</topic>
+      <topic>Riemann Sums and Definite Integrals</topic>
+      <topic>The Fundamental Theorem of Calculus</topic>
+      <topic>Integration by Substitution</topic>
+      <topic>Sumerical Integration</topic>
+    </topic>
+    <topic>Logarithmic, Exponential, and Other Transcendental Functions
+      <topic>The Natural Logarithmic Function: Differentiation</topic>
+      <topic>The Natural Logarithmic Function: Integration</topic>
+      <topic>Inverse Functions</topic>
+      <topic>Exponential Functions: Differentiation and Integration</topic>
+      <topic>Bases Other than e and Applications</topic>
+      <topic>Inverse Trigonometric Functions: Differentiation</topic>
+      <topic>Inverse Trigonometric Functions: Integration</topic>
+      <topic>Hyperbolic Functions</topic>
+    </topic>
   </outline>
 </course>

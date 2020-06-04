@@ -7,18 +7,83 @@
   <college>LA</college>
   <subject>MAT</subject>
   <number>167</number>
-  <title>stub</title>
+  <title>Calculus with Analytic Geometry I</title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>
-	  stub
+  <catalogDescription>The first of three sequenced courses in calculus. Includes the study of limits and continuity of real functions, the derivative and its applications, the integral, and the integration and differentiation of trigonometric, exponential and logarithmic functions. Not open to the student with credit in MAT 166.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteGeneral>an ACT math subscore of at least 25</prerequisiteGeneral>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Compute limits of algebraic and selected transcendental functions.</objective>
+    <objective>Utilize the definition of derivative to derive and/or prove mathematical statements.</objective>
+    <objective>Find derivatives of algebraic, exponential, and logarithmic functions.</objective>
+    <objective>Compute definite and indefinite integrals of algebraic, exponential, and logarithmic functions.</objective>
+    <objective>Apply numerical methods to approximate zeros of functions and areas bounded by continuous functions.</objective>
+    <objective>Identify and use interpretations of the derivative to solve problems such as curve sketching and maximum and minimum applications.</objective>
+    <objective>Utilize the Riemann Sum to motivate the use of the definite integral to solve problems.</objective>
+    <objective>Utilize a computer algebra system to investigate finite and infinite symbolic limits, graphic and differentiate algebraic, and transcendental functions.</objective>
+    <objective>Utilize mathematical language and symbolism to communicate ideas and represent relationships.</objective>
+    <objective>Interact verbally with others to clarify and extend understanding of mathematical situations.</objective>
+    <objective>Utilize the graphing calculator and/or computer algebra system to analyze functions.</objective>
+    <objective>Interact in a scientific computing environment in an ethical and legal manner.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Preliminaries
+      <topic>Graphs and Models</topic>
+      <topic>Linear Models and Rates of Change</topic>
+      <topic>Functions and Their Graphs</topic>
+      <topic>Review of Trigonometric Functions</topic>
+      <topic>Introduction to Computer Algebra Systems</topic>
+    </topic>
+    <topic>Limits and Their Properties
+      <topic>Introduction to Limits</topic>
+      <topic>Properties of Limits</topic>
+      <topic>Techniques for Evaluating Limits</topic>
+      <topic>Continuity and OneSided Limits</topic>
+      <topic>Infinite Limits</topic>
+    </topic>
+    <topic>Differentiation and Their Properties
+      <topic>The Derivative and the Tangent Line Problem</topic>
+      <topic>Basic Differentiation Rules and Rates of Change</topic>
+      <topic>The Product and Quotient Rules and HigherOrder Derivatives</topic>
+      <topic>The Chain Rule</topic>
+      <topic>Implicit Differentiation</topic>
+      <topic>Related Rates</topic>
+    </topic>
+    <topic>Applications of Differentiation 
+      <topic>Extrema on an Interval</topic>
+      <topic>Rolle&#39;s Theorem and the Mean Value Theorem</topic>
+      <topic>Increasing and Decreasing Functions and the First Derivative Test</topic>
+      <topic>Concavity and the Second Derivative</topic>
+      <topic>Limits at Infinity</topic>
+      <topic>A Summary of Curve Sketching</topic>
+      <topic>Optimization Problems</topic>
+      <topic>Newton&#39;s Method</topic>
+      <topic>Differentials</topic>
+    </topic>
+    <topic>Integration
+      <topic>Antiderivatives and Indefinite Integration</topic>
+      <topic>Area</topic>
+      <topic>Riemann Sums and Definite Integrals</topic>
+      <topic>The Fundamental Theorem of Calculus</topic>
+      <topic>Integration by Substitution</topic>
+      <topic>Numerical Integration</topic>
+    </topic>
+    <topic>Logarithmic, Exponential, and Other Transcendental Functions
+      <topic>The Natural Logarithmic Function and Differentiation</topic>
+      <topic>The Natural Logarithmic Function and Integration</topic>
+      <topic>Inverse Functions</topic>
+      <topic>Exponential Functions: Differentiation and Integration</topic>
+      <topic>Bases Other Than e and Applications</topic>
+      <topic>Differential Equations: Growth and Decay</topic>
+      <topic>Differential Equations: Separation of Variables</topic>
+      <topic>Inverse Trigonometric Functions and Differentiation</topic>
+      <topic>Inverse Trigonometric Functions and Integration</topic>
+      <topic>Hyperbolic Functions</topic>
+    </topic>
   </outline>
 </course>
