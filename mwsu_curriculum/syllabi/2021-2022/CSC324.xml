@@ -54,14 +54,13 @@
     <objective>Use a defect tracking tool to manage software defects in a small software project
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="8"/>
     </objective>
-    <objective>Describe the difference between centralized and distributed software configuration management
+    <objective>Understand the importance of configuration management and the tools and practices associated with it
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="3"/>
     </objective>
     <objective>Describe how version control can be used to help manage software release management
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="2"/>
-    </objective>
-    <objective>Identify configuration items and use a source code control tool in a small team-based project
-      <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="3"/>
     </objective>
     <objective>Describe how available static and dynamic test tools can be integrated into the software development environment
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="4"/>
