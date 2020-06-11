@@ -36,7 +36,9 @@ concurrent programming, and system security.
     <objective>Develop system-level software in an appropriate programming language (such as C).</objective>
     <objective>Read, understand, and evaluate portions of the source code for an open-source operating system.</objective>
     <objective>Describe the choices to be made in designing file systems and data storage virtualization strategies, particularly the impact of journaling and RAID.</objective>
-    <objective>Understand the operating system’s function in protecting system resources from malicious users or software and the responsibilities of software developers to avoid compromising this function.</objective>
+    <objective>Understand the operating system’s function in protecting system resources from malicious users or software and the responsibilities of software developers to avoid compromising this function.
+      <covers standard="acm-csec2017" knowledgeArea="2/3" id="4"/>
+    </objective>
   </objectives>
   <outline>
     <topic>Basic Operating System and Middleware Concepts
