@@ -25,6 +25,9 @@ This course covers various facets of network security and the tools that are ava
     <objective>identify legal and ethical ramifications of policy decisions and defend those decision</objective>
     <objective>distinguish desired system features (policy) from their implementation (mechanism)</objective>
     <objective>design a security plan for an instructor-supplied system description</objective>
+    <objective>study the mathematical background essential in understanding encryption algorithms
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+    </objective>
   </objectives>
   <outline>
     <topic>System Security: hacker behavior, intrusion and anomaly detection, hacker and admin tools</topic>
@@ -34,5 +37,15 @@ This course covers various facets of network security and the tools that are ava
     <topic>Trust and Configuration management</topic>
     <topic>Malicious code: buffer overflows, viruses, worms, protection mechanisms</topic>
     <topic>Covert channels</topic>
+    <topic>Mathematical background
+      <topic>Modular arithmetic</topic>
+      <topic>Fermat, Euler theorems</topic>
+      <topic>Primitive roots, discrete log problem</topic>
+      <topic>Primitive testing, factoring large integers</topic>
+      <topic>Elliptic curves, lattices and hard lattice problems</topic>
+      <topic>Abstract algebra, finite fields</topic>
+      <topic>Information theory</topic>
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+    </topic>
   </outline>
 </course>
