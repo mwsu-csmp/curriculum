@@ -26,7 +26,6 @@ This course covers various facets of network security and the tools that are ava
     <objective>distinguish desired system features (policy) from their implementation (mechanism)</objective>
     <objective>design a security plan for an instructor-supplied system description</objective>
     <objective>study the mathematical background essential in understanding encryption algorithms
-      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
     </objective>
   </objectives>
   <outline>
@@ -45,7 +44,6 @@ This course covers various facets of network security and the tools that are ava
       <topic>Elliptic curves, lattices and hard lattice problems</topic>
       <topic>Abstract algebra, finite fields</topic>
       <topic>Information theory</topic>
-      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
     </topic>
   </outline>
 </course>
