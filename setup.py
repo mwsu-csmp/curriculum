@@ -13,6 +13,7 @@ setup(name='mwsu_curriculum',
       package_dir={'mwsu_curriculum': 'mwsu_curriculum'}, 
       package_data={'mwsu_curriculum': ['syllabi/*/*.xml', \
                                         'schedules/*.xml', \
+                                        'programs/*/*.xml', \
                                         'schema/*.xsd', \
                                         'transformations/*.xsl', \
                                         'rosters/*.xml', \

@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 from os import listdir 
 from os import walk
+from os import path
 from collections import defaultdict
 from pkg_resources import resource_filename
 from collections import defaultdict
@@ -295,12 +296,12 @@ class Program:
 
     def available_courses(self):
         """returns syllabi for all courses that can be taken for credit within this program"""
-        courses = []
+        courses = set() if not self.parent else self.parent.available_courses()
         for section in self.sections:
             for disj in section.courses:
                 for conj in disj:
                     for course in conj:
-                        courses.append(course)
+                        courses.add(course)
         return courses
 
 
@@ -434,6 +435,7 @@ def load_program(ay,name):
 
 
 def load_programs(ay):
+    assert path.exists(resource_filename('mwsu_curriculum', 'programs/'+ay)), "no programs for academic year " + ay + ' - bad path: ' + resource_filename('mwsu_curriculum', 'programs/'+ay)
     programs = {}
     for filename in next(walk(resource_filename('mwsu_curriculum', 'programs/'+ay)))[2]:
         program_name = filename[0:-4]
