@@ -7,6 +7,7 @@ from .curriculumlib import load_standards
 from .curriculumlib import load_syllabus
 from .curriculumlib import load_syllabi
 from .curriculumlib import load_program
+from .curriculumlib import load_programs
 from .curriculumlib import load_roster
 from .curriculumlib import load_schedule
 from .curriculumlib import available_years
