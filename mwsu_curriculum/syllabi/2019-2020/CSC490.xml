@@ -3,23 +3,39 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
-  creditHoursLecture="1"
   workloadHoursLecture="1">
   <college>LA</college>
-  <subject>CSC</subject>
+  <subject>ACT</subject>
   <number>490</number>
-  <title>Independent Research/Project</title>
+  <title>Computer Science Career Preparation</title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>
-In this course students will begin applying their MWSU education towards building a career in CS. Students will learn how to navigate a career path in CS, explore alternative career paths, and explore opportunities for continuing education and professional development. Students will develop application materials and attempt entrance, exit, and / or certification exams in preparation for graduation, applying to jobs, and applying to graduate schools. 
+  <catalogDescription>In this course students will begin applying their MWSU education towards building a career in CS. Students will learn how to navigate a career path in CS, explore alternative career paths, and explore opportunities for continuing education and professional development. Students will develop application materials and attempt entrance, exit, and / or certification exams in preparation for graduation, applying to jobs, and applying to graduate schools. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Determine what types of jobs in CS best match their short and long term career and professional development goals</objective>
+    <objective>Locate and navigate resources for finding CS jobs in their desired location</objective>
+    <objective>Effectively communicate their skill set and value as an employee to potential employers through letters, resumes, networking, interviews, and other means</objective>
+    <objective>Locate and utilize resources for continuing education and professional development to gain or improve specific skillsets in CS or transition in to other career fields (ex. Law)</objective>
+    <objective>Prepare effectively for certification exams, assessments, and technical interviews</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Searching for CS employment opportunities</topic>
+    <topic>Emerging and popular CS skillsets and technologies</topic>
+    <topic>Communication
+        <topic>Developing CS resumes</topic>
+        <topic>Developing CS cover letters</topic>
+        <topic>Developing a project portfolio</topic>
+        <topic>Applying to graduate schools</topic>
+        <topic>Developing a web and social media presence</topic>
+    </topic>
+    <topic>Networking
+        <topic>Professional organizations</topic>
+        <topic>Conferences, job fairs, and other professional gatherings</topic>
+    </topic>
+    <topic>Professional ethics and employment regulations</topic>
+    <topic>Preparing for entrance, exit, and certification exams</topic>
   </outline>
 </course>

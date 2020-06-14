@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>570</number>
+  <title>Ethical Hacking</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course will introduce the student to the essential concepts and skills in ethical hacking. A practical, hands-on approach will be adopted to examine computer/networking security for protection of sensitive data. Topics include security policy, vulnerability assessment, port scanning, penetration testing, WIFI hacking, foot printing, social engineering, etc. This course helps the student prepare for an ethical hacking certification test. 
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks</objective>
+    <objective>prepare for the Certified Ethical Hacker (CEH) exam</objective>
+  </objectives>
+  <outline>
+    <topic>Virtual Lab Environment</topic>
+    <topic>Footprinting and Reconnaissance</topic>
+    <topic>Scanning Network</topic>
+    <topic>Enumeration</topic>
+    <topic>Vulnerability Analysis</topic>
+    <topic>System Hacking</topic>
+    <topic>Malware Threats</topic>
+    <topic>Sniffing</topic>
+    <topic>Social Engineering</topic>
+    <topic>Denial of Service (DoS)</topic>
+    <topic>Session Hijacking</topic>
+    <topic>Evading IDS Firewalls and Honeypots</topic>
+    <topic>Hacking Web Servers</topic>
+    <topic>Hacking Web Applications</topic>
+    <topic>SQL Injection</topic>
+    <topic>Hacking Wireless Networks</topic>
+    <topic>Hacking Mobile Platforms</topic>
+    <topic>Cloud Computing</topic>
+    <topic>Cryptography</topic>
+  </outline>
+</course>

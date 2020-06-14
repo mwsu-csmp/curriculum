@@ -6,10 +6,10 @@
   <college>LA</college>
   <subject>SEC</subject>
   <number>590</number>
-  <title>Information Technology Project Management</title>
+  <title>Cybersecurity Program Management</title>
   <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>This course will provide coverage of core project management concepts and their application to managing information technology projects such as software development. Course content will prepare students for both the CompTIA Project+ and PMI Certified Associate of Project Management certification exams. Students will apply project management concepts through a significant semester-long project.
+  <catalogDescription>This course will introduce management concepts as they apply to IT infrastructure, strategy, risk, and policy within the context of cybersecurity programs. This course will also provide coverage of all core project management concepts and their application to managing information technology projects. Students will apply management concepts through a significant, practical, semester-long management project. Course content will prepare students for both the CompTIA Project+ and PMI Certified Associate of Project Management certification exams.
   </catalogDescription>
   <prerequisites>
   </prerequisites>
@@ -20,6 +20,13 @@
             year="2018"
             ISBN="978-1337101356">
     <author>Kathy Schwalbe</author>
+  </textbook>
+  <textbook title="Developing Cybersecurity Programs and Policies"
+            edition="3"
+            publisher="Pearson"
+            year="2019"
+            ISBN="9780789759405">
+    <author>Omar Santos</author>
   </textbook>
 
   <objectives>
@@ -102,6 +109,20 @@
     <objective>Prepare for certification as a professional project manager</objective>
   </objectives>
   <outline>
+    <topic>Infrastructure Management
+      <topic>IT Service Management Systems (ITSMs)</topic>
+      <topic>Inventory Management
+        <topic>Inventory Audits</topic>
+      <topic>Controlling assets
+        <covers standard="pmi:6" knowledgeArea="7" id="4"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/5"/>
+      </topic>
+      </topic>
+      <topic>Service Ticket Management</topic>
+    </topic>
+    <topic>Policy Management
+    </topic>
+    <topic>Project Management
     <topic>Project Basics
       <topic>Project Properties
         <covers standard="comptia:pk0-004" knowledgeArea="1" id="1/1"/>
@@ -208,7 +229,6 @@
           <topic>Feasibility</topic>
           <covers standard="acm-cs2013" knowledgeArea="SE/RE" id="2"/>
         </topic>
-
         <covers standard="pmi:6" knowledgeArea="5" id="2"/>
         <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/5"/>
       </topic>
@@ -262,10 +282,6 @@
       </topic>
       <topic>Determining budgets
         <covers standard="pmi:6" knowledgeArea="7" id="3"/>
-      </topic>
-      <topic>Controlling assets
-        <covers standard="pmi:6" knowledgeArea="7" id="4"/>
-        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/5"/>
       </topic>
     </topic>
     <topic>Project quality management
@@ -330,7 +346,38 @@
         <covers standard="pmi:6" knowledgeArea="10" id="3"/>
       </topic>
     </topic>
-    <topic>Project risk management
+    <topic>Project procurement management
+      <topic>Procurement management planning
+        <covers standard="pmi:6" knowledgeArea="12" id="1"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/7"/>
+      </topic>
+      <topic>Conducting procurements
+        <covers standard="pmi:6" knowledgeArea="12" id="2"/>
+      </topic>
+      <topic>Controlling procurements
+        <covers standard="pmi:6" knowledgeArea="12" id="3"/>
+      </topic>
+      <topic>Closing contracts
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/6"/>
+      </topic>
+    </topic>
+    <topic>Project stakeholder Management
+      <topic>Identifying stakeholders
+        <covers standard="pmi:6" knowledgeArea="13" id="1"/>
+      </topic>
+      <topic>Planning stakeholder engagement
+        <covers standard="pmi:6" knowledgeArea="13" id="2"/>
+      </topic>
+      <topic>Managing stakeholder engagement
+        <covers standard="pmi:6" knowledgeArea="13" id="3"/>
+      </topic>
+      <topic>Monitoring stakeholder engagement
+        <covers standard="pmi:6" knowledgeArea="13" id="4"/>
+      </topic>
+    </topic>
+    </topic>
+
+    <topic>Risk Management
       <topic>Risk management planning
         <topic>Determining risk tolerance
           <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
@@ -365,35 +412,6 @@
       </topic>
       <topic>Monitoring risks
         <covers standard="pmi:6" knowledgeArea="11" id="7"/>
-      </topic>
-    </topic>
-    <topic>Project procurement management
-      <topic>Procurement management planning
-        <covers standard="pmi:6" knowledgeArea="12" id="1"/>
-        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/7"/>
-      </topic>
-      <topic>Conducting procurements
-        <covers standard="pmi:6" knowledgeArea="12" id="2"/>
-      </topic>
-      <topic>Controlling procurements
-        <covers standard="pmi:6" knowledgeArea="12" id="3"/>
-      </topic>
-      <topic>Closing contracts
-        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/6"/>
-      </topic>
-    </topic>
-    <topic>Project stakeholder Management
-      <topic>Identifying stakeholders
-        <covers standard="pmi:6" knowledgeArea="13" id="1"/>
-      </topic>
-      <topic>Planning stakeholder engagement
-        <covers standard="pmi:6" knowledgeArea="13" id="2"/>
-      </topic>
-      <topic>Managing stakeholder engagement
-        <covers standard="pmi:6" knowledgeArea="13" id="3"/>
-      </topic>
-      <topic>Monitoring stakeholder engagement
-        <covers standard="pmi:6" knowledgeArea="13" id="4"/>
       </topic>
     </topic>
   </outline>

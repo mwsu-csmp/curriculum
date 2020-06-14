@@ -10,13 +10,21 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-An introduction to Database Concepts and Architecture, with an emphasis on the Relational Database Model. 
-  </catalogDescription>
+This course will introduce students to database design, data modeling and database implementation.  This will include fundamentals, developmental processes, data structures, and logical design, with an emphasis on the relational database model. They will also learn fundamental Structured Query Language (SQL).  Students will then apply these concepts using various modeling techniques and tools.  The course will cumulate with the student applying the skills they have learned to design, build and use a database within a professional Database Management System environment.  </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>ACT</subject><number>301</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Demonstrate knowledge of database system concepts and terminology.</objective>
+    <objective>Have an appreciation of the role of data, files, and databases in information systems.</objective>
+    <objective>Understand the overall process of designing a relational database at various degrees of abstraction.</objective>
+    <objective>Have a working knowledge of the relational data model, data integrity, constraints and relational algebra.</objective>
+    <objective>Demonstrate data modeling using several types of models, including various types of Entity-Relationship Diagrams, Dependency Diagrams, the extended ERD and relational schemas.</objective>
+    <objective>Understand the process of Normalization.</objective>
+    <objective>Research and utilize various CASE tools to create diagrams.</objective>
+    <objective>Demonstrate an ability to read a data model of any size and complexity with confidence.</objective>
+    <objective>Exhibit knowledge of Structured Query Language (SQL).</objective>
+    <objective>Demonstrate a working knowledge of the entire process of analysis and design of a relational database system, then physical implementation and data extraction in a professional DBMS environment.</objective>
   </objectives>
   <outline>
     <topic>stub</topic>

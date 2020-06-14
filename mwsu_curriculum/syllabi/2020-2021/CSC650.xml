@@ -15,9 +15,36 @@ This course will explore cyber-security principles by examining security policie
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Understand the importance of, and how to provide, confidentiality, authenticity,
+integrity, and availability of data.</objective>
+    <objective>Develop IT security policies and analyze their adherence to legal, ethical, and other
+constraints.</objective>
+    <objective>Gain skill in researching best practices and efficacy of security controls.</objective>
+    <objective>Apply risk management concepts in a security and information assurance context.</objective>
+    <objective>Conduct and support investigations in to security breaches and assess their
+consequences.</objective>
+    <objective>Develop strategies to plan for and recover from security related catastrophic events.</objective>
+    <objective>Gain skill in educating a non-technical audience over IT policy.</objective>
+    <objective>Prepare for advanced and expert-level professional IT certification</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>CASP / CISSP topic review</topic>
+    <topic>Classifying and Documenting Data and Assets</topic>
+    <topic>Determining Security Requirements and Controls</topic>
+    <topic>IT Audits</topic>
+    <topic>Data Protection and Access Controls</topic>
+    <topic>Aligning Information Assurance Goals with Organizational Goals</topic>
+    <topic>Developing Policies</topic>
+    <topic>Implementing and Documenting Policies</topic>
+    <topic>Communicating and Enforcing Policies</topic>
+    <topic>Regulatory Constraints on Policies</topic>
+    <topic>Professional Ethics</topic>
+    <topic>Risk Analysis</topic>
+    <topic>Contingency Planning</topic>
+    <topic>Investigations and Forensics</topic>
+    <topic>Incident Reporting</topic>
+    <topic>Disaster Recovery</topic>
+    <topic>Professional Communication</topic>
+    <topic>Technical Training</topic>
   </outline>
 </course>

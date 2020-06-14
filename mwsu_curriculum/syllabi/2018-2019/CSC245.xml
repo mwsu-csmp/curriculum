@@ -16,9 +16,62 @@ This course explores the structure of the COBOL programming language, to include
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To learn elementary COBOL syntax for simple business applications.</objective>
+    <objective>To learn structured programming concepts and style recommendations.</objective>
+    <objective>To learn principles of business report design.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Background Information
+      <topic>History of Programming Language Development</topic>
+      <topic>COBOL Compilation</topic>
+      <topic>Program Entry for Academic Computer</topic>
+    </topic>
+    <topic>Data Concepts
+      <topic>Variables</topic>
+      <topic>Literals</topic>
+      <topic>Figurative Constants</topic>
+      <topic>Hierarchy of Data</topic>
+    </topic>
+    <topic>Overview of a COBOL Program
+      <topic>Identification Division</topic>
+      <topic>Environment Division</topic>
+      <topic>Data Division</topic>
+      <topic>File Section</topic>
+      <topic>FD entry</topic>
+      <topic>Record description entries</topic>
+      <topic>Working-Storage Section</topic>
+      <topic>Procedure Division Beginning Elements
+        <topic>Open, Close, Stop Run Statements</topic>
+        <topic>Read Statement</topic>
+        <topic>Write Statement</topic>
+        <topic>Move Statement</topic>
+        <topic>Perform Statement</topic>
+        <topic>Paragraphing</topic>
+      </topic>
+      <topic>Record and Report Design Concepts</topic>
+      <topic>Editing</topic>
+      <topic>Headings</topic>
+      <topic>Arithmetic Statements</topic>
+      <topic>Structured Program Development
+        <topic>Flow Charting</topic>
+        <topic>Module Number Conventions</topic>
+        <topic>Conditional Statements</topic>
+        <topic>Simple IF Statement</topic>
+        <topic>Relational test</topic>
+        <topic>Class test, with redefines statement</topic>
+        <topic>Sign text</topic>
+        <topic>Compound IF Statement</topic>
+        <topic>Nested IF Statement</topic>
+        <topic>Level 883</topic>
+        <topic>EVALUATE Statement</topic>
+      </topic>
+      <topic>Control Break Concepts</topic>
+      <topic>Tables
+        <topic>Concepts</topic>
+        <topic>Processing</topic>
+        <topic>OCCURS clause</topic>
+        <topic>PERFORM statement expansions</topic>
+      </topic>
+    </topic>
   </outline>
 </course>

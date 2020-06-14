@@ -10,15 +10,31 @@
   <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
- This course explores the advanced features of COBOL, to include validation and exception handling, table control processing, sorting, master/transaction indexed file processing and management of large-scale software development. Students will continue using a real-world enterprise system environment to integrate their business driven software packages. This is a continuation of CSC 245.
-  </catalogDescription>
+Application programming emphasizing sequential and indexed sequential file maintenance,multi—level indexed and subscripted tables, error routines, and subroutines. Structured techniques, programming style, and program maintainability are stressed.  </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>245</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>To advance the student‘s knowledge of the COBOL language by covering advanced topics and stressing programmer efficiency.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Data Validation as Review</topic>
+    <topic>Multidimension Tables
+      <topic>Subscripting</topic>
+      <topic>Indexing</topic>
+      <topic>Double and Triple Level Occurs Clauses</topic>
+    </topic>
+    <topic>Error—Routine Handling</topic>
+    <topic>Disk Operations
+      <topic>Sequential Access</topic>
+      <topic>Indexed-Sequential Processing</topic>
+      <topic>Tape File Differences</topic>
+      <topic>Relative Files
+        <topic>Sequential Processing</topic>
+        <topic>Random Access</topic>
+      </topic>
+    </topic>
+    <topic>SORT Feature</topic>
+    <topic>Subprograms</topic>
   </outline>
 </course>

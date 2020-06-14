@@ -41,6 +41,7 @@
     </objective>
     <objective>Outline the process of regression testing and its role in release management
       <covers standard="acm-cs2013" knowledgeArea="SE/SE" id="5"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
     <objective>Create and document a set of tests for a medium-size code segment
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="6"/>
@@ -62,9 +63,11 @@
     </objective>
     <objective>Identify configuration items and use a source code control tool in a small team-based project
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="3"/>
     </objective>
     <objective>Describe how available static and dynamic test tools can be integrated into the software development environment
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/4" id="1"/>
     </objective>
     <objective>Describe the issues that are important in selecting a set of tools for the development, testing, and deployment of a particular software system
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="5"/>
@@ -74,6 +77,7 @@
     </objective>
     <objective>Explain the ethical responsibility of ensuring software correctness, reliability and safety
       <covers standard="acm-cs2013" knowledgeArea="SP/PE" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="3"/>
     </objective>
   </objectives>
   <!-- TODO: review all topics from ACM curriculum /-->

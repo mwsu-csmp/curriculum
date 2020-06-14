@@ -1,13 +1,13 @@
-  
-<curriculumStandard
-  xmlns="https://csmp.missouriwestern.edu"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
 
- <name>Cybersecurity Curricula</name>
- <body>acm</body>
- <version>2017</version>
- <documentUrl>https://cybered.hosting.acm.org/wp-content/uploads/2018/02/newcover_csec2017.pdf</documentUrl>
+<curriculumStandard
+        xmlns="https://csmp.missouriwestern.edu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
+
+  <name>Cybersecurity Curricula</name>
+  <body>acm</body>
+  <version>2017</version>
+  <documentUrl>https://cybered.hosting.acm.org/wp-content/uploads/2018/02/newcover_csec2017.pdf</documentUrl>
 
   <knowledgeArea name="4.1 Knowledge Area: Data Security"  id="1">
     <knowledgeArea name="Cryptography" id="1" >
@@ -17,6 +17,12 @@
       <topic>Historical ciphers</topic>
       <topic>Symmetric (private key) ciphers</topic>
       <topic>Asymmetric (public-key) ciphers</topic>
+      <outcome>Describe the purpose of cryptography and list ways it is used in data communications.</outcome>
+      <outcome>Describe the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plaintext in ciphertext.</outcome>
+      <outcome>Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.</outcome>
+      <outcome>Discuss the dangers of inventing one’s own cryptographic methods.</outcome>
+      <outcome>Describe which cryptographic protocols, tools and techniques are appropriate for a given situation.</outcome>
+      <outcome>Explain the goals of end-to-end data security.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Digital Forensics" id="2" >
       <topic>Introduction</topic>
@@ -29,12 +35,17 @@
       <topic>Authentication of evidence</topic>
       <topic>Reporting, incident response and handling</topic>
       <topic>Mobile forensics</topic>
+      <outcome>Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.</outcome>
+      <outcome>Compare and contrast variety of forensics tools.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Data Integrity and Authentication" id="3" >
       <topic>Authentication strength</topic>
       <topic>Password attack techniques</topic>
       <topic>Password storage techniques</topic>
       <topic>Data integrity</topic>
+      <outcome>Explain the concepts of authentication, authorization, access control, and data integrity.</outcome>
+      <outcome>Explain the various authentication techniques and their strengths and weaknesses.</outcome>
+      <outcome>Explain the various possible attacks on passwords.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Access Control" id="4" >
       <topic>Physical data security</topic>
@@ -66,27 +77,8 @@
       <topic>Data masking</topic>
       <topic>Database security</topic>
       <topic>Data security law</topic>
+      <outcome>Describe the various techniques for data erasure.</outcome>
     </knowledgeArea>
-    <outcome>Describe the purpose of cryptography and list ways it is used in</outcome>
-    <outcome>data communications.</outcome>
-    <outcome>Describe the following terms: cipher, cryptanalysis, cryptographic</outcome>
-    <outcome>algorithm, and cryptology, and describe the two basic methods</outcome>
-    <outcome>(ciphers) for transforming plaintext in ciphertext.</outcome>
-    <outcome>Explain how public key infrastructure supports digital signing and</outcome>
-    <outcome>encryption and discuss the limitations/vulnerabilities.</outcome>
-    <outcome>Discuss the dangers of inventing one’s own cryptographic methods.</outcome>
-    <outcome>Describe which cryptographic protocols, tools and techniques are</outcome>
-    <outcome>appropriate for a given situation.</outcome>
-    <outcome>Explain the goals of end-to-end data security.</outcome>
-    <outcome>Describe what a digital investigation is, the sources of digital</outcome>
-    <outcome>evidence, and the limitations of forensics.</outcome>
-    <outcome>Compare and contrast variety of forensics tools.</outcome>
-    <outcome>Explain the concepts of authentication, authorization, access</outcome>
-    <outcome>control, and data integrity.</outcome>
-    <outcome>Explain the various authentication techniques and their strengths</outcome>
-    <outcome>and weaknesses.</outcome>
-    <outcome>Explain the various possible attacks on passwords.</outcome>
-    <outcome>Describe the various techniques for data erasure.</outcome>
   </knowledgeArea>
   <knowledgeArea name="4.2 Knowledge Area: Software Security"  id="2">
     <knowledgeArea name="Fundamental Principles" id="1" >
@@ -104,12 +96,20 @@
       <topic>Modularity</topic>
       <topic>Complete linkage</topic>
       <topic>Design for iteration</topic>
+    <outcome>Discuss the implications of relying on open design or the secrecy of design for security.</outcome>
+    <outcome>List the three principles of security.</outcome>
+    <outcome>Describe why each principle is important to security.</outcome>
+    <outcome>Identify the needed design principle.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Design" id="2" >
       <topic>Derivation of security requirements</topic>
       <topic>Specification of security requirements</topic>
       <topic>Software development lifecycle/Security development lifecycle</topic>
       <topic>Programming languages and type-safe languages</topic>
+    <outcome>Explain why security requirements are important.</outcome>
+    <outcome>Identify common attack vectors.</outcome>
+    <outcome>Describe the importance of writing secure and robust programs.</outcome>
+    <outcome>Describe the concept of privacy including personally identifiable information.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Implementation" id="3" >
       <topic>Validating input and checking its representation</topic>
@@ -120,12 +120,19 @@
       <topic>Programming robustly</topic>
       <topic>Encapsulating structures and modules</topic>
       <topic>Taking environment into account</topic>
+    <outcome>Explain why input validation and data sanitization are necessary.</outcome>
+    <outcome>Explain the difference between pseudorandom numbers and random numbers.</outcome>
+    <outcome>Differentiate between secure coding and patching and explain the advantage of using secure coding techniques.</outcome>
+    <outcome>Describe a buffer overflow and why it is a potential security problem.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Analysis and Testing" id="4" >
       <topic>Static and dynamic analysis</topic>
       <topic>Unit testing</topic>
       <topic>Integration testing</topic>
       <topic>Software testing</topic>
+    <outcome>Explain the difference between static and dynamic analysis.</outcome>
+    <outcome>Discuss a problem that static analysis cannot reveal.</outcome>
+    <outcome>Discuss a problem that dynamic analysis cannot reveal.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Deployment and Maintenance" id="5" >
       <topic>Configuring</topic>
@@ -133,6 +140,9 @@
       <topic>Checking environment</topic>
       <topic>DevOps</topic>
       <topic>Decommissioning/Retiring</topic>
+    <outcome>Discuss the need to update software to fix security vulnerabilities.</outcome>
+    <outcome>Explain the need to test software after an update but before the patch is distributed.</outcome>
+    <outcome>Explain the importance of correctly configuring software.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Documentation" id="6" >
       <topic>Installation documents</topic>
@@ -146,36 +156,11 @@
       <topic>Legal aspects of software development</topic>
       <topic>Vulnerability disclosure</topic>
       <topic>What, when and why to test</topic>
-    </knowledgeArea>
-    <outcome>Discuss the implications of relying on open design or the secrecy of</outcome>
-    <outcome>design for security.</outcome>
-    <outcome>List the three principles of security.</outcome>
-    <outcome>Describe why each principle is important to security.</outcome>
-    <outcome>Identify the needed design principle.</outcome>
-    <outcome>Explain why security requirements are important.</outcome>
-    <outcome>Identify common attack vectors.</outcome>
-    <outcome>Describe the importance of writing secure and robust programs.</outcome>
-    <outcome>Describe the concept of privacy including personally identifiable</outcome>
-    <outcome>information.</outcome>
-    <outcome>Explain why input validation and data sanitization are necessary.</outcome>
-    <outcome>Explain the difference between pseudorandom numbers and</outcome>
-    <outcome>random numbers.</outcome>
-    <outcome>Differentiate between secure coding and patching and explain the</outcome>
-    <outcome>advantage of using secure coding techniques.</outcome>
-    <outcome>Describe a buffer overflow and why it is a potential security</outcome>
-    <outcome>problem.</outcome>
-    <outcome>Explain the difference between static and dynamic analysis.</outcome>
-    <outcome>Discuss a problem that static analysis cannot reveal.</outcome>
-    <outcome>Discuss a problem that dynamic analysis cannot reveal.</outcome>
-    <outcome>Discuss the need to update software to fix security vulnerabilities.</outcome>
-    <outcome>Explain the need to test software after an update but before the</outcome>
-    <outcome>patch is distributed.</outcome>
-    <outcome>Explain the importance of correctly configuring software.</outcome>
-    <outcome>Explain the concept that because you can do it, it doesn’t mean you</outcome>
-    <outcome>should do it.</outcome>
+    <outcome>Explain the concept that because you can do it, it doesn’t mean you should do it.</outcome>
     <outcome>Discuss the ethical issues in disclosing vulnerabilities.</outcome>
     <outcome>Discuss the ethics of thorough testing, especially corner cases.</outcome>
     <outcome>Identify the ethical effects and impacts of design decisions.</outcome>
+    </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea name="4.3 Knowledge Area: Component Security"  id="3">
     <knowledgeArea name="Component Design" id="1" >
@@ -185,46 +170,38 @@
       <topic>Anti-reverse engineering techniques</topic>
       <topic>Side-channel attack mitigation</topic>
       <topic>Anti-tamper technologies</topic>
+    <outcome>Explain how the security of a system’s components might impact the security of the system.</outcome>
+    <outcome>Describe ways in which the confidentiality of a component’s design may be compromised.</outcome>
+    <outcome>Describe ways to learn information about component’s functionality with limited information about its design and implementation.</outcome>
+    <outcome>List the phases of a component’s lifecycle.</outcome>
+    <outcome>List component design artifacts which may require protection.</outcome>
+    <outcome>Give examples of several secure component design principles and explain how each protects the security of components.</outcome>
+    <outcome>Describe several techniques for protecting the design elements of an integrated circuit.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Component Procurement" id="2" >
       <topic>Supply chain risks</topic>
       <topic>Supply chain security</topic>
       <topic>Supplier vetting</topic>
+    <outcome>List common points of vulnerability in a component’s supply chain.</outcome>
+    <outcome>Describe security risks in a component supply chain.</outcome>
+    <outcome>Describe ways to mitigate supply chain risks.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Component Testing" id="3" >
       <topic>Principles of unit testing</topic>
       <topic>Security testing</topic>
+    <outcome>Differentiate between unit and system testing.</outcome>
+    <outcome>List several techniques for testing security properties of a component.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Component Reverse Engineering" id="4" >
       <topic>Design reverse engineering</topic>
       <topic>Hardware reverse</topic>
       <topic>engineering</topic>
       <topic>Software reverse engineering</topic>
-    </knowledgeArea>
-    <outcome>Explain how the security of a system’s components might impact</outcome>
-    <outcome>the security of the system.</outcome>
-    <outcome>Describe ways in which the confidentiality of a component’s design</outcome>
-    <outcome>may be compromised.</outcome>
-    <outcome>Describe ways to learn information about component’s</outcome>
-    <outcome>functionality with limited information about its design and</outcome>
-    <outcome>implementation.</outcome>
-    <outcome>List the phases of a component’s lifecycle.</outcome>
-    <outcome>List component design artifacts which may require protection.</outcome>
-    <outcome>Give examples of several secure component design principles and</outcome>
-    <outcome>explain how each protects the security of components.</outcome>
-    <outcome>Describe several techniques for protecting the design elements of</outcome>
-    <outcome>an integrated circuit.</outcome>
-    <outcome>List common points of vulnerability in a component’s supply chain.</outcome>
-    <outcome>Describe security risks in a component supply chain.</outcome>
-    <outcome>Describe ways to mitigate supply chain risks.</outcome>
-    <outcome>Differentiate between unit and system testing.</outcome>
-    <outcome>List several techniques for testing security properties of a</outcome>
-    <outcome>component.</outcome>
     <outcome>List reasons why someone would reverse engineer a component.</outcome>
-    <outcome>Explain the difference between static and dynamic analysis in</outcome>
-    <outcome>reverse engineering software.</outcome>
-    <outcome>Describe a technique for reverse engineering the functionality of an</outcome>
-    <outcome>integrated circuit.</outcome>
+    <outcome>Explain the difference between static and dynamic analysis in reverse engineering software.</outcome>
+    <outcome>Describe a technique for reverse engineering the functionality of an integrated circuit.</outcome>
+    </knowledgeArea>
+
   </knowledgeArea>
   <knowledgeArea name="4.4 Knowledge Area: Connection Security"  id="4">
     <knowledgeArea name="Physical Media" id="1" >
@@ -291,44 +268,24 @@
       <topic>Network attacks (e.g., session hijacking, man-in-the-middle)</topic>
       <topic>Threat hunting and machine learning</topic>
     </knowledgeArea>
-    <outcome>Discuss the need for common models and architectures in order to</outcome>
-    <outcome>describe systems.</outcome>
-    <outcome>Describe a model of systems that consists of components and</outcome>
-    <outcome>interfaces for connections.</outcome>
+    <outcome>Discuss the need for common models and architectures in order to describe systems.</outcome>
+    <outcome>Describe a model of systems that consists of components and interfaces for connections.</outcome>
     <outcome>Explain why a component requires at least one interface.</outcome>
-    <outcome>List several standards that define models consisting of systems of</outcome>
-    <outcome>components and interfaces.</outcome>
-    <outcome>Describe the components and interfaces of a networking standard</outcome>
-    <outcome>provided.</outcome>
-    <outcome>Explain why a hardware device is always modeled a physical</outcome>
-    <outcome>component.</outcome>
-    <outcome>List several examples of physical component interfaces with their</outcome>
-    <outcome>associated vulnerabilities.</outcome>
-    <outcome>Describe an exploit for a vulnerability of a physical interface</outcome>
-    <outcome>provided.</outcome>
-    <outcome>Explain why every physical interface has a corresponding</outcome>
-    <outcome>software component to provide a corresponding software</outcome>
-    <outcome>interface.</outcome>
-    <outcome>Explain how software components are organized to represent</outcome>
-    <outcome>logical layers in a standard model.</outcome>
-    <outcome>Discuss how the Internet 5 layer model can be viewed as software</outcome>
-    <outcome>components and interfaces that represent levels of services</outcome>
-    <outcome>encapsulated by lower-level services.</outcome>
-    <outcome>Discuss how TCP/IP as a service is represented by different</outcome>
-    <outcome>interfaces in different software systems.</outcome>
-    <outcome>Explain how connection attacks can be understood in terms of</outcome>
-    <outcome>attacks on software component interfaces.</outcome>
-    <outcome>Describe how a specified standard interface could expose</outcome>
-    <outcome>vulnerabilities in a software component that implements the</outcome>
-    <outcome>interface.</outcome>
-    <outcome>Describe how an implementation could protect itself from a</outcome>
-    <outcome>specified vulnerability in a specified standard interface.</outcome>
-    <outcome>Explain how transmission attacks are often implemented as attacks</outcome>
-    <outcome>on components that provide the service of relaying information.</outcome>
-    <outcome>Describe an attack on a specified node in a TCP/IP network given</outcome>
-    <outcome>the description of a vulnerability.</outcome>
-    <outcome>Explain why transmission attacks can often be viewed as</outcome>
-    <outcome>connection attacks on network components (physical or software).</outcome>
+    <outcome>List several standards that define models consisting of systems of components and interfaces.</outcome>
+    <outcome>Describe the components and interfaces of a networking standard provided.</outcome>
+    <outcome>Explain why a hardware device is always modeled a physical component.</outcome>
+    <outcome>List several examples of physical component interfaces with their associated vulnerabilities.</outcome>
+    <outcome>Describe an exploit for a vulnerability of a physical interface provided.</outcome>
+    <outcome>Explain why every physical interface has a corresponding software component to provide a corresponding software interface.</outcome>
+    <outcome>Explain how software components are organized to represent logical layers in a standard model.</outcome>
+    <outcome>Discuss how the Internet 5 layer model can be viewed as software components and interfaces that represent levels of services encapsulated by lower-level services.</outcome>
+    <outcome>Discuss how TCP/IP as a service is represented by different interfaces in different software systems.</outcome>
+    <outcome>Explain how connection attacks can be understood in terms of attacks on software component interfaces.</outcome>
+    <outcome>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.</outcome>
+    <outcome>Describe how an implementation could protect itself from a specified vulnerability in a specified standard interface.</outcome>
+    <outcome>Explain how transmission attacks are often implemented as attacks on components that provide the service of relaying information.</outcome>
+    <outcome>Describe an attack on a specified node in a TCP/IP network given the description of a vulnerability.</outcome>
+    <outcome>Explain why transmission attacks can often be viewed as connection attacks on network components (physical or software).</outcome>
   </knowledgeArea>
   <knowledgeArea name="4.5 Knowledge Area: System Security"  id="5">
     <knowledgeArea name="System Thinking" id="1" >
@@ -390,38 +347,29 @@
       <topic>General-purpose systems</topic>
     </knowledgeArea>
     <outcome>Explain the concepts of trust and trustworthiness.</outcome>
-    <outcome>Explain what is meant by confidentiality, integrity, and</outcome>
-    <outcome>availability.</outcome>
-    <outcome>Explain what a security policy is, and its role in protecting data</outcome>
-    <outcome>and resources.</outcome>
+    <outcome>Explain what is meant by confidentiality, integrity, and availability.</outcome>
+    <outcome>Explain what a security policy is, and its role in protecting data and resources.</outcome>
     <outcome>Discuss the importance of a security policy.</outcome>
     <outcome>Explain why different sites have different security policies.</outcome>
-    <outcome>Explain the relationship among a security group, system</outcome>
-    <outcome>configuration, and procedures to maintain the security of the</outcome>
-    <outcome>system.</outcome>
+    <outcome>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.</outcome>
     <outcome>Explain three properties commonly used for authentication.</outcome>
     <outcome>Explain the importance of multifactor authentication.</outcome>
     <outcome>Explain the advantages of pass phrases over passwords.</outcome>
     <outcome>Describe an access control list.</outcome>
-    <outcome>Describe physical and logical access control, and compare and</outcome>
-    <outcome>contrast them.</outcome>
+    <outcome>Describe physical and logical access control, and compare and contrast them.</outcome>
     <outcome>Distinguish between authorization and authentication.</outcome>
     <outcome>Discuss how intrusion detection systems contribute to security.</outcome>
-    <outcome>Describe the limits of anti-malware software such as antivirus</outcome>
-    <outcome>programs.</outcome>
+    <outcome>Describe the limits of anti-malware software such as antivirus programs.</outcome>
     <outcome>Discuss uses of system monitoring.</outcome>
-    <outcome>Explain what resilience is and identify an environment in which it</outcome>
-    <outcome>is important.</outcome>
+    <outcome>Explain what resilience is and identify an environment in which it is important.</outcome>
     <outcome>Discuss the basics of a disaster recovery plan.</outcome>
     <outcome>Explain why backups pose a potential security risk.</outcome>
     <outcome>Describe what a penetration test is and why it is valuable.</outcome>
     <outcome>Discuss how to document a test that reveals a vulnerability.</outcome>
     <outcome>Discuss the importance of validating requirements.</outcome>
-    <outcome>Discuss the importance of documenting proper installation and</outcome>
-    <outcome>configuration of a system.</outcome>
+    <outcome>Discuss the importance of documenting proper installation and configuration of a system.</outcome>
     <outcome>Be able to write host and network intrusions documentation.</outcome>
-    <outcome>Be able to explain the security implications of unclear or</outcome>
-    <outcome>incomplete documentation of system operation.</outcome>
+    <outcome>Be able to explain the security implications of unclear or incomplete documentation of system operation.</outcome>
   </knowledgeArea>
   <knowledgeArea name="4.6 Knowledge Area: Human Security"  id="6">
     <knowledgeArea name="Identity Management" id="1" >
@@ -430,31 +378,50 @@
       <topic>Identity as a Service (IaaS)</topic>
       <topic>Third-party identity services</topic>
       <topic>Access control attacks and mitigation measures</topic>
+    <outcome>Explain the difference between identification, authentication, and access authorization of people and devices.</outcome>
+    <outcome>Discuss the importance of audit trails and logging in identification and authentication.</outcome>
+    <outcome>Demonstrate the ability to implement the concept of least privilege and segregation of duties.</outcome>
+    <outcome>Demonstrate the overall understanding of access control attacks and mitigation measures.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Social Engineering" id="2" >
       <topic>Types of social engineering attacks</topic>
       <topic>Psychology of social engineering attacks</topic>
       <topic>Misleading users</topic>
       <topic>Detection and mitigation of social engineering attacks</topic>
+    <outcome>Demonstrate overall understanding of the types of social engineering attacks, psychology of social engineering attacks, and misleading users.</outcome>
+    <outcome>Demonstrate the ability to identify types of social engineering attacks.</outcome>
+    <outcome>Demonstrate the ability to implement approaches for detection and mitigation of social engineering attacks.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Personal Compliance with Cybersecurity Rules/Policy/Ethical Norms" id="3" >
       <topic>System misuse and user misbehavior</topic>
       <topic>Enforcement and rules of behavior</topic>
       <topic>Proper behavior under uncertainty</topic>
+
     </knowledgeArea>
     <knowledgeArea name="Awareness and Understanding" id="4" >
       <topic>Risk perception and communication</topic>
       <topic>Cyber hygiene</topic>
       <topic>Cybersecurity user education</topic>
       <topic>Cyber vulnerabilities and threats awareness</topic>
+
+    <outcome>Discuss the importance of cyber hygiene, cybersecurity user education, as well as cyber vulnerabilities and threats awareness.</outcome>
+    <outcome>Describe the major topics within Security Education, Training, and Awareness (SETA) programs.</outcome>
+    <outcome>Discuss the importance of SETA as countermeasures.</outcome>
+    <outcome>Discuss the importance of risk perception and communication in the context of mental models of cybersecurity and privacy.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Social and Behavioral Privacy" id="5" >
       <topic>Social theories of privacy</topic>
       <topic>Social media privacy and security</topic>
+    <outcome>Compare and contrast various theories of privacy from social psychology and social science.</outcome>
+    <outcome>Describe the concepts of privacy tradeoffs and risks in the social context, control and awareness of data consent, personal information monitoring, regulatory protections and concerns on maintaining social privacy.</outcome>
+    <outcome>Discuss the importance of social media privacy and security.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Personal Data Privacy and Security" id="6" >
       <topic>Sensitive personal data (SPD)</topic>
       <topic>Personal tracking and digital footprint</topic>
+    <outcome>Discuss the importance of protection of Sensitive Personal Data (SPD) and Personally Identifiable Information (PII).</outcome>
+    <outcome>Discuss the importance of regulations governing the collection, use and distribution of SPD, and possibilities for inference of SPD.</outcome>
+    <outcome>Describe the concepts of personal tracking and digital footprint, while understanding the invasiveness of such tools in the context of privacy.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Usable Security and Privacy" id="7" >
       <topic>Usability and user experience</topic>
@@ -462,44 +429,11 @@
       <topic>Policy awareness and understanding</topic>
       <topic>Privacy policy</topic>
       <topic>Design guidance and implications</topic>
+    <outcome>Describe risk management and its role in the organization.</outcome>
+    <outcome>Describe risk management techniques to identify and prioritize risk factors for information assets and how risk is assessed.</outcome>
+    <outcome>Discuss the strategy options used to treat risk and be prepared to select from them when given background information.</outcome>
+    <outcome>Describe popular methodologies used in the industry to manage risk.</outcome>
     </knowledgeArea>
-    <outcome>Explain the difference between identification, authentication, and</outcome>
-    <outcome>access authorization of people and devices.</outcome>
-    <outcome>Discuss the importance of audit trails and logging in identification</outcome>
-    <outcome>and authentication.</outcome>
-    <outcome>Demonstrate the ability to implement the concept of least privilege</outcome>
-    <outcome>and segregation of duties.</outcome>
-    <outcome>Demonstrate the overall understanding of access control attacks</outcome>
-    <outcome>and mitigation measures.</outcome>
-    <outcome>Demonstrate overall understanding of the types of social</outcome>
-    <outcome>engineering attacks, psychology of social engineering attacks, and</outcome>
-    <outcome>misleading users.</outcome>
-    <outcome>Demonstrate the ability to identify types of social engineering</outcome>
-    <outcome>attacks.</outcome>
-    <outcome>Demonstrate the ability to implement approaches for detection and</outcome>
-    <outcome>mitigation of social engineering attacks.</outcome>
-    <outcome>Discuss the importance of cyber hygiene, cybersecurity user</outcome>
-    <outcome>education, as well as cyber vulnerabilities and threats awareness.</outcome>
-    <outcome>Describe the major topics within Security Education, Training,</outcome>
-    <outcome>and Awareness (SETA) programs.</outcome>
-    <outcome>Discuss the importance of SETA as countermeasures.</outcome>
-    <outcome>Discuss the importance of risk perception and communication in</outcome>
-    <outcome>the context of mental models of cybersecurity and privacy.</outcome>
-    <outcome>Compare and contrast various theories of privacy from social</outcome>
-    <outcome>psychology and social science.</outcome>
-    <outcome>Describe the concepts of privacy tradeoffs and risks in the social</outcome>
-    <outcome>context, control and awareness of data consent, personal</outcome>
-    <outcome>information monitoring, regulatory protections and concerns on</outcome>
-    <outcome>maintaining social privacy.</outcome>
-    <outcome>Discuss the importance of social media privacy and security.</outcome>
-    <outcome>Discuss the importance of protection of Sensitive Personal Data</outcome>
-    <outcome>(SPD) and Personally Identifiable Information (PII).</outcome>
-    <outcome>Discuss the importance of regulations governing the collection,</outcome>
-    <outcome>use and distribution of SPD, and possibilities for inference of</outcome>
-    <outcome>SPD.</outcome>
-    <outcome>Describe the concepts of personal tracking and digital footprint,</outcome>
-    <outcome>while understanding the invasiveness of such tools in the context</outcome>
-    <outcome>of privacy.</outcome>
   </knowledgeArea>
   <knowledgeArea name="4.7 Knowledge Area: Organizational Security"  id="7">
     <knowledgeArea name="Risk Management" id="1" >
@@ -516,6 +450,14 @@
       <topic>Security governance</topic>
       <topic>Executive and board level communication</topic>
       <topic>Managerial policy</topic>
+    <outcome>Discuss the importance, benefits, and desired outcomes of cybersecurity governance and how such a program would be implemented.</outcome>
+    <outcome>Describe information security policy and its role in a successful information security program.</outcome>
+    <outcome>Describe the major types of information security policy and the major components of each.</outcome>
+    <outcome>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.</outcome>
+    <outcome>Differentiate between law and ethics.</outcome>
+    <outcome>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.</outcome>
+    <outcome>Identify significant national and international laws that relate to cybersecurity.</outcome>
+    <outcome>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Analytical Tools" id="3" >
       <topic>Performance measurements (metrics)</topic>
@@ -534,6 +476,9 @@
     <knowledgeArea name="Cybersecurity Planning" id="5" >
       <topic>Strategic planning</topic>
       <topic>Operational and tactical management</topic>
+    <outcome>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.</outcome>
+    <outcome>Identify the key organizational stakeholders and their roles.</outcome>
+    <outcome>Describe the principal components of cybersecurity system implementation planning.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Business Continuity, Disaster Recovery, and Management Security" id="6" >
       <topic>Incident response</topic>
@@ -558,35 +503,6 @@
       <topic>Security convergence</topic>
       <topic>Global security operations centers (GSOCs)</topic>
     </knowledgeArea>
-    <outcome>Describe risk management and its role in the organization.</outcome>
-    <outcome>Describe risk management techniques to identify and prioritize</outcome>
-    <outcome>risk factors for information assets and how risk is assessed.</outcome>
-    <outcome>Discuss the strategy options used to treat risk and be prepared to</outcome>
-    <outcome>select from them when given background information.</outcome>
-    <outcome>Describe popular methodologies used in the industry to manage</outcome>
-    <outcome>risk.</outcome>
-    <outcome>Discuss the importance, benefits, and desired outcomes of</outcome>
-    <outcome>cybersecurity governance and how such a program would be</outcome>
-    <outcome>implemented.</outcome>
-    <outcome>Describe information security policy and its role in a successful</outcome>
-    <outcome>information security program.</outcome>
-    <outcome>Describe the major types of information security policy and the</outcome>
-    <outcome>major components of each.</outcome>
-    <outcome>Explain what is necessary to develop, implement, and maintain</outcome>
-    <outcome>effective policy and what consequences the organization may face</outcome>
-    <outcome>if it does not do so.</outcome>
-    <outcome>Differentiate between law and ethics.</outcome>
-    <outcome>Describe why ethical codes of conduct are important to</outcome>
-    <outcome>cybersecurity professionals and their organizations.</outcome>
-    <outcome>Identify significant national and international laws that relate to</outcome>
-    <outcome>cybersecurity.</outcome>
-    <outcome>Explain how organizations achieve compliance with national and</outcome>
-    <outcome>international laws and regulations, and specific industry standards.</outcome>
-    <outcome>Explain strategic organizational planning for cybersecurity and its</outcome>
-    <outcome>relationship to organization-wide and IT strategic planning.</outcome>
-    <outcome>Identify the key organizational stakeholders and their roles.</outcome>
-    <outcome>Describe the principal components of cybersecurity system</outcome>
-    <outcome>implementation planning.</outcome>
   </knowledgeArea>
   <knowledgeArea name="4.8 Knowledge Area: Societal Security"  id="8">
     <knowledgeArea name="Cybercrime" id="1" >
@@ -594,6 +510,10 @@
       <topic>Cyber terrorism</topic>
       <topic>Cybercriminal investigations</topic>
       <topic>Economics of cybercrime</topic>
+    <outcome>Discuss various motives for cybercrime behavior.</outcome>
+    <outcome>Summarize terror activities in cyberspace geared toward generating societal fear and certainty.</outcome>
+    <outcome>Describe methods for investigating both domestic and international crimes.</outcome>
+    <outcome>Explain why preserving the chain of digital evidence is necessary in prosecuting cybercrimes.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Cyber Law" id="2" >
       <topic>Constitutional foundations of cyber law</topic>
@@ -605,6 +525,10 @@
       <topic>Digital contracts</topic>
       <topic>Multinational conventions (accords)</topic>
       <topic>Cross-border privacy and data security laws</topic>
+    <outcome>Describe the constitutional foundations of cyber law.</outcome>
+    <outcome>Describe international data security and computer hacking laws.</outcome>
+    <outcome>Interpret intellectual property laws related to security.</outcome>
+    <outcome>Summarize laws governing online privacy.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Cyber Ethics" id="3" >
       <topic>Defining ethics</topic>
@@ -615,6 +539,9 @@
       <topic>Ethics and conflict</topic>
       <topic>Ethical hacking</topic>
       <topic>Ethical frameworks and normative theories</topic>
+    <outcome>Distinguish among virtue ethics, utilitarian ethics and deontological ethics.</outcome>
+    <outcome>Paraphrase professional ethics and codes of conduct from prominent professional societies, such as ACM, IEEE-CS, AIS and (ISC)</outcome>
+    <outcome>Describe ways in which decision-making algorithms could over-represent or under-represent majority and minority groups in society.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Cyber Policy" id="4" >
       <topic>International cyber policy</topic>
@@ -623,6 +550,9 @@
       <topic>Cybersecurity policy and national security</topic>
       <topic>National economic implications of cybersecurity</topic>
       <topic>New adjacencies to diplomacy</topic>
+    <outcome>Describe major international public policy positions and the impact they have on organizations and individuals.</outcome>
+    <outcome>Summarize nation-specific cybersecurity public policy with respect to the protection of sensitive information and protection of critical infrastructure.</outcome>
+    <outcome>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy and laws.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Privacy" id="5" >
       <topic>Defining privacy</topic>
@@ -631,39 +561,9 @@
       <topic>Privacy norms and attitudes</topic>
       <topic>Privacy breaches</topic>
       <topic>Privacy in societies</topic>
+    <outcome>Describe the concept of privacy including the societal definition of what constitutes personally private information and the tradeoffs between individual privacy and security.</outcome>
+    <outcome>Summarize the tradeoff between the rights to privacy by the individual versus the needs of society.</outcome>
+    <outcome>Describe the common practices and technologies used to safeguard personal privacy.</outcome>
     </knowledgeArea>
-    <outcome>Discuss various motives for cybercrime behavior.</outcome>
-    <outcome>Summarize terror activities in cyberspace geared toward</outcome>
-    <outcome>generating societal fear and certainty.</outcome>
-    <outcome>Describe methods for investigating both domestic and</outcome>
-    <outcome>international crimes.</outcome>
-    <outcome>Explain why preserving the chain of digital evidence is necessary</outcome>
-    <outcome>in prosecuting cybercrimes.</outcome>
-    <outcome>Describe the constitutional foundations of cyber law.</outcome>
-    <outcome>Describe international data security and computer hacking laws.</outcome>
-    <outcome>Interpret intellectual property laws related to security.</outcome>
-    <outcome>Summarize laws governing online privacy.</outcome>
-    <outcome>Distinguish among virtue ethics, utilitarian ethics and</outcome>
-    <outcome>deontological ethics.</outcome>
-    <outcome>Paraphrase professional ethics and codes of conduct from</outcome>
-    <outcome>prominent professional societies, such as ACM, IEEE-CS, AIS</outcome>
-    <outcome>and (ISC)</outcome>
-    <outcome>Describe ways in which decision-making algorithms could over-</outcome>
-    <outcome>represent or under-represent majority and minority groups in</outcome>
-    <outcome>society.</outcome>
-    <outcome>Describe major international public policy positions and the</outcome>
-    <outcome>impact they have on organizations and individuals.</outcome>
-    <outcome>Summarize nation-specific cybersecurity public policy with</outcome>
-    <outcome>respect to the protection of sensitive information and protection of</outcome>
-    <outcome>critical infrastructure.</outcome>
-    <outcome>Explain global impact of cybersecurity to culture including areas</outcome>
-    <outcome>such as the economy, social issues, policy and laws.</outcome>
-    <outcome>Describe the concept of privacy including the societal definition of</outcome>
-    <outcome>what constitutes personally private information and the tradeoffs</outcome>
-    <outcome>between individual privacy and security.</outcome>
-    <outcome>Summarize the tradeoff between the rights to privacy by the</outcome>
-    <outcome>individual versus the needs of society.</outcome>
-    <outcome>Describe the common practices and technologies used to</outcome>
-    <outcome>safeguard personal privacy.</outcome>
   </knowledgeArea>
 </curriculumStandard>

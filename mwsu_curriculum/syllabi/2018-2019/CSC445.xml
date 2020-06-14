@@ -16,9 +16,32 @@ This course focuses on developing applications for modern Smartphone operating s
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Get students familiar with the corresponding App development SDK.</objective>
+    <objective>Get students familiar with the MVC (Model-View-Control) architecture in mobile app development.</objective>
+    <objective>Get students familiar with the steps of building, testing and debugging, and deploying their mobile app with either virtual or real devices.</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Set up the programming environment – IDE and SDK</topic>
+    <topic>Model-View- Controller (MVC) Architecture</topic>
+    <topic>App Development Lifecycle</topic>
+    <topic>Testing on Virtual and Real Devices</topic>
+    <topic>Debugging</topic>
+    <topic>Creating Basic User Interface</topic>
+    <topic>Auto layout</topic>
+    <topic>Touch Events</topic>
+    <topic>JSON</topic>
+    <topic>Database Connection and Queries</topic>
+    <topic>Input / Output</topic>
+    <topic>Data Presentation
+      <topic>Table View</topic>
+      <topic>croll View</topic>
+      <topic>Master-Detail Interfaces</topic>
+    </topic>
+    <topic>Audio / Video Recording and Playback</topic>
+    <topic>Networking</topic>
+    <topic>Using Maps</topic>
+    <topic>Push Notification</topic>
+    <topic>Localization</topic>
+    <topic>App Deployment in the market</topic>
   </outline>
 </course>

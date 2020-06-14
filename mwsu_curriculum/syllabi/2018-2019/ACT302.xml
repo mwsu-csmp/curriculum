@@ -16,9 +16,34 @@ This course uses statistics to help solve business problems, examines case examp
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>201</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+	  <objective>Applying Fundamental Excel Skills and Tools in Problem Solving</objective>
+	  <objective>Solving Problems with Statistical Analysis</objective>
+	  <objective>Determining Effective Data Display with Charts</objective>
+	  <objective>Applying Logic in Decision Making</objective>
+	  <objective>Retrieving Data for Computation, Analysis, and Reference</objective>
+	  <objective>Evaluating the Financial Impact of Loans and Investments</objective>
+	  <objective>Organizing Data forEffective Analysis</objective>
+	  <objective>Using Data Tables and Excel Scenarios for What-If Analysis</objective>
+	  <objective>Enhancing Decision Making with Solver</objective>
+	  <objective>Troubleshooting Workbooks and Creating Excel Applications</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Introduction to Business Analytics and Big Data</topic>
+    <topic>Business Analytics Life Cycle</topic>
+    <topic>Business Analytics Process, CRISP -DM, introduction to JMP</topic>
+    <topic>Data concepts, review of basic statistics</topic>
+    <topic>Data exploration and visualization</topic>
+    <topic>Hypothesis testing, Type 1 and 2 errors</topic>
+    <topic>T-test, ANOVA, Chi-Square, and correlation</topic>
+    <topic>Linear Regression Analysis</topic>
+    <topic>Logistic Regression</topic>
+    <topic>Decision Tree</topic>
+    <topic>Model comparison and evaluation</topic>
+    <topic>Cluster Analysis</topic>
+    <topic>Market Basket Analysis</topic>
+    <topic>Technology and Tools </topic>
+    <topic>Data Warehousing and OLAP concepts</topic>
+    <topic>Tools and Technologies for Big Data</topic>
+    <topic>Ethical Issues</topic>
   </outline>
 </course>
