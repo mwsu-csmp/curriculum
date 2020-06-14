@@ -193,6 +193,25 @@ def test_hours_per_semester_returns_tuples_with_string():
 def test_hours_per_semester_returns_tuples_with_string():
     assert isinstance(hours_per_semester('2019-2020')[5][0], str)
 
+
+def test_all_topic_references_are_valid():
+    for ay in available_years():
+        for syllabus in load_syllabi(ay):
+            topics = []
+            topics.extend(syllabus.topics)
+            while topics:
+                topic = topics.pop()
+                for coverage in topic.coverages:
+                    try:
+                        standard = load_standard(coverage['standard'])
+                        assert isinstance(standard, Standard)
+                        topic = standard.topic_coverage_lookup(coverage)
+                        assert isinstance(topic, Topic)
+                    except:
+                        assert False, 'error in ' + ay + ' ' + syllabus.subject + str(syllabus.number) + str(topic.id)
+
+                topics.extend(topic.subtopics)
+
 ########################################################################
 # Test Schedules
 ########################################################################
