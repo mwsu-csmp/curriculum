@@ -208,9 +208,22 @@ def test_all_topic_references_are_valid():
                         topic = standard.topic_coverage_lookup(coverage)
                         assert isinstance(topic, Topic)
                     except:
-                        assert False, 'error in ' + ay + ' ' + syllabus.subject + str(syllabus.number) + str(topic.id)
+                        assert False, 'error in ' + ay + ' ' + syllabus.subject + str(syllabus.number) + ' topic ' + str(topic.id)
 
                 topics.extend(topic.subtopics)
+
+def test_all_outcome_references_are_valid():
+    for ay in available_years():
+        for syllabus in load_syllabi(ay):
+            for objective in syllabus.objectives:
+                for coverage in objective.coverages:
+                    try:
+                        standard = load_standard(coverage['standard'])
+                        assert isinstance(standard, Standard)
+                        outcome = standard.outcome_coverage_lookup(coverage)
+                        assert isinstance(outcome, Outcome)
+                    except:
+                        assert False, 'error in ' + ay + ' ' + syllabus.subject + str(syllabus.number) + ' objective ' + str(objective.id)
 
 ########################################################################
 # Test Schedules
