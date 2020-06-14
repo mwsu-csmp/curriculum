@@ -11,13 +11,13 @@
     <requirement><conjunction><course><subject>CSC</subject><number>264</number></course></conjunction></requirement>
     <requirement>
         <conjunction><course><subject>CSC</subject><number>294</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>318</number></course></conjunction>
+        <conjunction><course><subject>CSC</subject><number>318</number></course></conjunction>
         <conjunction><course><subject>CSC</subject><number>328</number></course></conjunction>
         <conjunction><course><subject>CSC</subject><number>410</number></course></conjunction>
     </requirement>
     <requirement>
         <conjunction><course><subject>CSC</subject><number>294</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>318</number></course></conjunction>
+        <conjunction><course><subject>CSC</subject><number>318</number></course></conjunction>
         <conjunction><course><subject>CSC</subject><number>328</number></course></conjunction>
         <conjunction><course><subject>CSC</subject><number>410</number></course></conjunction>
     </requirement>
