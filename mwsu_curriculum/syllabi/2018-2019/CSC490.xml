@@ -3,6 +3,7 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  creditHoursLecture="1"
   workloadHoursLecture="1">
   <college>LA</college>
   <subject>ACT</subject>
