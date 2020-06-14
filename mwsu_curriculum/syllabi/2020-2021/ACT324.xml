@@ -35,6 +35,7 @@
     <objective>Apply a variety of software testing practices to a software development project
     </objective>
     <objective>Describe and distinguish among the different types and levels of testing (unit, integration, systems, and acceptance)
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="1"/>
     </objective>
     <objective>Describe techniques for identifying significant test cases for integration, regression and system testing
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="5"/>

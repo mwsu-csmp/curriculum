@@ -45,6 +45,9 @@
         <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
         <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="7"/>
         <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="9"/>
+        <covers standard="acm-csec2017" knowledgeArea="6/7" id="1"/>
+        <covers standard="acm-csec2017" knowledgeArea="6/7" id="2"/>
+        <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
     </objective>
     <objective>Describe how the choice of process model affects team organizational structures and decision-making processes.
         <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="11"/>

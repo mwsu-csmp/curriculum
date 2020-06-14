@@ -16,15 +16,31 @@ This course will explore cyber-security principles by examining security policie
   </prerequisites>
   <objectives>
     <objective>Understand the importance of, and how to provide, confidentiality, authenticity,
-integrity, and availability of data.</objective>
+integrity, and availability of data.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
+    </objective>
     <objective>Develop IT security policies and analyze their adherence to legal, ethical, and other
-constraints.</objective>
-    <objective>Gain skill in researching best practices and efficacy of security controls.</objective>
-    <objective>Apply risk management concepts in a security and information assurance context.</objective>
+constraints.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="5"/>
+    </objective>
+    <objective>Gain skill in researching best practices and efficacy of security controls.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="11"/>
+    </objective>
+    <objective>Apply risk management concepts in a security and information assurance context.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+    </objective>
     <objective>Conduct and support investigations in to security breaches and assess their
-consequences.</objective>
-    <objective>Develop strategies to plan for and recover from security related catastrophic events.</objective>
-    <objective>Gain skill in educating a non-technical audience over IT policy.</objective>
+consequences.
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
+    </objective>
+    <objective>Develop strategies to plan for and recover from security related catastrophic events.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
+    </objective>
+    <objective>Gain skill in educating a non-technical audience over IT policy.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
+    </objective>
     <objective>Prepare for advanced and expert-level professional IT certification</objective>
   </objectives>
   <outline>
