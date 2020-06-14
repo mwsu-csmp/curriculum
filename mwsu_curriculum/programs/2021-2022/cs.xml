@@ -15,8 +15,6 @@
     <requirement><conjunction><course><subject>CSC</subject><number>305</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>324</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>386</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>410</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>476</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>490</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>MAT</subject><number>111</number></course></conjunction></requirement>
     <requirement>
@@ -28,8 +26,6 @@
     </requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>246</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>285</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>387</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>400</number></course></conjunction></requirement>
     <requirement><conjunction><course><subject>CSC</subject><number>406</number></course></conjunction></requirement>
   </section>
   <section header="PLUS--6 credits of CSC courses numbered 300 - 599">

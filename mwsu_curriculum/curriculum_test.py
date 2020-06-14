@@ -193,6 +193,25 @@ def test_hours_per_semester_returns_tuples_with_string():
 def test_hours_per_semester_returns_tuples_with_string():
     assert isinstance(hours_per_semester('2019-2020')[5][0], str)
 
+
+def test_all_topic_references_are_valid():
+    for ay in available_years():
+        for syllabus in load_syllabi(ay):
+            topics = []
+            topics.extend(syllabus.topics)
+            while topics:
+                topic = topics.pop()
+                for coverage in topic.coverages:
+                    try:
+                        standard = load_standard(coverage['standard'])
+                        assert isinstance(standard, Standard)
+                        topic = standard.topic_coverage_lookup(coverage)
+                        assert isinstance(topic, Topic)
+                    except:
+                        assert False, 'error in ' + ay + ' ' + syllabus.subject + str(syllabus.number) + str(topic.id)
+
+                topics.extend(topic.subtopics)
+
 ########################################################################
 # Test Schedules
 ########################################################################
@@ -214,6 +233,21 @@ def test_section_duration():
               if section.section == '01':
                   assert section.startTime == '9:30'
                   assert section.duration() == 80
+
+def test_ensure_every_course_exists_in_all_schedules():
+    years = available_years()
+    assert len(years) > 3
+    for ay in years:
+        schedules = [
+            load_schedule('fa', ay[2:4]),
+            load_schedule('sp', ay[7:9]),
+            load_schedule('su', ay[7:9])
+        ]
+        for schedule in schedules:
+            assert len(schedule) > 0
+            for course in schedule.keys():
+                assert isinstance(course, Syllabus)
+
 
 ########################################################################
 # Test Roster
@@ -347,3 +381,16 @@ def test_add_coverage():
     assert ka.topic_coverage() > 0 
 
 
+########################################################################
+# Test Programs
+########################################################################
+
+def test_ensure_every_course_exists_in_all_programs():
+    years = available_years()
+    assert len(years) > 3
+    for ay in years:
+        for program in load_programs(ay).values():
+            courses = program.available_courses()
+            assert len(courses) > 3
+            for syllabus in courses:
+                assert isinstance(syllabus, Syllabus)

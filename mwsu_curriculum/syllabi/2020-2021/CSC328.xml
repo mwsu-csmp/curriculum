@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>318</number>
+  <number>328</number>
   <title>Computer Graphics</title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>

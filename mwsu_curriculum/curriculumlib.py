@@ -293,6 +293,16 @@ class Program:
             total += section.min_hours()
         return total
 
+    def available_courses(self):
+        """returns syllabi for all courses that can be taken for credit within this program"""
+        courses = []
+        for section in self.sections:
+            for disj in section.courses:
+                for conj in disj:
+                    for course in conj:
+                        courses.append(course)
+        return courses
+
 
 class Syllabus:
     """ Creates a class for each syllabi. These consist of a title, subject, course number, when it is offered
@@ -421,6 +431,15 @@ class Instructor:
 def load_program(ay,name):
     program = Program(ay, open(resource_filename('mwsu_curriculum', 'programs/'+ay+'/'+name+'.xml')) )
     return program 
+
+
+def load_programs(ay):
+    programs = {}
+    for filename in next(walk(resource_filename('mwsu_curriculum', 'programs/'+ay)))[2]:
+        program_name = filename[0:-4]
+        programs[program_name] = load_program(ay, program_name)
+    return programs
+
 
 def load_standard(name, ay=None):
     standard = Standard(open(resource_filename('mwsu_curriculum', 'standards/'+name+'.xml')), name)

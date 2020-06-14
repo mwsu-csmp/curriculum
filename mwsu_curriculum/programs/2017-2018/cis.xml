@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
   name="cis"
-  parent="cs"
+  parent="cs-core"
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section header="Computer Information Systems Concentration">
