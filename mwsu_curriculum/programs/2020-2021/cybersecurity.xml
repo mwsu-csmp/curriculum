@@ -4,16 +4,16 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section>
-    <requirement><conjunction><course><subject>CSC</subject><number>520</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>550</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>570</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>580</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>590</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>615</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>625</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>630</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>635</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>650</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>MAT</subject><number>609</number></course></conjunction></requirement>
+    <requirement><course><subject>CSC</subject><number>520</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>550</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>570</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>580</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>590</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>615</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>625</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>630</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>635</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>650</number></course></requirement>
+    <requirement><course><subject>MAT</subject><number>609</number></course></requirement>
   </section>
 </program>

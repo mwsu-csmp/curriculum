@@ -4,20 +4,20 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section header="Cybersecurity">
-    <requirement><conjunction><course><subject>CSC</subject><number>101</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>184</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>208</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>254</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>264</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>274</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>289</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>294</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>305</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>324</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>386</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>410</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>490</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>MAT</subject><number>111</number></course></conjunction>
+    <requirement><course><subject>CSC</subject><number>101</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>254</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>264</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>289</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>294</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>324</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>386</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>410</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
+    <requirement><course><subject>MAT</subject><number>111</number></course>
     </requirement>
   </section>
 </program>

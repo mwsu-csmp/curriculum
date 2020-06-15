@@ -7,9 +7,10 @@ from collections import defaultdict
 from pkg_resources import resource_filename
 from collections import defaultdict
 
+ns = '{https://csmp.missouriwestern.edu}'
+
 class Topic:
     def __init__(self, dt, id, parentid='', standardid=''):
-      ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
       self.id = id
       self.covered_by = set()
@@ -54,7 +55,6 @@ class Topic:
 
 class Outcome:
     def __init__(self, dt, id, parentid='', standardid=''):
-      ns = '{https://csmp.missouriwestern.edu}'
       self.text = dt.text
       self.id = id
       self.parentid = parentid
@@ -80,7 +80,6 @@ class Outcome:
 
 class KnowledgeArea:
     def __init__(self, dt, parentid = None, standardid=None):
-      ns = '{https://csmp.missouriwestern.edu}'
       self.id = dt.attrib['id']
       self.standardid = standardid
       self.fullid = parentid + '/' + self.id if parentid else self.id
@@ -175,7 +174,6 @@ class KnowledgeArea:
 class Standard:
     """Represents an external standard for curriculum content and objectives"""
     def __init__(self, xmlfile, id):
-      ns = '{https://csmp.missouriwestern.edu}'
       dt = ET.parse(xmlfile).getroot()
       self.id = id
       self.name = dt.find(ns + 'name').text
@@ -218,22 +216,115 @@ class Standard:
           total += self.kas[ka].topic_coverage()
       return total / len(self.kas)
 
+class ConjunctiveRequirement:
+    def __init__(self, ay, dt):
+        self.courses = []
+        for courset in filter(lambda n: n.tag == ns + 'course', dt):
+          course = load_syllabus(ay, courset.find(ns + 'subject').text, courset.find(ns + 'number').text)
+          self.courses.append(course)
+
+    def max_hours(self):
+        total = 0
+        for course in self.courses:
+            total += course.credit_hours
+        return total
+
+
+    def min_hours(self):
+        total = 0
+        for course in self.courses:
+            total += course.credit_hours
+        return total
+
+class DisjunctiveRequirement:
+    def __init__(self, ay, dt):
+        self.courses = []
+        self.conjunctions = []
+        for courset in filter(lambda n: n.tag == ns + 'course', dt):
+          course = load_syllabus(ay, courset.find(ns + 'subject').text, courset.find(ns + 'number').text)
+          self.courses.append(course)
+        for conjunctiont in dt.findall(ns + 'conjunction'):
+          self.conjunctions.append(ConjunctiveRequirement(ay,conjunctiont))
+
+    def max_hours(self):
+        max = 0
+        for course in self.courses:
+            if course.credit_hours > max:
+                max = course.credit_hours
+
+        for conjunction in self.conjunctions:
+            if conjunction.max_hours() > max:
+                max = conjunction.max_hours()
+        return max
+
+
+    def min_hours(self):
+        min = 1000000
+        for course in self.courses:
+            if course.credit_hours < min:
+                min = course.credit_hours
+
+        for conjunction in self.conjunctions:
+            if conjunction.min_hours() < min:
+                min = conjunction.min_hours()
+        return min
+
+    def available_courses(self):
+        courses = set(self.courses)
+        for conjunction in self.conjunctions:
+            courses.update(conjunction.courses)
+        return courses
+
+class ProgramRequirement:
+    def __init__(self, ay, dt):
+        self.courses = []
+        self.disjunctions = []
+        for courset in filter(lambda n: n.tag == ns + 'course', dt):
+          course = load_syllabus(ay, courset.find(ns + 'subject').text, courset.find(ns + 'number').text)
+          self.courses.append(course)
+        for disjunctiont in dt.findall(ns + 'disjunction'):
+          self.disjunctions.append(DisjunctiveRequirement(ay,disjunctiont))
+
+    def max_hours(self):
+        total = 0
+        for course in self.courses:
+            total += course.credit_hours
+
+        for disjunction in self.disjunctions:
+            total += disjunction.max_hours()
+
+        return total
+
+    def min_hours(self):
+        total = 0
+        for course in self.courses:
+            total += course.credit_hours
+
+        for disjunction in self.disjunctions:
+            total += disjunction.min_hours()
+
+        return total
+
+    def available_courses(self):
+        courses = set(self.courses)
+        for disjunction in self.disjunctions:
+            courses.update(disjunction.available_courses())
+        return courses
+
 class ProgramSection:
-    def __init__(self, courses, blanks=[]):
-      self.courses = courses
-      self.blanks = blanks
+    def __init__(self, ay, dt):
+      self.requirements = []
+      self.blanks = []
+      for requirementt in dt.findall(ns + 'requirement'):
+        self.requirements.append(ProgramRequirement(ay, requirementt))
+      for blankt in dt.findall(ns + 'blank'):
+        self.blanks.append(int(blankt.text))
+
 
     def max_hours(self):
       total = 0
-      for disj in self.courses:
-        max_hours = None
-        for conj in disj:
-          hours = 0
-          for course in conj:
-            hours += course.credit_hours
-          if not max_hours or max_hours < hours:
-            max_hours = hours
-        total += max_hours
+      for requirement in self.requirements:
+          total += requirement.max_hours()
       
       for blank in self.blanks:
         total += blank
@@ -241,46 +332,28 @@ class ProgramSection:
 
     def min_hours(self):
       total = 0
-      for disj in self.courses:
-        min_hours = None
-        for conj in disj:
-          hours = 0
-          for course in conj:
-            hours += course.credit_hours
-          if not min_hours or min_hours > hours:
-            min_hours = hours
-        total += min_hours
-      
+      for requirement in self.requirements:
+          total += requirement.min_hours()
+
       for blank in self.blanks:
         total += blank
       return total
 
+    def available_courses(self):
+        courses = set()
+        for requirement in self.requirements:
+            courses.update(requirement.available_courses())
+        return courses
+
 class Program:
     def __init__(self, ay, xmlfile):
-      ns = '{https://csmp.missouriwestern.edu}'
       dt = ET.parse(xmlfile).getroot()
       self.name = dt.attrib['name']
       self.parent = load_program(ay, dt.attrib['parent']) if 'parent' in dt.attrib else None
       self.sections = []
 
       for sectiont in dt.findall(ns + 'section'):
-        courses = []
-        for requirementt in sectiont.findall(ns + 'requirement'):
-          disj = []
-          for conjunctiont in requirementt.findall(ns + 'conjunction'):
-            conj = []
-            for courset in conjunctiont.findall(ns + 'course'):
-              course = load_syllabus(ay, courset.find(ns + 'subject').text, courset.find(ns + 'number').text)
-              conj.append(course)
-            disj.append(conj)
-          courses.append(disj)
-
-        blanks = []
-        for blankt in sectiont.findall(ns + 'blank'):
-          blanks.append(int(blankt.text))
-
-        section = ProgramSection(courses, blanks)
-        self.sections.append(section)
+        self.sections.append(ProgramSection(ay, sectiont))
 
     def max_hours(self):
         total = self.parent.max_hours() if self.parent else 0
@@ -298,10 +371,7 @@ class Program:
         """returns syllabi for all courses that can be taken for credit within this program"""
         courses = set() if not self.parent else self.parent.available_courses()
         for section in self.sections:
-            for disj in section.courses:
-                for conj in disj:
-                    for course in conj:
-                        courses.add(course)
+            courses.update(section.available_courses())
         return courses
 
 
@@ -312,7 +382,6 @@ class Syllabus:
     def __init__(self, ay, xmlfile):
       """ parses the XML file and collects the information which includes title, subject, number, workload hours,
        offered, and what semester offered """
-      ns = '{https://csmp.missouriwestern.edu}'
       dt = ET.parse(xmlfile).getroot()
       self.title = dt.find(ns + 'title').text
       self.ay = ay
@@ -473,7 +542,6 @@ def load_syllabi(ay):
 
 def load_roster(ay):
     filename = resource_filename('mwsu_curriculum', 'rosters/'+ay+'.xml')
-    ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
     roster = []
     for instructort in dt.findall(ns + 'instructor'):
@@ -494,7 +562,6 @@ def load_schedule(semester, year):
     else:
         ay = '20'+str(int(year)-1)+'-20'+year
     filename = resource_filename('mwsu_curriculum', 'schedules/'+semester+year+'.xml')
-    ns = '{https://csmp.missouriwestern.edu}'
     dt = ET.parse(filename).getroot()
     courses = defaultdict(list)
     for courset in dt.findall(ns + 'course'):

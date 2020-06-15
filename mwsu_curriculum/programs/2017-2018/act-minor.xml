@@ -4,23 +4,23 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section>
-    <requirement><conjunction><course><subject>ACT</subject><number>102</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>201</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>301</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>302</number></course></conjunction></requirement>
-    <requirement>
-        <conjunction><course><subject>ACT</subject><number>211</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>311</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>405</number></course></conjunction>
-        <conjunction><course><subject>CSC</subject><number>184</number></course></conjunction>
-        <conjunction><course><subject>CSC</subject><number>305</number></course></conjunction>
-    </requirement>
-    <requirement>
-        <conjunction><course><subject>ACT</subject><number>211</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>311</number></course></conjunction>
-        <conjunction><course><subject>ACT</subject><number>405</number></course></conjunction>
-        <conjunction><course><subject>CSC</subject><number>184</number></course></conjunction>
-        <conjunction><course><subject>CSC</subject><number>305</number></course></conjunction>
-    </requirement>
+    <requirement><course><subject>ACT</subject><number>102</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>201</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>302</number></course></requirement>
+    <requirement><disjunction>
+        <course><subject>ACT</subject><number>211</number></course>
+        <course><subject>ACT</subject><number>311</number></course>
+        <course><subject>ACT</subject><number>405</number></course>
+        <course><subject>CSC</subject><number>184</number></course>
+        <course><subject>CSC</subject><number>305</number></course>
+    </disjunction></requirement>
+    <requirement><disjunction>
+        <course><subject>ACT</subject><number>211</number></course>
+        <course><subject>ACT</subject><number>311</number></course>
+        <course><subject>ACT</subject><number>405</number></course>
+        <course><subject>CSC</subject><number>184</number></course>
+        <course><subject>CSC</subject><number>305</number></course>
+    </disjunction></requirement>
   </section>
 </program>

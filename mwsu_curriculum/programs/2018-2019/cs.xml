@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
-  name="cis"
+  name="cs"
   parent="cs-core"
   xmlns="https://csmp.missouriwestern.edu"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/program.xsd">
   <section header="Computer Information Systems Concentration">
     <requirement>
-      <conjunction>
-        <course><subject>MAT</subject><number>165</number></course>
-        <course><subject>MAT</subject><number>166</number></course>
-      </conjunction>
-      <conjunction><course><subject>MAT</subject><number>167</number></course></conjunction>
+      <disjunction>
+        <course><subject>MAT</subject><number>167</number></course>
+        <conjunction>
+          <course><subject>MAT</subject><number>165</number></course>
+          <course><subject>MAT</subject><number>166</number></course>
+        </conjunction>
+      </disjunction>
     </requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>208</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>264</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>318</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>386</number></course></conjunction></requirement>
+    <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>264</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>318</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>386</number></course></requirement>
   </section>
   <section header="PLUS--9 credits of ACT, CSC, or MAT courses numbered 300 - 599">
     <blank>3</blank>

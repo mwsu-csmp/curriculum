@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
   name="cis"
-  parent="cs"
+  parent="cs-core"
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section header="Computer Information Systems Concentration">
-    <requirement><conjunction><course><subject>ACT</subject><number>102</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>476</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>201</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>400</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACC</subject><number>201</number></course></conjunction></requirement>
-    <requirement>
-      <conjunction><course><subject>GBA</subject><number>220</number></course></conjunction>
-      <conjunction><course><subject>ETC</subject><number>200</number></course></conjunction>
-    </requirement>
+    <requirement><course><subject>ACT</subject><number>102</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>476</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>201</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>400</number></course></requirement>
+    <requirement><course><subject>ACC</subject><number>201</number></course></requirement>
+    <requirement><disjunction>
+      <course><subject>GBA</subject><number>220</number></course>
+      <course><subject>ETC</subject><number>200</number></course>
+    </disjunction></requirement>
   </section>
   <section header="PLUS--6 credits of ACT, CSC, or MAT courses numbered 300 - 599">
     <blank>3</blank>

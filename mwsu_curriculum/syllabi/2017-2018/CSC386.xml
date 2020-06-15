@@ -15,7 +15,7 @@ This course is an introduction to operating system principles. Topics include pr
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>264</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>384</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>Understand the role of an operating system as an intermediary between a user program (or, a user) and the computer hardware. Explain how different operating system components facilitate the role.</objective>

@@ -4,21 +4,21 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section>
-    <requirement><conjunction><course><subject>ACT</subject><number>301</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>302</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>405</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>ACT</subject><number>490</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>184</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>274</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>294</number></course></conjunction></requirement>
-    <requirement><conjunction><course><subject>CSC</subject><number>305</number></course></conjunction></requirement>
-    <requirement>
-      <conjunction><course><subject>ETC</subject><number>200</number></course></conjunction>
-      <conjunction><course><subject>GBA</subject><number>220</number></course></conjunction>
-    </requirement>
-    <requirement>
-      <conjunction><course><subject>MAT</subject><number>111</number></course></conjunction>
-      <conjunction><course><subject>GBA</subject><number>210</number></course></conjunction>
-    </requirement>
+    <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>302</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>405</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>490</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>294</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
+    <requirement><disjunction>
+      <course><subject>ETC</subject><number>200</number></course>
+      <course><subject>GBA</subject><number>220</number></course>
+    </disjunction></requirement>
+    <requirement><disjunction>
+      <course><subject>MAT</subject><number>111</number></course>
+      <course><subject>GBA</subject><number>210</number></course>
+    </disjunction></requirement>
   </section>
 </program>
