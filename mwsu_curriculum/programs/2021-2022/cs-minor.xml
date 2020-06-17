@@ -13,13 +13,13 @@
         <course><subject>CSC</subject><number>294</number></course>
         <course><subject>CSC</subject><number>318</number></course>
         <course><subject>CSC</subject><number>328</number></course>
-        <course><subject>CSC</subject><number>410</number></course>
+        <course><subject>SEC</subject><number>301</number></course>
     </disjunction></requirement>
     <requirement><disjunction>
         <course><subject>CSC</subject><number>294</number></course>
         <course><subject>CSC</subject><number>318</number></course>
         <course><subject>CSC</subject><number>328</number></course>
-        <course><subject>CSC</subject><number>410</number></course>
+        <course><subject>SEC</subject><number>301</number></course>
     </disjunction></requirement>
   </section>
 </program>

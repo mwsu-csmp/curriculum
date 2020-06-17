@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>301</number>
+  <title>Introduction to Cybersecurity</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>TBD
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>demonstrate the ability to implement software that is robust against common security attacks
+        <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/></objective>
+    <objective>understand the capabilities of modern cryptographic systems and apply them appropriately
+        <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </objective>
+    <objective>decompose system security requirements into confidentiality, integrity, and availability components
+        <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
+    </objective>
+    <objective>assess threats to and vulnerabilities of a computer system
+        <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
+    </objective>
+    <objective>stub</objective>
+  </objectives>
+  <outline>
+    <topic>stub</topic>
+  </outline>
+</course>

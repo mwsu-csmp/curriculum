@@ -15,9 +15,8 @@
     <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>324</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>386</number></course></requirement>
-    <requirement><course><subject>CSC</subject><number>410</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
-    <requirement><course><subject>MAT</subject><number>111</number></course>
-    </requirement>
+    <requirement><course><subject>MAT</subject><number>111</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>301</number></course></requirement>
   </section>
 </program>
