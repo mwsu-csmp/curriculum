@@ -15,7 +15,10 @@ This course focuses on the issues associated with the design, provision and mana
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>The student learns different cryptographic protocols, techniques and algorithms.</objective>
+    <objective>The student learns different cryptographic protocols, techniques and algorithms.
+      1/1 5
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+    </objective>
     <objective>The student will study how cryptography is implemented in the real world.</objective>
   </objectives>
   <outline>
