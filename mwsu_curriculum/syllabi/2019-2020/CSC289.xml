@@ -16,10 +16,10 @@ This course provides the underlying mathematical foundations and applied algorit
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>provide students with basic mathematicalskills for compiler construction</objective>
-    <objective>provide students with basic mathematicalskills for computer graphics</objective>
-    <objective>provide students with basic mathematicalskills for simulation and modeling</objective>
-    <objective>provide students with basic mathematicalskills for cryptography</objective>
+    <objective>provide students with basic mathematical skills for compiler construction</objective>
+    <objective>provide students with basic mathematical skills for computer graphics</objective>
+    <objective>provide students with basic mathematical skills for simulation and modeling</objective>
+    <objective>provide students with basic mathematical skills for cryptography</objective>
   </objectives>
   <outline>
     <topic>Regular Expression and Automatafor Compiler Construction
