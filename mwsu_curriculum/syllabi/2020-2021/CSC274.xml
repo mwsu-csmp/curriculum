@@ -19,7 +19,10 @@ An introductory course on UNIX/Linux and its applications. Topics covered includ
   </prerequisites>
   <objectives>
     <objective>Understand the basic history of the Unix operating System.</objective>
-    <objective>Use common linux shell commands</objective>
+    <objective>Use common linux shell commands
+      <covers standard="acm-csec2017" knowledgeArea="5/3" id="10"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="11"/>
+    </objective>
     <objective>Use command redirection and pipes</objective>
     <objective>Write simple shell scripts </objective>
   </objectives>
