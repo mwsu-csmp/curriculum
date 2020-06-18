@@ -19,6 +19,15 @@
     <objective>Determine what types of jobs in CS best match their short and long term career and professional development goals</objective>
     <objective>Locate and navigate resources for finding CS jobs in their desired location</objective>
     <objective>Effectively communicate their skill set and value as an employee to potential employers through letters, resumes, networking, interviews, and other means</objective>
+    <objective>Explain the concept that because you can do it, it doesn’t mean you should do it.
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="1"/>
+    </objective>
+    <objective>Paraphrase professional ethics and codes of conduct from prominent professional societies, such as ACM, IEEE-CS, AIS and (ISC)
+      <covers standard="acm-csec2017" knowledgeArea="8/3" id="2"/>
+    </objective>
+    <objective>Describe ways in which decision-making algorithms could over-represent or under-represent majority and minority groups in society.
+      <covers standard="acm-csec2017" knowledgeArea="8/3" id="3"/>
+    </objective>
     <objective>Locate and utilize resources for continuing education and professional development to gain or improve specific skillsets in CS or transition in to other career fields (ex. Law)</objective>
     <objective>Prepare effectively for certification exams, assessments, and technical interviews</objective>
   </objectives>

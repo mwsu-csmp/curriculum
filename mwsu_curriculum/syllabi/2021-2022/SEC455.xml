@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>425</number>
+  <title>Cyberlaw and Investigations</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+stub
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+
+  <objectives>
+    <objective>Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
+    </objective>
+    <objective>Compare and contrast variety of forensics tools.
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="2"/>
+    </objective>
+    <objective>Discuss various motives for cybercrime behavior.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
+    </objective>
+    <objective>Summarize terror activities in cyberspace geared toward generating societal fear and certainty.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="2"/>
+    </objective>
+    <objective>Describe methods for investigating both domestic and international crimes.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="3"/>
+    </objective>
+    <objective>Explain why preserving the chain of digital evidence is necessary in prosecuting cybercrimes.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="4"/>
+    </objective>
+    <objective>Describe the constitutional foundations of cyber law.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="1"/>
+    </objective>
+    <objective>Describe international data security and computer hacking laws.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="2"/>
+    </objective>
+    <objective>Interpret intellectual property laws related to security.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="3"/>
+    </objective>
+    <objective>Summarize laws governing online privacy.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="4"/>
+    </objective>
+    <objective>Describe major international public policy positions and the impact they have on organizations and individuals.
+      <covers standard="acm-csec2017" knowledgeArea="8/4" id="1"/>
+    </objective>
+    <objective>Summarize nation-specific cybersecurity public policy with respect to the protection of sensitive information and protection of critical infrastructure.
+      <covers standard="acm-csec2017" knowledgeArea="8/4" id="2"/>
+    </objective>
+    <objective>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy and laws.
+      <covers standard="acm-csec2017" knowledgeArea="8/4" id="3"/>
+    </objective>
+    <objective>Describe the concept of privacy including the societal definition of what constitutes personally private information and the tradeoffs between individual privacy and security.
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="1"/>
+    </objective>
+    <objective>Summarize the tradeoff between the rights to privacy by the individual versus the needs of society.
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="2"/>
+    </objective>
+    <objective>Describe the common practices and technologies used to safeguard personal privacy.
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+    </objective>
+    <objective>Differentiate between law and ethics.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="5"/>
+    </objective>
+    <objective>Identify significant national and international laws that relate to cybersecurity.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="7"/>
+    </objective>
+    <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
+    </objective>
+    <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
+    </objective>
+    <objective>Identify the key organizational stakeholders and their roles.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="2"/>
+    </objective>
+    <objective>Describe the principal components of cybersecurity system implementation planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Introduction
+    </topic>
+  </outline>
+</course>

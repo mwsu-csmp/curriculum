@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>425</number>
+  <title>Host and Network Security</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+stub
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+
+  <objectives>
+    <objective>Discuss the need to update software to fix security vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
+    </objective>
+    <objective>Explain the need to test software after an update but before the patch is distributed.
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
+    </objective>
+    <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
+    </objective>
+    <objective>Discuss how intrusion detection systems contribute to security.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="13"/>
+    </objective>
+    <objective>Describe the components and interfaces of a networking standard provided.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="5"/>
+    </objective>
+    <objective>Discuss how the Internet 5 layer model can be viewed as software components and interfaces that represent levels of services encapsulated by lower-level services.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="11"/>
+    </objective>
+    <objective>Explain how connection attacks can be understood in terms of attacks on software component interfaces.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="13"/>
+    </objective>
+    <objective>Explain how transmission attacks are often implemented as attacks on components that provide the service of relaying information.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="16"/>
+    </objective>
+    <objective>Describe an attack on a specified node in a TCP/IP network given the description of a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="17"/>
+    </objective>
+    <objective>Explain why transmission attacks can often be viewed as connection attacks on network components (physical or software).
+      <covers standard="acm-csec2017" knowledgeArea="4" id="18"/>
+    </objective>
+    <objective>Explain the goals of end-to-end data security.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+    </objective>
+    <objective>Discuss how intrusion detection systems contribute to security.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="13"/>
+    </objective>
+    <objective>Describe the limits of anti-malware software such as antivirus programs.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="14"/>
+    </objective>
+    <objective>Discuss uses of system monitoring.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="15"/>
+    </objective>
+    <objective>Discuss the importance of documenting proper installation and configuration of a system.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="22"/>
+    </objective>
+    <objective>Be able to write host and network intrusions documentation.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="23"/>
+    </objective>
+    <objective>Be able to explain the security implications of unclear or incomplete documentation of system operation.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="24"/>
+    </objective>
+    <objective>Explain why a hardware device is always modeled a physical component.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="6"/>
+    </objective>
+    <objective>List several examples of physical component interfaces with their associated vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="7"/>
+    </objective>
+    <objective>Describe an exploit for a vulnerability of a physical interface provided.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="8"/>
+    </objective>
+    <objective>Discuss how TCP/IP as a service is represented by different interfaces in different software systems.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="12"/>
+    </objective>
+    <objective>Describe how an implementation could protect itself from a specified vulnerability in a specified standard interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="15"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Introduction
+    </topic>
+  </outline>
+</course>

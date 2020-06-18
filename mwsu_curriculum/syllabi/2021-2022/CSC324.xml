@@ -29,18 +29,36 @@
     <objective>Explain why the creation of correct program components is important in the production of high-quality software.
       <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="2"/>
     </objective>
+    <objective>Explain the importance of various types of requirements in testing software
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="1"/>
+    </objective>
+    <objective>Discuss the importance of validating requirements.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="21"/>
+    </objective>
     <objective>Describe current and emerging philosophies, roles, and practices for software development and testing
       <covers standard="acm-cs2013" knowledgeArea="SDF/DM" id="3"/>
     </objective>
     <objective>Apply a variety of software testing practices to a software development project
     </objective>
     <objective>Describe and distinguish among the different types and levels of testing (unit, integration, systems, and acceptance)
+      <covers standard="acm-csec2017" knowledgeArea="3/3" id="1"/>
+    </objective>
+    <objective>Differentiate between secure coding and patching and explain the advantage of using secure coding techniques.
+      <covers standard="acm-csec2017" knowledgeArea="2/3" id="3"/>
+    </objective>
+    <objective>Explain the difference between static and dynamic analysis and demonstrate problems uniquely uncovered by both
+      <covers standard="acm-csec2017" knowledgeArea="2/4" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/4" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/4" id="3"/>
     </objective>
     <objective>Describe techniques for identifying significant test cases for integration, regression and system testing
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="5"/>
     </objective>
     <objective>Outline the process of regression testing and its role in release management
       <covers standard="acm-cs2013" knowledgeArea="SE/SE" id="5"/>
+    </objective>
+    <objective>List several techniques for testing security properties of a component.
+      <covers standard="acm-csec2017" knowledgeArea="3/3" id="2"/>
     </objective>
     <objective>Create and document a set of tests for a medium-size code segment
       <covers standard="acm-cs2013" knowledgeArea="SE/SVAV" id="6"/>
@@ -71,8 +89,9 @@
     <objective>Develop virtual environments for software development and deployment
       <covers standard="acm-cs2013" knowledgeArea="SE/TAE" id="6"/>
     </objective>
-    <objective>Explain the ethical responsibility of ensuring software correctness, reliability and safety
+    <objective>Explain the ethical responsibility of ensuring software correctness, reliability, and safety
       <covers standard="acm-cs2013" knowledgeArea="SP/PE" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="3"/>
     </objective>
   </objectives>
   <!-- TODO: review all topics from ACM curriculum /-->

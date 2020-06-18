@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>425</number>
+  <title>Ethical Hacking</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+stub
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>Identify common attack vectors for compromising software systems.
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
+    </objective>
+    <objective>Discuss the ethical issues in disclosing vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
+    </objective>
+    <objective>Describe ways in which the confidentiality of a component’s design may be compromised.
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="2"/>
+    </objective>
+    <objective>Describe ways to learn information about component’s functionality with limited information about its design and implementation.
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="3"/>
+    </objective>
+    <objective>List reasons why someone would reverse engineer a component.
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="1"/>
+    </objective>
+    <objective>Explain the difference between static and dynamic analysis in reverse engineering software.
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="2"/>
+    </objective>
+    <objective>Describe what a penetration test is and why it is valuable.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
+    </objective>
+    <objective>Demonstrate overall understanding of the types of social engineering attacks, psychology of social engineering attacks, and misleading users.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
+    </objective>
+    <objective>Demonstrate the ability to identify types of social engineering attacks.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="2"/>
+    </objective>
+    <objective>Demonstrate the ability to implement approaches for detection and mitigation of social engineering attacks.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="3"/>
+    </objective>
+    <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Introduction
+    </topic>
+  </outline>
+</course>

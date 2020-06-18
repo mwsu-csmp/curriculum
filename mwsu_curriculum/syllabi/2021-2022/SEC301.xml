@@ -13,20 +13,80 @@
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>demonstrate the ability to implement software that is robust against common security attacks
         <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/></objective>
-    <objective>understand the capabilities of modern cryptographic systems and apply them appropriately
+    <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
     </objective>
     <objective>decompose system security requirements into confidentiality, integrity, and availability components
         <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
+        <covers standard="acm-cs2013" knowledgeArea="IAS/FCIS" id="1"/>
     </objective>
     <objective>assess threats to and vulnerabilities of a computer system
         <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
     </objective>
-    <objective>stub</objective>
+    <objective>List the phases of a component’s lifecycle.
+        <covers standard="acm-csec2017" knowledgeArea="3/1" id="4"/>
+    </objective>
+    <objective>List component design artifacts which may require protection.
+        <covers standard="acm-csec2017" knowledgeArea="3/1" id="5"/>
+    </objective>
+    <objective>Explain how software components are organized to represent logical layers in a standard model.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="10"/>
+    </objective>
+    <objective>Give examples of several secure component design principles and explain how each protects the security of components.
+        <covers standard="acm-csec2017" knowledgeArea="3/1" id="6"/>
+    </objective>
+    <objective>Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+    </objective>
+    <objective>Discuss the implications of relying on open design or the secrecy of design for security.
+      <covers standard="acm-csec2017" knowledgeArea="2/1" id="1"/>
+    </objective>
+    <objective>List the three principles of security and describe why each principle is important to security.
+      <covers standard="acm-csec2017" knowledgeArea="2/1" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="2/1" id="3"/>
+    </objective>
+    <objective>Identify the needed design principle.
+      <covers standard="acm-csec2017" knowledgeArea="2/1" id="4"/>
+    </objective>
+    <objective>Identify the ethical effects and impacts of design decisions.
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="4"/>
+    </objective>
+    <objective>Discuss the need for common models and architectures in order to describe systems.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="1"/>
+    </objective>
+    <objective>Describe a model of systems that consists of components and interfaces for connections.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="2"/>
+    </objective>
+    <objective>Explain why a component requires at least one interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="3"/>
+    </objective>
+    <objective>List several standards that define models consisting of systems of components and interfaces.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="4"/>
+    </objective>
+    <objective>Explain the concepts of trust and trustworthiness.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="1"/>
+    </objective>
+    <objective>Explain what a security policy is, its importance, and its role in protecting data and resources.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="4"/>
+    </objective>
+    <objective>Explain why different sites have different security policies.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="5"/>
+    </objective>
+    <objective>Describe the concepts of privacy tradeoffs and risks in the social context, control and awareness of data consent, personal information monitoring, regulatory protections and concerns on maintaining social privacy.
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
+    </objective>
+    <objective>Discuss the importance of social media privacy and security.
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="3"/>
+    </objective>
+    <objective>Describe an access control list.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="10"/>
+    </objective>
   </objectives>
   <outline>
     <topic>stub</topic>

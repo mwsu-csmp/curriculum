@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>415</number>
+  <title>Data Security and Identity Management</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+stub
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+
+  <objectives>
+    <objective>Describe the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plaintext in ciphertext.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+    </objective>
+    <objective>Describe which cryptographic protocols, tools and techniques are appropriate for a given situation.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+    </objective>
+    <objective>Discuss the dangers of inventing one’s own cryptographic methods.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
+    </objective>
+    <objective>Explain the concepts of authentication, authorization, access control, and data integrity.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="1"/>
+    </objective>
+    <objective>Explain the various authentication techniques and their strengths and weaknesses.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="2"/>
+    </objective>
+    <objective>Explain the various possible attacks on passwords.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="3"/>
+    </objective>
+    <objective>Describe the various techniques for data erasure.
+      <covers standard="acm-csec2017" knowledgeArea="1/8" id="1"/>
+    </objective>
+    <objective>Describe the concept of privacy including personally identifiable information.
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
+    </objective>
+    <objective>Explain the difference between identification, authentication, and access authorization of people and devices.
+      <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
+    </objective>
+    <objective>Discuss the importance of audit trails and logging in identification and authentication.
+      <covers standard="acm-csec2017" knowledgeArea="6/1" id="2"/>
+    </objective>
+    <objective>Demonstrate the ability to implement the concept of least privilege and segregation of duties.
+      <covers standard="acm-csec2017" knowledgeArea="6/1" id="3"/>
+    </objective>
+    <objective>Demonstrate the overall understanding of access control attacks and mitigation measures.
+      <covers standard="acm-csec2017" knowledgeArea="6/1" id="4"/>
+    </objective>
+    <objective>Discuss the importance of protection of Sensitive Personal Data (SPD) and Personally Identifiable Information (PII).
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="1"/>
+    </objective>
+    <objective>Discuss the importance of regulations governing the collection, use and distribution of SPD, and possibilities for inference of SPD.
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="2"/>
+    </objective>
+    <objective>Describe the concepts of personal tracking and digital footprint, while understanding the invasiveness of such tools in the context of privacy.
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="3"/>
+    </objective>
+    <objective>Compare and contrast various theories of privacy from social psychology and social science.
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="1"/>
+    </objective>
+    <objective>Explain three properties commonly used for authentication.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="7"/>
+    </objective>
+    <objective>Explain the importance of multifactor authentication.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="8"/>
+    </objective>
+    <objective>Explain the advantages of pass phrases over passwords.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="9"/>
+    </objective>
+    <objective>Describe physical and logical access control, and compare and contrast them.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="11"/>
+    </objective>
+    <objective>Distinguish between authorization and authentication.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="12"/>
+    </objective>
+    <objective>Explain why backups pose a potential security risk.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="18"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Introduction
+    </topic>
+  </outline>
+</course>

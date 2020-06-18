@@ -18,5 +18,10 @@
     <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
     <requirement><course><subject>MAT</subject><number>111</number></course></requirement>
     <requirement><course><subject>SEC</subject><number>301</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>415</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>425</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>435</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>445</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>455</number></course></requirement>
   </section>
 </program>
