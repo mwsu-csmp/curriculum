@@ -144,13 +144,13 @@ class KnowledgeArea:
         for outcome in self.outcomes:
             if outcome.covered_by:
                 covered += 1
-        if covered:
+        if self.outcomes:
             total += covered / len(self.outcomes)
             kas += 1
         if kas:
             return total / kas
 
-        return 0
+        return 1
 
     def topic_coverage(self):
         """ determine the coverage level of this ka's topics from previously observed syllabi"""
