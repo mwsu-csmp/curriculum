@@ -83,7 +83,7 @@ class KnowledgeArea:
       self.id = dt.attrib['id']
       self.standardid = standardid
       self.fullid = parentid + '/' + self.id if parentid else self.id
-      self.name = dt.attrib['name']
+      self.name = dt.attrib['name'] if 'name' in dt.attrib else ''
       self.kas = {}
       for kat in dt.findall(ns + 'knowledgeArea'):
         ka = KnowledgeArea(kat, self.id, standardid)
