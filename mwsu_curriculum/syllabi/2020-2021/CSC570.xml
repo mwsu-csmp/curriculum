@@ -16,16 +16,6 @@ This course will introduce the student to the essential concepts and skills in e
   </prerequisites>
   <objectives>
     <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks
-      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
-      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/5" id="3"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/6" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/6" id="2"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/6" id="3"/>
-      <covers standard="acm-csec2017" knowledgeArea="8/5" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
     </objective>
     <objective>prepare for the Certified Ethical Hacker (CEH) exam</objective>
   </objectives>
