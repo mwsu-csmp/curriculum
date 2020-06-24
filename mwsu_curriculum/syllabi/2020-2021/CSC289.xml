@@ -44,15 +44,10 @@ This course provides the underlying mathematical foundations and applied algorit
     </topic>
     <topic>Number Theory for Cryptography
       <topic>Cryptography and Modular Arithmetic
-        <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
-        <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>  
-        <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
       </topic>
       <topic>Affine TransformationEncryption</topic>
       <topic>Digraph TransformationEncryption</topic>
       <topic>RSA Encryption
-        <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
-        <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
       </topic>
     </topic>
   </outline>

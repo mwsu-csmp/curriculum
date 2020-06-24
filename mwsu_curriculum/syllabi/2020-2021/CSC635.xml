@@ -17,10 +17,6 @@ This course covers fundamental issues and first principles of software and compu
   <objectives>
     <objective>Security issues and their countermeasures</objective>
     <objective>Security models and policies
-      <covers standard="acm-csec2017" knowledgeArea="4" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="4" id="2"/>
-      <covers standard="acm-csec2017" knowledgeArea="5" id="3"/>
-      <covers standard="acm-csec2017" knowledgeArea="5" id="4"/>
     </objective>
     <objective>Security administration and evaluation</objective>
   </objectives>
