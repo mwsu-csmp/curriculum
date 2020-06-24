@@ -2,7 +2,7 @@
         xmlns="https://csmp.missouriwestern.edu"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
-  <name>CompTIA Advanced Security Practitioner</name>
+  <name>CompTIA Advanced Security Practitioner (CASP+)</name>
   <body>CompTIA</body>
   <version>CAS-003</version>
   <documentUrl>https://www.comptia.jp/pdf/casp_cas-003_objectives.pdf</documentUrl>
@@ -167,29 +167,26 @@
   <knowledgeArea name="Enterprise Security Architecture"  id="2">
       <knowledgeArea id="1">
           <topic>Physical and virtual network and security devices
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
+              <topic>UTM</topic>
+              <topic>IDS/IPS</topic>
+              <topic>NIDS/NIPS</topic>
+              <topic>INE</topic>
+              <topic>NAC</topic>
+              <topic>SIEM</topic>
+              <topic>Switch</topic>
+              <topic>Firewall</topic>
+              <topic>Wireless controller</topic>
+              <topic>Router</topic>
+              <topic>Proxy</topic>
+              <topic>Load balancer</topic>
+              <topic>HSM</topic>
+              <topic>MicroSD HSM</topic>
           </topic>
           <topic>Application and protocol-aware technologies
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
-              <topic></topic>
+              <topic>WAF</topic>
+              <topic>Firewall</topic>
+              <topic>Passive vulnerability scanners</topic>
+              <topic>DAM</topic>
           </topic>
           <topic>Advanced network design (wired/wireless)
               <topic>Remote access
@@ -206,7 +203,7 @@
               <topic>IPv4 and IPv6 transitional technologies</topic>
               <topic>Network authentication methods</topic>
               <topic>802.1x</topic>
-              <topic> Mesh networks</topic>
+              <topic>Mesh networks</topic>
               <topic>Placement of fixed/mobile devices</topic>
               <topic>Placement of hardware   and applications</topic>
           </topic>
@@ -548,57 +545,274 @@
               <topic> Legal holds</topic>
           </topic>
           <topic>Data breach
+              <topic>Detection and collection
+                  <topic>Data analytics</topic>
+              </topic>
+              <topic>Mitigation
+                  <topic>Minimize</topic>
+                  <topic>Isolate</topic>
+              </topic>
+              <topic>Recovery/reconstitution</topic>
+              <topic>Response</topic>
+              <topic>Disclosure</topic>
           </topic>
-          <topic> Facilitate incident detection    and response</topic>
-          <topic>Incident and emergency response</topic>
-          <topic>Incident response support tools</topic>
-          <topic>Severity of incident or breach</topic>
-          <topic>Post-incident response</topic>
+          <topic>Facilitate incident detection and response
+              <topic>Hunt teaming</topic>
+              <topic>Heuristics/behavioral analytics</topic>
+              <topic>Establish and review system, audit and security logs</topic>
+          </topic>
+          <topic>Incident and emergency response
+              <topic>Chain of custody</topic>
+              <topic>Forensic analysis of compromised system</topic>
+              <topic>Continuity of operations</topic>
+              <topic>Disaster recovery</topic>
+              <topic>Incident response team</topic>
+              <topic>Order of volatility</topic>
+          </topic>
+          <topic>Incident response support tools
+              <topic>dd</topic>
+              <topic>tcpdump</topic>
+              <topic>nbtstat</topic>
+              <topic>netstat</topic>
+              <topic>nc (Netcat)</topic>
+              <topic>memdump</topic>
+              <topic>tshark</topic>
+              <topic>foremost</topic>
+          </topic>
+          <topic>Severity of incident or breach
+              <topic>Scope</topic>
+              <topic>Impact</topic>
+              <topic>Cost</topic>
+              <topic>Downtime</topic>
+              <topic>Legal ramifications</topic>
+          </topic>
+          <topic>Post-incident response
+              <topic>Root-cause analysis</topic>
+              <topic>Lessons learned</topic>
+              <topic>After-action report</topic>
+          </topic>
           <outcome>Given a scenario, implement incident response and recovery procedures</outcome>
       </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea name="Technical Integration of Enterprise Security"  id="4">
       <knowledgeArea id="1">
-          <topic>Adapt data flow security to meet    changing business needs</topic>
-          <topic>Standards</topic>
-          <topic>Interoperability issues</topic>
-          <topic>Resilience issues</topic>
-          <topic>Data security considerations</topic>
-          <topic>Resources provisioning    and deprovisioning</topic>
-          <topic>Design considerations during mergers,    acquisitions and demergers/divestitures</topic>
-          <topic>Network secure segmentation    and delegation</topic>
-          <topic> Logical deployment diagram and    corresponding physical deployment    diagram of all relevant devices</topic>
-          <topic>Security and privacy considerations    of storage integration</topic>
-          <topic>Security implications of integrating    enterprise applications</topic>
+          <topic>Adapt data flow security to meet changing business needs</topic>
+          <topic>Standards
+              <topic>Open standards</topic>
+              <topic>Adherence to standards</topic>
+              <topic>Competing standards</topic>
+              <topic>Lack of standards</topic>
+              <topic>De facto standards</topic>
+          </topic>
+          <topic>Interoperability issues
+              <topic>Legacy systems and software/current systems</topic>
+              <topic>Application requirements</topic>
+              <topic>Software types
+                  <topic>In-house developed </topic>
+                  <topic>Commercial</topic>
+                  <topic>Tailored commercial</topic>
+                  <topic>Open source</topic>
+              </topic>
+              <topic>Standard data formats</topic>
+              <topic>Protocols and APIs</topic>
+          </topic>
+          <topic>Resilience issues
+              <topic>Use of heterogeneous components</topic>
+              <topic>Course of action automation/orchestration</topic>
+              <topic>Distribution of critical assets</topic>
+              <topic>Persistence and non-persistence of data</topic>
+              <topic>Redundancy/high availability</topic>
+              <topic>Assumed likelihood of attack</topic>
+          </topic>
+          <topic>Data security considerations
+              <topic>Data remnants</topic>
+              <topic>Data aggregation</topic>
+              <topic>Data isolation</topic>
+              <topic>Data ownership</topic>
+              <topic>Data sovereignty</topic>
+              <topic>Data volume</topic>
+          </topic>
+          <topic>Resources provisioning and deprovisioning
+              <topic>Users</topic>
+              <topic>Servers</topic>
+              <topic>Virtual devices</topic>
+              <topic>Applications</topic>
+              <topic>Data remnants</topic>
+          </topic>
+          <topic>Design considerations during mergers, acquisitions and demergers/divestitures</topic>
+          <topic>Network secure segmentation and delegation</topic>
+          <topic> Logical deployment diagram and corresponding physical deployment diagram of all relevant devices</topic>
+          <topic>Security and privacy considerations of storage integration</topic>
+          <topic>Security implications of integrating enterprise applications
+              <topic>CRM</topic>
+              <topic>ERP</topic>
+              <topic>CMDB</topic>
+              <topic>CMS</topic>
+              <topic>Integration enablers
+                  <topic>Directory services</topic>
+                  <topic>DNS</topic>
+                  <topic>SOA</topic>
+                  <topic>ESB</topic>
+              </topic>
+          </topic>
           <outcome>Given a scenario, integrate hosts, storage, networks and applications into a secure enterprise architecture</outcome>
       </knowledgeArea>
       <knowledgeArea id="2">
-          <topic>Technical deployment models    (outsourcing/insourcing/   managed services/partnership)</topic>
-          <topic>Security advantages and    disadvantages of virtualization</topic>
-          <topic>Cloud augmented security services</topic>
-          <topic>Vulnerabilities associated with    comingling of hosts with different    security requirements</topic>
-          <topic>Data security considerations</topic>
-          <topic>Resources provisioning    and deprovisioning</topic>
+          <topic>Technical deployment models (outsourcing/insourcing/managed services/partnership)
+              <topic>Cloud and virtualization considerations and hosting options
+                  <topic>Public</topic>
+                  <topic>Private</topic>
+                  <topic>Hybrid</topic>
+                  <topic>Community</topic>
+                  <topic>Multi-tenancy</topic>
+                  <topic>Single tenancy</topic>
+              </topic>
+              <topic>On-premise vs. hosted</topic>
+              <topic>Cloud service models
+                  <topic>SaaS</topic>
+                  <topic>IaaS</topic>
+                  <topic>PaaS</topic>
+              </topic>
+          </topic>
+          <topic>Security advantages and disadvantages of virtualization
+              <topic>Type 1 vs. Type 2 hypervisors</topic>
+              <topic>Container-based</topic>
+              <topic>vTPM</topic>
+              <topic>Hyperconverged infrastructure</topic>
+              <topic>Virtual desktop infrastructure</topic>
+              <topic>Secure enclaves and volumes</topic>
+          </topic>
+          <topic>Cloud augmented security services
+              <topic>Anti-malware</topic>
+              <topic>Vulnerability scanning</topic>
+              <topic>Sandboxing</topic>
+              <topic>Content filtering</topic>
+              <topic>Cloud security broker</topic>
+              <topic>Security as a service</topic>
+              <topic>Managed security service providers</topic>
+          </topic>
+          <topic>Vulnerabilities associated with comingling of hosts with different security requirements
+              <topic>VMEscape</topic>
+              <topic>Privilege elevation</topic>
+              <topic>Live VM migration</topic>
+              <topic>Data remnants</topic>
+          </topic>
+          <topic>Data security considerations
+              <topic>Vulnerabilities associated with a single server hosting multiple data types</topic>
+              <topic>Vulnerabilities associated with a single platform hosting multiple data types/owners on multiple   virtual machines</topic>
+          </topic>
+          <topic>Resources provisioning and deprovisioning
+              <topic>Virtual devices</topic>
+              <topic>Data remnants</topic>
+          </topic>
           <outcome>Given a scenario, integrate cloud and virtualization technologies into a secure enterprise architecture</outcome>
       </knowledgeArea>
       <knowledgeArea id="3">
-          <topic>Authentication</topic>
-          <topic>Authorization</topic>
+          <topic>Authentication
+              <topic>Certificate-based authentication</topic>
+              <topic>Single sign-on</topic>
+              <topic>802.1x</topic>
+              <topic>Context-aware authentication</topic>
+              <topic>Push-based authentication</topic>
+          </topic>
+          <topic>Authorization
+              <topic>OAuth</topic>
+              <topic>XACML</topic>
+              <topic>SPML</topic>
+          </topic>
           <topic>Attestation</topic>
           <topic>Identity proofing </topic>
           <topic>Identity propagation</topic>
-          <topic>Federation</topic>
-          <topic>Trust models</topic>
+          <topic>Federation
+              <topic>SAML</topic>
+              <topic>OpenID</topic>
+              <topic>Shibboleth</topic>
+              <topic>WAYF</topic>
+          </topic>
+          <topic>Trust models
+              <topic>RADIUS configurations</topic>
+              <topic>LDAP</topic>
+              <topic>AD</topic>
+          </topic>
           <outcome>Given a scenario, integrate and troubleshoot advanced authentication and authorization technologies to support enterprise security objectives</outcome>
       </knowledgeArea>
       <knowledgeArea id="4">
-          <topic>Techniques</topic>
-          <topic>Implementations</topic>
+          <topic>Techniques
+              <topic>Key stretching</topic>
+              <topic>Hashing</topic>
+              <topic>Digital signature</topic>
+              <topic>Message authentication</topic>
+              <topic>Code signing</topic>
+              <topic>Pseudo-random number generation</topic>
+              <topic>Perfect forward secrecy</topic>
+              <topic>Data-in-transit encryption</topic>
+              <topic>Data-in-memory/processing</topic>
+              <topic>Data-at-rest encryption
+                  <topic>Disk</topic>
+                  <topic>Block</topic>
+                  <topic>File</topic>
+                  <topic>Record</topic>
+              </topic>
+              <topic>Steganography</topic>
+          </topic>
+          <topic>Implementations
+              <topic>Crypto modules</topic>
+              <topic>Crypto processors</topic>
+              <topic>Cryptographic service providers</topic>
+              <topic>DRM</topic>
+              <topic>Watermarking</topic>
+              <topic>GPG</topic>
+              <topic>SSL/TLS</topic>
+              <topic>SSH</topic>
+              <topic>S/MIME</topic>
+              <topic>Cryptographic applications and proper/improper implementations
+                  <topic>Strength</topic>
+                  <topic>Performance</topic>
+                  <topic>Feasibility to implement</topic>
+                  <topic>Interoperability</topic>
+              </topic>
+              <topic>Stream vs. block</topic>
+              <topic>PKI
+                  <topic>Wild card</topic>
+                  <topic>OCSP vs. CRL</topic>
+                  <topic>Issuance to entities</topic>
+                  <topic>Key escrow</topic>
+                  <topic>Certificate</topic>
+                  <topic>Tokens</topic>
+                  <topic>Stapling</topic>
+                  <topic>Pinning</topic>
+              </topic>
+              <topic>Cryptocurrency/blockchain</topic>
+              <topic>Mobile device encryption considerations</topic>
+              <topic>Elliptic curve cryptography
+                  <topic>P-256 vs. P-384 vs. P521</topic>
+              </topic>
+          </topic>
           <outcome>Given a scenario, implement cryptographic techniques</outcome>
       </knowledgeArea>
       <knowledgeArea id="5">
-          <topic>Remote access</topic>
-          <topic>Unified collaboration tools</topic>
+          <topic>Remote access
+              <topic>Resource and services</topic>
+              <topic>Desktop and application sharing</topic>
+              <topic>Remote assistance</topic>
+          </topic>
+          <topic>Unified collaboration tools
+              <topic>Conferencing
+                  <topic>Web</topic>
+                  <topic>Video</topic>
+                  <topic>Audio</topic>
+              </topic>
+              <topic>Storage and document collaboration tools</topic>
+              <topic>Unified communication</topic>
+              <topic>Instant messaging</topic>
+              <topic>Presence</topic>
+              <topic>Email</topic>
+              <topic>Telephony and VoIP integration</topic>
+              <topic>Collaboration sites
+                  <topic>Social media</topic>
+                  <topic>Cloud-based</topic>
+              </topic>
+          </topic>
           <outcome>Given a scenario, select the appropriate control to secure communications and collaboration solutions</outcome>
       </knowledgeArea>
   </knowledgeArea>
