@@ -21,21 +21,25 @@ stub
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
-    <objective>Describe ways in which the confidentiality of a component’s design may be compromised.
+    <!-- <objective>Describe ways in which the confidentiality of a component’s design may be compromised.
       <covers standard="acm-csec2017" knowledgeArea="3/1" id="2"/>
-    </objective>
-    <objective>Describe ways to learn information about component’s functionality with limited information about its design and implementation.
+    </objective> -->
+    <!-- <objective>Describe ways to learn information about component’s functionality with limited information about its design and implementation.
       <covers standard="acm-csec2017" knowledgeArea="3/1" id="3"/>
-    </objective>
-    <objective>List reasons why someone would reverse engineer a component.
+    </objective> -->
+    <!-- <objective>List reasons why someone would reverse engineer a component.
       <covers standard="acm-csec2017" knowledgeArea="3/4" id="1"/>
-    </objective>
-    <objective>Explain the difference between static and dynamic analysis in reverse engineering software.
+    </objective> -->
+    <!-- <objective>Explain the difference between static and dynamic analysis in reverse engineering software.
       <covers standard="acm-csec2017" knowledgeArea="3/4" id="2"/>
-    </objective>
+    </objective> -->
     <objective>Describe what a penetration test is and why it is valuable.
       <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
     </objective>
+    <objective>Discuss how to document a test that reveals a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
+    </objective>
+
     <objective>Demonstrate overall understanding of the types of social engineering attacks, psychology of social engineering attacks, and misleading users.
       <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
     </objective>
@@ -48,6 +52,28 @@ stub
     <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
       <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
     </objective>
+    <objective>Explain the various possible attacks on passwords.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="3"/>
+    </objective>
+    <objective>Discuss the need to update software to fix security vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
+    </objective>
+    <objective>Describe an exploit for a vulnerability of a physical interface provided.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="8"/>
+    </objective>
+    <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
+    </objective>
+    <objective>Describe an attack on a specified node in a TCP/IP network given the description of a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="17"/>
+    </objective>
+    <objective>Describe the concepts of personal tracking and digital footprint, while understanding the invasiveness of such tools in the context of privacy.
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="3"/>
+    </objective>
+    <objective>Discuss various motives for cybercrime behavior.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
+    </objective>
+    
   </objectives>
   <outline>
     <topic>Introduction
