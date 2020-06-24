@@ -25,9 +25,6 @@ stub
     <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
     </objective>
-    <objective>Discuss how intrusion detection systems contribute to security.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="13"/>
-    </objective>
     <objective>Describe the components and interfaces of a networking standard provided.
       <covers standard="acm-csec2017" knowledgeArea="4" id="5"/>
     </objective>

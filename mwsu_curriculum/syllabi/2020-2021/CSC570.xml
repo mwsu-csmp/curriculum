@@ -15,26 +15,26 @@ This course will introduce the student to the essential concepts and skills in e
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks</objective>
+    <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks
+      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+    </objective>
     <objective>prepare for the Certified Ethical Hacker (CEH) exam</objective>
   </objectives>
   <outline>
     <topic>Virtual Lab Environment
-      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
     </topic>
     <topic>Footprinting and Reconnaissance
-      <covers standard="acm-csec2017" knowledgeArea="6" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="6" id="2"/>
-      <covers standard="acm-csec2017" knowledgeArea="6" id="3"/>
-      <covers standard="acm-csec2017" knowledgeArea="6" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="6" id="2"/>
-      <covers standard="acm-csec2017" knowledgeArea="6" id="3"/>
-      <covers standard="acm-csec2017" knowledgeArea="8" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="8" id="3"/>
     </topic>
     <topic>Scanning Network
-      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
-      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
     </topic>
     <topic>Enumeration</topic>
     <topic>Vulnerability Analysis</topic>
@@ -51,8 +51,6 @@ This course will introduce the student to the essential concepts and skills in e
     <topic>Hacking Wireless Networks</topic>
     <topic>Hacking Mobile Platforms</topic>
     <topic>Cloud Computing</topic>
-    <topic>Cryptography
-
-    </topic>
+    <topic>Cryptography</topic>
   </outline>
 </course>
