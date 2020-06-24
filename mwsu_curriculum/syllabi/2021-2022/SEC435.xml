@@ -79,6 +79,9 @@ stub
     <objective>Describe how an implementation could protect itself from a specified vulnerability in a specified standard interface.
       <covers standard="acm-csec2017" knowledgeArea="4" id="15"/>
     </objective>
+    <objective>Explain what resilience is and identify an environment in which it is important.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="16"/>
+    </objective>
   </objectives>
   <outline>
     <topic>Introduction

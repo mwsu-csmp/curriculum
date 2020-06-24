@@ -25,9 +25,6 @@ stub
     <objective>Describe ways to mitigate supply chain risks.
       <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
     </objective>
-    <objective>Explain what resilience is and identify an environment in which it is important.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="16"/>
-    </objective>
     <objective>Discuss the basics of a disaster recovery plan.
       <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
     </objective>
@@ -72,6 +69,18 @@ stub
     </objective>
     <objective>Describe information security policy and its role in a successful information security program.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+    </objective>
+    <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
+    </objective>
+    <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
+    </objective>
+    <objective>Identify the key organizational stakeholders and their roles.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="2"/>
+    </objective>
+    <objective>Describe the principal components of cybersecurity system implementation planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
     </objective>
   </objectives>
   <outline>

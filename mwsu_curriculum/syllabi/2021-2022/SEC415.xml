@@ -37,9 +37,6 @@ stub
     <objective>Describe the various techniques for data erasure.
       <covers standard="acm-csec2017" knowledgeArea="1/8" id="1"/>
     </objective>
-    <objective>Describe the concept of privacy including personally identifiable information.
-      <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
-    </objective>
     <objective>Explain the difference between identification, authentication, and access authorization of people and devices.
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
     </objective>

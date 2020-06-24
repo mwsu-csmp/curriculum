@@ -25,7 +25,7 @@ stub
     <objective>Discuss various motives for cybercrime behavior.
       <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
     </objective>
-    <objective>Summarize terror activities in cyberspace geared toward generating societal fear and certainty.
+    <objective>Summarize terror activities in cyberspace geared toward generating societal fear and uncertainty.
       <covers standard="acm-csec2017" knowledgeArea="8/1" id="2"/>
     </objective>
     <objective>Describe methods for investigating both domestic and international crimes.
@@ -69,18 +69,6 @@ stub
     </objective>
     <objective>Identify significant national and international laws that relate to cybersecurity.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="7"/>
-    </objective>
-    <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
-    </objective>
-    <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
-      <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
-    </objective>
-    <objective>Identify the key organizational stakeholders and their roles.
-      <covers standard="acm-csec2017" knowledgeArea="7/5" id="2"/>
-    </objective>
-    <objective>Describe the principal components of cybersecurity system implementation planning.
-      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
     </objective>
   </objectives>
   <outline>

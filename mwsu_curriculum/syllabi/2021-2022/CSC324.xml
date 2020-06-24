@@ -93,6 +93,18 @@
       <covers standard="acm-cs2013" knowledgeArea="SP/PE" id="2"/>
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="3"/>
     </objective>
+    <objective>Describe ways in which the confidentiality of a component’s design may be compromised.
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="2"/>
+    </objective>
+    <objective>Describe ways to learn information about component’s functionality with limited information about its design and implementation.
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="3"/>
+    </objective>
+    <objective>List reasons why someone would reverse engineer a component.
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="1"/>
+    </objective>
+    <objective>Explain the difference between static and dynamic analysis in reverse engineering software.
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="2"/>
+    </objective>
   </objectives>
   <!-- TODO: review all topics from ACM curriculum /-->
   <outline>

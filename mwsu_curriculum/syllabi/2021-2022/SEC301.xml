@@ -78,6 +78,9 @@
     <objective>Explain why different sites have different security policies.
       <covers standard="acm-csec2017" knowledgeArea="5" id="5"/>
     </objective>
+    <objective>Describe the concept of privacy including personally identifiable information.
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
+    </objective>
     <objective>Describe the concepts of privacy tradeoffs and risks in the social context, control and awareness of data consent, personal information monitoring, regulatory protections and concerns on maintaining social privacy.
       <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
     </objective>

@@ -21,25 +21,12 @@ stub
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
-    <!-- <objective>Describe ways in which the confidentiality of a component’s design may be compromised.
-      <covers standard="acm-csec2017" knowledgeArea="3/1" id="2"/>
-    </objective> -->
-    <!-- <objective>Describe ways to learn information about component’s functionality with limited information about its design and implementation.
-      <covers standard="acm-csec2017" knowledgeArea="3/1" id="3"/>
-    </objective> -->
-    <!-- <objective>List reasons why someone would reverse engineer a component.
-      <covers standard="acm-csec2017" knowledgeArea="3/4" id="1"/>
-    </objective> -->
-    <!-- <objective>Explain the difference between static and dynamic analysis in reverse engineering software.
-      <covers standard="acm-csec2017" knowledgeArea="3/4" id="2"/>
-    </objective> -->
     <objective>Describe what a penetration test is and why it is valuable.
       <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
     </objective>
     <objective>Discuss how to document a test that reveals a vulnerability.
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
     </objective>
-
     <objective>Demonstrate overall understanding of the types of social engineering attacks, psychology of social engineering attacks, and misleading users.
       <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
     </objective>
