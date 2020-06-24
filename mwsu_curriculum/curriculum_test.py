@@ -354,7 +354,7 @@ def test_every_outcome_coverage():
                       standard = standards[coverage['standard']]
                       assert coverage['id'].isdigit(), syllabus.subject + "-" + syllabus.number + " has bad coverage"
                       outcome = standard.outcome_coverage_lookup(coverage)
-                      assert outcome, str(coverage) + " not found"
+                      assert outcome is not None, str(coverage) + " outcome not found for" + syllabus.subject + syllabus.number
 
 
 def test_every_topic_coverage():
@@ -372,7 +372,7 @@ def test_every_topic_coverage():
                     if coverage['standard'] in standards: # todo: change to assertion once all standards are in place
                       standard = standards[coverage['standard']]
                       topic = standard.topic_coverage_lookup(coverage)
-                      assert topic, str(coverage) + " not found"
+                      assert topic is not None, str(coverage) + " topic not found for" + syllabus.subject + syllabus.number
 
 
 def test_add_coverage():
