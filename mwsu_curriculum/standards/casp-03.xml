@@ -1,0 +1,687 @@
+<curriculumStandard
+        xmlns="https://csmp.missouriwestern.edu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
+  <name>CompTIA Advanced Security Practitioner</name>
+  <body>CompTIA</body>
+  <version>CAS-003</version>
+  <documentUrl>https://www.comptia.jp/pdf/casp_cas-003_objectives.pdf</documentUrl>
+  <knowledgeArea name="Risk Management"  id="1">
+      <knowledgeArea id="1">
+          <topic>Risk management of new products, new technologies and user behaviors</topic>
+          <topic>New or changing business models/strategies
+              <topic>Partnerships</topic>
+              <topic>Outsourcing</topic>
+              <topic>Cloud</topic>
+              <topic>Acquisition/merger – divestiture/demerger
+                  <topic>Data ownership</topic>
+                  <topic>Data reclassification</topic>
+              </topic>
+          </topic>
+          <topic>Security concerns of integrating diverse industries
+              <topic>Rules</topic>
+              <topic>Policies</topic>
+              <topic>Regulations
+                  <topic>Export controls</topic>
+                  <topic>Legal requirements</topic>
+              </topic>
+              <topic>Geography
+                  <topic>Data sovereignty</topic>
+                  <topic>Jurisdictions</topic>
+              </topic>
+          </topic>
+          <topic>Internal and external influences
+              <topic>Competitors</topic>
+              <topic>Auditors/audit findings</topic>
+              <topic>Regulatory entities</topic>
+              <topic>Internal and external client requirements</topic>
+              <topic>Top-level management</topic>
+          </topic>
+          <topic>Impact of de-perimeterization (e.g.,constantly changing network boundary)
+              <topic>Telecommuting</topic>
+              <topic>Cloud</topic>
+              <topic>Mobile</topic>
+              <topic>BYOD</topic>
+              <topic>Outsourcing</topic>
+              <topic>Ensuring third-party providers have requisite levels of information security</topic>
+          </topic>
+          <outcome>Summarize business and industry influences and associated security risks</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="2">
+          <topic>Policy and process life cycle management
+              <topic>New business</topic>
+              <topic>New technologies</topic>
+              <topic>Environmental changes</topic>
+              <topic>Regulatory requirements</topic>
+              <topic>Emerging risks</topic>
+          </topic>
+          <topic>Support legal compliance and advocacy by partnering with human resources, legal, management and other entities</topic>
+          <topic>Understand common business documents to support security
+              <topic>Risk assessment (RA)</topic>
+              <topic>Business impact analysis (BIA)</topic>
+              <topic>Interoperability agreement (IA)</topic>
+              <topic>Interconnection security agreement (ISA)</topic>
+              <topic>Memorandum of understanding (MOU)</topic>
+              <topic>Service-level agreement (SLA)</topic>
+              <topic>Operating-level agreement (OLA)</topic>
+              <topic>Non-disclosure agreement (NDA)</topic>
+              <topic>Business partnership agreement (BPA)</topic>
+              <topic>Master service agreement (MSA)</topic>
+          </topic>
+          <topic>Research security requirements for contracts
+              <topic> Request for proposal (RFP)</topic>
+              <topic>Request for quote (RFQ)</topic>
+              <topic>Request for information (RFI)</topic>
+          </topic>
+          <topic>Understand general privacy principles for sensitive information</topic>
+          <topic>Support the development of policies containing standard security practices
+              <topic>Separation of duties</topic>
+              <topic>Job rotation</topic>
+              <topic>Mandatory vacation</topic>
+              <topic>Least privilege</topic>
+              <topic>Incident response</topic>
+              <topic>Forensic tasks</topic>
+              <topic>Employment and   termination procedures</topic>
+              <topic> Continuous monitoring</topic>
+              <topic>Training and awareness for users</topic>
+              <topic>Auditing requirements and frequency</topic>
+              <topic>Information classification</topic>
+          </topic>
+          <outcome>Compare and contrast security, privacy policies and procedures based on organizational requirements</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="3">
+          <topic>Categorize data types by impact levels based on CIA</topic>
+          <topic>Incorporate stakeholder input into CIA impact-level decisions</topic>
+          <topic>Determine minimum-required security controls based on aggregate score</topic>
+          <topic>Select and implement controls based on CIA requirements and organizational policies</topic>
+          <topic>Extreme scenario planning / worst-case scenario</topic>
+          <topic>Conduct system-specific risk analysis</topic>
+          <topic>Make risk determination based upon known metrics
+              <topic>Magnitude of impact   based on ALE and SLE</topic>
+              <topic>Likelihood of threat
+                  <topic>Motivation</topic>
+                  <topic>Source</topic>
+                  <topic>ARO</topic>
+                  <topic> Trend analysis</topic>
+              </topic>
+              <topic>Return on investment (ROI)</topic>
+              <topic>Total cost of ownership</topic>
+          </topic>
+          <topic>Translate technical risks in business terms</topic>
+          <topic>Recommend which strategy should be applied based on risk appetite
+              <topic>Avoid</topic>
+              <topic>Transfer</topic>
+              <topic>Mitigate</topic>
+              <topic>Accept</topic>
+          </topic>
+          <topic>Risk management processes
+              <topic>Exemptions</topic>
+              <topic>Deterrence</topic>
+              <topic>Inherent</topic>
+              <topic>Residual</topic>
+          </topic>
+          <topic>Continuous improvement/monitoring
+              <topic>RTO</topic>
+              <topic>RPO</topic>
+              <topic>MTTR</topic>
+              <topic>MTBF</topic>
+          </topic>
+          <topic>Business continuity planning</topic>
+          <topic>IT governance
+              <topic>Adherence to risk management frameworks</topic>
+          </topic>
+          <topic>Enterprise resilience</topic>
+          <outcome>Given a scenario, execute risk mitigation strategies and controls</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="4">
+          <topic>Review effectiveness of existing security controls
+              <topic>Gap analysis</topic>
+              <topic>Lessons learned</topic>
+              <topic>After-action reports</topic>
+          </topic>
+          <topic>Review effectiveness of existing security controls</topic>
+          <topic>Reverse engineer/deconstruct existing solutions</topic>
+          <topic>Creation, collection and analysis of metrics
+              <topic>KPIs</topic>
+              <topic>KRIs</topic>
+          </topic>
+          <topic>Prototype and test multiple solutions</topic>
+          <topic>Create benchmarks and compare to baselines</topic>
+          <topic>Analyze and interpret trend data to anticipate cyber defense needs</topic>
+          <topic>Analyze security solution metrics and attributes to ensure they meet business needs
+              <topic>Performance</topic>
+              <topic>Latency</topic>
+              <topic>Scalability</topic>
+              <topic>Capability</topic>
+              <topic>Usability</topic>
+              <topic>Maintainability</topic>
+              <topic>Availability</topic>
+              <topic>Recoverability</topic>
+              <topic>ROI</topic>
+              <topic>TCO</topic>
+          </topic>
+          <topic>Use judgment to solve problems where the most secure solution is not feasible</topic>
+          <outcome>Analyze risk metric scenarios to secure the enterprise</outcome>
+      </knowledgeArea>
+  </knowledgeArea>
+  <knowledgeArea name="Enterprise Security Architecture"  id="2">
+      <knowledgeArea id="1">
+          <topic>Physical and virtual network and security devices
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+          </topic>
+          <topic>Application and protocol-aware technologies
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+              <topic></topic>
+          </topic>
+          <topic>Advanced network design (wired/wireless)
+              <topic>Remote access
+                  <topic>VPN
+                      <topic>IPSec</topic>
+                      <topic>SSL/TLS</topic>
+                  </topic>
+                  <topic>SSH</topic>
+                  <topic>RDP</topic>
+                  <topic>VNC</topic>
+                  <topic>VDI</topic>
+                  <topic>Reverse proxy</topic>
+              </topic>
+              <topic>IPv4 and IPv6 transitional technologies</topic>
+              <topic>Network authentication methods</topic>
+              <topic>802.1x</topic>
+              <topic> Mesh networks</topic>
+              <topic>Placement of fixed/mobile devices</topic>
+              <topic>Placement of hardware   and applications</topic>
+          </topic>
+          <topic>Complex network security solutions for data flow
+              <topic>DLP</topic>
+              <topic>Deep packet inspection</topic>
+              <topic>Data flow enforcement</topic>
+              <topic>Network flow (S/flow)</topic>
+              <topic>Data flow diagram</topic>
+          </topic>
+          <topic>Secure configuration and baselining of networking and security components</topic>
+          <topic>Software-defined networking</topic>
+          <topic>Network management and monitoring tools
+              <topic>Alert definitions and rule writing</topic>
+              <topic>Tuning alert thresholds</topic>
+              <topic>Alert fatigue</topic>
+          </topic>
+          <topic>Advanced configuration of routers, switches and other network devices
+              <topic>Transport security</topic>
+              <topic>Trunking security</topic>
+              <topic>Port security</topic>
+              <topic>Route protection</topic>
+              <topic>DDoS protection</topic>
+              <topic>Remotely triggered black hole</topic>
+          </topic>
+          <topic>Security zones
+              <topic>DMZ</topic>
+              <topic>Separation of critical assets</topic>
+              <topic>Network segmentation</topic>
+          </topic>
+          <topic>Network access control
+              <topic>Quarantine/remediation</topic>
+              <topic>Persistent/volatile or non-persistent agent</topic>
+              <topic>Agent vs. agentless</topic>
+          </topic>
+          <topic>Network-enabled devices
+              <topic>System on a chip (SoC)</topic>
+              <topic>Building/home automation systems</topic>
+              <topic>IP video</topic>
+              <topic>HVAC controllers</topic>
+              <topic>Sensors</topic>
+              <topic>Physical access control systems</topic>
+              <topic>A/V systems</topic>
+              <topic>Scientific/industrial equipment</topic>
+          </topic>
+          <topic>Critical infrastructure
+              <topic>Supervisory control and data acquisition (SCADA)</topic>
+              <topic>Industrial control systems (ICS)</topic>
+          </topic>
+          <outcome>Analyze a scenario and integrate network and security components, concepts and architectures to meet security requirements</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="2">
+          <topic>Trusted OS (e.g., how and when to use it)
+              <topic>SELinux</topic>
+              <topic>SEAndroid</topic>
+              <topic>TrustedSolaris</topic>
+              <topic>Least functionality</topic>
+          </topic>
+          <topic>Endpoint security software
+              <topic>Anti-malware</topic>
+              <topic>Antivirus</topic>
+              <topic>Anti-spyware</topic>
+              <topic>Spam filters</topic>
+              <topic>Patch management</topic>
+              <topic>HIPS/HIDS</topic>
+              <topic>Data loss prevention</topic>
+              <topic>Host-based firewalls</topic>
+              <topic>Log monitoring</topic>
+              <topic>Endpoint detection response</topic>
+          </topic>
+          <topic>Host hardening
+              <topic>Standard operating environment/  configuration baselining
+                  <topic>Application whitelisting and blacklisting</topic>
+              </topic>
+              <topic>Security/group policy implementation</topic>
+              <topic>Command shell restrictions</topic>
+              <topic>Patch management
+                  <topic>Manual</topic>
+                  <topic>Automated
+                      <topic>Scripting and replication</topic>
+                  </topic>
+              </topic>
+              <topic>Configuring dedicated interfaces
+                  <topic>Out-of-band management</topic>
+                  <topic>ACLs</topic>
+                  <topic>Management interface</topic>
+                  <topic>Data interface</topic>
+              </topic>
+              <topic>External I/O restrictions
+                  <topic>USB</topic>
+                  <topic>Wireless
+                      <topic>Bluetooth</topic>
+                      <topic>NFC</topic>
+                      <topic>IrDA</topic>
+                      <topic>RF</topic>
+                      <topic>802.11</topic>
+                      <topic>RFID</topic>
+                  </topic>
+                  <topic>Drive mounting</topic>
+                  <topic>Drive mapping</topic>
+                  <topic>Webcam</topic>
+                  <topic>Recording mic</topic>
+                  <topic>Audio output</topic>
+                  <topic>SD port</topic>
+                  <topic>HDMI port</topic>
+              </topic>
+              <topic>File and disk encryption</topic>
+              <topic>Firmware updates</topic>
+          </topic>
+          <topic>Boot loader protections
+              <topic>Secure boot</topic>
+              <topic>Measured launch</topic>
+              <topic>Integrity measurement architecture</topic>
+              <topic>BIOS/UEFI</topic>
+              <topic>Attestation services</topic>
+              <topic>TPM</topic>
+          </topic>
+          <topic>Vulnerabilities associated with hardware</topic>
+          <topic>Terminal services/application delivery services</topic>
+          <outcome>Analyze a scenario to integrate security controls for host devices to meet security requirements</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="3">
+          <topic>Enterprise mobility management
+              <topic>Containerization</topic>
+              <topic>Configuration profiles and payloads</topic>
+              <topic>Personally owned, corporate-enabled</topic>
+              <topic>Application wrapping</topic>
+              <topic>Remote assistance access
+                  <topic>VNC</topic>
+                  <topic>Screen mirroring</topic>
+              </topic>
+              <topic>Application, content   and data management</topic>
+              <topic>Over-the-air updates   (software/firmware)</topic>
+              <topic>Remote wiping</topic>
+              <topic>SCEP</topic>
+              <topic>BYOD</topic>
+              <topic>COPE</topic>
+              <topic>VPN</topic>
+              <topic>Application permissions</topic>
+              <topic>Side loading</topic>
+              <topic>Unsigned apps/system apps</topic>
+              <topic>Context-aware management
+                  <topic>Geolocation/geofencing</topic>
+                  <topic>User behavior</topic>
+                  <topic>Security restrictions</topic>
+                  <topic>Time-based restrictions</topic>
+              </topic>
+          </topic>
+          <topic>Security implications/privacy concerns
+                  <topic>Data storage
+                      <topic>Non-removable storage</topic>
+                      <topic>Removable storage</topic>
+                      <topic>Cloud storage</topic>
+                      <topic>Transfer/backup data to uncontrolled storage</topic>
+                      <topic>USB OTG</topic>
+                  </topic>
+                  <topic>Device loss/theft</topic>
+                  <topic>Hardware anti-tamper</topic>
+                  <topic>TPM</topic>
+                  <topic>Rooting/jailbreaking</topic>
+                  <topic>Push notification services</topic>
+                  <topic>Geotagging</topic>
+                  <topic>Encrypted instant messaging apps</topic>
+                  <topic>Tokenization</topic>
+                  <topic>OEM/carrier Android fragmentation</topic>
+                  <topic>Mobile payment
+                      <topic>NFC-enabled</topic>
+                      <topic>Inductance-enabled</topic>
+                      <topic>Mobile wallet</topic>
+                      <topic>Peripheral-enabled payments (credit card reader)</topic>
+                  </topic>
+                  <topic>Tethering
+                      <topic>USB</topic>
+                      <topic>Spectrum management</topic>
+                      <topic>Bluetooth 3.0 vs. 4.1</topic>
+                  </topic>
+                  <topic>
+                      <topic>Swipe pattern</topic>
+                      <topic>Gesture</topic>
+                      <topic>Pin code</topic>
+                      <topic>Biometric
+                          <topic>Facial</topic>
+                          <topic>Fingerprint</topic>
+                          <topic>Iris scan</topic>
+                      </topic>
+                      <topic>Malware</topic>
+                      <topic>Unauthorized domain bridging</topic>
+                      <topic>Baseband radio/SOC</topic>
+                      <topic>Augmented reality</topic>
+                      <topic>SMS/MMS/messaging</topic>
+                  </topic>
+          </topic>
+          <topic>Wearable technology
+                  <topic>Devices
+                      <topic>Cameras</topic>
+                      <topic>Watches</topic>
+                      <topic>Fitness devices</topic>
+                      <topic>Glasses</topic>
+                      <topic>Medical sensors/devices</topic>
+                      <topic>Headsets</topic>
+                  </topic>
+                  <topic>Security implications
+                      <topic>Unauthorized remote activation / deactivation of devices or features</topic>
+                      <topic>Encrypted and unencrypted communication concerns</topic>
+                      <topic>Physical reconnaissance</topic>
+                      <topic>Personal data theft</topic>
+                      <topic>Health privacy</topic>
+                      <topic>Digital forensics of collected data</topic>
+                  </topic>
+          </topic>
+          <outcome>Analyze a scenario to integrate security controls for mobile and small form factor devices to meet security requirements</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="4">
+          <topic> Application security design considerations
+              <topic>Secure: by design, by default, by deployment</topic>
+          </topic>
+          <topic>Specific application issues
+                  <topic>Unsecure direct object references</topic>
+                  <topic>XSS</topic>
+                  <topic>Cross-site request forgery (CSRF)</topic>
+                  <topic>Click-jacking</topic>
+                  <topic>Session management</topic>
+                  <topic>Input validation</topic>
+                  <topic>SQL injection</topic>
+                  <topic>Improper error and exception handling</topic>
+                  <topic>Privilege escalation</topic>
+                  <topic>Improper storage of sensitive data</topic>
+                  <topic>Fuzzing/fault injection</topic>
+                  <topic>Secure cookie storage and transmission</topic>
+                  <topic>Buffer overflow</topic>
+                  <topic>Memory leaks</topic>
+                  <topic>Integer overflows</topic>
+                  <topic>Race conditions
+                    <topic>Time of check</topic>
+                    <topic>Time of use</topic>
+                  </topic>
+                  <topic>Resource exhaustion</topic>
+                  <topic>Geotagging</topic>
+                  <topic>Data remnants</topic>
+                  <topic>Use of third-party libraries</topic>
+                  <topic>Code reuse</topic>
+          </topic>
+          <topic>Application sandboxing</topic>
+          <topic>Secure encrypted enclaves</topic>
+          <topic>Database activity monitor</topic>
+          <topic>Web application firewalls</topic>
+          <topic>Client-side processing vs. server-side processing
+                  <topic>JSON/REST</topic>
+                  <topic>Browser extensions
+                      <topic>ActiveX</topic>
+                      <topic>Java applets</topic>
+                  </topic>
+                  <topic>HTML5</topic>
+                  <topic>AJAX</topic>
+                  <topic>SOAP</topic>
+                  <topic>State management</topic>
+                  <topic>JavaScript</topic>
+          </topic>
+          <topic>Operating system vulnerabilities</topic>
+          <topic>Firmware vulnerabilities</topic>
+          <outcome>Given software vulnerability scenarios, select appropriate security controls</outcome>
+      </knowledgeArea>
+  </knowledgeArea>
+  <knowledgeArea name="Enterprise Security Operations"  id="3">
+      <knowledgeArea id="1">
+          <topic>Methods
+              <topic>Malware sandboxing</topic>
+              <topic>Memory dumping, runtime debugging</topic>
+              <topic>Reconnaissance</topic>
+              <topic>Fingerprinting</topic>
+              <topic>Code review</topic>
+              <topic>Social engineering</topic>
+              <topic>Pivoting</topic>
+              <topic>Open source intelligence
+                  <topic>Social media</topic>
+                  <topic>Whois</topic>
+                  <topic>Routing tables</topic>
+                  <topic>DNS records</topic>
+                  <topic>Search engines</topic>
+              </topic>
+          </topic>
+          <topic>Types
+              <topic>Penetration testing
+                  <topic>Black box</topic>
+                  <topic>White box</topic>
+                  <topic>Gray box</topic>
+              </topic>
+              <topic>Vulnerability assessment</topic>
+              <topic>Self-assessment
+                  <topic>Tabletop exercises</topic>
+              </topic>
+              <topic>Internal and external audits</topic>
+              <topic>Color team exercises
+                  <topic>Red team</topic>
+                  <topic>Blue team</topic>
+                  <topic>White team</topic>
+              </topic>
+          </topic>
+          <outcome>Given a scenario, conduct a security assessment using the appropriate methods</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="2">
+          <topic>Network tool types
+              <topic>Port scanners</topic>
+              <topic>Vulnerability scanners</topic>
+              <topic>Protocol analyzer</topic>
+              <topic>SCAP scanner</topic>
+              <topic>Network enumerator</topic>
+              <topic>Fuzzer</topic>
+              <topic>HTTP interceptor</topic>
+              <topic>Exploitation tools/frameworks</topic>
+              <topic>Visualization tools</topic>
+              <topic>Log reduction and analysis tools</topic>
+          </topic>
+          <topic>Host tool types
+              <topic>Password cracker</topic>
+              <topic>Vulnerability scanner</topic>
+              <topic>Command line tools</topic>
+              <topic>Local exploitation tools/frameworks</topic>
+              <topic>SCAP tool</topic>
+              <topic>File integrity monitoring</topic>
+              <topic>Log analysis tools</topic>
+              <topic>Antivirus</topic>
+              <topic>Reverse engineering tools</topic>
+          </topic>
+          <topic>Physical security tools
+              <topic>Lock picks</topic>
+              <topic>RFID tools</topic>
+              <topic>IR camera</topic>
+          </topic>
+          <outcome>Analyze a scenario or output, and select the appropriate tool for a security assessment</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="3">
+          <topic>E-discovery
+              <topic>Electronic inventory and asset control</topic>
+              <topic>Data retention policies</topic>
+              <topic>Data recovery and storage</topic>
+              <topic>Data ownership</topic>
+              <topic>Data handling</topic>
+              <topic> Legal holds</topic>
+          </topic>
+          <topic>Data breach
+          </topic>
+          <topic> Facilitate incident detection    and response</topic>
+          <topic>Incident and emergency response</topic>
+          <topic>Incident response support tools</topic>
+          <topic>Severity of incident or breach</topic>
+          <topic>Post-incident response</topic>
+          <outcome>Given a scenario, implement incident response and recovery procedures</outcome>
+      </knowledgeArea>
+  </knowledgeArea>
+  <knowledgeArea name="Technical Integration of Enterprise Security"  id="4">
+      <knowledgeArea id="1">
+          <topic>Adapt data flow security to meet    changing business needs</topic>
+          <topic>Standards</topic>
+          <topic>Interoperability issues</topic>
+          <topic>Resilience issues</topic>
+          <topic>Data security considerations</topic>
+          <topic>Resources provisioning    and deprovisioning</topic>
+          <topic>Design considerations during mergers,    acquisitions and demergers/divestitures</topic>
+          <topic>Network secure segmentation    and delegation</topic>
+          <topic> Logical deployment diagram and    corresponding physical deployment    diagram of all relevant devices</topic>
+          <topic>Security and privacy considerations    of storage integration</topic>
+          <topic>Security implications of integrating    enterprise applications</topic>
+          <outcome>Given a scenario, integrate hosts, storage, networks and applications into a secure enterprise architecture</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="2">
+          <topic>Technical deployment models    (outsourcing/insourcing/   managed services/partnership)</topic>
+          <topic>Security advantages and    disadvantages of virtualization</topic>
+          <topic>Cloud augmented security services</topic>
+          <topic>Vulnerabilities associated with    comingling of hosts with different    security requirements</topic>
+          <topic>Data security considerations</topic>
+          <topic>Resources provisioning    and deprovisioning</topic>
+          <outcome>Given a scenario, integrate cloud and virtualization technologies into a secure enterprise architecture</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="3">
+          <topic>Authentication</topic>
+          <topic>Authorization</topic>
+          <topic>Attestation</topic>
+          <topic>Identity proofing </topic>
+          <topic>Identity propagation</topic>
+          <topic>Federation</topic>
+          <topic>Trust models</topic>
+          <outcome>Given a scenario, integrate and troubleshoot advanced authentication and authorization technologies to support enterprise security objectives</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="4">
+          <topic>Techniques</topic>
+          <topic>Implementations</topic>
+          <outcome>Given a scenario, implement cryptographic techniques</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="5">
+          <topic>Remote access</topic>
+          <topic>Unified collaboration tools</topic>
+          <outcome>Given a scenario, select the appropriate control to secure communications and collaboration solutions</outcome>
+      </knowledgeArea>
+  </knowledgeArea>
+  <knowledgeArea name="Research, Development and Collaboration"  id="5">
+      <knowledgeArea id="1">
+          <topic>Perform ongoing research</topic>
+          <topic>Threat intelligence</topic>
+          <topic>Research security implications    of emerging business tools</topic>
+          <topic>Global IA industry/community</topic>
+          <outcome>Given a scenario, apply research methods to determine industry trends and their impact to the enterprise</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="2">
+          <topic>Systems development life cycle
+              <topic>Requirements</topic>
+              <topic>Acquisition</topic>
+              <topic>Test and evaluation</topic>
+              <topic>Commissioning/decommissioning</topic>
+              <topic>Operational activities
+                  <topic>Monitoring</topic>
+                  <topic>Maintenance</topic>
+                  <topic>Configuration and change management</topic>
+              </topic>
+              <topic>Asset disposal</topic>
+              <topic>Asset/object reuse</topic>
+          </topic>
+          <topic> Software development life cycle
+              <topic>Application security frameworks</topic>
+              <topic>Software assurance
+                  <topic>Standard libraries</topic>
+                  <topic>Industry-accepted approaches</topic>
+                  <topic>Web services security (WS-security)</topic>
+                  <topic>Forbidden coding techniques</topic>
+                  <topic>NX/XN bit use</topic>
+                  <topic>ASLR use</topic>
+                  <topic>Code quality</topic>
+                  <topic>Code analyzers
+                      <topic>Fuzzer</topic>
+                      <topic>Static</topic>
+                      <topic>Dynamic</topic>
+                  </topic>
+              </topic>
+              <topic>Development approaches
+                  <topic>DevOps</topic>
+                  <topic>Security implications of agile, waterfall and spiral software development methodologies</topic>
+                  <topic>Continuous integration</topic>
+                  <topic>Versioning</topic>
+              </topic>
+              <topic>Secure coding standards</topic>
+              <topic>Documentation</topic>
+              <topic>Validation and acceptance testing
+                      <topic>Regression</topic>
+                      <topic>User acceptance testing</topic>
+                      <topic>Unit testing</topic>
+                      <topic>Integration testing</topic>
+                      <topic>Peer review</topic>
+              </topic>
+          </topic>
+          <topic>Adapt solutions
+                  <topic>Emerging threats</topic>
+                  <topic>Disruptive technologies</topic>
+                  <topic>Security trends</topic>
+          </topic>
+          <topic>Asset management (inventory control)</topic>
+          <outcome>Given a scenario, implement security activities across the technology life cycle</outcome>
+      </knowledgeArea>
+      <knowledgeArea id="3">
+          <topic> Interpreting security requirements    and goals to communicate with    stakeholders from other disciplines</topic>
+          <topic>Provide objective guidance and impartial recommendations to staff and    senior management on    security processes and controls</topic>
+          <topic>Establish effective collaboration within teams to implement secure solutions</topic>
+          <topic>Governance, risk and compliance committee
+              <topic>Sales staff</topic>
+              <topic>Programmer</topic>
+              <topic>Database administrator</topic>
+              <topic>Network administrator</topic>
+              <topic>Management/executive management</topic>
+              <topic>Financial</topic>
+              <topic>Human resources</topic>
+              <topic>Emergency response team</topic>
+              <topic>Facilities manager</topic>
+              <topic>Physical security manager</topic>
+              <topic>Legal counsel</topic>
+          </topic>
+          <outcome>Explain the importance of interaction across diverse business units to achieve security goals</outcome>
+      </knowledgeArea>
+  </knowledgeArea>
+</curriculumStandard>
