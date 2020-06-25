@@ -62,6 +62,9 @@
     <objective>Implement a coherent abstract data type, with loose coupling between components and behaviors.
       <covers standard="acm-cs2013" knowledgeArea="SDF/AAD" id="10"/>
     </objective>
+    <objective>Explain the purpose of validating user input
+      <covers standard="acm-csec2017" knowledgeArea="2/3" id="1"/>
+    </objective>
   </objectives>
   <outline>
     <topic>Single Dimensional Arrays

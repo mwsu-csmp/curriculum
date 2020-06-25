@@ -23,11 +23,15 @@ An examination of current computer communication technologies and their protocol
   </prerequisites>
   <objectives>
 	<objective>Understand the architectural principles of networking.</objective>
-	<objective>Describe the structure and component of a layered network model.</objective>
+	<objective>Describe the structure and component of a layered network model.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="5"/>
+	</objective>
 	<objective>Compare different layered network design alternatives. Identify their advantages and tradeoffs</objective>
 	<objective>Describe the services, functions, and inter-operation mechanisms of different layers in a layered network model.</objective>
 	<objective>Understand the role of each layer in a network model and how each layer facilitates its role.</objective>
-	<objective>Identify and compare different data link, network, and transport layer protocols.</objective>
+	<objective>Identify and compare different data link, network, and transport layer protocols.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="12"/>
+	</objective>
 	<objective>Identify the performance properties of physical, datalink and network protocols.</objective>
   </objectives>
   <outline>

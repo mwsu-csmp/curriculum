@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>264</number>
+  <number>384</number>
   <title>Computer Architecture and Assembly Language Programming </title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>

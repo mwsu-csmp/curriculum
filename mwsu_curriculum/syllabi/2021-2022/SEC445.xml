@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>445</number>
+  <title>Security Program Governance</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+stub
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+
+  <objectives>
+    <objective>List common points of vulnerability in a component’s supply chain.
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="1"/>
+    </objective>
+    <objective>Describe security risks in a component supply chain.
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="2"/>
+    </objective>
+    <objective>Describe ways to mitigate supply chain risks.
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
+    </objective>
+    <objective>Discuss the basics of a disaster recovery plan.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
+    </objective>
+    <objective>Discuss how to document a test that reveals a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
+    </objective>
+    <objective>Discuss the importance of cyber hygiene, cybersecurity user education, as well as cyber vulnerabilities and threats awareness.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="1"/>
+    </objective>
+    <objective>Describe the major topics within Security Education, Training, and Awareness (SETA) programs.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
+    </objective>
+    <objective>Discuss the importance of SETA as countermeasures.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="3"/>
+    </objective>
+    <objective>Discuss the importance of risk perception and communication in the context of mental models of cybersecurity and privacy.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
+    </objective>
+    <objective>Describe risk management and its role in the organization.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="1"/>
+    </objective>
+    <objective>Describe risk management techniques to identify and prioritize risk factors for information assets and how risk is assessed.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="2"/>
+    </objective>
+    <objective>Discuss the strategy options used to treat risk and be prepared to select from them when given background information.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+    </objective>
+    <objective>Describe popular methodologies used in the industry to manage risk.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
+    </objective>
+    <objective>Discuss the importance, benefits, and desired outcomes of cybersecurity governance and how such a program would be implemented.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="1"/>
+    </objective>
+    <objective>Describe the major types of information security policy and the major components of each.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
+    </objective>
+    <objective>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
+    </objective>
+    <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
+    </objective>
+    <objective>Describe information security policy and its role in a successful information security program.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+    </objective>
+    <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
+    </objective>
+    <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
+    </objective>
+    <objective>Identify the key organizational stakeholders and their roles.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="2"/>
+    </objective>
+    <objective>Describe the principal components of cybersecurity system implementation planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Introduction
+    </topic>
+  </outline>
+</course>

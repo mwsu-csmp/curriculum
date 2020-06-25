@@ -1,0 +1,83 @@
+<curriculumStandard
+        xmlns="https://csmp.missouriwestern.edu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
+  <name>Certified Ethical Hacker Exam Blueprint 2.0</name>
+  <body>eccouncil</body>
+  <version>2.0</version>
+  <documentUrl>https://cert.eccouncil.org/images/doc/CEH-Exam-Blueprint-v2.0.pdf</documentUrl>
+  <knowledgeArea name="Background"  id="1">
+      <topic>Networking technologies (e.g., hardware, infrastructure)</topic>
+      <topic>Web technologies (e.g., web 2.0, skype)</topic>
+      <topic>Systems technologies</topic>
+      <topic>Communication on protocols</topic>
+      <topic>Malware operations</topic>
+      <topic>Mobile technologies (e.g., smartphones )</topic>
+      <topic>Telecommunication on technologies</topic>
+      <topic>Backups and archiving (e.g., local, network)</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Analysis / Assessment"  id="2">
+      <topic>Data analysis</topic>
+      <topic>Systems analysis</topic>
+      <topic>Risk assessments</topic>
+      <topic>Technical assessment methods</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Security"  id="3">
+      <topic>Systems security controls</topic>
+      <topic>Application/file server</topic>
+      <topic>Firewalls</topic>
+      <topic>Cryptography</topic>
+      <topic>Network security</topic>
+      <topic>Physical security</topic>
+      <topic>Threat modeling</topic>
+      <topic>Verification procedures (e.g., false positive/negative validation)</topic>
+      <topic>Social engineering (human factors manipulation)</topic>
+      <topic>Vulnerability scanners</topic>
+      <topic>Security policy implications</topic>
+      <topic>Privacy/confidentiality (with regard to engagement)</topic>
+      <topic>Biometrics</topic>
+      <topic>Wireless access technology (e.g., networking, RFID, Bluetooth)</topic>
+      <topic>Trusted networks</topic>
+      <topic>Vulnerabilities</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Tools / Systems /Programs"  id="4">
+      <topic>Network/host based intrusion</topic>
+      <topic>Network/wireless sniffers (e.g., WireShark, Airsnort)</topic>
+      <topic>Access control mechanisims (e.g., smart cards )</topic>
+      <topic>Cryptography techniques (e.g., IPsec, SSL, PGP)</topic>
+      <topic>Programming languages (e.g. C++, Java, C#, C)</topic>
+      <topic>Scripting languages (e.g., PHP, Java script)</topic>
+      <topic>Boundary protection appliances</topic>
+      <topic>Network topologies</topic>
+      <topic>Subnetting</topic>
+      <topic>Port scanning (e.g., NMAP)</topic>
+      <topic>Domain name system (DNS)</topic>
+      <topic>Routers /modems /switches</topic>
+      <topic>Vulnerability scanner (e.g., Nessus, Rena)</topic>
+      <topic>Vulnerability management and protection systems (e.g.,Founds tone, Ecora)</topic>
+      <topic>Operating environments (e.g., Linux, Windows, Mac)</topic>
+      <topic>Antivirus systems and programs</topic>
+      <topic>Log analysis tools</topic>
+      <topic>Security models</topic>
+      <topic>Exploitation tools</topic>
+      <topic>Database structures</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Procedures /Methodology"  id="5">
+      <topic>Cryptography</topic>
+      <topic>Public key infrastructure (PKI)</topic>
+      <topic>Security Architecture (SA)</topic>
+      <topic>Service Oriented Architecture</topic>
+      <topic>Information security incident</topic>
+      <topic>N-tier application design</topic>
+      <topic>TCP/IP networking (e.g., network routing)</topic>
+      <topic>Security testing methodology</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Regulation / Policy"  id="6">
+      <topic>Security policies</topic>
+      <topic>Compliance regulations (e.g., PCI)</topic>
+  </knowledgeArea>
+  <knowledgeArea name="Ethics"  id="7">
+      <topic>Professional code of conduct</topic>
+      <topic>Appropriateness of hacking</topic>
+  </knowledgeArea>
+</curriculumStandard>

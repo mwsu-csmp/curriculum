@@ -31,13 +31,25 @@
 
   <xs:complexType name="disjunction">
     <xs:sequence>
-      <xs:element name="conjunction" type="conjunction" maxOccurs="unbounded"/>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="conjunction" type="conjunction"/>
+        <xs:element name="course" type="courseName"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="requirement">
+    <xs:sequence>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="disjunction" type="disjunction"/>
+        <xs:element name="course" type="courseName"/>
+      </xs:choice>
     </xs:sequence>
   </xs:complexType>
 
   <xs:complexType name="section">
     <xs:sequence>
-      <xs:element name="requirement" type="disjunction" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="requirement" type="requirement" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="blank" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="header" type="xs:string"/>

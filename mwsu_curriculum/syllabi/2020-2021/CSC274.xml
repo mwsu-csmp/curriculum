@@ -3,6 +3,7 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  creditHoursLecture="2"
   workloadHoursLecture="2">
   <college>LA</college>
   <subject>CSC</subject>
@@ -18,7 +19,8 @@ An introductory course on UNIX/Linux and its applications. Topics covered includ
   </prerequisites>
   <objectives>
     <objective>Understand the basic history of the Unix operating System.</objective>
-    <objective>Use common linux shell commands</objective>
+    <objective>Use common linux shell commands
+    </objective>
     <objective>Use command redirection and pipes</objective>
     <objective>Write simple shell scripts </objective>
   </objectives>

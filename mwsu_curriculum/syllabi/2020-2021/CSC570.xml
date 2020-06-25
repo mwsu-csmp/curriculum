@@ -15,13 +15,17 @@ This course will introduce the student to the essential concepts and skills in e
   <prerequisites>
   </prerequisites>
   <objectives>
-    <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks</objective>
+    <objective>learn the essential concepts and techniques needed to defend a computer or a LAN against a variety of different types of security attacks
+    </objective>
     <objective>prepare for the Certified Ethical Hacker (CEH) exam</objective>
   </objectives>
   <outline>
-    <topic>Virtual Lab Environment</topic>
-    <topic>Footprinting and Reconnaissance</topic>
-    <topic>Scanning Network</topic>
+    <topic>Virtual Lab Environment
+    </topic>
+    <topic>Footprinting and Reconnaissance
+    </topic>
+    <topic>Scanning Network
+    </topic>
     <topic>Enumeration</topic>
     <topic>Vulnerability Analysis</topic>
     <topic>System Hacking</topic>

@@ -18,6 +18,12 @@ This course is an investigation of the logical basis of computers at the machine
   <objectives>
     <objective>The student learns the structure and organization of a computer system, by learning and using the assembler language of the system.</objective>
     <objective>The student will examine the computer architecture of the Intel micro-processors. </objective>
+    <objective>Describe several techniques for protecting the design elements of an integrated circuit.
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="7"/>
+    </objective>
+    <objective>Describe a technique for reverse engineering the functionality of an integrated circuit.
+      <covers standard="acm-csec2017" knowledgeArea="3/4" id="3"/>
+    </objective>
   </objectives>
   <outline>
     <topic>Representing Data in a Computer
