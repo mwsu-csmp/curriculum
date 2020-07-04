@@ -14,10 +14,22 @@
   </catalogDescription>
   <prerequisites>
   </prerequisites>
-<!-- textbook resources
-Shoemaker, Anne Kohnke; Ken Sigler; D. Implementing Cybersecurity. Taylor & Francis, 2017. [VitalSource Bookshelf].
-Landoll, Douglas J. Information Security Policies, Procedures, and Standards. Taylor & Francis, 2016. [VitalSource Bookshelf].
-
+  <textbook title="Implementing Cybersecurity"
+            edition="1"
+            publisher="Taylor and Francis"
+            year="2017"
+            ISBN="978-1498785143">
+    <author>Anne Kohnke Shoemaker</author>
+    <author>Ken Sigler</author>
+  </textbook>
+  <textbook title="Information Security Policies, Procedures, and Standards"
+            edition="1"
+            publisher="Taylor and Francis"
+            year="2016"
+            ISBN="978-1482245899">
+    <author>Douglas J. Landoll</author>
+  </textbook>
+<!-- other textbook resources
 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 https://www.pmi.org/pmbok-guide-standards/foundational/pmbok
 https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
