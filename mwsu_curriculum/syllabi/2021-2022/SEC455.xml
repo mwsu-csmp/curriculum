@@ -16,35 +16,18 @@ stub
   </prerequisites>
 
   <objectives>
-    <objective>Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.
-      <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
-    </objective>
-    <objective>Compare and contrast variety of forensics tools.
-      <covers standard="acm-csec2017" knowledgeArea="1/2" id="2"/>
-    </objective>
-    <objective>Discuss various motives for cybercrime behavior.
-      <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
-    </objective>
-    <objective>Summarize terror activities in cyberspace geared toward generating societal fear and uncertainty.
-      <covers standard="acm-csec2017" knowledgeArea="8/1" id="2"/>
-    </objective>
-    <objective>Describe methods for investigating both domestic and international crimes.
-      <covers standard="acm-csec2017" knowledgeArea="8/1" id="3"/>
-    </objective>
-    <objective>Explain why preserving the chain of digital evidence is necessary in prosecuting cybercrimes.
-      <covers standard="acm-csec2017" knowledgeArea="8/1" id="4"/>
-    </objective>
     <objective>Describe the constitutional foundations of cyber law.
       <covers standard="acm-csec2017" knowledgeArea="8/2" id="1"/>
     </objective>
-    <objective>Describe international data security and computer hacking laws.
-      <covers standard="acm-csec2017" knowledgeArea="8/2" id="2"/>
+    <objective>Differentiate between law and ethics.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="5"/>
     </objective>
+    <objective>Identify significant national and international laws that relate to cybersecurity.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="7"/>
+    </objective>
+
     <objective>Interpret intellectual property laws related to security.
       <covers standard="acm-csec2017" knowledgeArea="8/2" id="3"/>
-    </objective>
-    <objective>Summarize laws governing online privacy.
-      <covers standard="acm-csec2017" knowledgeArea="8/2" id="4"/>
     </objective>
     <objective>Describe major international public policy positions and the impact they have on organizations and individuals.
       <covers standard="acm-csec2017" knowledgeArea="8/4" id="1"/>
@@ -55,8 +38,37 @@ stub
     <objective>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy and laws.
       <covers standard="acm-csec2017" knowledgeArea="8/4" id="3"/>
     </objective>
+
+    <objective>Discuss various motives for cybercrime behavior.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
+    </objective>
+    <objective>Summarize terror activities in cyberspace geared toward generating societal fear and uncertainty.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="SP/SPLACC" id="3"/>
+    </objective>
+    <objective>Describe international data security and computer hacking laws.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="2"/>
+    </objective>
+
+    <objective>Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
+    </objective>
+    <objective>Describe methods for investigating both domestic and international crimes.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="3"/>
+    </objective>
+    <objective>Compare and contrast variety of forensics tools.
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="2"/>
+    </objective>
+    <objective>Explain why preserving the chain of digital evidence is necessary in prosecuting cybercrimes.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="4"/>
+    </objective>
+
+    <objective>Summarize laws governing online privacy.
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="4"/>
+    </objective>
     <objective>Describe the concept of privacy including the societal definition of what constitutes personally private information and the tradeoffs between individual privacy and security.
       <covers standard="acm-csec2017" knowledgeArea="8/5" id="1"/>
+      <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="1"/>
     </objective>
     <objective>Summarize the tradeoff between the rights to privacy by the individual versus the needs of society.
       <covers standard="acm-csec2017" knowledgeArea="8/5" id="2"/>
@@ -64,15 +76,107 @@ stub
     <objective>Describe the common practices and technologies used to safeguard personal privacy.
       <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
     </objective>
-    <objective>Differentiate between law and ethics.
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="5"/>
-    </objective>
-    <objective>Identify significant national and international laws that relate to cybersecurity.
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="7"/>
-    </objective>
   </objectives>
+
+
+
   <outline>
-    <topic>Introduction
+    <topic>Foundations of Cyberlaw
+        <topic>Ethics vs Law
+            <covers standard="acm-csec2017" knowledgeArea="8/3" id="4"/>
+        </topic>
+        <topic>Constitutional foundations of Cyberlaw
+            <covers standard="acm-csec2017" knowledgeArea="8/2" id="1"/>
+        </topic>
+    </topic>
+    <topic>Intellectual Property
+        <covers standard="acm-csec2017" knowledgeArea="8/2" id="2"/>
+    </topic>
+    <topic>Cyber-crime
+      <topic>Criminal Motivations
+          <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+          <covers standard="acm-cs2013" knowledgeArea="SP/SPLACC" id="4"/>
+      </topic>
+      <topic>Criminal Behavoir
+        <covers standard="acm-cs2013" knowledgeArea="SP/SPLACC" id="1"/>
+        <covers standard="acm-cs2013" knowledgeArea="SP/SPLACC" id="2"/>
+        <covers standard="acm-csec2017" knowledgeArea="8/2" id="5"/>
+        <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
+      </topic>
+      <topic>Crime Prevention
+        <covers standard="acm-cs2013" knowledgeArea="SP/SPLACC" id="6"/>
+      </topic>
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="2"/>
+    </topic>
+    <topic>Digital Forensic Investigations
+      <topic>Popular Forensic Tools
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="3"/>
+      </topic>
+      <topic>Investigation Process
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="4"/>
+      </topic>
+      <topic>Evidence Collection
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="5"/>
+        <covers standard="acm-csec2017" knowledgeArea="8/2" id="6"/>
+      </topic>
+      <topic>Evidence Analysis and Validation
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="6"/>
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="8"/>
+      </topic>
+      <topic>Presenting Evidence
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="7"/>
+        <covers standard="acm-csec2017" knowledgeArea="1/2" id="9"/>
+      </topic>
+      <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="3"/>
+    </topic>
+    <topic>Cyberlaw, Data, and Expression
+      <topic>Privacy, Confidentiality, and Non-Repudiation</topic>
+      <topic>Privacy Law
+          <covers standard="acm-csec2017" knowledgeArea="8/2" id="3"/>
+          <covers standard="acm-csec2017" knowledgeArea="8/5" id="2"/>
+      </topic>
+      <topic>Data Security Law
+        <covers standard="acm-csec2017" knowledgeArea="8/2" id="4"/>
+      </topic>
+      <topic>Implications of data collection operations
+        <covers standard="acm-cs2013" knowledgeArea="SP/PACL" id="4"/>
+      </topic>
+      <topic>Breaches of Confidentiality
+        <covers standard="acm-csec2017" knowledgeArea="8/5" id="5"/>
+      </topic>
+      <topic>Freedom of Expression Law</topic>
+    </topic>
+    <topic>International Issues in Cyberlaw
+      <topic>International Accords
+      <covers standard="acm-csec2017" knowledgeArea="8/2" id="8"/>
+      </topic>
+      <topic>US Cyberpolicy
+        <covers standard="acm-csec2017" knowledgeArea="8/4" id="2"/>
+      </topic>
+      <topic>International Cyberpolicy
+        <covers standard="acm-csec2017" knowledgeArea="8/4" id="1"/>
+      </topic>
+      <topic>Threats to Critical Infrastructure
+        <topic>Cyber-Terrorism
+          <covers standard="acm-csec2017" knowledgeArea="8/1" id="2"/>
+        </topic>
+        <topic>Cyber-Warfare
+              <covers standard="acm-csec2017" knowledgeArea="8/3" id="6"/>
+              <covers standard="acm-csec2017" knowledgeArea="8/4" id="6"/>
+        </topic>
+        <covers standard="acm-csec2017" knowledgeArea="8/4" id="4"/>
+        <covers standard="acm-csec2017" knowledgeArea="8/4" id="5"/>
+      </topic>
+      <topic>International requirements for privacy and data security
+        <covers standard="acm-csec2017" knowledgeArea="8/2" id="9"/>
+      </topic>
+      <topic>Cultural expectations for privacy
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="6"/>
+      </topic>
+      <topic>Cultural expectations for civil liberties
+        <covers standard="acm-cs2013" knowledgeArea="SP/PACL" id="7"/>
+      </topic>
     </topic>
   </outline>
 </course>

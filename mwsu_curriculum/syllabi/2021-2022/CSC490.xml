@@ -45,7 +45,12 @@
         <topic>Professional organizations</topic>
         <topic>Conferences, job fairs, and other professional gatherings</topic>
     </topic>
-    <topic>Professional ethics and employment regulations</topic>
+    <topic>Professional ethics and employment regulations
+        <covers standard="acm-csec2017" knowledgeArea="8/3" id="2"/>
+    </topic>
+    <topic>Diversity in Computing
+        <covers standard="acm-csec2017" knowledgeArea="8/3" id="3"/>
+    </topic>
     <topic>Preparing for entrance, exit, and certification exams</topic>
   </outline>
 </course>

@@ -145,7 +145,8 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
         <topic>Audits</topic>
       </topic>
       <topic>Standards</topic>
-      <topic>Cybersecurity Frameworks</topic>
+      <topic>Cybersecurity Frameworks
+      </topic>
       <topic>Compliance with Regulations
         <topic>FISMA</topic>
         <topic>HIPAA</topic>
@@ -203,8 +204,14 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
           <covers standard="acm-csec2017" knowledgeArea="2/6" id="3"/>
           <covers standard="acm-csec2017" knowledgeArea="2/6" id="4"/>
       </topic>
-      <topic>Asset Control
+      <topic>Asset and User Tracking and Control
+          <covers standard="acm-csec2017" knowledgeArea="5/5" id="1"/>
+          <covers standard="acm-csec2017" knowledgeArea="5/5" id="2"/>
           <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/7" id="2"/>
+      </topic>
+      <topic>Security Metrics
+          <covers standard="acm-csec2017" knowledgeArea="7/7" id="3"/>
       </topic>
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="1"/>
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
