@@ -14,7 +14,21 @@ stub
   </catalogDescription>
   <prerequisites>
   </prerequisites>
-
+  <textbook title="Digital Forensics"
+            edition="1"
+            publisher="Wiley Global Research (STMS)"
+            year="2018"
+            ISBN="9781119262411">
+    <author>André Årnes</author>
+    <author>Ken Sigler</author>
+  </textbook>
+  <textbook title="Cyberlaw: The Law of the Internet and Information Technology"
+            edition="1"
+            publisher="Pearson Education (US)"
+            year="2013"
+            ISBN="9780133072860">
+    <author>Brian Craig</author>
+  </textbook>
   <objectives>
     <objective>Describe the constitutional foundations of cyber law.
       <covers standard="acm-csec2017" knowledgeArea="8/2" id="1"/>
