@@ -10,65 +10,47 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-stub
+    An introduction to the development and management of cybersecurity programs within organizations. Governance frameworks and regulations will be studied through development of policy and controls, implementation of audits, and simulated risk analysis and incident response. Students will gain skill with management tools, examine security concerns with employees and vendors, and explore communication strategies with a variety of stakeholders.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>301</number></prerequisiteCourse>
   </prerequisites>
-
+  <textbook title="Implementing Cybersecurity"
+            edition="1"
+            publisher="Taylor and Francis"
+            year="2017"
+            ISBN="978-1498785143">
+    <author>Anne Kohnke Shoemaker</author>
+    <author>Ken Sigler</author>
+  </textbook>
+  <textbook title="Information Security Policies, Procedures, and Standards"
+            edition="1"
+            publisher="Taylor and Francis"
+            year="2016"
+            ISBN="978-1482245899">
+    <author>Douglas J. Landoll</author>
+  </textbook>
+<!-- other textbook resources
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+https://www.pmi.org/pmbok-guide-standards/foundational/pmbok
+https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
+/-->
   <objectives>
-    <objective>List common points of vulnerability in a component’s supply chain.
-      <covers standard="acm-csec2017" knowledgeArea="3/2" id="1"/>
-    </objective>
-    <objective>Describe security risks in a component supply chain.
-      <covers standard="acm-csec2017" knowledgeArea="3/2" id="2"/>
-    </objective>
-    <objective>Describe ways to mitigate supply chain risks.
-      <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
-    </objective>
-    <objective>Discuss the basics of a disaster recovery plan.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
-    </objective>
-    <objective>Discuss how to document a test that reveals a vulnerability.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
-    </objective>
-    <objective>Discuss the importance of cyber hygiene, cybersecurity user education, as well as cyber vulnerabilities and threats awareness.
-      <covers standard="acm-csec2017" knowledgeArea="6/4" id="1"/>
-    </objective>
-    <objective>Describe the major topics within Security Education, Training, and Awareness (SETA) programs.
-      <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
-    </objective>
-    <objective>Discuss the importance of SETA as countermeasures.
-      <covers standard="acm-csec2017" knowledgeArea="6/4" id="3"/>
-    </objective>
-    <objective>Discuss the importance of risk perception and communication in the context of mental models of cybersecurity and privacy.
-      <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
-    </objective>
-    <objective>Describe risk management and its role in the organization.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="1"/>
-    </objective>
-    <objective>Describe risk management techniques to identify and prioritize risk factors for information assets and how risk is assessed.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="2"/>
-    </objective>
-    <objective>Discuss the strategy options used to treat risk and be prepared to select from them when given background information.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
-    </objective>
-    <objective>Describe popular methodologies used in the industry to manage risk.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
-    </objective>
     <objective>Discuss the importance, benefits, and desired outcomes of cybersecurity governance and how such a program would be implemented.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="1"/>
+    </objective>
+    <objective>Describe the principal components of cybersecurity system implementation planning.
+      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
     </objective>
     <objective>Describe the major types of information security policy and the major components of each.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
     </objective>
-    <objective>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
-    </objective>
-    <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
-    </objective>
     <objective>Describe information security policy and its role in a successful information security program.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+    </objective>
+    <objective>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
+      <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="5"/>
     </objective>
     <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
@@ -76,15 +58,246 @@ stub
     <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
       <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
     </objective>
+    <objective>Understand the difference between security events, threats, vulnerabilities, and incidents and implement proper documentation and communication strategies around them.
+      <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
+    </objective>
+    <objective>Discuss the process of disaster recovery.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
+    </objective>
     <objective>Identify the key organizational stakeholders and their roles.
       <covers standard="acm-csec2017" knowledgeArea="7/5" id="2"/>
     </objective>
-    <objective>Describe the principal components of cybersecurity system implementation planning.
-      <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
+    <objective>Identify and mitigate risks associated with outside vendors and the supply chain
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="6"/>
+      <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="7"/>
+    </objective>
+    <objective>Understand the purpose, content, and implementation of a security Education, Training, and Awareness (SETA) program.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="3"/>
+    </objective>
+    <objective>Describe risk management and its role in the organization, communications, and organizational culture.
+      <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="1"/>
+    </objective>
+    <objective>Perform identification, categorization, and assessment of security risks.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="2"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="21"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="22"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="24"/>
+    </objective>
+    <objective>Identify appropriate and industry proven strategies for managing identified security risks.
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="19"/>
+      <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="23"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
+    </objective>
+    <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
     </objective>
   </objectives>
+
+
   <outline>
-    <topic>Introduction
+    <topic>Cybersecurity Program Development and Management
+      <topic>Strategic Planning
+            <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
+      </topic>
+      <topic>Guidelines</topic>
+      <topic>Policies
+        <topic>Acceptable Use
+          <covers standard="acm-csec2017" knowledgeArea="6/3" id="1"/>
+        </topic>
+        <topic>Data</topic>
+        <topic>Account Management</topic>
+        <topic>Passwords</topic>
+        <topic>Privacy
+            <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="1"/>
+            <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+            <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+            <covers standard="acm-csec2017" knowledgeArea="8/5" id="4"/>
+            <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
+        </topic>
+        <topic>Onboarding and Offboarding
+          <covers standard="acm-csec2017" knowledgeArea="7/8" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/8" id="3"/>
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="9" id="4"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/5"/>
+        /-->
+        </topic>
+        <topic>Incident Response</topic>
+        <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
+      </topic>
+      <topic>Security Controls</topic>
+      <topic>Procedures
+        <topic>Monitoring
+          <covers standard="acm-csec2017" knowledgeArea="4/8" id="6"/>
+        </topic>
+        <topic>Patching
+          <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
+        </topic>
+        <topic>Testing</topic>
+        <topic>Audits</topic>
+      </topic>
+      <topic>Standards</topic>
+      <topic>Cybersecurity Frameworks
+      </topic>
+      <topic>Compliance with Regulations
+        <topic>FISMA</topic>
+        <topic>HIPAA</topic>
+        <topic>FERPA</topic>
+        <topic>SOX</topic>
+        <topic>GLBA</topic>
+        <topic>PCI-DSS</topic>
+        <covers standard="acm-csec2017" knowledgeArea="6/3" id="2"/>
+        <covers standard="casp-03" knowledgeArea="1/1" id="3/3"/>
+        <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
+      </topic>
+      <topic>Security Awareness and Training
+          <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+          <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="6/4" id="3"/>
+          <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
+          <covers standard="acm-csec2017" knowledgeArea="2/6" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/8" id="1"/>
+      </topic>
+      <topic>Stakeholders
+        <topic>Stakeholder roles
+          <!-- need to add in comptia and pmi standards first
+          <covers standard="pmi:6" knowledgeArea="13" id="1"/>
+          <covers standard="pmi:6" knowledgeArea="13" id="3"/>
+          <covers standard="pmi:6" knowledgeArea="13" id="4"/>
+          /-->
+        </topic>
+        <topic>Stakeholder Communications
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="10" id="2"/>
+        <covers standard="pmi:6" knowledgeArea="10" id="3"/>
+        /-->
+          <covers standard="acm-csec2017" knowledgeArea="7/2" id="5"/>
+          <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="1"/>
+        </topic>
+        <topic>Vendors and Supply Chains
+          <covers standard="acm-csec2017" knowledgeArea="3/2" id="1"/>
+          <covers standard="acm-csec2017" knowledgeArea="3/2" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/8" id="4"/>
+        </topic>
+        <topic>Contracts
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="12" id="2"/>
+        <covers standard="pmi:6" knowledgeArea="12" id="3"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/5/6"/>
+        /-->
+          <covers standard="acm-csec2017" knowledgeArea="8/2" id="7"/>
+        </topic>
+        <topic>Conflict resolution
+          <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="1"/>
+        </topic>
+      </topic>
+      <topic>Documentation
+          <covers standard="acm-csec2017" knowledgeArea="2/6" id="3"/>
+          <covers standard="acm-csec2017" knowledgeArea="2/6" id="4"/>
+      </topic>
+      <topic>Asset and User Tracking and Control
+          <covers standard="acm-csec2017" knowledgeArea="5/5" id="1"/>
+          <covers standard="acm-csec2017" knowledgeArea="5/5" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/7" id="2"/>
+      </topic>
+      <topic>Security Metrics
+          <covers standard="acm-csec2017" knowledgeArea="7/7" id="3"/>
+      </topic>
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
     </topic>
+
+    <topic>Risk management
+      <topic>Risk Concepts
+        <topic>Risk Management Framework</topic>
+        <topic>Threats and Vulnerabilities</topic>
+        <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="3"/>
+      </topic>
+      <topic>Identifying risks
+        <topic>External Threats</topic>
+        <topic>Internal Threats
+          <covers standard="acm-csec2017" knowledgeArea="7/1" id="3"/>
+        </topic>
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="11" id="2"/>
+        <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/2/4"/>
+        /-->
+        <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
+        <covers standard="acm-csec2017" knowledgeArea="7/1" id="1"/>
+      </topic>
+      <topic>Analyzing Risks
+          <topic>Performing qualitative risk analysis
+            <!-- need to add in comptia and pmi standards first
+             <covers standard="pmi:6" knowledgeArea="11" id="3"/>
+            /-->
+             <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
+          </topic>
+          <topic>Performing quantitative risk analysis
+              <topic>Determining and Interpreting CVSS scores</topic>
+           </topic>
+          <covers standard="acm-csec2017" knowledgeArea="7/1" id="2"/>
+          <covers standard="acm-csec2017" knowledgeArea="7/1" id="4"/>
+        <!-- need to add in comptia and pmi standards first
+          <covers standard="pmi:6" knowledgeArea="11" id="4"/>
+        /-->
+          <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
+      </topic>
+      <topic>Determining risk tolerance
+        <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
+        <covers standard="acm-csec2017" knowledgeArea="7/1" id="5"/>
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="11" id="1"/>
+        /-->
+      </topic>
+      <topic>Planning risk responses
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="11" id="5"/>
+        /-->
+      </topic>
+      <topic>Implementing risk responses
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="11" id="6"/>
+        /-->
+          <covers standard="acm-csec2017" knowledgeArea="6/4" id="1"/>
+      </topic>
+      <topic>Monitoring risks
+        <!-- need to add in comptia and pmi standards first
+        <covers standard="pmi:6" knowledgeArea="11" id="7"/>
+        /-->
+          <topic>Issue tracking
+            <!-- need to add in comptia and pmi standards first
+            <covers standard="comptia:pk0-004" knowledgeArea="1" id="3/4/1"/>
+            /-->
+          </topic>
+      </topic>
+    </topic>
+
+    <topic>Security Incidents
+      <topic>Security Events vs Incidents</topic>
+      <topic>Incident Response Plans</topic>
+      <topic>Incident Response Handling
+        <topic>Preparation</topic>
+        <topic>Detection and Analysis</topic>
+        <topic>Containment, Eradication, and Recovery
+          <covers standard="acm-csec2017" knowledgeArea="7/6" id="2"/>
+        </topic>
+        <topic>Post-Incident Activity</topic>
+        <covers standard="acm-csec2017" knowledgeArea="7/6" id="1"/>
+      </topic>
+      <topic>Managing Incident Response Communications
+          <covers standard="acm-csec2017" knowledgeArea="2/7" id="4"/>
+      </topic>
+    </topic>
+
   </outline>
 </course>

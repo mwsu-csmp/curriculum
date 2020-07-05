@@ -14,6 +14,11 @@
     <div class="field"><span class="label">Course Number</span>: <xsl:value-of select="csmp:course/csmp:subject"/> <xsl:value-of select="csmp:course/csmp:number"/></div>
     <div class="field"><span class="label">Course Name</span>: <xsl:value-of select="csmp:course/csmp:title"/></div>
 
+    <h3>Catalog Description</h3>
+    <p>
+      <xsl:value-of select="csmp:course/csmp:catalogDescription"/>
+    </p>
+
     <xsl:apply-templates select="csmp:course/csmp:prerequisites" />
 
     <h3>Texbook</h3>
