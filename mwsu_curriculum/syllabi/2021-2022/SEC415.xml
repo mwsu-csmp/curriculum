@@ -107,6 +107,9 @@ stub
       <covers standard="acm-csec2017" knowledgeArea="1/4" id="2"/>
       <covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
       <covers standard="acm-csec2017" knowledgeArea="1/4" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="2"/>
+      
     </topic>
     <topic>Data Privacy
       <covers standard="acm-csec2017" knowledgeArea="1/7" id="1"/>
@@ -123,6 +126,8 @@ stub
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="3"/>
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="4"/>
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="5"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/3" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/3" id="2"/>
     </topic>
     <topic>Social and Behavioral Privacy
       <covers standard="acm-csec2017" knowledgeArea="6/5" id="1"/>
