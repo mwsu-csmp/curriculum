@@ -17,14 +17,19 @@
   </prerequisites>
   <objectives>
     <objective>demonstrate the ability to implement software that is robust against common security attacks
-        <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/></objective>
+	    <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/>
+    </objective>
     <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
-    </objective>
+</objective>
+    <objective>Explain the difference between pseudorandom numbers and random numbers.
+	          <covers standard="acm-csec2017" knowledgeArea="2/3" id="2"/>
+		      </objective>
     <objective>decompose system security requirements into confidentiality, integrity, and availability components
         <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
         <covers standard="acm-cs2013" knowledgeArea="IAS/FCIS" id="1"/>
-    </objective>
+</objective>
+<!--
     <objective>assess threats to and vulnerabilities of a computer system
         <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
     </objective>
@@ -37,9 +42,12 @@
     <objective>Explain how software components are organized to represent logical layers in a standard model.
       <covers standard="acm-csec2017" knowledgeArea="4" id="10"/>
     </objective>
+-->
+    <!--
     <objective>Give examples of several secure component design principles and explain how each protects the security of components.
         <covers standard="acm-csec2017" knowledgeArea="3/1" id="6"/>
     </objective>
+	-->
     <objective>Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
     </objective>
@@ -53,6 +61,7 @@
     <objective>Identify the needed design principle.
       <covers standard="acm-csec2017" knowledgeArea="2/1" id="4"/>
     </objective>
+    <!--
     <objective>Identify the ethical effects and impacts of design decisions.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="4"/>
     </objective>
@@ -78,6 +87,8 @@
     <objective>Explain why different sites have different security policies.
       <covers standard="acm-csec2017" knowledgeArea="5" id="5"/>
     </objective>
+	-->
+    <!--
     <objective>Describe the concept of privacy including personally identifiable information.
       <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
     </objective>
@@ -87,11 +98,122 @@
     <objective>Discuss the importance of social media privacy and security.
       <covers standard="acm-csec2017" knowledgeArea="6/5" id="3"/>
     </objective>
+	-->
+    <!--
     <objective>Describe an access control list.
       <covers standard="acm-csec2017" knowledgeArea="5" id="10"/>
     </objective>
+    -->
+    <objective>Describe the NIST Cybersecurity Framework
+    </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+	  <topic>Basic concepts
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+	  </topic>
+	  <topic>Advanced concepts
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+	  </topic>
+	  <topic>Mathematical backgrounds
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+	  </topic>
+	  <topic>Historical ciphers concepts
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
+	  </topic>
+	  <topic>Symmetric ciphers
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+	  </topic>
+	  <topic>Asymmetric ciphers
+		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+	  </topic>
+	  <!--
+	  <topic>Physical data security
+		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="1"/>
+	  </topic>
+	  <topic>Logical data security
+		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="2"/>
+	  </topic>
+	  <topic>Secure architecture design
+		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
+	  </topic>
+	  <topic>Data leakage prevention techniques
+		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="4"/>
+	  </topic>
+		-->
+	  <topic>Least privilege
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="1"/>
+	  </topic>
+	  <topic>Fail-safe defaults
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="2"/>
+	  </topic>
+	  <topic>Complete mediation
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="3"/>
+	  </topic>
+	  <topic>Separation
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="4"/>
+	  </topic>
+	  <topic>Minimize trust
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="5"/>
+	  </topic>
+	  <topic>Economy of mechanism
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="6"/>
+	  </topic>
+	  <topic>Minimize common mechanism
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="7"/>
+	  </topic>
+	  <topic>Least astonishment
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="8"/>
+	  </topic>
+	  <topic>Open design
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="9"/>
+	  </topic>
+	  <topic>Layering
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="10"/>
+	  </topic>
+	  <topic>Abstraction
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="11"/>
+	  </topic>
+	  <topic>Modularity
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="12"/>
+	  </topic>
+	  <topic>Complete linkage
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="13"/>
+	  </topic>
+	  <topic>Design for iteration
+		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="14"/>
+	  </topic>
+	  <!--
+	  <topic>Specification of security requirements
+		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
+	  </topic>-->
+	  <topic>Software development lifecycle/Security development lifecycle
+		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/>
+	  </topic>
+	  <topic>Programming languages and type-safe languages
+		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
+	  </topic>
+	  <!--
+	  <topic>Ethical issues in software development
+		  <covers standard="acm-csec2017" knowledgeArea="2/7" id="1"/>
+	  </topic>
+	  <topic>Componenet design security
+		  <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
+	  </topic>
+	  <topic>Principle of secure component design
+		  <covers standard="acm-csec2017" knowledgeArea="3/1" id="2"/>
+	  </topic>
+	  <topic>Component identification
+		  <covers standard="acm-csec2017" knowledgeArea="3/1" id="3"/>
+	  </topic>
+		-->
+	  <topic>NIST Cybersecurity Framework
+		  <topic>Components of the Framework</topic>
+		  <topic>Uses and Benefits of the Framework</topic>
+		  <topic>History and Creation of the Framework</topic>
+		  <topic>Informative References</topic>
+		  <topic>The Five Functions</topic>
+		  <topic>Introduction to the Framework Roadmap</topic>
+		  <topic>Update Process</topic>
+	  </topic>
   </outline>
 </course>

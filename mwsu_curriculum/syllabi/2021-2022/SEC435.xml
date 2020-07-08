@@ -22,6 +22,9 @@ stub
     <objective>Explain the need to test software after an update but before the patch is distributed.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
+    <objective>assess threats to and vulnerabilities of a computer system
+      <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
+    </objective>
     <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
     </objective>
@@ -84,7 +87,65 @@ stub
     </objective>
   </objectives>
   <outline>
-    <topic>Introduction
+	<topic>Secure architecture design
+		<covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
+	</topic>
+    <topic>Application and transport layer protocols
+	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="1"/>
+    </topic>
+    <topic>Attacks on TLS
+	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="2"/>
+    </topic>
+    <topic>Internet/Network Layer
+	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="3"/>
+    </topic>
+    <topic>Privacy preserving protocols
+	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="4"/>
+    </topic>
+    <topic>Data link layer
+	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
+    </topic>
+    <topic>Vulnerabilities and example exploits
+	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
+    </topic>
+    <topic>What is a system?
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
+    </topic>
+    <topic>What is systems engineering?
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
+    </topic>
+    <topic>Holistic approaches
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="3"/>
+    </topic>
+    <topic>Security of general-purpose systems
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="4"/>
+    </topic>
+    <topic>Security of special-purpose systems
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="5"/>
+    </topic>
+    <topic>Threat models
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
+    </topic>
+    <topic>Requirements analysis
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
+    </topic>
+    <topic>Requirements analysis
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
+    </topic>
+    <topic>Intrusion detection
+	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="3"/>
+    </topic>
+    <topic>Attacks
+	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="4"/>
+    </topic>
+    <topic>Defenses
+	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="5"/>
+    </topic>
+    <topic>Audit
+	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="6"/>
+    </topic>
+    <topic>System hardening
+	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="6"/>
     </topic>
   </outline>
 </course>

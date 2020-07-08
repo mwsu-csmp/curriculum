@@ -18,17 +18,25 @@ This course is an introduction to operating system principles. Topics include pr
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>264</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>Explain the difference between pseudorandom numbers and random numbers.
+	  <!--<objective>Explain the difference between pseudorandom numbers and random numbers.
       <covers standard="acm-csec2017" knowledgeArea="2/3" id="2"/>
     </objective>
     <objective>Describe a buffer overflow and why it is a potential security problem.
       <covers standard="acm-csec2017" knowledgeArea="2/3" id="4"/>
-    </objective>
+    </objective>-->
     <objective>Explain why every physical interface has a corresponding software component to provide a corresponding software interface.
       <covers standard="acm-csec2017" knowledgeArea="4" id="9"/>
     </objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+	  <topic>Virtualization and virtual hypervisor architecture
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="7"/>
+	  </topic>
+	  <topic>Virtual machines
+			<covers standard="acm-csec2017" knowledgeArea="5/7" id="1"/>
+	  </topic>
+	  <topic>Performance measurements (metrics)
+			<covers standard="acm-csec2017" knowledgeArea="7/3" id="1"/>
+	  </topic>
   </outline>
 </course>
