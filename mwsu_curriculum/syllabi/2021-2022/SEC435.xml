@@ -9,12 +9,17 @@
   <title>Network and Endpoint Security</title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>
-stub
-  </catalogDescription>
+  <catalogDescription>This course covers the knowledge in securing networks and network endpoints, which are hardware devices that are connected to and communication across local area networks (LANs) and wide-area networks (WANs). Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities. Students will learn about the mechanisms of attacks that target various hardware and software components and how their countermeasures thwart the attacks. Students will learn the underlying security theories and will gain hands on experience through lab exercises.</catalogDescription>
   <prerequisites>
   </prerequisites>
-
+        <textbook
+                title="Computer &amp; Network Security: A Hands-on Approach"
+                year="2019"
+                publisher="https://www.handsonsecurity.net/"
+                edition="Second"
+                ISBN="978-1733003926 (hardcover) and 978-1733003933 (paperback)">
+                <author>Wenliang Du</author>
+        </textbook>
   <objectives>
     <objective>Discuss the need to update software to fix security vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
@@ -67,9 +72,11 @@ stub
     <objective>Be able to explain the security implications of unclear or incomplete documentation of system operation.
       <covers standard="acm-csec2017" knowledgeArea="5" id="24"/>
     </objective>
+	<!--
     <objective>Explain why a hardware device is always modeled a physical component.
       <covers standard="acm-csec2017" knowledgeArea="4" id="6"/>
     </objective>
+	-->
     <objective>List several examples of physical component interfaces with their associated vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="4" id="7"/>
     </objective>
@@ -108,6 +115,9 @@ stub
     <topic>Vulnerabilities and example exploits
 	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
     </topic>
+    <topic>Threat hunting and machine learning
+	    <covers standard="acm-csec2017" knowledgeArea="4/8" id="14"/>
+    </topic>
     <topic>What is a system?
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
     </topic>
@@ -129,9 +139,6 @@ stub
     <topic>Requirements analysis
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
     </topic>
-    <topic>Requirements analysis
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
-    </topic>
     <topic>Intrusion detection
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="3"/>
     </topic>
@@ -143,6 +150,9 @@ stub
     </topic>
     <topic>Audit
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="6"/>
+    </topic>
+    <topic>Cloud administration
+	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="4"/>
     </topic>
     <topic>System hardening
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="6"/>

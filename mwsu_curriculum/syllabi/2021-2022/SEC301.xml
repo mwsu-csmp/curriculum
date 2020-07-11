@@ -9,16 +9,25 @@
   <title>Introduction to Cybersecurity</title>
   <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>TBD
-  </catalogDescription>
+  <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security by studying the theories and practicing through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by first decomposing its security requirement into components and applying common techniques to enforce each security component. Mathematical backgrounds of well-known security algorithms will also be discussed in this course.</catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
+	<textbook
+		title="Computer &amp; Network Security: A Hands-on Approach"
+		year="2019"
+		publisher="https://www.handsonsecurity.net/"
+		edition="Second"
+		ISBN="978-1733003926 (hardcover) and 978-1733003933 (paperback)">
+		<author>Wenliang Du</author>
+	</textbook>
   <objectives>
+	  <!--
     <objective>demonstrate the ability to implement software that is robust against common security attacks
 	    <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/>
     </objective>
+    -->
     <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
 </objective>
@@ -51,17 +60,21 @@
     <objective>Explain how public key infrastructure supports digital signing and encryption and discuss the limitations/vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
     </objective>
+    <!--
     <objective>Discuss the implications of relying on open design or the secrecy of design for security.
       <covers standard="acm-csec2017" knowledgeArea="2/1" id="1"/>
     </objective>
-    <objective>List the three principles of security and describe why each principle is important to security.
+    -->
+    <objective>List the three principles of security 
       <covers standard="acm-csec2017" knowledgeArea="2/1" id="2"/>
+    </objective>
+    <objective>Describe why each principle is important to security
       <covers standard="acm-csec2017" knowledgeArea="2/1" id="3"/>
     </objective>
+    <!--
     <objective>Identify the needed design principle.
       <covers standard="acm-csec2017" knowledgeArea="2/1" id="4"/>
     </objective>
-    <!--
     <objective>Identify the ethical effects and impacts of design decisions.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="4"/>
     </objective>
@@ -139,7 +152,6 @@
 	  <topic>Data leakage prevention techniques
 		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="4"/>
 	  </topic>
-		-->
 	  <topic>Least privilege
 		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="1"/>
 	  </topic>
@@ -182,17 +194,15 @@
 	  <topic>Design for iteration
 		  <covers standard="acm-csec2017" knowledgeArea="2/1" id="14"/>
 	  </topic>
-	  <!--
 	  <topic>Specification of security requirements
 		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
-	  </topic>-->
+	  </topic>
 	  <topic>Software development lifecycle/Security development lifecycle
 		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/>
 	  </topic>
 	  <topic>Programming languages and type-safe languages
 		  <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
 	  </topic>
-	  <!--
 	  <topic>Ethical issues in software development
 		  <covers standard="acm-csec2017" knowledgeArea="2/7" id="1"/>
 	  </topic>

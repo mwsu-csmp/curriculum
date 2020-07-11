@@ -29,8 +29,17 @@ This course is an introduction to operating system principles. Topics include pr
     </objective>
   </objectives>
   <outline>
+	  <topic>High performance computing (supercomputers)
+			<covers standard="acm-csec2017" knowledgeArea="4/4" id="5"/>
+	  </topic>
+	  <topic>Hypervisors and cloud computing implementations
+			<covers standard="acm-csec2017" knowledgeArea="4/4" id="6"/>
+	  </topic>
 	  <topic>Virtualization and virtual hypervisor architecture
 			<covers standard="acm-csec2017" knowledgeArea="4/5" id="7"/>
+	  </topic>
+	  <topic>Service virtualization
+			<covers standard="acm-csec2017" knowledgeArea="4/7" id="5"/>
 	  </topic>
 	  <topic>Virtual machines
 			<covers standard="acm-csec2017" knowledgeArea="5/7" id="1"/>
