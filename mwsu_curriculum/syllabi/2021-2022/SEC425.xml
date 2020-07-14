@@ -14,7 +14,15 @@
   </catalogDescription>
   <prerequisites>
   </prerequisites>
-  <objectives>
+  <textbook
+  title="CEH v10 Certified Ethical Hacker Study Guide"
+  year="2019"
+  publisher="Sybex"
+  edition="First"
+  ISBN="ISBN-10: 1119533198 ISBN-13: 978-1119533191">
+  <author>Ric Messier</author>
+  </textbook>
+<objectives>
     <objective>Identify common attack vectors for compromising software systems.
       <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
     </objective>

@@ -14,7 +14,22 @@
   </catalogDescription>
   <prerequisites>
   </prerequisites>
-
+  <textbook
+  title="Understanding Cryptography: A Textbook for Students and Practitioners"
+  year="2010"
+  publisher="Springer"
+  edition="First"
+  ISBN="ASIN: B014P9I39Q">
+  <author>Christof Paar &amp; Jan Pelzl</author>
+  </textbook>
+  <textbook
+  title="Securing the Perimeter: Deploying Identity and Access Management with Free Open Source Software"
+  year="2018"
+  publisher="Apress"
+  edition="First"
+  ISBN="ISBN-10: 1484226003 ISBN-13: 978-1484226001">
+  <author>Michael Schwartz</author>
+  </textbook>
   <objectives>
     <objective>Describe the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plaintext in ciphertext.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
