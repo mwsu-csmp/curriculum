@@ -94,28 +94,28 @@
     </objective>
   </objectives>
   <outline>
-	<topic>Secure architecture design
+	<topic>Secure architecture design for information protection
 		<covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
 	</topic>
     <topic>Application and transport layer protocols
 	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="1"/>
     </topic>
-    <topic>Attacks on TLS
+    <topic>Attacks on Transport Layer Security (TLS)
 	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="2"/>
     </topic>
-    <topic>Internet/Network Layer
+    <topic>Secure communication protocols on Internet/Network Layer
 	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="3"/>
     </topic>
-    <topic>Privacy preserving protocols
+    <topic>Secure communication protocols for preserving privacy
 	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="4"/>
     </topic>
-    <topic>Data link layer
+    <topic>Secure communication protocols on Data link layer
 	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
     </topic>
-    <topic>Vulnerabilities and example exploits
+    <topic>Vulnerabilities and example exploits on distributed system architectures
 	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
     </topic>
-    <topic>Threat hunting and machine learning
+    <topic>Proactive threat hunting using machine learning
 	    <covers standard="acm-csec2017" knowledgeArea="4/8" id="14"/>
     </topic>
     <topic>What is a system?
@@ -124,7 +124,7 @@
     <topic>What is systems engineering?
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
     </topic>
-    <topic>Holistic approaches
+    <topic>Holistic approaches for system thinking
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="3"/>
     </topic>
     <topic>Security of general-purpose systems
@@ -133,28 +133,28 @@
     <topic>Security of special-purpose systems
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="5"/>
     </topic>
-    <topic>Threat models
+    <topic>Threat models: Threat detection and mitigation
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
     </topic>
-    <topic>Requirements analysis
+    <topic>Requirements analysis throughout a system lifecycle
 	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
     </topic>
-    <topic>Intrusion detection
+    <topic>Intrusion detection techniques
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="3"/>
     </topic>
-    <topic>Attacks
+    <topic>Attack models
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="4"/>
     </topic>
-    <topic>Defenses
+    <topic>Defense techniques and intrusion tolerance
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="5"/>
     </topic>
-    <topic>Audit
+    <topic>Audit: logging, log analysis, and relationship to intrusion detection
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="6"/>
     </topic>
     <topic>Cloud administration
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="4"/>
     </topic>
-    <topic>System hardening
+    <topic>System hardening by finding and remediating risks
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="6"/>
     </topic>
   </outline>

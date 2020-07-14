@@ -39,10 +39,10 @@
     <objective>Discuss the dangers of inventing one’s own cryptographic methods.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
     </objective>
-    <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
+    <objective>Understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
     </objective>
-    <objective>decompose system security requirements into confidentiality, integrity, and availability components
+    <objective>Decompose system security requirements into confidentiality, integrity, and availability components
         <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
         <covers standard="acm-cs2013" knowledgeArea="IAS/FCIS" id="1"/>
     </objective>
@@ -221,9 +221,9 @@
 		  <topic>Uses and Benefits of the Framework</topic>
 		  <topic>History and Creation of the Framework</topic>
 		  <topic>Informative References</topic>
-		  <topic>The Five Functions</topic>
+		  <topic>The Five Functions: Identify, Protect, Detect, Respond, Recover</topic>
 		  <topic>Introduction to the Framework Roadmap</topic>
-		  <topic>Update Process</topic>
+		  <topic>Framework Update Process</topic>
 	  </topic>
   </outline>
 </course>
