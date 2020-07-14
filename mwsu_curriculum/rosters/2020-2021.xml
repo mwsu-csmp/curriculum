@@ -14,6 +14,10 @@
   <instructor>
     <id>Noynaert</id>
     <name>Evan Noynaert</name>
+    <release>
+      <description>CSMP Co-Chair</description>
+      <hours>6</hours>
+    </release>
   </instructor>
   <instructor>
     <id>Morwick</id>

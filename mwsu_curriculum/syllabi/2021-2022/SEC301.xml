@@ -8,6 +8,7 @@
   <number>301</number>
   <title>Introduction to Cybersecurity</title>
   <offered>fall</offered>
+
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security by studying the theories and practicing through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by first decomposing its security requirement into components and applying common techniques to enforce each security component. Mathematical backgrounds of well-known security algorithms will also be discussed in this course.</catalogDescription>
   <prerequisites>
@@ -23,21 +24,28 @@
 		<author>Wenliang Du</author>
 	</textbook>
   <objectives>
+    <objective>Explain the concepts of authentication, authorization, access control, and data integrity.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="1"/>
+    </objective>
 	  <!--
     <objective>demonstrate the ability to implement software that is robust against common security attacks
 	    <covers standard="acm-csec2017" knowledgeArea="2/2" id="3"/>
     </objective>
     -->
+    <objective>Describe the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plaintext in ciphertext.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+    </objective>
+
+    <objective>Discuss the dangers of inventing one’s own cryptographic methods.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
+    </objective>
     <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
-</objective>
-    <objective>Explain the difference between pseudorandom numbers and random numbers.
-	          <covers standard="acm-csec2017" knowledgeArea="2/3" id="2"/>
-		      </objective>
+    </objective>
     <objective>decompose system security requirements into confidentiality, integrity, and availability components
         <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
         <covers standard="acm-cs2013" knowledgeArea="IAS/FCIS" id="1"/>
-</objective>
+    </objective>
 <!--
     <objective>assess threats to and vulnerabilities of a computer system
         <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
@@ -90,9 +98,6 @@
     <objective>List several standards that define models consisting of systems of components and interfaces.
       <covers standard="acm-csec2017" knowledgeArea="4" id="4"/>
     </objective>
-    <objective>Explain the concepts of trust and trustworthiness.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="1"/>
-    </objective>
     <objective>Explain what a security policy is, its importance, and its role in protecting data and resources.
       <covers standard="acm-csec2017" knowledgeArea="5" id="3"/>
       <covers standard="acm-csec2017" knowledgeArea="5" id="4"/>
@@ -101,10 +106,13 @@
       <covers standard="acm-csec2017" knowledgeArea="5" id="5"/>
     </objective>
 	-->
-    <!--
+    <objective>Explain the concepts of trust and trustworthiness.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="1"/>
+    </objective>
     <objective>Describe the concept of privacy including personally identifiable information.
       <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
     </objective>
+    <!--
     <objective>Describe the concepts of privacy tradeoffs and risks in the social context, control and awareness of data consent, personal information monitoring, regulatory protections and concerns on maintaining social privacy.
       <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
     </objective>
@@ -112,22 +120,14 @@
       <covers standard="acm-csec2017" knowledgeArea="6/5" id="3"/>
     </objective>
 	-->
-    <!--
-    <objective>Describe an access control list.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="10"/>
-    </objective>
-    -->
     <objective>Describe the NIST Cybersecurity Framework
     </objective>
   </objectives>
   <outline>
-	  <topic>Basic concepts
+	  <topic>Basic cryptography concepts
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
 	  </topic>
-	  <topic>Advanced concepts
-		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
-	  </topic>
-	  <topic>Mathematical backgrounds
+	  <topic>Mathematical background for cryptography
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
 	  </topic>
 	  <topic>Historical ciphers concepts

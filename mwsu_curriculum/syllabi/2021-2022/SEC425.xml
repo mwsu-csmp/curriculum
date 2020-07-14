@@ -53,9 +53,6 @@
     <objective>Discuss the need to update software to fix security vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
     </objective>
-    <objective>Describe an exploit for a vulnerability of a physical interface provided.
-      <covers standard="acm-csec2017" knowledgeArea="4" id="8"/>
-    </objective>
     <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
       <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
     </objective>

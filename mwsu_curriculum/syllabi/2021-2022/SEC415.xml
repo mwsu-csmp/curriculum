@@ -31,17 +31,8 @@
   <author>Michael Schwartz</author>
   </textbook>
   <objectives>
-    <objective>Describe the following terms: cipher, cryptanalysis, cryptographic algorithm, and cryptology, and describe the two basic methods (ciphers) for transforming plaintext in ciphertext.
-      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
-    </objective>
     <objective>Describe which cryptographic protocols, tools and techniques are appropriate for a given situation.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
-    </objective>
-    <objective>Discuss the dangers of inventing one’s own cryptographic methods.
-      <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
-    </objective>
-    <objective>Explain the concepts of authentication, authorization, access control, and data integrity.
-      <covers standard="acm-csec2017" knowledgeArea="1/3" id="1"/>
     </objective>
     <objective>Explain the various authentication techniques and their strengths and weaknesses.
       <covers standard="acm-csec2017" knowledgeArea="1/3" id="2"/>
@@ -54,6 +45,12 @@
     </objective>
     <objective>Explain the difference between identification, authentication, and access authorization of people and devices.
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
+    </objective>
+	  <objective>Explain the difference between pseudorandom numbers and random numbers.
+      <covers standard="acm-csec2017" knowledgeArea="2/3" id="2"/>
+    </objective>
+    <objective>Describe an access control list.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="10"/>
     </objective>
     <objective>Discuss the importance of audit trails and logging in identification and authentication.
       <covers standard="acm-csec2017" knowledgeArea="6/1" id="2"/>
