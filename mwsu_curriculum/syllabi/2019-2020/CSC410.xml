@@ -25,9 +25,55 @@ This course covers various facets of network security and the tools that are ava
     <objective>identify legal and ethical ramifications of policy decisions and defend those decision</objective>
     <objective>distinguish desired system features (policy) from their implementation (mechanism)</objective>
     <objective>design a security plan for an instructor-supplied system description</objective>
+    <objective>study the basic concepts in crytography
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </objective>
+    <objective>study the advanced concepts in crytography
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+    </objective>
+    <objective>Mathematical background
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+    </objective>
+    <objective>Historical ciphers
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
+    </objective>
+    <objective>Symmetric (private key) ciphers
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+    </objective>
+    <objective>Asymmetric (public-key) ciphers
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+    </objective>
   </objectives>
   <outline>
-    <topic>System Security: hacker behavior, intrusion and anomaly detection, hacker and admin tools</topic>
+    <topic>Encryption/decryption, sender authentication, data integrity, non-repudiation
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </topic>
+    <topic>Attack classification (ciphertext-only, known plaintext, chosen plaintext, chosen ciphertext)
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </topic>
+    <topic>Secret key (symmetric), cryptography and public-key (asymmetric) cryptography
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </topic>
+    <topic>Information-theoretic security (one-time pad, Shannon Theorem)
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </topic>
+    <topic>Computational security
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+    </topic>
+    <topic>Advanced protocols: Zero-knowledge proofs, and protocols, Secret sharing, Committment, Oblivious transfer, Secure multiparty computation
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+    </topic>
+    <topic>Advanced recent developments: fully homomorphic encryption, obfuscation, quantum cryptography, and KLJN scheme.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="2"/>
+    </topic>
+    <topic>Essential mathematical topics in understanding encryption: Modular arithmetic, Fermat, Euler theorems, Primitive roots, discrete log problem, Primality testing, factoring large integers, Elliptic curves, lattices and hard lattice problems, Abstract algebra, finite fields, and Information theory
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
+    </topic>
+    <topic>Historical ciphers (Shift cipher, affine cipher, substitution cipher, Vigenere cipher, ROT-13, and Hill cipher, Enigma machine, and others) and their applications.
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
+    </topic>
+    <topic>System Security: hacker behavior, intrusion and anomaly detection, hacker and admin tools
+    </topic>
     <topic>Networks and Infrastructure: TCP/IP, Denial of Service, IPSEC, TLS/SSL</topic>
     <topic>Basic Cryptography: Shared key crypto (AES/DES), Public Key Crypto (RSA), hashes</topic>
     <topic>Crypto software: Open SSL library, applications (authentication, digital signatures)</topic>

@@ -29,37 +29,94 @@ An examination of current computer communication technologies and their protocol
 	<objective>Understand the role of each layer in a network model and how each layer facilitates its role.</objective>
 	<objective>Identify and compare different data link, network, and transport layer protocols.</objective>
 	<objective>Identify the performance properties of physical, datalink and network protocols.</objective>
-  </objectives>
+	<objective>Discuss the need for common models and architectures in order to describe systems.
+		<covers standard="acm-csec2017" knowledgeArea="4" id="1"/>
+	</objective>
+	<objective>Describe a model of systems that consists of components and interfaces for connections.
+		<covers standard="acm-csec2017" knowledgeArea="4" id="2"/>
+	</objective>
+	<objective>Explain why a component requires at least one interface.
+		<covers standard="acm-csec2017" knowledgeArea="4" id="3"/>
+	</objective>
+	<objective>List several standards that define models consisting of systems of components and interfaces.
+		<covers standard="acm-csec2017" knowledgeArea="4" id="4"/>
+	</objective>
+	<objective>Explain how software components are organized to represent logical layers in a standard model.
+		<covers standard="acm-csec2017" knowledgeArea="4" id="10"/>
+	</objective>
+</objectives>
   <outline>
 	<topic>Computer networking overview
 		<topic>Reference models</topic>
+		<topic>General concepts
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="1"/>
+		</topic>
+		<topic>Common architectures
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="2"/>
+		</topic>
 	</topic>
 	<topic>The physical layer
-		<topic>Wired and wireless transmission</topic>
-		<topic>Digital modulation and multiplexing</topic>
+		<topic>IEEE 802/ISO networks
+			<covers standard="acm-csec2017" knowledgeArea="4/6" id="1"/>
+		</topic>
+		<topic>Wired and wireless transmission
+			<covers standard="acm-csec2017" knowledgeArea="4/1" id="1"/>
+			<covers standard="acm-csec2017" knowledgeArea="4/2" id="1"/>
+			<covers standard="acm-csec2017" knowledgeArea="4/2" id="2"/>
+			<covers standard="acm-csec2017" knowledgeArea="4/2" id="3"/>
+		</topic>
+		<topic>Digital modulation and multiplexing
+			<covers standard="acm-csec2017" knowledgeArea="4/1" id="2"/>
+		</topic>
 	</topic>
 	<topic>The datalink layer
 		<topic>Design issues and protocols</topic>
 		<topic>Error detection and correction</topic>
 	</topic>
 	<topic>The medium access control sublayer
-		<topic>Multiple access protocols</topic>
-		<topic>Ethernet and wireless LANs</topic>
+		<topic>Multiple access protocols
+			<covers standard="acm-csec2017" knowledgeArea="4/1" id="4"/>
+		</topic>
+		<topic>Ethernet and wireless LANs
+			<covers standard="acm-csec2017" knowledgeArea="4/1" id="3"/>
+		</topic>
+		<topic>Forwarding
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="3"/>
+		</topic>
+		<topic>Switching/Bridging
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="5"/>
+		</topic>
 	</topic>
 	<topic>The network layer
-		<topic>Routing algorithms</topic>
+		<topic>Routing algorithms
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="4"/>
+		</topic>
+		<topic>Practical integration and glue protocols
+			<covers standard="acm-csec2017" knowledgeArea="4/6" id="3"/>
+		</topic>
 		<topic>Congestion control algorithms</topic>
 		<topic>Quality of Service</topic>
 		<topic>Internetworking</topic>
+		<topic>Network administration
+			<covers standard="acm-csec2017" knowledgeArea="7/4" id="3"/>
+		</topic>
 	</topic>
 	<topic>The transport layer
-		<topic>The transport service and protocol</topic>
+		<topic>The transport service and protocol
+			<covers standard="acm-csec2017" knowledgeArea="4/6" id="2"/>
+		</topic>
 		<topic>Congestion control</topic>
 	</topic>
 	<topic>The application layer
 		<topic>Domain Name system</topic>
 		<topic>World-wide web and streaming media</topic>
 		<topic>Content delivery</topic>
+		<topic>Common service communication architectures
+			<covers standard="acm-csec2017" knowledgeArea="4/7" id="4"/>
+		</topic>
+	</topic>
+	<topic>Emerging trends
+			<covers standard="acm-csec2017" knowledgeArea="4/5" id="6"/>
 	</topic>
   </outline>
 </course>
