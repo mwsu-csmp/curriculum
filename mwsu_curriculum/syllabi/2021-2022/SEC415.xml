@@ -10,7 +10,7 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-stub
+    Techniques used to protect data from unauthorized access or corruption, and techniques used to identify, authenticate and authorize individuals or groups to access protected resources.  
   </catalogDescription>
   <prerequisites>
   </prerequisites>
