@@ -10,10 +10,10 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-    An introduction to the development and management of cybersecurity programs within organizations. Governance frameworks and regulations will be studied through development of policy and controls, implementation of audits, and simulated risk analysis and incident response. Students will gain skill with management tools, examine security concerns with employees and vendors, and explore communication strategies with a variety of stakeholders.
+    This course introduces the development and management of cybersecurity programs within organizations. Governance frameworks and regulations will be studied through development of policy, implementation of controls and audits, analysis of risks, and response to simulated incidents. Students will gain skill with management tools, analyze security concerns with employees and vendors, and implement communication strategies with a variety of stakeholders.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>301</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
   <textbook title="Implementing Cybersecurity"
             edition="1"
@@ -154,6 +154,7 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
         <topic>SOX</topic>
         <topic>GLBA</topic>
         <topic>PCI-DSS</topic>
+        <topic>GDPR</topic>
         <covers standard="acm-csec2017" knowledgeArea="6/3" id="2"/>
         <covers standard="casp-03" knowledgeArea="1/1" id="3/3"/>
         <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
@@ -204,7 +205,7 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
           <covers standard="acm-csec2017" knowledgeArea="2/6" id="3"/>
           <covers standard="acm-csec2017" knowledgeArea="2/6" id="4"/>
       </topic>
-      <topic>Asset and User Tracking and Control
+      <topic>Asset and User Tracking, and Control
           <covers standard="acm-csec2017" knowledgeArea="5/5" id="1"/>
           <covers standard="acm-csec2017" knowledgeArea="5/5" id="2"/>
           <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>

@@ -9,7 +9,7 @@
   <title>Network and Endpoint Security</title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>This course covers the knowledge in securing networks and network endpoints, which are hardware devices that are connected to and communication across local area networks (LANs) and wide-area networks (WANs). Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities. Students will learn about the mechanisms of attacks that target various hardware and software components and how their countermeasures thwart the attacks. Students will learn the underlying security theories and will gain hands on experience through lab exercises.</catalogDescription>
+  <catalogDescription>This course will teach students to secure networks and network endpoints such as computers, routers and IoT devices. Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities. Students will learn about the vulnerabilities and attack vectors for various hardware and software components and the countermeasures that thwart these attacks. Students will learn the underlying security theory and will gain hands on experience through lab exercises.</catalogDescription>
   <prerequisites>
   </prerequisites>
         <textbook
@@ -27,13 +27,13 @@
     <objective>Explain the need to test software after an update but before the patch is distributed.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
-    <objective>assess threats to and vulnerabilities of a computer system
+    <objective>Assess threats to and vulnerabilities of a computer system
       <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
     </objective>
     <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
     </objective>
-    <objective>Describe the components and interfaces of a networking standard provided.
+    <objective>Describe the components and interfaces of a provided networking standard.
       <covers standard="acm-csec2017" knowledgeArea="4" id="5"/>
     </objective>
     <objective>Discuss how the Internet 5 layer model can be viewed as software components and interfaces that represent levels of services encapsulated by lower-level services.
@@ -66,7 +66,7 @@
     <objective>Discuss the importance of documenting proper installation and configuration of a system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="22"/>
     </objective>
-    <objective>Be able to write host and network intrusions documentation.
+    <objective>Be able to write host and network intrusion documentation.
       <covers standard="acm-csec2017" knowledgeArea="5" id="23"/>
     </objective>
     <objective>Be able to explain the security implications of unclear or incomplete documentation of system operation.
@@ -94,50 +94,50 @@
     </objective>
   </objectives>
   <outline>
+    <topic>Systems and system engineering
+	    <topic>Holistic approaches for system thinking
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="3"/>
+	    </topic>
+	    <topic>Security of general-purpose systems
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="4"/>
+	    </topic>
+	    <topic>Security of special-purpose systems
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="5"/>
+	    </topic>
+	    <topic>Threat models: Threat detection and mitigation
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
+	    </topic>
+	    <topic>Requirements analysis throughout a system lifecycle
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
+	    </topic>
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
+	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
+    </topic>
 	<topic>Secure architecture design for information protection
 		<covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
 	</topic>
-    <topic>Application and transport layer protocols
-	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="1"/>
-    </topic>
-    <topic>Attacks on Transport Layer Security (TLS)
-	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="2"/>
-    </topic>
-    <topic>Secure communication protocols on Internet/Network Layer
-	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="3"/>
-    </topic>
-    <topic>Secure communication protocols for preserving privacy
-	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="4"/>
-    </topic>
-    <topic>Secure communication protocols on Data link layer
-	    <covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
-    </topic>
+	<topic>Network hardening
+		<topic>Application and transport layer protocols
+			<covers standard="acm-csec2017" knowledgeArea="1/5" id="1"/>
+		</topic>
+		<topic>Attacks on Transport Layer Security (TLS)
+			<covers standard="acm-csec2017" knowledgeArea="1/5" id="2"/>
+		</topic>
+		<topic>Secure communication protocols on Internet/Network Layer
+			<covers standard="acm-csec2017" knowledgeArea="1/5" id="3"/>
+		</topic>
+		<topic>Secure communication protocols for preserving privacy
+			<covers standard="acm-csec2017" knowledgeArea="1/5" id="4"/>
+		</topic>
+		<topic>Secure communication protocols on Data link layer
+			<covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
+		</topic>
+	</topic>
     <topic>Vulnerabilities and example exploits on distributed system architectures
 	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
     </topic>
     <topic>Proactive threat hunting using machine learning
 	    <covers standard="acm-csec2017" knowledgeArea="4/8" id="14"/>
-    </topic>
-    <topic>What is a system?
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
-    </topic>
-    <topic>What is systems engineering?
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
-    </topic>
-    <topic>Holistic approaches for system thinking
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="3"/>
-    </topic>
-    <topic>Security of general-purpose systems
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="4"/>
-    </topic>
-    <topic>Security of special-purpose systems
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="5"/>
-    </topic>
-    <topic>Threat models: Threat detection and mitigation
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
-    </topic>
-    <topic>Requirements analysis throughout a system lifecycle
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
     </topic>
     <topic>Intrusion detection techniques
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="3"/>

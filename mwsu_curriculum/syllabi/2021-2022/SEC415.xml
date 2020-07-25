@@ -10,7 +10,7 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-    Techniques used to protect data from unauthorized access or corruption, and techniques used to identify, authenticate and authorize individuals or groups to access protected resources.  
+    This course will cover techniques used to protect data from unauthorized access or corruption, and techniques used to identify, authenticate, and authorize individuals or groups to access protected resources. Students will work with open-source tools for cryptography and identity management. 
   </catalogDescription>
   <prerequisites>
   </prerequisites>

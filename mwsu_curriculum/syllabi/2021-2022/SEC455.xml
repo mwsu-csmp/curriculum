@@ -10,7 +10,7 @@
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-An introduction to the relationship of US and International Law to Cybersecurity, including law related to privacy, data security, crime, and intellectual property. Students will also explore the implications of culture and international agreements on policy and critical infrastructure. Students will learn the essentials of computer investigations through the application of forensic tools.
+This course introduces the US and international laws on cybersecurity, including law related to privacy, data security, crime, and intellectual property. Students will also explore the implications of culture and international agreements on policy and critical infrastructure. Students will learn the essentials of computer investigations through the application of forensic tools.
   </catalogDescription>
   <prerequisites>
   </prerequisites>
@@ -49,7 +49,7 @@ An introduction to the relationship of US and International Law to Cybersecurity
     <objective>Summarize nation-specific cybersecurity public policy with respect to the protection of sensitive information and protection of critical infrastructure.
       <covers standard="acm-csec2017" knowledgeArea="8/4" id="2"/>
     </objective>
-    <objective>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy and laws.
+    <objective>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy, and laws.
       <covers standard="acm-csec2017" knowledgeArea="8/4" id="3"/>
     </objective>
 
@@ -70,7 +70,7 @@ An introduction to the relationship of US and International Law to Cybersecurity
     <objective>Describe methods for investigating both domestic and international crimes.
       <covers standard="acm-csec2017" knowledgeArea="8/1" id="3"/>
     </objective>
-    <objective>Compare and contrast variety of forensics tools.
+    <objective>Compare and contrast a variety of forensics tools.
       <covers standard="acm-csec2017" knowledgeArea="1/2" id="2"/>
     </objective>
     <objective>Explain why preserving the chain of digital evidence is necessary in prosecuting cybercrimes.
