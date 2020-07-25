@@ -5,15 +5,16 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>301</number>
+  <number>300</number>
   <title>Introduction to Cybersecurity</title>
   <offered>fall</offered>
 
   <scheduleType>lecture</scheduleType>
-  <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security by studying the theories and practicing through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by first decomposing its security requirement into components and applying common techniques to enforce each security component. Mathematical backgrounds of well-known security algorithms will also be discussed in this course.</catalogDescription>
+  <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security through studying theory and through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by analyzing its security requirements and applying common techniques to enforce them.</catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>254</number></prerequisiteCourse>
   </prerequisites>
 	<textbook
 		title="Computer &amp; Network Security: A Hands-on Approach"
@@ -39,10 +40,10 @@
     <objective>Discuss the dangers of inventing one’s own cryptographic methods.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
     </objective>
-    <objective>understand the capabilities of modern cryptographic systems and how they are applied in communications
+    <objective>Understand the capabilities of modern cryptographic systems and how they are applied in communications
         <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
     </objective>
-    <objective>decompose system security requirements into confidentiality, integrity, and availability components
+    <objective>Decompose system security requirements into confidentiality, integrity, and availability components
         <covers standard="acm-csec2017" knowledgeArea="5" id="2"/>
         <covers standard="acm-cs2013" knowledgeArea="IAS/FCIS" id="1"/>
     </objective>
@@ -124,21 +125,30 @@
     </objective>
   </objectives>
   <outline>
+	<topic>Basic security principles
+		<topic>trust</topic>
+		<topic>privacy</topic>
+		<topic>Confidentiality, Integrity, Availability</topic>
+	</topic>
+	<topic>Basic concepts of authentication, authorization, access control, and data integrity
+	</topic>
 	  <topic>Basic cryptography concepts
+		  <topic>Symmetric ciphers
+			  <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+		  </topic>
+		  <topic>Asymmetric ciphers
+			  <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+		  </topic>
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
 	  </topic>
+	<!--
 	  <topic>Mathematical background for cryptography
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="3"/>
 	  </topic>
-	  <topic>Historical ciphers concepts
+	  <topic>Ciphers concepts
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
 	  </topic>
-	  <topic>Symmetric ciphers
-		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
-	  </topic>
-	  <topic>Asymmetric ciphers
-		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
-	  </topic>
+	-->
 	  <!--
 	  <topic>Physical data security
 		  <covers standard="acm-csec2017" knowledgeArea="1/4" id="1"/>
@@ -221,9 +231,9 @@
 		  <topic>Uses and Benefits of the Framework</topic>
 		  <topic>History and Creation of the Framework</topic>
 		  <topic>Informative References</topic>
-		  <topic>The Five Functions</topic>
+		  <topic>The Five Functions: Identify, Protect, Detect, Respond, Recover</topic>
 		  <topic>Introduction to the Framework Roadmap</topic>
-		  <topic>Update Process</topic>
+		  <topic>Framework Update Process</topic>
 	  </topic>
   </outline>
 </course>
