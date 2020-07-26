@@ -7,12 +7,13 @@
   <subject>SEC</subject>
   <number>415</number>
   <title>Data Security and Identity Management</title>
-  <offered>spring</offered>
+  <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
     This course will cover techniques used to protect data from unauthorized access or corruption, and techniques used to identify, authenticate, and authorize individuals or groups to access protected resources. Students will work with open-source tools for cryptography and identity management. 
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
   <textbook
   title="Understanding Cryptography: A Textbook for Students and Practitioners"

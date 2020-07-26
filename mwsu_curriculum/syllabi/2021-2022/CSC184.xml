@@ -9,6 +9,7 @@
   <title>Introduction to Computer Programming</title>
   <offered>fall</offered>
   <offered>spring</offered>
+  <offered>summer</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription> Introduction to problem solving utilizing the Python programming language. Topics include algorithm and program development, syntax of python, file input/output, assignment operations, program control structures, functions, and collections. LAS Computer Literacy. 
   </catalogDescription>

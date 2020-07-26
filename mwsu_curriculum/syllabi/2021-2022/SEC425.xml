@@ -7,12 +7,13 @@
   <subject>SEC</subject>
   <number>425</number>
   <title>Ethical Hacking</title>
-  <offered>spring</offered>
+  <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
     This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will gain practical skills through red-team exercises and penetration labs. 
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
   <textbook
   title="CEH v10 Certified Ethical Hacker Study Guide"

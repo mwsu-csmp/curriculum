@@ -5,9 +5,9 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>318</number>
+  <number>328</number>
   <title>Computer Graphics</title>
-  <offered>fall</offered>
+  <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 	  A course in the techniquesfor picture transformation structure; organization of graphical systems; use of the microcomputer as tools for displaying g, curve and surface approximation; study and implementation of graphical languages and data raphical data.

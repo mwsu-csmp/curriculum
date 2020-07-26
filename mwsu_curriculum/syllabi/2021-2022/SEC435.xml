@@ -7,10 +7,11 @@
   <subject>SEC</subject>
   <number>435</number>
   <title>Network and Endpoint Security</title>
-  <offered>spring</offered>
+  <offered>fall-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course will teach students to secure networks and network endpoints such as computers, routers and IoT devices. Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities. Students will learn about the vulnerabilities and attack vectors for various hardware and software components and the countermeasures that thwart these attacks. Students will learn the underlying security theory and will gain hands on experience through lab exercises.</catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
         <textbook
                 title="Computer &amp; Network Security: A Hands-on Approach"

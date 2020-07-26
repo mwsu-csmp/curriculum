@@ -8,6 +8,7 @@
   <number>294</number>
   <title>Networking and Telecommunications </title>
   <offered>fall</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 An examination of current computer communication technologies and their protocol structures as applied to computer networks and telecommunication systems. Topics include the physical layers, architectural elements, and information layers of a communication network; protocols; switching; routing; LANs; and WANs.
