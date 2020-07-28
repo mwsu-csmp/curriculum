@@ -14,6 +14,7 @@ The standards folder contains initial efforts towards development of XML codific
 
 ## Dependencies (ubuntu packages listed)
 * python3
-* pytest-benchmark
+* pytest-benchmark  (python3-pytest-benchmark in Ubuntu 20.04)
 * libxml2-utils
-* xmllint
+* xmllint (this is part of libxml2-utils in the Ubuntu 20.04 repositories, and does not need to be installed separately)
+
