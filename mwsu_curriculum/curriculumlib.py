@@ -582,7 +582,7 @@ def load_schedule(semester, year):
             building = building.text if building is not None else None
             room = sectiont.find(ns + 'room')
             room = room.text if room is not None else None
-            workload_hours = int(sectiont.attrib['workloadHoursExpected']) \
+            workload_hours = float(sectiont.attrib['workloadHoursExpected']) \
                     if 'workloadHoursExpected' in sectiont.attrib else course.workload_hours
             daysList = list()
             for days in sectiont.findall(ns + 'day'):
