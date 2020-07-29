@@ -194,16 +194,16 @@
 
     <xs:attribute name="repeatable" type="xs:boolean" default="false"/>
     <xs:attribute name="equivalentCourse" type="xs:string" default=""/>
-    <xs:attribute name="creditHoursLecture" type="xs:integer" default="3"/>
-    <xs:attribute name="creditHoursLab" type="xs:integer" default="0"/>
-    <xs:attribute name="creditHoursOther" type="xs:integer" default="0"/>
-    <xs:attribute name="contactHoursLecture" type="xs:integer" default="3"/>
-    <xs:attribute name="contactHoursLab" type="xs:integer" default="0"/>
-    <xs:attribute name="contactHoursOther" type="xs:integer" default="0"/>
-    <xs:attribute name="workloadHoursLecture" type="xs:integer" default="3"/>
-    <xs:attribute name="workloadHoursLab" type="xs:integer" default="0"/>
-    <xs:attribute name="workloadHoursOther" type="xs:integer" default="0"/>
-    <xs:attribute name="workloadHoursExpected" type="xs:integer"/>
+    <xs:attribute name="creditHoursLecture" type="xs:decimal" default="3"/>
+    <xs:attribute name="creditHoursLab" type="xs:decimal" default="0"/>
+    <xs:attribute name="creditHoursOther" type="xs:decimal" default="0"/>
+    <xs:attribute name="contactHoursLecture" type="xs:decimal" default="3"/>
+    <xs:attribute name="contactHoursLab" type="xs:decimal" default="0"/>
+    <xs:attribute name="contactHoursOther" type="xs:decimal" default="0"/>
+    <xs:attribute name="workloadHoursLecture" type="xs:decimal" default="3"/>
+    <xs:attribute name="workloadHoursLab" type="xs:decimal" default="0"/>
+    <xs:attribute name="workloadHoursOther" type="xs:decimal" default="0"/>
+    <xs:attribute name="workloadHoursExpected" type="xs:decimal"/>
     </xs:complexType>
   </xs:element>
 

@@ -404,6 +404,6 @@ def test_ensure_every_course_exists_in_all_programs():
     for ay in years:
         for program in load_programs(ay).values():
             courses = program.available_courses()
-            assert len(courses) > 3
+            assert len(courses) >= 1
             for syllabus in courses:
                 assert isinstance(syllabus, Syllabus)
