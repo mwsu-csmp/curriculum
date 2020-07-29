@@ -14,14 +14,11 @@
       <disjunction>
         <course><subject>MAT</subject><number>147</number></course>
         <course><subject>MAT</subject><number>167</number></course>
-        <conjunction>
-          <course><subject>MAT</subject><number>165</number></course>
-          <course><subject>MAT</subject><number>166</number></course>
-        </conjunction>
       </disjunction>
     </requirement>
     <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>246</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>254</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>264</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
@@ -32,12 +29,12 @@
     <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>324</number></course></requirement>
-    <requirement><course><subject>CSC</subject><number>332</number></course></requirement>
+    <requirement><course><subject>CSC</subject><number>318</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>386</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>406</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
   </section>
-  <section header="PLUS--12 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
+  <section header="PLUS--9 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
     <blank>3</blank>
     <blank>3</blank>
     <blank>3</blank>
