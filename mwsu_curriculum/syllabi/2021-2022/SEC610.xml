@@ -13,6 +13,10 @@
 This course focuses on the issues associated with the design, provision and management of security services for modern communication and information systems. Students will learn different practical encryption methods for data protection.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>415</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>515</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>The student learns different cryptographic protocols, techniques and algorithms.

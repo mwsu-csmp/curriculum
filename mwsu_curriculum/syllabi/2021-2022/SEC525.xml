@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>425</number>
+  <title>Ethical Hacking</title>
+  <offered>spring-odd</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+    This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will gain practical skills through red-team exercises and penetration labs.
+      Cross-listed with SEC425. SEC525 students' grades will additionally depend either on participation in a research seminar project or the score from an approved certification exam (taken during the semester).
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>SEC</subject><number>600</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
+  </prerequisites>
+  <textbook
+  title="CEH v10 Certified Ethical Hacker Study Guide"
+  year="2019"
+  publisher="Sybex"
+  edition="First"
+  ISBN="ISBN-10: 1119533198 ISBN-13: 978-1119533191">
+  <author>Ric Messier</author>
+  </textbook>
+<objectives>
+    <objective>Identify common attack vectors for compromising software systems.
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
+    </objective>
+    <objective>Discuss the ethical issues in disclosing vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
+    </objective>
+    <objective>Describe what a penetration test is and why it is valuable.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
+    </objective>
+    <objective>Discuss how to document a test that reveals a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
+    </objective>
+    <objective>Demonstrate overall understanding of the types of social engineering attacks, psychology of social engineering attacks, and misleading users.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
+    </objective>
+    <objective>Demonstrate the ability to identify types of social engineering attacks.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="2"/>
+    </objective>
+    <objective>Demonstrate the ability to implement approaches for detection and mitigation of social engineering attacks.
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="3"/>
+    </objective>
+    <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
+    </objective>
+    <objective>Explain the various possible attacks on passwords.
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="3"/>
+    </objective>
+    <objective>Discuss the need to update software to fix security vulnerabilities.
+      <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
+    </objective>
+    <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
+    </objective>
+    <objective>Describe an attack on a specified node in a TCP/IP network given the description of a vulnerability.
+      <covers standard="acm-csec2017" knowledgeArea="4" id="17"/>
+    </objective>
+    <objective>Describe the concepts of personal tracking and digital footprint, while understanding the invasiveness of such tools in the context of privacy.
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="3"/>
+    </objective>
+    <objective>Discuss various motives for cybercrime behavior.
+      <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
+    </objective>
+
+  </objectives>
+  <outline>
+    <topic>Introdutction
+      <covers standard="acm-csec2017" knowledgeArea="8/3" id="7"/>
+    </topic>
+    <topic>Security Foundation
+      <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
+    </topic>
+    <topic>Footprinting and Reconnaissance
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/6" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+    </topic>
+    <topic>Scanning Network
+      <covers standard="acm-csec2017" knowledgeArea="4/4" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/4" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/4" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/4" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
+    </topic>
+    <topic>Enumeration
+      <covers standard="acm-csec2017" knowledgeArea="2/7" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="8"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="9"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/4" id="7"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/7" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/7" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/7" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/7" id="6"/>
+    </topic>
+    <topic>System Hacking
+      <covers standard="acm-csec2017" knowledgeArea="1/3" id="2"/>
+    </topic>
+    <topic>Malware
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="7"/>
+    </topic>
+    <topic>Sniffing
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="7"/>
+    </topic>
+    <topic>Social Engineering
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="6/2" id="4"/>
+    </topic>
+    <topic>Wireless Security
+      <covers standard="acm-csec2017" knowledgeArea="5/7" id="5"/>
+    </topic>
+    <topic>Attack and Defense
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="5"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="6"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="7"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="8"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="9"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="10"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="12"/>
+      <covers standard="acm-csec2017" knowledgeArea="4/8" id="13"/>
+    </topic>
+    <topic>Cryptography
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
+      <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+    </topic>
+    <topic>Security Architecture and Design
+      <covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="5/4" id="8"/>
+    </topic>
+  </outline>
+</course>

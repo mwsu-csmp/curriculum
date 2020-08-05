@@ -13,6 +13,7 @@
 This course offers graduate students in Cybersecurity an opportunity to integrate theory with practice. Students work full-time or part-time for a company in a position related to their graduate research or work with faculty on a research project. Anticipated learning objectives are established in a contract agreed to by the student, the company supervisor (if applicable), and the faculty sponsor / research mentor. Students will be required to develop a report upon completion of the class of publishable quality demonstrating what they've learned through the experience or must submit a co-authored manuscript to a reputable conference or journal. May be repeated for credit.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>600</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
     <objective>To be determined in individual student's contract</objective>

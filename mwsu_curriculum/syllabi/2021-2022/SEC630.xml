@@ -13,6 +13,10 @@
 This course covers fundamental issues and first principles of software and computer security. This course will discuss basics of physical security, operating system security, and network security, web/e-commerce security as well as distributed application security. Security models and policies, standards and methodologies for security evaluation and certification will also be covered.
   </catalogDescription>
   <prerequisites>
+    <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>435</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>535</number></prerequisiteCourse>
+    </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
     <objective>Security issues and their countermeasures</objective>
