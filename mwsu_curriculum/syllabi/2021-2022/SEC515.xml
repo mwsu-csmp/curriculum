@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>415</number>
+  <number>515</number>
   <title>Data Security and Identity Management</title>
   <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>

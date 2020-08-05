@@ -5,9 +5,9 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>425</number>
+  <number>525</number>
   <title>Ethical Hacking</title>
-  <offered>spring-odd</offered>
+  <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
     This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will gain practical skills through red-team exercises and penetration labs.

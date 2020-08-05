@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>445</number>
+  <number>545</number>
   <title>Security Program Governance</title>
   <offered>fall-even</offered>
   <scheduleType>lecture</scheduleType>

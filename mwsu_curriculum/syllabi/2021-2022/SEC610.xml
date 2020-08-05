@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>CSC</subject>
+  <subject>SEC</subject>
   <number>610</number>
   <title>Advanced Cryptography</title>
   <offered>spring-even</offered>
