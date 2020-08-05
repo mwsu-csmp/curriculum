@@ -4,8 +4,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
-  <subject>MAT</subject>
-  <number>609</number>
+  <subject>LAW</subject>
+  <number>635</number>
   <title>stub</title>
   <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
