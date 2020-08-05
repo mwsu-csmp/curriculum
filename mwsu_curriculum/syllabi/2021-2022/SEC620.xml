@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>620</number>
+  <title>Cloud Computing Security</title>
+  <offered>spring-even</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+Enterprise-scale cloud computing is proliferating because of its cost effectiveness and enhanced resource manageability. The primary objective of this course is to equip students with solid understanding of cloud computing. It covers cloud computing and services in both business and technical viewpoints. Cloud security architecture will also be covered with an emphasis on the four major categories of security controls.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>Describe cloud characteristics, and its fundamental and technical concepts</objective>
+    <objective>Identify cloud management platforms that manage virtual machines, and virtualized infrastructures and workloads</objective>
+    <objective>Compare various cloud management strategies</objective>
+    <objective>Apply common security concepts and tools to identify potential risks and security threats</objective>
+    <objective>Differentiate well-known security measures and decide their applicability in given scenarios</objective>
+  </objectives>
+  <outline>
+    <topic>Enterprise-scale cloud computing
+	<topic>business value of cloud computing</topic>
+	<topic>different types of cloud computing</topic>
+	<topic>transitioning from traditional IT infrastructures to cloud computing</topic>
+	<topic>identifying and handling security threats</topic>
+	<topic>securing sensitive data in cloud environment</topic>
+	<topic>cloud service management</topic>
+    </topic>
+    <topic>Cloud security architecture
+	<topic>Deterrent controls</topic>
+	<topic>Preventive controls</topic>
+	<topic>Detective controls</topic>
+	<topic>Corrective controls</topic>
+    </topic>
+  </outline>
+</course>
