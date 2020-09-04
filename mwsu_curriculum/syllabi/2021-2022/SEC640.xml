@@ -9,8 +9,13 @@
   <title>Advanced Network Security</title>
   <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
+<!--
   <catalogDescription>
-This course introduces students to the vendor-specific knowledge in designing, implementing, maintaining, and troubleshooting local and wide-area enterprise networks. Students will acquire understanding of network infrastructures and protocols, and how they work together in practice. In addition, they will learn about the concept of quality of service (QoS) elements and their applicability, securing networks by setting up firewalls, and configuring wireless controllers and access points. Students will also learn to work with IPv6. After the completion of this course, students may apply the knowledge and skills they have learned to related technologies such as cloud, data center, and advanced network security.
+This course introduces students to the knowledge in designing, implementing, maintaining, and troubleshooting local and wide-area enterprise networks. Students will acquire understanding of network infrastructures and protocols, and how they work together in practice. In addition, they will learn about the concept of quality of service (QoS) elements and their applicability, securing networks by setting up firewalls, and configuring wireless controllers and access points. Students will also learn to work with IPv6. After the completion of this course, students may apply the knowledge and skills they have learned to related technologies such as cloud, data center, and advanced network security.
+  </catalogDescription>
+-->
+  <catalogDescription>
+This is a hands-on network security course building on top of the networking and general security knowledge that students have already learned in previous courses. In this course, students will learn about different attacks against network protocols and applications. They will also learn about how attackers exploit the vulnerabilities of conventional network technologies to launch those attacks. They will also learn about the countermeasures that are designed to thwart the attacks and, more importantly, how each countermeasures work. 
   </catalogDescription>
   <prerequisites>
     <prerequisiteDisjunction>
@@ -19,10 +24,15 @@ This course introduces students to the vendor-specific knowledge in designing, i
     </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
+	<objective>To investigate the vulnerabilities on different layers of the OSI Model and how attackers may exploit them to post security threats</objective>
+	<objective>To understand the mechanisms behind common network attacks and their countermeasures</objective>
     <objective>To understand, master and secure network communications on multiple scales: intra-network communication (LAN Switching Technologies) inter-network communications (Routing Technologies), and long-distance communications (WAN Technologies)</objective>
-    <objective>To secure and manage infrastructure services</objective>
+    <!-- <objective>To secure and manage infrastructure services</objective> --> 
+	<objective>To monitor and control network traffic of an enterprise network by setting up firewalls</objective>
+	<objective>To facilitate private communication over the public Internet by extending a private network through setting up a virtual private network (VPN)</objective>
   </objectives>
   <outline>
+<!--
     <topic>Network Fundamentals
 	<topic>Understanding OSI Model, concepts of IP (IPv4 and IPv6), routing, and purpose of subnetting</topic>
 	<topic>Configuring Ethernet interfaces</topic>
@@ -47,5 +57,34 @@ This course introduces students to the vendor-specific knowledge in designing, i
 	<topic>Hardening Cisco IOS devices</topic>
 	<topic>Managing Switch Operating System files and Startup Configuration files </topic>
     </topic>
+-->
+	<topic>Packet Sniffing and Spoofing
+		<topic>Using raw sockets for packet sniffing</topic>
+		<topic>Using raw sockets for sending spoofed packets</topic>
+		<topic>Using Python and Scapy for sniffing and spoofing</topic>
+		<topic>Spoofing packets using a hybrid approach</topic>
+	</topic>
+	<topic>Attacks on the TCP Protocol
+		<topic>SYN flooding attack</topic>
+		<topic>TCP reset attack</topic>
+		<topic>TCP session hijacking attack</topic>
+	</topic>
+	<topic>Firewall
+		<topic>Building a firewall using Netfilter</topic>
+		<topic>The Linux iptables firewall</topic>
+		<topic>Stateful firewall using connection tracking</topic>
+		<topic>Application/Proxy firewall and web proxy</topic>
+		<topic>Evading Firewalls</topic>
+	</topic>
+	<topic>Domain Name System (DNS) and Attacks
+		<topic>DNS cache poisoning attack</topic>
+		<topic>Reply forgery attacks from malicious DNS servers</topic>
+		<topic>DNS rebinding attack</topic>
+		<topic>Protection against DNS spoofing attacks</topic>
+	</topic>
+	<topic>Virtual private network
+		<topic>An overview of how TLS/SSL VPN works</topic>
+		<topic>Deploying, configuring and testing a VPN</topic>
+	</topic>
   </outline>
 </course>
