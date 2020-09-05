@@ -26,6 +26,7 @@ Enterprise-scale cloud computing is proliferating because of its cost effectiven
     <objective>Differentiate well-known security measures and decide their applicability in given scenarios</objective>
   </objectives>
   <outline>
+<!--
     <topic>Enterprise-scale cloud computing
 	<topic>business value of cloud computing</topic>
 	<topic>different types of cloud computing</topic>
@@ -40,5 +41,40 @@ Enterprise-scale cloud computing is proliferating because of its cost effectiven
 	<topic>Detective controls</topic>
 	<topic>Corrective controls</topic>
     </topic>
+-->
+	<topic>The Basics of Cloud Computing Security
+		<topic>Cloud Security Baselines</topic>
+		<topic>Cloud Security, Privacy, and Trust Baselines</topic>
+	</topic>
+	<topic>Risk Analysis and Division of Responsibility
+		<topic>Risk and Trust Assessment: Schemes for Cloud Services</topic>
+		<topic>Managing Risk in the Cloud</topic>
+		<topic>Cloud Security Risk Management</topic>
+		<topic>Secure Cloud Risk Management: Risk Mitigation Methods</topic>
+	</topic>
+	<topic>Securing the Cloud Infrastructure
+		<topic>Specification and Enforcement of Access Policies in Emerging Scenarios</topic>
+		<topic>Cloud Security Access Control: Distributed Access Control</topic>
+		<topic>Cloud Security Key Management: Cloud User Controls</topic>
+		<topic>Cloud Computing Security Essentials and Architecture</topic>
+		<topic>Cloud Computing Architecture and Security Concepts</topic>
+		<topic>Secure Cloud Architecture</topic>
+	</topic>
+	<topic>Meeting Compliance Requirements
+		<topic>Negotiating Cloud Security Requirements with Vendors</topic>
+		<topic>Managing Legal Compliance Risk in the Cloud and Negotiating Personal Data Protection Requirements with Vendors</topic>
+		<topic>Computing Technology for Trusted Cloud Security</topic>
+		<topic>Trusted Computing Technology and Proposals for Resolving Cloud Computing Security Problems</topic>
+	</topic>
+	<topic>Preparing for Disaster Recovery
+		<topic>Simplifying Secure Cloud Computing Environments with Cloud Data Centers</topic>
+		<topic>Availability, Recovery, and Auditing across Data Centers</topic>
+	</topic>
+	<topic>Advanced Cloud Computing Security
+		<topic>Advanced Security Architectures for Cloud Computing</topic>
+		<topic>Side-Channel Attacks and Defenses on Cloud Traffic</topic>
+		<topic>Clouds are Evil</topic>
+		<topic>Future Directions in Cloud Computing Security: Risks and Challenges</topic>
+	</topic>
   </outline>
 </course>
