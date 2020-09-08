@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>690</number>
+  <title>Research Methods</title>
+  <offered>discretion</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+The purpose of this course is to prepare students with the knowledge and skills required for conducting a master-thesis research. Students will learn about important topics such as the empirical research process, conducting a literature survey, and writing research papers in publishable quality. After successfully completing this course, students will be equipped with essential skills to start a master-thesis research and to write a master-thesis proposal.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>Understand the basics of research, including its definition, purpose and expected outcomes</objective>
+    <objective>Apprehend the empirical research process and its stages such as identifying research problems, deducing hypotheses, prototyping, designing experiments and publishing results</objective>
+    <objective>Conduct literature survey using digital resources </objective>
+    <objective>Identify, Read and critically analyze research papers</objective>
+    <objective>Write annotated bibliographies</objective>
+    <objective>Maintain an up-to-date repository of literature</objective>
+    <objective>Conduct literature survey using digital resources</objective>
+    <objective>Evaluate credibility of sources, where research articles are published</objective>
+    <objective>Maintain an up-to-date annotated bibliography and a survey paper</objective>
+  </objectives>
+  <outline>
+    <topic>Introduction to The Process of Conducting Research</topic>
+    <topic>Literature Survey
+        <topic>Reading Research Papers</topic>
+        <topic>Writing an Annotated Bibliography</topic>
+        <topic>Writing a Survey Paper</topic>
+    </topic>
+    <topic>Introduction to Research Design</topic>
+    <topic>Introduction to Quantitative Research</topic>
+    <topic>Statistics
+	<topic>Applied Statistics</topic>
+	<topic>Descriptive Statistics</topic>
+	<topic>Inferential Statistics</topic>
+    </topic>
+    <topic>Reporting Quantitive Findings</topic>
+    <topic>Writing and Publishing Scientific Papers</topic>
+  </outline>
+</course>
