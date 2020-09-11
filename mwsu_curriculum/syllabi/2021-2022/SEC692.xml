@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>692</number>
+  <title>Advanced Research</title>
+  <offered>discretion</offered>
+  <scheduleType>research</scheduleType>
+  <catalogDescription>
+In this course, students will develop their master thesis proposal, which presents preliminary results of testing their hypotheses that they have formulated for tackling their research problems. This course can only be taken once for credits.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>To lay the groundwork of master theses</objective>
+    <objective>To premeditate a master-thesis research plan</objective>
+    <objective>To conduct a literature survey and identify a research problem</objective>
+    <objective>To formulate a hypothesis for tackling a research problem</objective>
+    <objective>To prototype a solution by going through devising research questions, drafting a design, and implmenting the design into a prototype</objective>
+    <objective>To conduct preliminary evaluation on the prototype</objective>
+    <objective>To premeditate a plan for SEC699 to complete the master thesis</objective>
+  </objectives>
+  <outline>
+    <topic>Premeditating a research plan</topic>
+    <topic>Conducting a literature survey</topic>
+    <topic>Identifying a feasible research problem for a master thesis</topic>
+    <topic>Formulating a hypothesis</topic>
+    <topic>Prototyping a solution
+	<topic>Devising research questions</topic>
+	<topic>Designing a solution</topic>
+	<topic>Implementating a design</topic>
+    </topic>
+    <topic>Conducting experiments</topic>
+    <topic>Analyzing experiment data</topic>
+  </outline>
+</course>
