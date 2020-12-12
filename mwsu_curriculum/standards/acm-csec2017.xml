@@ -429,10 +429,6 @@
       <topic>Policy awareness and understanding</topic>
       <topic>Privacy policy</topic>
       <topic>Design guidance and implications</topic>
-    <outcome>Describe risk management and its role in the organization.</outcome>
-    <outcome>Describe risk management techniques to identify and prioritize risk factors for information assets and how risk is assessed.</outcome>
-    <outcome>Discuss the strategy options used to treat risk and be prepared to select from them when given background information.</outcome>
-    <outcome>Describe popular methodologies used in the industry to manage risk.</outcome>
     </knowledgeArea>
   </knowledgeArea>
   <knowledgeArea name="4.7 Knowledge Area: Organizational Security"  id="7">
@@ -442,6 +438,10 @@
       <topic>Insider threats</topic>
       <topic>Risk measurement and evaluation models and methodologies</topic>
       <topic>Risk control</topic>
+      <outcome>Describe risk management and its role in the organization.</outcome>
+      <outcome>Describe risk management techniques to identify and prioritize risk factors for information assets and how risk is assessed.</outcome>
+      <outcome>Discuss the strategy options used to treat risk and be prepared to select from them when given background information.</outcome>
+      <outcome>Describe popular methodologies used in the industry to manage risk.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Security Governance and Policy" id="2" >
       <topic>Organizational context</topic>
@@ -450,14 +450,14 @@
       <topic>Security governance</topic>
       <topic>Executive and board level communication</topic>
       <topic>Managerial policy</topic>
-    <outcome>Discuss the importance, benefits, and desired outcomes of cybersecurity governance and how such a program would be implemented.</outcome>
-    <outcome>Describe information security policy and its role in a successful information security program.</outcome>
-    <outcome>Describe the major types of information security policy and the major components of each.</outcome>
-    <outcome>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.</outcome>
-    <outcome>Differentiate between law and ethics.</outcome>
-    <outcome>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.</outcome>
-    <outcome>Identify significant national and international laws that relate to cybersecurity.</outcome>
-    <outcome>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.</outcome>
+      <outcome>Discuss the importance, benefits, and desired outcomes of cybersecurity governance and how such a program would be implemented.</outcome>
+      <outcome>Describe information security policy and its role in a successful information security program.</outcome>
+      <outcome>Describe the major types of information security policy and the major components of each.</outcome>
+      <outcome>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.</outcome>
+      <outcome>Differentiate between law and ethics.</outcome>
+      <outcome>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.</outcome>
+      <outcome>Identify significant national and international laws that relate to cybersecurity.</outcome>
+      <outcome>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.</outcome>
     </knowledgeArea>
     <knowledgeArea name="Analytical Tools" id="3" >
       <topic>Performance measurements (metrics)</topic>
