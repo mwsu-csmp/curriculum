@@ -36,12 +36,6 @@
 
   <xs:simpleType name="courseInstructor">
     <xs:restriction base="xs:string"/>
-  </xs:simpleType> 
-
-  <xs:simpleType name="courseMax">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="([0-9])*"/>
-    </xs:restriction>
   </xs:simpleType>
 
   <xs:element name="schedule">
@@ -57,7 +51,7 @@
                   <xs:sequence>
                     <xs:element name="sectionNumber" type="courseSection"/>
                     <xs:element name="instructor" type="courseInstructor"/>
-                    <xs:element name="max" type="courseMax"/>
+                    <xs:element name="max" type="xs:integer"/>
                     <xs:element name="startTime" type="courseTime" minOccurs="0"/>
                     <xs:element name="endTime" type="courseTime" minOccurs="0"/>
                     <xs:element name="day" maxOccurs="3" minOccurs="0">
