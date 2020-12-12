@@ -29,7 +29,7 @@ constraints.
       <covers standard="acm-csec2017" knowledgeArea="5" id="11"/>
     </objective>
     <objective>Apply risk management concepts in a security and information assurance context.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/1" id="3"/>
     </objective>
     <objective>Conduct and support investigations in to security breaches and assess their
 consequences.
