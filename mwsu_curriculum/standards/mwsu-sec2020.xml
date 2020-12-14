@@ -1,0 +1,93 @@
+<curriculumStandard
+        xmlns="https://csmp.missouriwestern.edu"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/standard.xsd">
+  <name>Missouri Western Cybersecurity Curricular Objectives</name>
+  <body>MWSU CSMP</body>
+  <version>0.1</version>
+  <documentUrl>n/a</documentUrl>
+  <knowledgeArea name="Experience Requirements"  id="1">
+      <knowledgeArea name="Security Operations Center" id="3">
+        <outcome>Understand requisite security controls for an enterprise environment</outcome>
+        <outcome>Perform monitoring systems and networks for compliance to security policy</outcome>
+        <outcome>Perform monitoring systems and networks for malicious activity</outcome>
+        <outcome>Manage communications around cyber incident response</outcome>
+        <outcome>Manage firewall whitelist/blacklist in response to security incidents</outcome>
+        <outcome>Collaborate with intelligence teams and CERT for security awareness education</outcome>
+        <outcome>Monitor open-source resources for vulnerabilities or intentional sabotage</outcome>
+        <outcome>Identify and define security requirements</outcome>
+        <outcome>Configure and troubleshoot security infrastructure</outcome>
+        <outcome>Develop plans for continuous improvement of security posture</outcome>
+      </knowledgeArea>
+      <knowledgeArea name="Vulnerability Assessment" id="1">
+        <outcome>Perform vulnerability scanning using web application scanners</outcome>
+        <outcome>Perform vulnerability scanning using protocol scanners</outcome>
+        <outcome>Perform vulnerability scanning using network scanners</outcome>
+        <outcome>Handling determination of threats / discovery of vulnerabilities</outcome>
+        <outcome>Scoring vulnerabilities</outcome>
+        <outcome>Determining controls for vulnerability mitigation</outcome>
+        <outcome>Assess scope of threat</outcome>
+        <outcome>Analyze threat impact</outcome>
+        <outcome>Take actions to mitigate threats</outcome>
+        <outcome></outcome>
+        <outcome></outcome>
+      </knowledgeArea>
+      <knowledgeArea name="Penetration Testing" id="2">
+        <outcome>Perform penetration tests on networks and applications and identify vulnerabilities</outcome>
+        <outcome>Validate access control over systems / data</outcome>
+        <outcome>Perform physical security assessments</outcome>
+        <outcome>Conduct security audits</outcome>
+        <outcome>Analyze security policies</outcome>
+        <outcome>Develop security assessment reports</outcome>
+        <outcome></outcome>
+        <outcome></outcome>
+        <outcome></outcome>
+      </knowledgeArea>
+      <knowledgeArea name="Risk Analysis and Consultation" id="4">
+        <outcome>analyze risk appetite and risk management strategy for an organization</outcome>
+        <outcome>develop risk management strategy for new or existing products / services</outcome>
+        <outcome>perform risk assessments of project plans</outcome>
+        <outcome>develop and evaluate business continuity controls</outcome>
+        <outcome>develop and evaluate security controls</outcome>
+      </knowledgeArea>
+      <topic>Tools and frameworks for penetration testing
+          <topic>OSSTMM</topic>
+          <topic>PTES</topic>
+          <topic>NIST 800-115</topic>
+          <topic>ISSAF</topic>
+          <topic>OWASP</topic>
+      </topic>
+      <topic>Common exploitation techniques</topic>
+      <topic>Computer architectures</topic>
+      <topic>Computer operating systems</topic>
+      <topic>Networking</topic>
+      <topic>Programming</topic>
+      <topic>Data management</topic>
+      <topic>Cryptography</topic>
+  </knowledgeArea>
+  <knowledgeArea id="2" name="NIST Incident Response">
+    <knowledgeArea id="1" name="Identify">
+        <topic>Asset discovery and tracking</topic>
+        <topic>vulnerability assessment</topic>
+    </knowledgeArea>
+    <knowledgeArea id="2" name="Protect">
+        <topic>Access control</topic>
+        <topic>Security programming</topic>
+        <topic>Shell scripting</topic>
+        <topic>Basic exploitation techniques and tools</topic>
+    </knowledgeArea>
+    <knowledgeArea id="3" name="Detect">
+        <topic>Data discovery and reconnaissance</topic>
+        <topic>Security events, incidents, and anomalies</topic>
+        <topic>advanced exploitation techniques and tools</topic>
+    </knowledgeArea>
+    <knowledgeArea id="4" name="Respond">
+        <topic>Advanced containment and remediation techniques</topic>
+    </knowledgeArea>
+    <knowledgeArea id="5" name="Recover">
+        <topic>Best practices for system hardening</topic>
+        <topic>Best practices for network architecture</topic>
+        <topic>Professional certification</topic>
+    </knowledgeArea>
+  </knowledgeArea>
+</curriculumStandard>

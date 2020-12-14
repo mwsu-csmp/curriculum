@@ -33,21 +33,26 @@
   </xs:simpleType>
 
 
+<xs:complexType name="reference">
+  <xs:attribute name="standard" type="xs:string"/>
+  <xs:attribute name="knowledgeArea" type="xs:string"/>
+  <xs:attribute name="id" type="xs:string"/>
+</xs:complexType>
 
   <xs:complexType name="topic" mixed="true">
     <xs:sequence>
+      <xs:element name="subsumes" type="reference" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="topic" type="topic" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="importance" type="importance"/>
   </xs:complexType>
 
-  <xs:complexType name="outcome">
-     <xs:simpleContent>
-       <xs:extension base="xs:string">
-         <xs:attribute name="importance" type="importance"/> 
-         <xs:attribute name="mastery_level" type="mastery_level"/> 
-       </xs:extension>
-     </xs:simpleContent>
+  <xs:complexType name="outcome" mixed="true">
+    <xs:sequence>
+      <xs:element name="subsumes" type="reference" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="importance" type="importance"/>
+    <xs:attribute name="mastery_level" type="mastery_level"/>
   </xs:complexType>
 
   <xs:complexType name="knowledgeArea">

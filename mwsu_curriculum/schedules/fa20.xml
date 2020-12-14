@@ -147,7 +147,7 @@
     <course>
       <subject>CSC</subject>
       <number>285</number>
-      <section workloadHoursExpected="2">
+      <section workloadHoursExpected="3">
         <sectionNumber>01</sectionNumber>
         <instructor>Pickett</instructor>
         <max>24</max>
@@ -299,7 +299,7 @@
       <section workloadHoursExpected="0.5">
         <sectionNumber>05</sectionNumber>
         <instructor>Pickett</instructor>
-        <max>0.5</max>
+        <max>0</max>
       </section>
       <section>
         <sectionNumber>06</sectionNumber>

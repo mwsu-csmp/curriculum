@@ -22,14 +22,26 @@ class Topic:
       for coverage in dt.findall(ns + 'covers'):
         self.coverages.append(coverage.attrib)
 
-      self.subtopics = list()
+      self.subtopics = []
       for topict in dt.findall(ns + 'topic'):
         self.subtopics.append(Topic(topict, id + '/' + str(len(self.subtopics)+1), parentid, standardid))
+
+      self.subsumptions = []
+      for subsumption in dt.findall(ns + 'subsumes'):
+        self.subsumptions.append(subsumption.attrib)
 
     def add_coverage(self, syllabus):
         """record if the given syllabus covers this topic"""
         for subtopic in self.subtopics:
             subtopic.add_coverage(syllabus)
+
+        for subsumption in self.subsumptions:
+            topicid = tuple(subsumption['id'].split(','))
+            kaid = tuple(subsumption['knowledgeArea'].split(','))
+            # todo: locate subsumed topic and add coverages
+            # need to load standard, but standards must be stored in memory
+            # need to separate loading from files from memory storage of all curriculum content, load at start of app
+            # issue
 
         coverages = syllabus.get_topic_coverages()
         for oid in coverages:
@@ -66,6 +78,10 @@ class Outcome:
       self.coverages = []
       for coverage in dt.findall(ns + 'covers'):
         self.coverages.append(coverage.attrib)
+
+      self.subsumptions = []
+      for subsumption in dt.findall(ns + 'subsumes'):
+        self.subsumptions.append(subsumption.attrib)
 
     def add_coverage(self, syllabus):
         """record if the given syllabus covers this outcome """

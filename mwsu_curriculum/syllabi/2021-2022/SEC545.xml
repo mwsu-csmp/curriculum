@@ -85,19 +85,19 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
     </objective>
     <objective>Describe risk management and its role in the organization, communications, and organizational culture.
       <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/1" id="1"/>
     </objective>
     <objective>Perform identification, categorization, and assessment of security risks.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="2"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/1" id="2"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="21"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="22"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="24"/>
     </objective>
     <objective>Identify appropriate and industry proven strategies for managing identified security risks.
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="3"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/1" id="3"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="19"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="23"/>
-      <covers standard="acm-csec2017" knowledgeArea="6/7" id="4"/>
+      <covers standard="acm-csec2017" knowledgeArea="7/1" id="4"/>
     </objective>
     <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>

@@ -45,7 +45,12 @@
               <topic>Outsourcing</topic>
               <topic>Ensuring third-party providers have requisite levels of information security</topic>
           </topic>
-          <outcome>Summarize business and industry influences and associated security risks</outcome>
+          <outcome>Summarize business and industry influences and associated security risks
+              <subsumes standard="acm-csec2017" knowledgeArea="7/1" id="1"/>
+              <subsumes standard="acm-csec2017" knowledgeArea="7/1" id="2"/>
+              <subsumes standard="acm-csec2017" knowledgeArea="7/1" id="3"/>
+              <subsumes standard="acm-csec2017" knowledgeArea="7/1" id="4"/>
+          </outcome>
       </knowledgeArea>
       <knowledgeArea id="2">
           <topic>Policy and process life cycle management
@@ -97,12 +102,12 @@
           <topic>Extreme scenario planning / worst-case scenario</topic>
           <topic>Conduct system-specific risk analysis</topic>
           <topic>Make risk determination based upon known metrics
-              <topic>Magnitude of impact   based on ALE and SLE</topic>
+              <topic>Magnitude of impact based on ALE and SLE</topic>
               <topic>Likelihood of threat
                   <topic>Motivation</topic>
                   <topic>Source</topic>
                   <topic>ARO</topic>
-                  <topic> Trend analysis</topic>
+                  <topic>Trend analysis</topic>
               </topic>
               <topic>Return on investment (ROI)</topic>
               <topic>Total cost of ownership</topic>
@@ -114,7 +119,8 @@
               <topic>Mitigate</topic>
               <topic>Accept</topic>
           </topic>
-          <topic>Risk management processes
+          <topic>Risk management processesssss
+              <subsumes standard="acm-csec2017" knowledgeArea="7/1" id="2"/>
               <topic>Exemptions</topic>
               <topic>Deterrence</topic>
               <topic>Inherent</topic>

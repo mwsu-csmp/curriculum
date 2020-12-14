@@ -12,7 +12,6 @@
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security through studying theory and through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by analyzing its security requirements and applying common techniques to enforce them.</catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>294</number></prerequisiteCourse>
   </prerequisites>
