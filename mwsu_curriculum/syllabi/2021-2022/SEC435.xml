@@ -28,8 +28,15 @@
     <objective>Explain the need to test software after an update but before the patch is distributed.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
-    <objective>Assess threats to and vulnerabilities of a computer system
+    <objective>Assess threats to and vulnerabilities of a computer system and determine appropriate controls
       <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="4"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="5"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="6"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="7"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="5"/>
     </objective>
     <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
@@ -61,8 +68,9 @@
     <objective>Describe the limits of anti-malware software such as antivirus programs.
       <covers standard="acm-csec2017" knowledgeArea="5" id="14"/>
     </objective>
-    <objective>Discuss uses of system monitoring.
+    <objective>Understand and implement system monitoring.
       <covers standard="acm-csec2017" knowledgeArea="5" id="15"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="2"/>
     </objective>
     <objective>Discuss the importance of documenting proper installation and configuration of a system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="22"/>
@@ -73,11 +81,6 @@
     <objective>Be able to explain the security implications of unclear or incomplete documentation of system operation.
       <covers standard="acm-csec2017" knowledgeArea="5" id="24"/>
     </objective>
-	<!--
-    <objective>Explain why a hardware device is always modeled a physical component.
-      <covers standard="acm-csec2017" knowledgeArea="4" id="6"/>
-    </objective>
-	-->
     <objective>List several examples of physical component interfaces with their associated vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="4" id="7"/>
     </objective>
@@ -87,8 +90,9 @@
     <objective>Discuss how TCP/IP as a service is represented by different interfaces in different software systems.
       <covers standard="acm-csec2017" knowledgeArea="4" id="12"/>
     </objective>
-    <objective>Describe how an implementation could protect itself from a specified vulnerability in a specified standard interface.
+    <objective>Be able to configure a firewall to protect the network.
       <covers standard="acm-csec2017" knowledgeArea="4" id="15"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="4"/>
     </objective>
     <objective>Explain what resilience is and identify an environment in which it is important.
       <covers standard="acm-csec2017" knowledgeArea="5" id="16"/>
@@ -107,6 +111,7 @@
 	    </topic>
 	    <topic>Threat models: Threat detection and mitigation
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
+            <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="2"/>
 	    </topic>
 	    <topic>Requirements analysis throughout a system lifecycle
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
@@ -133,6 +138,7 @@
 		<topic>Secure communication protocols on Data link layer
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
 		</topic>
+      <covers standard="mwsu-sec2020" knowledgeArea="2/5" id="2"/>
 	</topic>
     <topic>Vulnerabilities and example exploits on distributed system architectures
 	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
@@ -148,6 +154,7 @@
     </topic>
     <topic>Defense techniques and intrusion tolerance
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="5"/>
+        <covers standard="mwsu-sec2020" knowledgeArea="2/4" id="1"/>
     </topic>
     <topic>Audit: logging, log analysis, and relationship to intrusion detection
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="6"/>
@@ -157,6 +164,7 @@
     </topic>
     <topic>System hardening by finding and remediating risks
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="6"/>
+        <covers standard="mwsu-sec2020" knowledgeArea="2/5" id="1"/>
     </topic>
   </outline>
 </course>

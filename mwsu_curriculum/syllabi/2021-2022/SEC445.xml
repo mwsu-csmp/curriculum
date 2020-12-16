@@ -42,15 +42,21 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
     <objective>Describe the principal components of cybersecurity system implementation planning.
       <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
     </objective>
+    <objective>Identify and define security requirements
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="7"/>
+    </objective>
     <objective>Describe the major types of information security policy and the major components of each.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
     </objective>
-    <objective>Describe information security policy and its role in a successful information security program.
+    <objective>Describe and critically analyze information security policy and its role in a successful information security program.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="5"/>
     </objective>
-    <objective>Explain what is necessary to develop, implement, and maintain effective policy and what consequences the organization may face if it does not do so.
+    <objective>Explain what is necessary to develop, implement, maintain effective policy, and utilize maturity models.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="4"/>
       <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="5"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="8"/>
     </objective>
     <objective>Explain how organizations achieve compliance with national and international laws and regulations, and specific industry standards.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="8"/>
@@ -58,9 +64,13 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
     <objective>Explain strategic organizational planning for cybersecurity and its relationship to organization-wide and IT strategic planning.
       <covers standard="acm-csec2017" knowledgeArea="7/5" id="1"/>
     </objective>
-    <objective>Understand the difference between security events, threats, vulnerabilities, and incidents and implement proper documentation and communication strategies around them.
+    <objective>Understand the difference between security events, threats, vulnerabilities, and incidents. Understand the process of detecting and initiating a response to them.
       <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="4"/>
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
+    </objective>
+    <objective>Be able to evaluate the severity of a vulnerability using standard scoring system such as CVSS
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="3"/>
     </objective>
     <objective>Discuss the process of disaster recovery.
       <covers standard="acm-csec2017" knowledgeArea="5" id="17"/>
@@ -74,27 +84,35 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
       <covers standard="acm-csec2017" knowledgeArea="3/2" id="3"/>
       <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="6"/>
       <covers standard="acm-cs2013" knowledgeArea="IAS/SPAG" id="7"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="6"/>
     </objective>
     <objective>Understand the purpose, content, and implementation of a security Education, Training, and Awareness (SETA) program.
       <covers standard="acm-csec2017" knowledgeArea="6/4" id="2"/>
       <covers standard="acm-csec2017" knowledgeArea="6/4" id="1"/>
       <covers standard="acm-csec2017" knowledgeArea="6/4" id="3"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="5"/>
     </objective>
     <objective>Describe risk management and its role in the organization, communications, and organizational culture.
       <covers standard="acm-csec2017" knowledgeArea="6/4" id="4"/>
       <covers standard="acm-csec2017" knowledgeArea="7/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="1"/>
     </objective>
     <objective>Perform identification, categorization, and assessment of security risks.
       <covers standard="acm-csec2017" knowledgeArea="7/1" id="2"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="21"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="22"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="24"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="3"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="4"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="6"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="3"/>
     </objective>
     <objective>Identify appropriate and industry proven strategies for managing identified security risks.
       <covers standard="acm-csec2017" knowledgeArea="7/1" id="3"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="19"/>
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="23"/>
       <covers standard="acm-csec2017" knowledgeArea="7/1" id="4"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="2"/>
     </objective>
     <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
@@ -210,6 +228,7 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
           <covers standard="acm-csec2017" knowledgeArea="5/5" id="2"/>
           <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
           <covers standard="acm-csec2017" knowledgeArea="7/7" id="2"/>
+          <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="1"/>
       </topic>
       <topic>Security Metrics
           <covers standard="acm-csec2017" knowledgeArea="7/7" id="3"/>
@@ -252,6 +271,7 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
           <covers standard="pmi:6" knowledgeArea="11" id="4"/>
         /-->
           <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
+            <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="2"/>
       </topic>
       <topic>Determining risk tolerance
         <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="8"/>
@@ -291,6 +311,7 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
         <topic>Detection and Analysis</topic>
         <topic>Containment, Eradication, and Recovery
           <covers standard="acm-csec2017" knowledgeArea="7/6" id="2"/>
+          <covers standard="mwsu-sec2020" knowledgeArea="2/4" id="1"/>
         </topic>
         <topic>Post-Incident Activity</topic>
         <covers standard="acm-csec2017" knowledgeArea="7/6" id="1"/>

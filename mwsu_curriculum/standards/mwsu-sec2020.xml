@@ -7,30 +7,14 @@
   <version>0.1</version>
   <documentUrl>n/a</documentUrl>
   <knowledgeArea name="Experience Requirements"  id="1">
-      <knowledgeArea name="Security Operations Center" id="3">
-        <outcome>Understand requisite security controls for an enterprise environment</outcome>
-        <outcome>Perform monitoring systems and networks for compliance to security policy</outcome>
-        <outcome>Perform monitoring systems and networks for malicious activity</outcome>
-        <outcome>Manage communications around cyber incident response</outcome>
-        <outcome>Manage firewall whitelist/blacklist in response to security incidents</outcome>
-        <outcome>Collaborate with intelligence teams and CERT for security awareness education</outcome>
-        <outcome>Monitor open-source resources for vulnerabilities or intentional sabotage</outcome>
-        <outcome>Identify and define security requirements</outcome>
-        <outcome>Configure and troubleshoot security infrastructure</outcome>
-        <outcome>Develop plans for continuous improvement of security posture</outcome>
-      </knowledgeArea>
       <knowledgeArea name="Vulnerability Assessment" id="1">
-        <outcome>Perform vulnerability scanning using web application scanners</outcome>
-        <outcome>Perform vulnerability scanning using protocol scanners</outcome>
-        <outcome>Perform vulnerability scanning using network scanners</outcome>
+        <outcome>Perform vulnerability scanning</outcome>
         <outcome>Handling determination of threats / discovery of vulnerabilities</outcome>
         <outcome>Scoring vulnerabilities</outcome>
         <outcome>Determining controls for vulnerability mitigation</outcome>
         <outcome>Assess scope of threat</outcome>
         <outcome>Analyze threat impact</outcome>
         <outcome>Take actions to mitigate threats</outcome>
-        <outcome></outcome>
-        <outcome></outcome>
       </knowledgeArea>
       <knowledgeArea name="Penetration Testing" id="2">
         <outcome>Perform penetration tests on networks and applications and identify vulnerabilities</outcome>
@@ -39,9 +23,16 @@
         <outcome>Conduct security audits</outcome>
         <outcome>Analyze security policies</outcome>
         <outcome>Develop security assessment reports</outcome>
-        <outcome></outcome>
-        <outcome></outcome>
-        <outcome></outcome>
+      </knowledgeArea>
+      <knowledgeArea name="Security Operations Center" id="3">
+        <outcome>Understand requisite security controls for an enterprise environment</outcome>
+        <outcome>Perform monitoring of systems and networks for malicious activity and compliance to security policy</outcome>
+        <outcome>Manage communications around cyber incident response</outcome>
+        <outcome>Manage firewall whitelist/blacklist in response to security incidents</outcome>
+        <outcome>Collaborate with intelligence teams and CERT for security awareness education</outcome>
+        <outcome>Monitor open-source resources for vulnerabilities or intentional sabotage</outcome>
+        <outcome>Identify and define security requirements</outcome>
+        <outcome>Develop plans for continuous improvement of security posture</outcome>
       </knowledgeArea>
       <knowledgeArea name="Risk Analysis and Consultation" id="4">
         <outcome>analyze risk appetite and risk management strategy for an organization</outcome>
@@ -65,7 +56,7 @@
       <topic>Data management</topic>
       <topic>Cryptography</topic>
   </knowledgeArea>
-  <knowledgeArea id="2" name="NIST Incident Response">
+  <knowledgeArea id="2" name="NIST Core Framework">
     <knowledgeArea id="1" name="Identify">
         <topic>Asset discovery and tracking</topic>
         <topic>vulnerability assessment</topic>
