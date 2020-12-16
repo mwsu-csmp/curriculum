@@ -81,6 +81,9 @@
     <objective>Explain the importance of multifactor authentication.
       <covers standard="acm-csec2017" knowledgeArea="5" id="8"/>
     </objective>
+    <objective>Perform file integrity checking
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
+    </objective>
     <objective>Explain the advantages of pass phrases over passwords.
       <covers standard="acm-csec2017" knowledgeArea="5" id="9"/>
     </objective>
