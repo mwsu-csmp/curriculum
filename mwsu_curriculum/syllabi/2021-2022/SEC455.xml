@@ -40,7 +40,6 @@ This course introduces the US and international laws on cybersecurity, including
     <objective>Identify significant national and international laws that relate to cybersecurity.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="7"/>
     </objective>
-
     <objective>Interpret intellectual property laws related to security.
       <covers standard="acm-csec2017" knowledgeArea="8/2" id="3"/>
     </objective>
@@ -53,7 +52,6 @@ This course introduces the US and international laws on cybersecurity, including
     <objective>Explain global impact of cybersecurity to culture including areas such as the economy, social issues, policy, and laws.
       <covers standard="acm-csec2017" knowledgeArea="8/4" id="3"/>
     </objective>
-
     <objective>Discuss various motives for cybercrime behavior.
       <covers standard="acm-csec2017" knowledgeArea="8/1" id="1"/>
     </objective>
@@ -64,7 +62,6 @@ This course introduces the US and international laws on cybersecurity, including
     <objective>Describe international data security and computer hacking laws.
       <covers standard="acm-csec2017" knowledgeArea="8/2" id="2"/>
     </objective>
-
     <objective>Describe what a digital investigation is, the sources of digital evidence, and the limitations of forensics.
       <covers standard="acm-csec2017" knowledgeArea="1/2" id="1"/>
     </objective>
@@ -88,13 +85,7 @@ This course introduces the US and international laws on cybersecurity, including
     <objective>Summarize the tradeoff between the rights to privacy by the individual versus the needs of society.
       <covers standard="acm-csec2017" knowledgeArea="8/5" id="2"/>
     </objective>
-    <objective>Describe the common practices and technologies used to safeguard personal privacy.
-      <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
-    </objective>
   </objectives>
-
-
-
   <outline>
     <topic>Foundations of Cyberlaw
         <topic>Ethics vs Law

@@ -53,6 +53,18 @@
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
+<<<<<<< HEAD
+=======
+    <objective>Describe what a penetration test is and why it is valuable.
+      <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
+    </objective>
+    <objective>Be able to perform network and host vulnerability scans
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="1"/>
+    </objective>
+    <objective>Be able to perform penetration tests to discover vulnerabilities
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
+    </objective>
+>>>>>>> 56285725dc2c990f45bf8a476038e46bd0f635f4
     <objective>Discuss how to document a test that reveals a vulnerability.
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
     </objective>
@@ -93,6 +105,9 @@
   </objectives>
   <outline>
     <topic>Introduction
+        <topic>NIST 800-115 Technical Guide to Information Security Testing and Assessment
+           <covers standard="mwsu-sec2020" knowledgeArea="1" id="1/3"/>
+        </topic>
       <covers standard="acm-csec2017" knowledgeArea="8/3" id="7"/>
     </topic>
     <topic>Security Foundation
@@ -103,6 +118,7 @@
       <covers standard="acm-csec2017" knowledgeArea="6/6" id="1"/>
       <covers standard="acm-csec2017" knowledgeArea="6/6" id="2"/>
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="2"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="2/3" id="1"/>
     </topic>
     <topic>Scanning Network
       <covers standard="acm-csec2017" knowledgeArea="4/4" id="1"/>
@@ -153,6 +169,7 @@
       <covers standard="acm-csec2017" knowledgeArea="4/8" id="10"/>
       <covers standard="acm-csec2017" knowledgeArea="4/8" id="12"/>
       <covers standard="acm-csec2017" knowledgeArea="4/8" id="13"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="2/3" id="3"/>
     </topic>
     <topic>Cryptography
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
