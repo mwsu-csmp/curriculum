@@ -84,9 +84,6 @@
     <objective>Explain the advantages of pass phrases over passwords.
       <covers standard="acm-csec2017" knowledgeArea="5" id="9"/>
     </objective>
-    <objective>Describe physical and logical access control, and compare and contrast them.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="11"/>
-    </objective>
     <objective>Distinguish between authorization and authentication.
       <covers standard="acm-csec2017" knowledgeArea="5" id="12"/>
     </objective>
