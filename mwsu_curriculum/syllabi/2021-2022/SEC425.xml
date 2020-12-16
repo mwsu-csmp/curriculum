@@ -76,6 +76,9 @@
   </objectives>
   <outline>
     <topic>Introduction
+        <topic>NIST 800-115 Technical Guide to Information Security Testing and Assessment
+           <covers standard="mwsu-sec2020" knowledgeArea="1" id="1/3"/>
+        </topic>
       <covers standard="acm-csec2017" knowledgeArea="8/3" id="7"/>
     </topic>
     <topic>Security Foundation

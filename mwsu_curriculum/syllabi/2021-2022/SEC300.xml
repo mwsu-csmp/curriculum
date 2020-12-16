@@ -61,10 +61,17 @@
     <objective>Describe the concept of privacy including personally identifiable information.
       <covers standard="acm-csec2017" knowledgeArea="2/2" id="4"/>
     </objective>
-    <objective>Describe the NIST Cybersecurity Framework
-    </objective>
     <objective>Describe the common practices and technologies used to safeguard personal privacy.
       <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+    </objective>
+    <objective>Compare and contrast various theories of privacy from social psychology and social science.
+      <covers standard="acm-csec2017" knowledgeArea="6/5" id="1"/>
+    </objective>
+    <objective>Explain the difference between identification, authentication, and access authorization of people and devices.
+      <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
+      <covers standard="acm-csec2017" knowledgeArea="5" id="12"/>
+    </objective>
+    <objective>Describe the NIST Cybersecurity Framework
     </objective>
   </objectives>
   <outline>
@@ -90,12 +97,17 @@
       </topic>
     </topic>
     <topic>Security Events
-        <topic>Events vs Anomalies</topic>
+        <topic>Events vs Incidents vs Anomalies
+          <covers standard="mwsu-sec2020" knowledgeArea="2/3" id="2"/>
+        </topic>
         <topic>Common exploitation categories and techniques
             <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="4"/>
+            <covers standard="mwsu-sec2020" knowledgeArea="1" id="2"/>
         </topic>
     </topic>
 	<topic>Security Control Basics
+        <topic>NIST 800-53 Security and Privacy Controls for Information Systems and Organizations
+        </topic>
          <topic>categories of controls</topic>
          <topic>authentication, authorization, access control
             <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="1"/>
@@ -108,6 +120,7 @@
 			  <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
 		  </topic>
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1" id="7"/>
 	  </topic>
 	</topic>
     <topic>Security Programming
