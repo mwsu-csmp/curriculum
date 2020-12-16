@@ -116,8 +116,6 @@
 	    <topic>Requirements analysis throughout a system lifecycle
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
 	    </topic>
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
-	    <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
     </topic>
 	<topic>Secure architecture design for information protection
 		<covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>

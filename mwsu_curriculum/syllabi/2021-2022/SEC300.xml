@@ -8,7 +8,6 @@
   <number>300</number>
   <title>Introduction to Cybersecurity</title>
   <offered>spring</offered>
-
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course covers the fundamental issues and principles of computer-and-network security through studying theory and through hands-on assignments and lab exercises. The course will look at the capabilities of modern cryptographic systems and the NIST Cybersecurity Framework. Students will learn how to secure a computer, or a network, by analyzing its security requirements and applying common techniques to enforce them.</catalogDescription>
   <prerequisites>
@@ -26,6 +25,10 @@
   <objectives>
     <objective>Explain the concepts of authentication, authorization, access control, and data integrity.
       <covers standard="acm-csec2017" knowledgeArea="1/3" id="1"/>
+    </objective>
+    <objective>Identify and define security requirements
+      <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="7"/>
     </objective>
     <objective>Describe physical and logical access control, and compare and contrast them.
       <covers standard="acm-csec2017" knowledgeArea="5" id="11"/>
@@ -60,34 +63,43 @@
     </objective>
     <objective>Describe the NIST Cybersecurity Framework
     </objective>
+    <objective>Describe the common practices and technologies used to safeguard personal privacy.
+      <covers standard="acm-csec2017" knowledgeArea="8/5" id="3"/>
+    </objective>
   </objectives>
   <outline>
-    <topic>NIST Cybersecurity Framework
+    <topic>Introduction to NIST Cybersecurity Framework
 		  <topic>Components of the Framework</topic>
 		  <topic>Uses and Benefits of the Framework</topic>
 		  <topic>History and Creation of the Framework</topic>
 		  <topic>The Five Functions: Identify, Protect, Detect, Respond, Recover</topic>
 	</topic>
 	<topic>Basic security principles
-		<topic>trust</topic>
-		<topic>privacy</topic>
-		<topic>Confidentiality, Integrity, Availability</topic>
+		<topic>Trust</topic>
+		<topic>Privacy</topic>
+		<topic>Confidentiality, Integrity, and Availability</topic>
+        <topic>Vulnerabilities, Threats, and Risks</topic>
 	</topic>
-    <topic>Vulnerabilities, Threats, and Risks</topic>
-    <topic>Common exploitation categories and techniques
+    <topic>System Development Life Cycle
+      <topic>IT System Architecture and Engineering
+	        <covers standard="acm-csec2017" knowledgeArea="5/1" id="1"/>
+	        <covers standard="acm-csec2017" knowledgeArea="5/1" id="2"/>
+      </topic>
+      <topic>Security Requirements Analysis
+		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
+      </topic>
+    </topic>
+    <topic>Security Events
+        <topic>Events vs Anomalies</topic>
+        <topic>Common exploitation categories and techniques
             <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="4"/>
+        </topic>
     </topic>
-	<topic>Basics concepts of authentication, authorization, access control, and data integrity
+	<topic>Security Control Basics
+         <topic>categories of controls</topic>
+         <topic>authentication, authorization, access control
             <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="1"/>
-	</topic>
-    <topic>Security Programming
-        <topic>Security scripting with BASH
-            <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="2"/>
-        </topic>
-        <topic>Security scripting with Python
-            <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="3"/>
-        </topic>
-    </topic>
+         </topic>
 	  <topic>Basic cryptography concepts
 		  <topic>Symmetric ciphers
 			  <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
@@ -97,5 +109,14 @@
 		  </topic>
 		  <covers standard="acm-csec2017" knowledgeArea="1/1" id="1"/>
 	  </topic>
+	</topic>
+    <topic>Security Programming
+        <topic>Security scripting with BASH
+            <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="2"/>
+        </topic>
+        <topic>Security scripting with Python
+            <covers standard="mwsu-sec2020" knowledgeArea="2/2" id="3"/>
+        </topic>
+    </topic>
   </outline>
 </course>

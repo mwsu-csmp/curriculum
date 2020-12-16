@@ -42,10 +42,6 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
     <objective>Describe the principal components of cybersecurity system implementation planning.
       <covers standard="acm-csec2017" knowledgeArea="7/5" id="3"/>
     </objective>
-    <objective>Identify and define security requirements
-      <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
-      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="7"/>
-    </objective>
     <objective>Describe the major types of information security policy and the major components of each.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="3"/>
     </objective>
