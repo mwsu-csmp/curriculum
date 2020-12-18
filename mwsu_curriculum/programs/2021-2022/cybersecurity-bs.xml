@@ -7,11 +7,9 @@
     <!-- must require students to take ethics in general studies /-->
     <requirement><course><subject>ACT</subject><number>102</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
-    <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>254</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>264</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
-    <requirement><course><subject>CSC</subject><number>289</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>294</number></course></requirement>
     <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
