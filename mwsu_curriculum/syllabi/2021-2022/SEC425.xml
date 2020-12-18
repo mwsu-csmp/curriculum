@@ -37,31 +37,24 @@
     </objective>
     <objective>Perform network discovery including port and service identification.
       <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="1"/>
-      <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="1"/>
     </objective>
     <objective>Perform Network Sniffing.
-      <covers standard="acm-csec2017" knowledgeArea="5/4" id="1"/>
-      <covers standard="acm-csec2017" knowledgeArea="5/5" id="1"/>
     </objective>
     <objective>Perform wireless scanning.
-      <covers standard="acm-csec2017" knowledgeArea="5/7" id="5"/>
     </objective>
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
-<<<<<<< HEAD
-=======
     <objective>Describe what a penetration test is, its phases and why it is valuable.
       <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
-      <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
     <objective>Be able to perform network and host vulnerability scans
-      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
     <objective>Be able to perform penetration tests to discover vulnerabilities
       <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
->>>>>>> 56285725dc2c990f45bf8a476038e46bd0f635f4
     <objective>Discuss how to document a test that reveals a vulnerability.
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
     </objective>
@@ -100,12 +93,7 @@
   <outline>
     <topic>Introduction
         <topic>NIST 800-115 Technical Guide to Information Security Testing and Assessment
-           <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
-           <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="2"/>
-           <covers standard="mwsu-sec2020" knowledgeArea="2/4" id="2"/>
-           <covers standard="mwsu-sec2020" knowledgeArea="3/1" id="2"/>
-           <covers standard="mwsu-sec2020" knowledgeArea="3/3" id="2"/>
-           <covers standard="mwsu-sec2020" knowledgeArea="5/3" id="2"/>
+           <covers standard="mwsu-sec2020" knowledgeArea="1" id="1/3"/>
         </topic>
       <covers standard="acm-csec2017" knowledgeArea="8/3" id="7"/>
     </topic>
@@ -153,7 +141,6 @@
       <covers standard="acm-csec2017" knowledgeArea="6/2" id="4"/>
     </topic>
     <topic>Wireless Security
-      <covers standard="acm-csec2017" knowledgeArea="5/7" id="5"/>
     </topic>
     <topic>Attack and Defense
       <covers standard="acm-csec2017" knowledgeArea="4/8" id="1"/>
