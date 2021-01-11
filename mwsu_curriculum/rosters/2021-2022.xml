@@ -10,6 +10,10 @@
       <description>Graduate Program Director</description>
       <hours>3</hours>
     </release>
+    <release>
+      <description>Honors Course</description>
+      <hours>2</hours>
+    </release>
   </instructor>
   <instructor>
     <id>Noynaert</id>
