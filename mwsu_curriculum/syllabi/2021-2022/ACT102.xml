@@ -7,8 +7,7 @@
   <subject>ACT</subject>
   <number>102</number>
   <title>Introduction to Web Page Development</title>
-  <offered>fall</offered>
-  <offered>summer</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course is an introduction to the design, creation, and maintenance of web pages and websites. Students learn how to
@@ -19,16 +18,18 @@ This course is an introduction to the design, creation, and maintenance of web p
   <prerequisites>
   </prerequisites>
   <objectives>
+  <objectives>
     <objective>
-        gain the skills and project»based experience neededfor web designand website development
+        gain the skills and project»based experience needed for web design and website development
     </objective>
     <objective>
         be able to use a variety of strategies and tools to create websites
     </objective>
     <objective>
-        develop awareness and appreciation ofthe myriad ways that peopleaccess the web and will be able to create
-        standards~based websites that areaccessible and usable by a full spectrum of users
+        develop awareness and appreciation of the myriad ways that people access the web and will be able to create
+        standards~based websites that are accessible and usable by a full spectrum of users
     </objective>
+  </objectives>
   </objectives>
   <outline>
     <topic>Designing and Planning Web Pages
@@ -36,10 +37,10 @@ This course is an introduction to the design, creation, and maintenance of web p
       <topic>learn the criteria that experts use in evaluating websites</topic>
       <topic>develop a website evaluation tool as a way to critically examine the quality of websites.</topic>
       <topic>develop experience documenting and sharing their ideas concerning what makes a quality website.</topic>
-      <topic>have a better understanding of effcctivc use of color on the web. </topic>
+      <topic>have a better understanding of effective use of color on the web. </topic>
       <topic>be aware of some excellent color—related resources.</topic>
       <topic>be able to identify why it is important to develop websites that comply with web standards.</topic>
-      <topic>be able to describe the differences between HTML, CSS, XML, and XI'ITML.</topic>
+      <topic>be able to describe the differences between HTML, CSS, XML, and XHTML.</topic>
       <topic>develop a basic understanding of the variety of methods and technologies used by people with disabilities in accessing computers and the web.</topic>
       <topic>learn theories and techniques for effectively organizing website content.</topic>
     </topic>

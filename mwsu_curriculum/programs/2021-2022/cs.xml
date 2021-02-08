@@ -16,6 +16,7 @@
         <course><subject>MAT</subject><number>167</number></course>
       </disjunction>
     </requirement>
+    <requirement><course><subject>ACT</subject><number>101</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>246</number></course></requirement>
@@ -34,8 +35,7 @@
     <requirement><course><subject>CSC</subject><number>406</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
   </section>
-  <section header="PLUS--9 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
-    <blank>3</blank>
+  <section header="PLUS--6 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
     <blank>3</blank>
     <blank>3</blank>
   </section>
