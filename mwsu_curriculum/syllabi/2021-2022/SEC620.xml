@@ -14,7 +14,7 @@ Enterprise-scale cloud computing is proliferating because of its cost effectiven
   </catalogDescription>
   <prerequisites>
     <prerequisiteDisjunction>
-      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
       <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>SEC</subject><number>600</number></prerequisiteCourse>
     </prerequisiteDisjunction>
   </prerequisites>

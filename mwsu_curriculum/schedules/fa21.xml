@@ -61,8 +61,6 @@
         <endTime>6:20</endTime>
         <day>T</day>
         <day>R</day>
-        <building>online</building>
-        <room>online</room>
       </section>
     </course>
 
@@ -148,8 +146,6 @@
         <startTime>2:00</startTime>
         <endTime>4:40</endTime>
         <day>R</day>
-        <building>online</building>
-        <room>online</room>
       </section>
     </course>
 

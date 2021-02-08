@@ -14,7 +14,7 @@
         <course><subject>CSC</subject><number>318</number></course>
         <course><subject>CSC</subject><number>328</number></course>
         <course><subject>CSC</subject><number>406</number></course>
-        <course><subject>SEC</subject><number>300</number></course>
+        <course><subject>SEC</subject><number>200</number></course>
     </disjunction></requirement>
     <requirement><disjunction>
         <course><subject>CSC</subject><number>246</number></course>
@@ -23,7 +23,7 @@
         <course><subject>CSC</subject><number>318</number></course>
         <course><subject>CSC</subject><number>328</number></course>
         <course><subject>CSC</subject><number>406</number></course>
-        <course><subject>SEC</subject><number>300</number></course>
+        <course><subject>SEC</subject><number>200</number></course>
     </disjunction></requirement>
     <requirement><disjunction>
         <course><subject>CSC</subject><number>246</number></course>
@@ -32,7 +32,7 @@
         <course><subject>CSC</subject><number>318</number></course>
         <course><subject>CSC</subject><number>328</number></course>
         <course><subject>CSC</subject><number>406</number></course>
-        <course><subject>SEC</subject><number>300</number></course>
+        <course><subject>SEC</subject><number>200</number></course>
     </disjunction></requirement>
   </section>
 </program>

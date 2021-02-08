@@ -4,4 +4,30 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
 
+    <course>
+      <subject>ACT</subject>
+      <number>102</number>
+      <section>
+        <sectionNumber>01</sectionNumber>
+        <instructor>Noynaert</instructor>
+        <max>25</max>
+        <startTime>9:30</startTime>
+        <endTime>10:50</endTime>
+        <day>T</day>
+        <day>R</day>
+        <building>RH</building>
+        <room>108</room>
+      </section>
+      <section>
+        <sectionNumber>02</sectionNumber>
+        <instructor>Staff</instructor>
+        <max>0</max>
+        <startTime>6:30</startTime>
+        <endTime>9:10</endTime>
+        <day>W</day>
+        <building>RH</building>
+        <room>108</room>
+      </section>
+    </course>
+
 </schedule>
