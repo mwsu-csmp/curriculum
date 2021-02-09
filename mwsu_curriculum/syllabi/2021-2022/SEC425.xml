@@ -45,8 +45,6 @@
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
-<<<<<<< HEAD
-=======
     <objective>Describe what a penetration test is, its phases and why it is valuable.
       <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
@@ -57,7 +55,6 @@
     <objective>Be able to perform penetration tests to discover vulnerabilities
       <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
->>>>>>> a9c2944051d3385b40cb94cd172226d87b0f90a0
     <objective>Discuss how to document a test that reveals a vulnerability.
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
     </objective>
