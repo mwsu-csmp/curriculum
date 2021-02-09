@@ -16,6 +16,7 @@
   </catalogDescription>
   <prerequisites>
     <prerequisiteDisjunction>
+      <prerequisiteCourse minimumGrade="C"><subject>ACT</subject><number>101</number></prerequisiteCourse>
       <prerequisiteCourse minimumGrade="C"><subject>ACT</subject><number>102</number></prerequisiteCourse>
       <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>110</number></prerequisiteCourse>
       <prerequisiteCourse minimumGrade="C"><subject>MAT</subject><number>111</number></prerequisiteCourse>
@@ -28,8 +29,7 @@
       <prerequisiteGeneral>a sufficient score on the math placement exam</prerequisiteGeneral>
     </prerequisiteDisjunction>
     <!-- will examine outcomes from previous students w/ various levels of math / ACT prep 
-   until the style sheet correctly renders this: ACT math subscore of at least 22, a sufficient score on the math placement exam, or a grade of C or higher in either ACT 102 or a general studies math course. 
-    
+   until the style sheet correctly renders this: ACT math subscore of at least 22, a sufficient score on the math placement exam, or a grade of C or higher in either ACT 102 or a general studies math course.
     /-->
   </prerequisites>
 
