@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  creditHoursLecture="2"
+  workloadHoursLecture="2">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>374</number>
+  <title>UNIX/Linux System Administration</title>
+  <offered>fall</offered>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course covers the essential skills needed to administer a mainstream linux distro 
+such as Fedora, Ubuntu, SUSE, etc. The key topics include hardware and system configuration, 
+system operation and maintenance, security, troubleshooting and diagnostics,  automation 
+and scripting. 
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>274</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>Understand Linux Booting Process</objective>
+    <objective>Configure Network Connection</objective>
+    <objective>Manage Storage Devices</objective>
+    <objective>Understand Linux Virtualization</objective>
+    <objective>Performe Package Management</objective>
+    <objective>Performe User/Group Management</objective>
+    <objective>Manage Servers</objective>
+    <objective>Schedule Jobs</objective>
+    <objective>Set Up Permissions and Ownership</objective>
+    <objective>Configure Access Control List</objective>
+    <objective>Configure Authentication Methods</objective>
+    <objective>Implement Logging Services</objective>
+    <objective>Set Up Firewall</objective>
+    <objective>Performe System and File Backup</objective>
+    <objective>Monitor System and Network</objective>
+    <objective>Performe Automation via Scripting</objective>
+  </objectives>
+  <outline>
+    <topic>Environmen Setup
+      <topic>Linux Distros</topic>
+      <topic>Installing Linux Desktop Virtual Machine</topic>
+      <topic>Installing Linux Server Virtual Machine</topic>
+    </topic>
+    <topic>Managing Files, Directories
+      <topic>Handling Files and Directories</topic>
+      <topic>Links</topic>
+    </topic>
+    <topic>Searching and Analyzing Text 
+      <topic>Processing Text Files</topic>
+      <topic>Redirection</topic>
+      <topic>Pipeline</topic>
+    </topic>
+    <topic>The Booting Process
+      <topic>Bootloader</topic>
+      <topic>Firmware Startup</topic>
+      <topic>System Recovery</topic>
+    </topic>
+    <topic>Managing System Startup and Services 
+      <topic>The init process </topic>
+      <topic>Understanding systemd</topic>
+    </topic>
+    <topic>Configuring Network Connections
+      <topic>DHCP</topic>
+      <topic>Setup Dynamic and Static IPs</topic>
+      <topic>Basic Troubleshooting</topic>
+    </topic>
+    <topic>Administering Users and Groups
+      <topic>Managing User Accounts</topic>
+      <topic>Managing Groups</topic>
+      <topic>Querying Users</topic>
+      <topic>Managing Disk Space Usage</topic>
+    </topic>
+    <topic>Handling Storage
+      <topic>Partitioning</topic>
+      <topic>Managing File Systems</topic>
+    </topic>
+    <topic>Protecting Files
+      <topic>Backup Types</topic>
+      <topic>Compression</topic>
+      <topic>Checking Backup Integrity</topic>
+    </topic>
+    <topic>Governing Software
+      <topic>Working with Source Code</topic>
+      <topic>Packaging Applications</topic>
+    </topic>
+    <topic>Kernel Modules
+      <topic>Exploring Kernel Modules</topic>
+      <topic>Installing and Removing Kernel Modules</topic>
+      <topic></topic>
+    </topic>
+    <topic>Ownership, Permissions and Access Control List
+      <topic>Managing File Ownership</topic>
+      <topic>Checking and Changing File Permission</topic>
+      <topic>umask</topic>
+      <topic>Access Control List</topic>
+      <topic>Context-based Permissions</topic>
+    </topic>
+    <topic>Access and Authentication
+      <topic>PAM</topic>
+      <topic>PKI</topic>
+      <topic>SSH</topic>
+      <topic>VPN</topic>
+    </topic>
+    <topic>Logging
+      <topic>Logging using rsyslog</topic>
+      <topic>Journaling with systemd-journald</topic>
+    </topic>
+    <topic>Firewall
+      <topic>IPTables</topic>
+      <topic>Dynamically Setting Rules</topic>
+    </topic>
+    <topic>System Troubleshooting and Remediation
+      <topic>Troubleshooting Network</topic>
+      <topic>Troubleshooting Storage Issues</topic>
+      <topic>Troubleshooting the CPU</topic>
+      <topic>Troubleshooting Memory</topic>
+      <topic>Surviving Lost Root Password</topic>
+    </topic>
+    <topic>Advanced Shell Scripting
+    </topic>
+    <topic>Automating Jobs
+      <topic>Run Scripts in Background</topic>
+      <topic>Sending Signals</topic>
+      <topic>Job Control and Scheduling</topic>
+    </topic>
+  </outline>
+</course>
