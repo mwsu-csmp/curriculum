@@ -5,15 +5,11 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>435</number>
+  <number>335</number>
   <title>Network and Endpoint Security</title>
   <offered>fall-even</offered>
   <scheduleType>lecture</scheduleType>
-	<!--
-  <catalogDescription>In this course, students will master their skills in securing a computer system, which can be a computer or an IoT device, through hardening its software components, interfaces, and the networks to which it is connected. Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities, and countermeasures that thwart the attacks. Students will learn about the vulnerabilities and attack vectors for various hardware and software components and the countermeasures that thwart these attacks. Students will also learn about documentating for the purpose of securing computer systems and networks. </catalogDescription>
-	-->
-	<catalogDescription>In this course, students will master their skills in securing an endpoint, which can be a computer or an IoT device, through hardening its software components, physical/software interfaces, and the networks to which it is connected. Common vulnerabilities of networks and endpoints will be discussed together with the threats that exploit those vulnerabilities, the attack vectors for various hardware and software components, and countermeasures that thwart the attacks. Students will also learn about documentating for the purpose of securing computer systems and networks.
-	</catalogDescription>
+  <catalogDescription>This course will introduce students to system security in terms of securing software components, physical/software interfaces, and networks. Vulnerabilities of common network protocols, threats that exploit those vulnerabilities, and attack models will be discussed. Students will learn about the basics of software security, software vulnerabilities, and cloud administration. Students will learn the underlying security theory and will gain hands on experience through lab exercises.</catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
   </prerequisites>
@@ -26,14 +22,15 @@
                 <author>Wenliang Du</author>
         </textbook>
   <objectives>
-	<!--
     <objective>Discuss the need to update software to fix security vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="1"/>
     </objective>
-	-->
+	<!--
     <objective>Explain the need to test software after an update but before the patch is distributed.
       <covers standard="acm-csec2017" knowledgeArea="2/5" id="2"/>
     </objective>
+	-->
+	<!--
     <objective>Assess threats to and vulnerabilities of a computer system and determine appropriate controls
       <covers standard="acm-csec2017" knowledgeArea="3/1" id="1"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
@@ -44,171 +41,162 @@
       <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="1"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="5"/>
     </objective>
+	-->
+	<!--
     <objective>Explain the relationship among a security group, system configuration, and procedures to maintain the security of the system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="6"/>
     </objective>
-	<!--
+	-->
     <objective>Describe the components and interfaces of a provided networking standard.
       <covers standard="acm-csec2017" knowledgeArea="4" id="5"/>
     </objective>
-	-->
-	<!--
     <objective>Discuss how the Internet 5 layer model can be viewed as software components and interfaces that represent levels of services encapsulated by lower-level services.
       <covers standard="acm-csec2017" knowledgeArea="4" id="11"/>
     </objective>
-	-->
+	<!--
     <objective>Explain how connection attacks can be understood in terms of attacks on software component interfaces.
       <covers standard="acm-csec2017" knowledgeArea="4" id="13"/>
     </objective>
+	-->
+	<!--
     <objective>Explain how transmission attacks are often implemented as attacks on components that provide the service of relaying information.
       <covers standard="acm-csec2017" knowledgeArea="4" id="16"/>
     </objective>
-	<!--
+	-->
     <objective>Describe an attack on a specified node in a TCP/IP network given the description of a vulnerability.
       <covers standard="acm-csec2017" knowledgeArea="4" id="17"/>
     </objective>
-	-->
+	<!--
     <objective>Explain why transmission attacks can often be viewed as connection attacks on network components (physical or software).
       <covers standard="acm-csec2017" knowledgeArea="4" id="18"/>
     </objective>
-	<!--
+	-->
     <objective>Explain the goals of end-to-end data security.
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
     </objective>
-	-->
-	<!--
     <objective>Discuss how intrusion detection systems contribute to security.
       <covers standard="acm-csec2017" knowledgeArea="5" id="13"/>
     </objective>
-	-->
+	<!--
     <objective>Describe the limits of anti-malware software such as antivirus programs.
       <covers standard="acm-csec2017" knowledgeArea="5" id="14"/>
     </objective>
-	<!--
+	-->
     <objective>Understand and implement system monitoring.
       <covers standard="acm-csec2017" knowledgeArea="5" id="15"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="2"/>
     </objective>
-	-->
-	<!--
     <objective>Discuss the importance of documenting proper installation and configuration of a system.
       <covers standard="acm-csec2017" knowledgeArea="5" id="22"/>
     </objective>
-	-->
+	<!--
     <objective>Be able to write host and network intrusion documentation.
       <covers standard="acm-csec2017" knowledgeArea="5" id="23"/>
     </objective>
+	-->
     <objective>Be able to explain the security implications of unclear or incomplete documentation of system operation.
       <covers standard="acm-csec2017" knowledgeArea="5" id="24"/>
     </objective>
-	<!--
     <objective>List several examples of physical component interfaces with their associated vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="4" id="7"/>
     </objective>
-	-->
+	<!--
     <objective>Describe an exploit for a vulnerability of a physical interface provided.
       <covers standard="acm-csec2017" knowledgeArea="4" id="8"/>
     </objective>
-	<!--
+	-->
     <objective>Discuss how TCP/IP as a service is represented by different interfaces in different software systems.
       <covers standard="acm-csec2017" knowledgeArea="4" id="12"/>
     </objective>
-	-->
+	<!--
     <objective>Be able to configure a firewall to protect the network.
       <covers standard="acm-csec2017" knowledgeArea="4" id="15"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="4"/>
     </objective>
-	<objective>Describe how an implementation could protect itself from a specified vulnerability in a specified standard interface.
-	</objective>
-	<!--
+	-->
     <objective>Explain what resilience is and identify an environment in which it is important.
       <covers standard="acm-csec2017" knowledgeArea="5" id="16"/>
     </objective>
-	-->
   </objectives>
   <outline>
     <topic>Systems and system engineering
-		<!--
 	    <topic>Holistic approaches for system thinking
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="3"/>
 	    </topic>
-		-->
-		<!--
 	    <topic>Security of general-purpose systems
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="4"/>
 	    </topic>
-		-->
+		<!--
 	    <topic>Security of special-purpose systems
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="5"/>
 	    </topic>
-	    <topic>Threat models: Threat detection and mitigation (for advanced-level threats)
+		-->
+	    <topic>Threat models: Threat detection and mitigation (for introductory-level threats)
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="6"/>
             <covers standard="mwsu-sec2020" knowledgeArea="2/1" id="2"/>
 	    </topic>
-		<!--
 	    <topic>Requirements analysis throughout a system lifecycle
 		    <covers standard="acm-csec2017" knowledgeArea="5/1" id="7"/>
 	    </topic>
-		-->
     </topic>
-		<!--
 	<topic>Secure architecture design for information protection
 		<covers standard="acm-csec2017" knowledgeArea="1/4" id="3"/>
 	</topic>
-		-->
 	<topic>Network hardening
-		<!--
 		<topic>Application and transport layer protocols
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="1"/>
 		</topic>
-		-->
+		<!--
 		<topic>Attacks on Transport Layer Security (TLS)
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="2"/>
 		</topic>
-		<!--
+		-->
 		<topic>Secure communication protocols on Internet/Network Layer
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="3"/>
 		</topic>
-		-->
+		<!--
 		<topic>Secure communication protocols for preserving privacy
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="4"/>
 		</topic>
-		<!--
+		-->
 		<topic>Secure communication protocols on Data link layer
 			<covers standard="acm-csec2017" knowledgeArea="1/5" id="5"/>
 		</topic>
-		-->
       <covers standard="mwsu-sec2020" knowledgeArea="2/5" id="2"/>
 	</topic>
+	<!--
     <topic>Vulnerabilities and example exploits on distributed system architectures
 	    <covers standard="acm-csec2017" knowledgeArea="4/6" id="4"/>
     </topic>
+	-->
+	<!--
     <topic>Proactive threat hunting using machine learning
 	    <covers standard="acm-csec2017" knowledgeArea="4/8" id="14"/>
     </topic>
-    <topic>Intrusion prevention techniques
+	-->
+    <topic>Intrusion detection techniques
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="3"/>
     </topic>
-		<!--
     <topic>Attack models
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="4"/>
     </topic>
-		-->
+	<!--
     <topic>Defense techniques and intrusion tolerance
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="5"/>
         <covers standard="mwsu-sec2020" knowledgeArea="2/4" id="1"/>
     </topic>
-    <topic>Audit: relationship to intrusion detection
+	-->
+    <topic>Audit: logging, log analysis
 	    <covers standard="acm-csec2017" knowledgeArea="5/4" id="6"/>
     </topic>
-	<!--
     <topic>Cloud administration
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="4"/>
     </topic>
-	-->
+	<!--
     <topic>System hardening by finding and remediating risks
 	    <covers standard="acm-csec2017" knowledgeArea="7/4" id="6"/>
         <covers standard="mwsu-sec2020" knowledgeArea="2/5" id="1"/>
     </topic>
+	-->
   </outline>
 </course>
