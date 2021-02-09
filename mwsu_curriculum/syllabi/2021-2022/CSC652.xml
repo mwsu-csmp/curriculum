@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
+  workloadHoursExpected="1">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>452</number>
+  <title>Advanced Certification in Computing</title>
+  <offered>discretion</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course provides an opportunity for students to prepare for professional certification exam at the advanced and expert levels while being tutored by a faculty member holding the certification they are seeking. Students will meet individually with their instructor to develop a study plan, review study materials, and make other preparations for the exam.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteGeneral>approval of instructor</prerequisiteGeneral>
+  </prerequisites>
+  <objectives>
+    <objective>Develop strategies for preparing and taking proctored certification exams</objective>
+    <objective>Others determined by exam choice</objective>
+  </objectives>
+  <outline>
+    <topic>Determined by exam choice</topic>
+  </outline>
+</course>

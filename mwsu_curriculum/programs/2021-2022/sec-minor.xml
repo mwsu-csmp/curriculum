@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <program
-  name="cs-minor"
+  name="sec-minor"
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <section>
-    <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
+    <requirement><course><subject>ACT</subject><number>101</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>294</number></course></requirement>
-    <requirement><course><subject>SEC</subject><number>300</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>200</number></course></requirement>
     <requirement><disjunction>
-        <course><subject>CSC</subject><number>324</number></course>
+ <!--   <requirement><course><subject>SEC</subject><number>335</number></course></requirement>  **waiting on commit /-->
         <course><subject>SEC</subject><number>415</number></course>
         <course><subject>SEC</subject><number>425</number></course>
         <course><subject>SEC</subject><number>435</number></course>
@@ -17,7 +17,7 @@
         <course><subject>SEC</subject><number>455</number></course>
     </disjunction></requirement>
     <requirement><disjunction>
-        <course><subject>CSC</subject><number>324</number></course>
+ <!--   <requirement><course><subject>SEC</subject><number>335</number></course></requirement>  **waiting on commit /-->
         <course><subject>SEC</subject><number>415</number></course>
         <course><subject>SEC</subject><number>425</number></course>
         <course><subject>SEC</subject><number>435</number></course>

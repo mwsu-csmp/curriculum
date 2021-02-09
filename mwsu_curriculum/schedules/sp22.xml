@@ -3,6 +3,7 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/mwsu_curriculum/transformations/schedule.xsd">
+
     <course>
       <subject>ACT</subject>
       <number>102</number>
@@ -12,63 +13,21 @@
         <max>25</max>
         <startTime>9:30</startTime>
         <endTime>10:50</endTime>
-        <day>M</day>
+        <day>T</day>
+        <day>R</day>
+        <building>RH</building>
+        <room>108</room>
+      </section>
+      <section>
+        <sectionNumber>02</sectionNumber>
+        <instructor>Staff</instructor>
+        <max>0</max>
+        <startTime>6:30</startTime>
+        <endTime>9:10</endTime>
         <day>W</day>
         <building>RH</building>
         <room>108</room>
       </section>
     </course>
-
-    <course>
-      <subject>CSC</subject>
-      <number>184</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Morwick</instructor>
-        <max>25</max>
-        <startTime>2:00</startTime>
-        <endTime>3:20</endTime>
-        <day>T</day>
-        <day>R</day>
-        <building>RH</building>
-        <room>105</room>
-      </section>
-    </course>
-
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>254</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Noynaert</instructor>
-        <max>25</max>
-        <startTime>2:00</startTime>
-        <endTime>3:20</endTime>
-        <day>M</day>
-        <day>W</day>
-        <building>AH</building>
-        <room>330</room>
-      </section>
-    </course>
-
-
-    <course>
-      <subject>CSC</subject>
-      <number>274</number>
-      <section>
-        <sectionNumber>01</sectionNumber>
-        <instructor>Yan</instructor>
-        <max>25</max>
-        <startTime>12:30</startTime>
-        <endTime>1:20</endTime>
-        <day>T</day>
-        <day>R</day>
-        <building>AH</building>
-        <room>126</room>
-      </section>
-    </course>
-
 
 </schedule>

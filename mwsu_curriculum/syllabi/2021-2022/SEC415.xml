@@ -13,8 +13,7 @@
     This course will cover techniques used to protect data from unauthorized access or corruption, and techniques used to identify, authenticate, and authorize individuals or groups to access protected resources. Students will work with open-source tools for cryptography and identity management. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>CSC</subject><number>305</number></prerequisiteCourse>
-    <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
   </prerequisites>
   <textbook
   title="Understanding Cryptography: A Textbook for Students and Practitioners"
@@ -44,9 +43,6 @@
     </objective>
     <objective>Describe the various techniques for data erasure.
       <covers standard="acm-csec2017" knowledgeArea="1/8" id="1"/>
-    </objective>
-    <objective>Explain the difference between identification, authentication, and access authorization of people and devices.
-      <covers standard="acm-csec2017" knowledgeArea="6/1" id="1"/>
     </objective>
 	  <objective>Explain the difference between pseudorandom numbers and random numbers.
       <covers standard="acm-csec2017" knowledgeArea="2/3" id="2"/>
@@ -81,11 +77,11 @@
     <objective>Explain the importance of multifactor authentication.
       <covers standard="acm-csec2017" knowledgeArea="5" id="8"/>
     </objective>
+    <objective>Perform file integrity checking
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
+    </objective>
     <objective>Explain the advantages of pass phrases over passwords.
       <covers standard="acm-csec2017" knowledgeArea="5" id="9"/>
-    </objective>
-    <objective>Distinguish between authorization and authentication.
-      <covers standard="acm-csec2017" knowledgeArea="5" id="12"/>
     </objective>
     <objective>Explain why backups pose a potential security risk.
       <covers standard="acm-csec2017" knowledgeArea="5" id="18"/>
@@ -99,6 +95,7 @@
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="4"/>
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="5"/>
       <covers standard="acm-csec2017" knowledgeArea="1/1" id="6"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1" id="8"/>
     </topic>
     <topic>Cryptanalysis
       <covers standard="acm-csec2017" knowledgeArea="1/6" id="1"/>
@@ -120,7 +117,6 @@
       <covers standard="acm-csec2017" knowledgeArea="1/4" id="4"/>
       <covers standard="acm-csec2017" knowledgeArea="5/4" id="1"/>
       <covers standard="acm-csec2017" knowledgeArea="5/4" id="2"/>
-      
     </topic>
     <topic>Data Privacy
       <covers standard="acm-csec2017" knowledgeArea="1/7" id="1"/>

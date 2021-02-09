@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>ACT</subject>
+  <number>101</number>
+  <title>Introduction to Information Technology</title>
+  <offered>fall</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course introduces students to the basic concepts of information technology relevant to all applications of computing.
+    Upon completion, students will be well prepared to use computers to solve problems in other domains and
+    pursue more advanced studies in computer science and cybersecurity. As part of the course, students will take the
+    pre-professional ITF+ certification exam from CompTIA.
+  </catalogDescription>
+  <prerequisites>
+  </prerequisites>
+  <objectives>
+    <objective>
+        Become conversant in basic IT terminology
+    </objective>
+    <objective>
+        Install basic computer peripherals and applications
+    </objective>
+    <objective>
+        Set up a basic wireless network
+    </objective>
+    <objective>
+        Configure and use a web browser to solve simple problems
+    </objective>
+    <objective>
+        Use programming logic to solve a simple problem
+    </objective>
+    <objective>
+        Understand the process of troubleshooting problems with hardware and software
+    </objective>
+    <objective>
+        Gain familiarity with common operating systems, operating system features, and user interfaces for operating systems
+    </objective>
+    <objective>
+        Become familiar with essential categories of software for a variety of tasks and how that software is licensed, deployed, and managed
+    </objective>
+    <objective>
+        Understand the basic concepts of popular programming languages, how programs are developed, and how they are executed on computers
+    </objective>
+    <objective>
+        Understand the basic concepts involved in database usage and management
+    </objective>
+    <objective>
+        Understand the basic principles of cybersecurity, particularly as they apply to users and every day computer use
+    </objective>
+    <objective>
+        Understand identity, password management, and data security concepts most important to users
+    </objective>
+    <objective>
+        Be able to apply best practices for cybersecurity in home, school, and professional contexts
+    </objective>
+  </objectives>
+  <outline>
+    <topic>Basic IT Concepts and Terminology
+      <topic>Terms and Units</topic>
+      <topic>Data encodings</topic>
+      <topic>Basic computer functions</topic>
+      <topic>Basic data processing</topic>
+      <topic>Troubleshooting</topic>
+    </topic>
+    <topic>Computer Hardware and other IT Infrastructure
+      <topic>Computing Devices</topic>
+      <topic>I/O Devices</topic>
+      <topic>Internal Computer Components</topic>
+      <topic>Basic Networking</topic>
+      <topic>Storage Devices</topic>
+    </topic>
+    <topic>Software
+      <topic>Operating Systems</topic>
+      <topic>Common productivity software</topic>
+      <topic>Application installation, deployment, and licensing</topic>
+    </topic>
+    <topic>Programming
+      <topic>Programming language categories and uses</topic>
+      <topic>Basic programming language concepts</topic>
+    </topic>
+    <topic>Databases
+      <topic>Basic Database concepts</topic>
+      <topic>Database use cases</topic>
+      <topic>Database actions</topic>
+    </topic>
+    <topic>Cybersecurity
+      <topic>Confidentiality, Integrity, and Availability</topic>
+      <topic>Best Practices</topic>
+      <topic>Social Aspects of Cybersecurity</topic>
+      <topic>Authentication Methods</topic>
+      <topic>Password Management</topic>
+      <topic>Encryption Basics</topic>
+      <topic>Business Continuity Basics</topic>
+    </topic>
+  </outline>
+</course>

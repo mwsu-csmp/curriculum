@@ -7,13 +7,13 @@
   <subject>SEC</subject>
   <number>445</number>
   <title>Security Program Governance</title>
-  <offered>fall-even</offered>
+  <offered>fall-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
     This course introduces the development and management of cybersecurity programs within organizations. Governance frameworks and regulations will be studied through development of policy, implementation of controls and audits, analysis of risks, and response to simulated incidents. Students will gain skill with management tools, analyze security concerns with employees and vendors, and implement communication strategies with a variety of stakeholders.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
   </prerequisites>
   <textbook title="Implementing Cybersecurity"
             edition="1"
@@ -65,6 +65,12 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
       <covers standard="acm-csec2017" knowledgeArea="5" id="20"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="2"/>
     </objective>
+    <objective>Execute standard functions of a cyber incident response plans
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="2"/>
+    </objective>
+    <objective>Manage communications around a cyber incident response
+      <covers standard="mwsu-sec2020" knowledgeArea="1/3" id="3"/>
+    </objective>
     <objective>Be able to evaluate the severity of a vulnerability using standard scoring system such as CVSS
       <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="3"/>
     </objective>
@@ -109,6 +115,9 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
       <covers standard="acm-cs2013" knowledgeArea="SE/SPM" id="23"/>
       <covers standard="acm-csec2017" knowledgeArea="7/1" id="4"/>
       <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="2"/>
+    </objective>
+    <objective>Analyze and develop controls to mitigate security risks and ensure business continuity
+          <covers standard="mwsu-sec2020" knowledgeArea="1/4" id="4"/>
     </objective>
     <objective>Describe why ethical codes of conduct are important to cybersecurity professionals and their organizations.
       <covers standard="acm-csec2017" knowledgeArea="7/2" id="6"/>
@@ -234,6 +243,8 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
     </topic>
 
     <topic>Risk management
+        <topic>NIST 800-30 Guide for Conducting Risk Assessments
+        </topic>
       <topic>Risk Concepts
         <topic>Risk Management Framework</topic>
         <topic>Threats and Vulnerabilities</topic>
@@ -299,11 +310,13 @@ https://www.isaca.org/bookstore/cisa-exam-resources/crm27ed
       </topic>
     </topic>
 
-    <topic>Security Incidents
-      <topic>Security Events vs Incidents</topic>
+    <topic>Security Incident Handling
       <topic>Incident Response Plans</topic>
       <topic>Incident Response Handling
-        <topic>Preparation</topic>
+        <topic>Preparation
+          <topic>Business continuity controls
+          </topic>
+        </topic>
         <topic>Detection and Analysis</topic>
         <topic>Containment, Eradication, and Recovery
           <covers standard="acm-csec2017" knowledgeArea="7/6" id="2"/>

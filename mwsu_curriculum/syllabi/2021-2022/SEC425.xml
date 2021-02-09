@@ -10,10 +10,10 @@
   <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-    This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will gain practical skills through red-team exercises and penetration labs. 
+    This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will also be exposed to the NIST SP 800-115 Technical Guide to Information Security Testing and Assessment, and gain practical skills through red-team exercises and penetration labs. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
   </prerequisites>
   <textbook
   title="CEH v10 Certified Ethical Hacker Study Guide"
@@ -23,18 +23,34 @@
   ISBN="ISBN-10: 1119533198 ISBN-13: 978-1119533191">
   <author>Ric Messier</author>
   </textbook>
+  <textbook
+  title="NIST SP 800-115, Technical Guide to Information Security Testing and Assessment"
+  year="2008"
+  publisher="National Institute of Standards and Technology"
+  edition="First"
+  ISBN="">
+  <author>Karen Scarfone, Murugiah Souppaya, Amanda Cody and Angela Orebaugh</author>
+  </textbook>
 <objectives>
     <objective>Identify common attack vectors for compromising software systems.
       <covers standard="acm-csec2017" knowledgeArea="2/2" id="2"/>
     </objective>
+    <objective>Perform network discovery including port and service identification.
+      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="1"/>
+    </objective>
+    <objective>Perform Network Sniffing.
+    </objective>
+    <objective>Perform wireless scanning.
+    </objective>
     <objective>Discuss the ethical issues in disclosing vulnerabilities.
       <covers standard="acm-csec2017" knowledgeArea="2/7" id="2"/>
     </objective>
-    <objective>Describe what a penetration test is and why it is valuable.
+    <objective>Describe what a penetration test is, its phases and why it is valuable.
       <covers standard="acm-csec2017" knowledgeArea="5" id="19"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
     <objective>Be able to perform network and host vulnerability scans
-      <covers standard="mwsu-sec2020" knowledgeArea="1/1" id="1"/>
+      <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
     </objective>
     <objective>Be able to perform penetration tests to discover vulnerabilities
       <covers standard="mwsu-sec2020" knowledgeArea="1/2" id="1"/>
@@ -54,7 +70,7 @@
     <objective>Describe how a specified standard interface could expose vulnerabilities in a software component that implements the interface.
       <covers standard="acm-csec2017" knowledgeArea="4" id="14"/>
     </objective>
-    <objective>Explain the various possible attacks on passwords.
+    <objective>Perform various possible attacks on passwords.
       <covers standard="acm-csec2017" knowledgeArea="1/3" id="3"/>
     </objective>
     <objective>Discuss the need to update software to fix security vulnerabilities.
@@ -76,6 +92,9 @@
   </objectives>
   <outline>
     <topic>Introduction
+        <topic>NIST 800-115 Technical Guide to Information Security Testing and Assessment
+           <covers standard="mwsu-sec2020" knowledgeArea="1" id="1/3"/>
+        </topic>
       <covers standard="acm-csec2017" knowledgeArea="8/3" id="7"/>
     </topic>
     <topic>Security Foundation
@@ -122,7 +141,6 @@
       <covers standard="acm-csec2017" knowledgeArea="6/2" id="4"/>
     </topic>
     <topic>Wireless Security
-      <covers standard="acm-csec2017" knowledgeArea="5/7" id="5"/>
     </topic>
     <topic>Attack and Defense
       <covers standard="acm-csec2017" knowledgeArea="4/8" id="1"/>

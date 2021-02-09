@@ -11,7 +11,7 @@
   <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-An academic program which offers Computer Science majors an opportunity to integrate theory with practice. Students work full-time or part-time for a company in a position related to the Computer Science major. Anticipated learning objectives are established in a contract agreed to by the student, the company supervisor, and the departmental faculty sponsor. May be repeated for credit, but at most 3 hours may count towards the total number of hours required for the major. 
+An academic program which offers Computer Science majors an opportunity to integrate theory with practice. Students work full-time or part-time for a company in a position related to the Computer Science major. Anticipated learning objectives are established in a contract agreed to by the student, the company supervisor, and the departmental faculty sponsor. May be repeated for credit, but at most 3 hours may count towards the total number of hours required for the major.
   </catalogDescription>
   <prerequisites>
     <prerequisiteGeneral>approval of faculty sponsor</prerequisiteGeneral>
@@ -21,9 +21,9 @@ An academic program which offers Computer Science majors an opportunity to integ
     </prerequisiteDisjunction>
   </prerequisites>
   <objectives>
-    <objective>stub</objective>
+    <objective>Determined by appointment</objective>
   </objectives>
   <outline>
-    <topic>stub</topic>
+    <topic>Determined by appointment</topic>
   </outline>
 </course>
