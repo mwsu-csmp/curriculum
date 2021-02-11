@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>SEC</subject>
+  <number>699</number>
+  <title>Capstone</title>
+  <offered>discretion</offered>
+  <scheduleType>research</scheduleType>
+  <catalogDescription>
+To continue on the experiment results and preliminary conclusions drawn in the master thesis proposal, students will take this course to complete their master thesis. The deliverable of this course is a master thesis in a publishable quality. This course can be taken for multiple times for credits. 
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="pass">
+      <subject>SEC</subject>
+      <number>692</number>
+    </prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>To continue the progress on the master thesis based on the plan laid out in the master thesis proposal</objective>
+    <objective>To iteratively refine the solution proposed in their proposals based on experimental results</objective>
+  </objectives>
+  <outline>
+    <topic>Driving the refinement of hypotheses, research questions, and designs based on experimental results</topic>
+    <topic>Drawing conclusions from final experiment results</topic>
+    <topic>Identifying future work</topic>
+    <topic>Writing research papers in a publishable quality</topic>
+  </outline>
+</course>
