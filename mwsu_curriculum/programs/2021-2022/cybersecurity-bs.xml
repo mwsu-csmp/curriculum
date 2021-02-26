@@ -13,14 +13,6 @@
     <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>374</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>386</number></course></requirement>
-    <requirement><disjunction>
-      <course><subject>CSC</subject><number>451</number></course>
-      <course><subject>CSC</subject><number>452</number></course>
-    </disjunction></requirement>
-    <requirement><disjunction>
-      <course><subject>CSC</subject><number>451</number></course>
-      <course><subject>CSC</subject><number>452</number></course>
-    </disjunction></requirement>
     <requirement><course><subject>SEC</subject><number>300</number></course></requirement>
     <requirement><course><subject>SEC</subject><number>415</number></course></requirement>
     <requirement><course><subject>SEC</subject><number>425</number></course></requirement>
@@ -29,5 +21,17 @@
     <requirement><course><subject>SEC</subject><number>445</number></course></requirement>
     <requirement><course><subject>SEC</subject><number>455</number></course></requirement>
     <requirement><course><subject>SEC</subject><number>490</number></course></requirement>
+    <requirement><disjunction>
+      <course><subject>CSC</subject><number>450</number></course>
+      <course><subject>CSC</subject><number>451</number></course>
+      <course><subject>CSC</subject><number>452</number></course>
+      <course><subject>CSC</subject><number>476</number></course>
+    </disjunction></requirement>
+    <requirement><disjunction>
+      <course><subject>CSC</subject><number>450</number></course>
+      <course><subject>CSC</subject><number>451</number></course>
+      <course><subject>CSC</subject><number>452</number></course>
+      <course><subject>CSC</subject><number>476</number></course>
+    </disjunction></requirement>
   </section>
 </program>

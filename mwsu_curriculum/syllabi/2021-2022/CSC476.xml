@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course
+  xmlns="https://csmp.missouriwestern.edu"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
+  <college>LA</college>
+  <subject>CSC</subject>
+  <number>476</number>
+  <title>Capstone Project</title>
+  <offered>spring</offered>
+  <scheduleType>lecture</scheduleType>
+  <catalogDescription>
+This course will prepare and assist students to implement a solution to a significant computing problem using project management techniques and specialized software and technologies. Students will apply their domain knowledge from computer science, IT, or another field in a timely and substantial independent project and produce significant project deliverables to begin building a professional portfolio of completed work. Beyond their own project, students will participate in a project seminar where they will benefit from the experiences of their classmates in a wide variety of applied computing projects.
+  </catalogDescription>
+  <prerequisites>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteCourse corequisite="true"><subject>CSC</subject><number>450</number></prerequisiteCourse>
+  </prerequisites>
+  <objectives>
+    <objective>Understand basic concepts and procedures in managing software development and information technology projects
+</objective>
+    <objective>Gain an appreciation and basic understanding of the breadth of application areas of computer science, including software development, computational science, machine learning, and IT system development.</objective>
+    <objective>Be able to develop, understand, work with, and professionally critique computational project requirements and outcomes
+</objective>
+    <objective>Encounter the problems inherent with medium-to-large-scale IT projects and understand how to apply project management principles to work past them
+</objective>
+    <objective>Be able to analyze the legal, ethical, and societal ramifications of professional work in computer science
+</objective>
+  </objectives>
+  <outline>
+    <topic>system development basic concepts
+        <topic>requirements analysis</topic>
+    </topic>
+    <topic>project management essentials
+        <topic>project scope management</topic>
+        <topic>project schedule management</topic>
+    </topic>
+    <topic>essential IT project tools technologies
+        <topic>revision control systems</topic>
+        <topic>scripts and orchestration</topic>
+        <topic>workflows</topic>
+        <topic>grid computing</topic>
+    </topic>
+    <topic>project research and reporting essentials
+        <topic>literature search, review, and citation</topic>
+        <topic>industry and academic research venues</topic>
+        <topic>project reporting</topic>
+    </topic>
+    <topic>software development basic concepts
+        <topic>working with libraries and frameworks</topic>
+        <topic>understanding API documentation</topic>
+    </topic>
+    <topic>overview of other applied computing domains
+        <topic>machine learning</topic>
+        <topic>scientific computing</topic>
+    </topic>
+    <topic>societal impact of projects in science and technology</topic>
+    <topic>ethical implications of projects in science and technology</topic>
+  </outline>
+</course>
