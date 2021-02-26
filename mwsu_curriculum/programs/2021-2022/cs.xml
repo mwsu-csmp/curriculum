@@ -19,14 +19,17 @@
     <requirement><course><subject>ACT</subject><number>101</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>184</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>208</number></course></requirement>
-    <requirement><course><subject>CSC</subject><number>246</number></course></requirement>
+    <requirement><disjunction>
+      <course><subject>CSC</subject><number>246</number></course>
+      <course><subject>CSC</subject><number>346</number></course>
+    </disjunction></requirement>
     <requirement><course><subject>CSC</subject><number>254</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>264</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>274</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>285</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>289</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>294</number></course></requirement>
-    <requirement><course><subject>SEC</subject><number>200</number></course></requirement>
+    <requirement><course><subject>SEC</subject><number>300</number></course></requirement>
     <requirement><course><subject>ACT</subject><number>301</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>305</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>324</number></course></requirement>
@@ -35,8 +38,8 @@
     <requirement><course><subject>CSC</subject><number>406</number></course></requirement>
     <requirement><course><subject>CSC</subject><number>490</number></course></requirement>
   </section>
-  <section header="PLUS--6 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
+  <section header="PLUS--5 credits of ACT, SEC, MAT, or CSC courses numbered 300 - 599">
     <blank>3</blank>
-    <blank>3</blank>
+    <blank>2</blank>
   </section>
 </program>

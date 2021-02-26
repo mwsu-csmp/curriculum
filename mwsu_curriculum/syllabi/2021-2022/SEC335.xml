@@ -11,7 +11,7 @@
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course will introduce students to system security in terms of securing software components, physical/software interfaces, and networks. Vulnerabilities of common network protocols, threats that exploit those vulnerabilities, and attack models will be discussed. Students will learn about the basics of software security, software vulnerabilities, and cloud administration. Students will learn the underlying security theory and will gain hands on experience through lab exercises.</catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
         <textbook
                 title="Computer &amp; Network Security: A Hands-on Approach"

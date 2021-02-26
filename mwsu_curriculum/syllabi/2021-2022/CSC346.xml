@@ -5,12 +5,12 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>CSC</subject>
-  <number>246</number>
-  <title>Programming Languages and Paradigms</title>
-  <offered>discretion</offered>
+  <number>346</number>
+  <title>Principles of Programming Languages</title>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-This course explores major programming paradigms (including the functional, object-oriented, and logic programming paradigms) and principles of the design of programming languages. Students will learn to adapt quickly to new programming languages, select appropriate programming languages for projects, compare and contrast languages, and make the best use of features of languages they have learned.
+This course explores principles of the design of programming languages and major programming paradigms. Students will learn to adapt quickly to new programming languages, select appropriate programming languages for projects, compare and contrast languages, and make the best use of features of languages they have learned.
   </catalogDescription>
   <prerequisites>
     <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>208</number></prerequisiteCourse>
@@ -28,6 +28,12 @@ This course explores major programming paradigms (including the functional, obje
   </textbook>
 
   <objectives>
+    <objective>Understand the differences between compilers and interpreters
+      <covers standard="acm-cs2013" knowledgeArea="PL/PR" id="1"/>
+    </objective>
+    <objective>Understand the differences between static and dynamic type checking and dispatch
+      <covers standard="acm-cs2013" knowledgeArea="PL/BTS" id="4"/>
+    </objective>
     <objective>Compare and contrast procedural, functional, object-oriented, and logic approaches to programming
       <covers standard="acm-cs2013" knowledgeArea="PL/OP" id="4"/>
       <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="3"/>
@@ -39,8 +45,6 @@ This course explores major programming paradigms (including the functional, obje
       <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="2"/>
     </objective>
     <objective>Use functional encapsulation mechanisms such as closures and modular interfaces
-    </objective>
-    <objective>Use closures and correctly reason about their implications for variable scope
       <covers standard="acm-cs2013" knowledgeArea="PL/FP" id="4"/>
     </objective>
     <objective>Define and use iterators, generators, and comprehensions and apply fluent interfaces in stream processing
@@ -65,7 +69,10 @@ This course explores major programming paradigms (including the functional, obje
   <outline>
     <topic>programming language principles
       <topic>categories of languages</topic>
-      <topic>syntax</topic>
+      <topic>syntax and grammar
+        <topic>lexical analysis</topic>
+        <topic>parsing</topic>
+      </topic>
       <topic>names and bindings</topic>
       <topic>scope</topic>
       <topic>control structures</topic>
@@ -97,6 +104,7 @@ This course explores major programming paradigms (including the functional, obje
       <topic>fluents</topic>
     </topic>
     <topic>logic programming
+      <topic>defining constraints</topic>
       <topic>unification</topic>
       <topic>non-determinism</topic>
       <topic>reversible computation</topic>
