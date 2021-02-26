@@ -13,7 +13,7 @@
     This course introduces the development and management of cybersecurity programs within organizations. Governance frameworks and regulations will be studied through development of policy, implementation of controls and audits, analysis of risks, and response to simulated incidents. Students will gain skill with management tools, analyze security concerns with employees and vendors, and implement communication strategies with a variety of stakeholders.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
   <textbook title="Implementing Cybersecurity"
             edition="1"

@@ -5,7 +5,7 @@
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd">
   <college>LA</college>
   <subject>SEC</subject>
-  <number>200</number>
+  <number>300</number>
   <title>Introduction to Cybersecurity</title>
   <offered>spring</offered>
   <scheduleType>lecture</scheduleType>

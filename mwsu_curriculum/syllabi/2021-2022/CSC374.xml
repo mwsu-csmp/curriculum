@@ -3,8 +3,8 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
-  creditHoursLecture="2"
-  workloadHoursLecture="2">
+  creditHoursLecture="3"
+  workloadHoursLecture="3">
   <college>LA</college>
   <subject>CSC</subject>
   <number>374</number>
@@ -26,8 +26,8 @@ and scripting.
     <objective>Configure Network Connection</objective>
     <objective>Manage Storage Devices</objective>
     <objective>Understand Linux Virtualization</objective>
-    <objective>Performe Package Management</objective>
-    <objective>Performe User/Group Management</objective>
+    <objective>Perform Package Management</objective>
+    <objective>Perform User/Group Management</objective>
     <objective>Manage Servers</objective>
     <objective>Schedule Jobs</objective>
     <objective>Set Up Permissions and Ownership</objective>
@@ -35,12 +35,12 @@ and scripting.
     <objective>Configure Authentication Methods</objective>
     <objective>Implement Logging Services</objective>
     <objective>Set Up Firewall</objective>
-    <objective>Performe System and File Backup</objective>
+    <objective>Perform System and File Backup</objective>
     <objective>Monitor System and Network</objective>
-    <objective>Performe Automation via Scripting</objective>
+    <objective>Perform Automation via Scripting</objective>
   </objectives>
   <outline>
-    <topic>Environmen Setup
+    <topic>Environment Setup
       <topic>Linux Distros</topic>
       <topic>Installing Linux Desktop Virtual Machine</topic>
       <topic>Installing Linux Server Virtual Machine</topic>
@@ -90,7 +90,6 @@ and scripting.
     <topic>Kernel Modules
       <topic>Exploring Kernel Modules</topic>
       <topic>Installing and Removing Kernel Modules</topic>
-      <topic></topic>
     </topic>
     <topic>Ownership, Permissions and Access Control List
       <topic>Managing File Ownership</topic>

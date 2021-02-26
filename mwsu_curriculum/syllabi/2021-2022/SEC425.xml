@@ -13,7 +13,7 @@
     This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will also be exposed to the NIST SP 800-115 Technical Guide to Information Security Testing and Assessment, and gain practical skills through red-team exercises and penetration labs. 
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>200</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
   </prerequisites>
   <textbook
   title="CEH v10 Certified Ethical Hacker Study Guide"
