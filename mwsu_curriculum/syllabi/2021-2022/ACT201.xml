@@ -7,8 +7,7 @@
   <subject>ACT</subject>
   <number>201</number>
   <title>Microcomputer Applications</title>
-  <offered>spring</offered>
-  <offered>summer</offered>
+  <offered>fall</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 Applications of productivity software such as Microsoft Office Word, Excel, Access, and PowerPoint for careers, school, and home. Impact of technology on society by computer information systems, networks, e-commerce, and the Internet is included. Previous computer experience recommended.
@@ -26,7 +25,7 @@ Applications of productivity software such as Microsoft Office Word, Excel, Acce
     <topic>Microsoft Word
         <topic>Document Presentation: Editing and Formatting</topic>
         <topic>Document Productivity: Working with Tables and Mail Merge</topic>
-        <topic>ollaboration and Research: Communicating and Producing Professional  Papers</topic>
+        <topic>Collaboration and Research: Communicating and Producing Professional  Papers</topic>
     </topic>
     <topic>Microsoft Excel
         <topic>Introduction to Excel: What Is a Spreadsheet? </topic>

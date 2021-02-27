@@ -9,11 +9,7 @@
   <title>Advanced Network Security</title>
   <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
-<!--
-  <catalogDescription>
-This course introduces students to the knowledge in designing, implementing, maintaining, and troubleshooting local and wide-area enterprise networks. Students will acquire understanding of network infrastructures and protocols, and how they work together in practice. In addition, they will learn about the concept of quality of service (QoS) elements and their applicability, securing networks by setting up firewalls, and configuring wireless controllers and access points. Students will also learn to work with IPv6. After the completion of this course, students may apply the knowledge and skills they have learned to related technologies such as cloud, data center, and advanced network security.
-  </catalogDescription>
--->
+
   <catalogDescription>
 This is a hands-on network security course building on top of the networking and general security knowledge that students have already learned in previous courses. In this course, students will learn about different attacks against network protocols and applications. They will also learn about how attackers exploit the vulnerabilities of conventional network technologies to launch those attacks. They will also learn about the countermeasures that are designed to thwart the attacks and, more importantly, how each countermeasures work. 
   </catalogDescription>

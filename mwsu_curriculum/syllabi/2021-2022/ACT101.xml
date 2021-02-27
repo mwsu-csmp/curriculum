@@ -8,6 +8,7 @@
   <number>101</number>
   <title>Introduction to Information Technology</title>
   <offered>fall</offered>
+  <offered>spring</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course introduces students to the basic concepts of information technology relevant to all applications of computing.

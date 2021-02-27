@@ -6,23 +6,55 @@
   <college>LA</college>
   <subject>ACT</subject>
   <number>476</number>
-  <title>Applications of Computer Information Sciences Capstone</title>
-  <offered>spring</offered>
+  <title>Capstone Project</title>
+  <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
-The capstone course will encompass and consolidate all of the concepts covered in the ACT curriculum. In this course, students will manage an Information Systems project, design an appropriate database and incorporate both LAN and Web-based distributed information solutions to support a business process, effectively document the system and incorporate elements of the general education into a successfully implemented information systems solution.
+This course will prepare and assist students to implement a solution to a significant computing problem using project management techniques and specialized software and technologies. Students will apply their domain knowledge from computer science, IT, or another field in a timely and substantial independent project and produce significant project deliverables to begin building a professional portfolio of completed work. Beyond their own project, students will participate in a project seminar where they will benefit from the experiences of their classmates in a wide variety of applied computing projects.
   </catalogDescription>
   <prerequisites>
-    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>400</number></prerequisiteCourse>
+    <prerequisiteCourse minimumGrade="C"><subject>CSC</subject><number>184</number></prerequisiteCourse>
+    <prerequisiteCourse corequisite="true"><subject>CSC</subject><number>450</number></prerequisiteCourse>
   </prerequisites>
   <objectives>
-    <objective>To enhance and facilitate understanding of project development requirements.</objective>
-    <objective>To set guidelines and time constraints for the project deliverables to facilitate timely completion. </objective>
-    <objective>To enhance the quality of your senior project by providing you with information about research/design tools and technologies</objective>
-    <objective>To provide feedback regarding your topic, project proposal and final report.</objective>
-    <objective>To gain experience monitoring and facilitating completion of a software or hardware installation project.</objective>
+    <objective>Understand basic concepts and procedures in managing software development and information technology projects
+</objective>
+    <objective>Gain an appreciation and basic understanding of the breadth of application areas of computer science, including software development, computational science, machine learning, and IT system development.</objective>
+    <objective>Be able to develop, understand, work with, and professionally critique computational project requirements and outcomes
+</objective>
+    <objective>Encounter the problems inherent with medium-to-large-scale IT projects and understand how to apply project management principles to work past them
+</objective>
+    <objective>Be able to analyze the legal, ethical, and societal ramifications of professional work in computer science
+</objective>
   </objectives>
   <outline>
-    <topic> </topic>
+    <topic>system development basic concepts
+        <topic>requirements analysis</topic>
+    </topic>
+    <topic>project management essentials
+        <topic>project scope management</topic>
+        <topic>project schedule management</topic>
+    </topic>
+    <topic>essential IT project tools technologies
+        <topic>revision control systems</topic>
+        <topic>scripts and orchestration</topic>
+        <topic>workflows</topic>
+        <topic>grid computing</topic>
+    </topic>
+    <topic>project research and reporting essentials
+        <topic>literature search, review, and citation</topic>
+        <topic>industry and academic research venues</topic>
+        <topic>project reporting</topic>
+    </topic>
+    <topic>software development basic concepts
+        <topic>working with libraries and frameworks</topic>
+        <topic>understanding API documentation</topic>
+    </topic>
+    <topic>overview of other applied computing domains
+        <topic>machine learning</topic>
+        <topic>scientific computing</topic>
+    </topic>
+    <topic>societal impact of projects in science and technology</topic>
+    <topic>ethical implications of projects in science and technology</topic>
   </outline>
 </course>

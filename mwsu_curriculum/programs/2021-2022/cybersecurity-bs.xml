@@ -25,13 +25,13 @@
       <course><subject>CSC</subject><number>450</number></course>
       <course><subject>CSC</subject><number>451</number></course>
       <course><subject>CSC</subject><number>452</number></course>
-      <course><subject>CSC</subject><number>476</number></course>
+      <course><subject>ACT</subject><number>476</number></course>
     </disjunction></requirement>
     <requirement><disjunction>
       <course><subject>CSC</subject><number>450</number></course>
       <course><subject>CSC</subject><number>451</number></course>
       <course><subject>CSC</subject><number>452</number></course>
-      <course><subject>CSC</subject><number>476</number></course>
+      <course><subject>ACT</subject><number>476</number></course>
     </disjunction></requirement>
   </section>
 </program>

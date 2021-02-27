@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>400</number>
   <title>Systems Analysis and Design</title>
-  <offered>fall</offered>
+  <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 Study of structured systems development. Emphasis on strategies and techniques of structured analysis and object oriented design for producing logical methodologies for dealing with the development of information systems.
@@ -26,7 +26,7 @@ Study of structured systems development. Emphasis on strategies and techniques o
     <topic>Project Selection and Client Sponsor approval</topic>
     <topic>Request for Service and Project Charter</topic>
     <topic>Risk analysis and project budget</topic>
-    <topic>UML analysis documentsand schedules</topic>
+    <topic>UML analysis documents and schedules</topic>
     <topic>Use Case development through level III</topic>
     <topic>Constraint documentation</topic>
     <topic>Work Breakdown Schedule</topic>

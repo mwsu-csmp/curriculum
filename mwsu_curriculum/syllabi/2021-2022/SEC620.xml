@@ -7,7 +7,7 @@
   <subject>SEC</subject>
   <number>620</number>
   <title>Cloud Computing Security</title>
-  <offered>spring-odd</offered>
+  <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 Enterprise-scale cloud computing is proliferating because of its cost effectiveness and enhanced resource manageability. The primary objective of this course is to equip students with solid understanding of cloud computing. It covers cloud computing and services in both business and technical viewpoints. Cloud security architecture will also be covered with an emphasis on the four major categories of security controls.

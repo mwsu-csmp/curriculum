@@ -6,15 +6,15 @@
   <college>LA</college>
   <subject>SEC</subject>
   <number>535</number>
-  <title>Network and Endpoint Security</title>
-  <offered>fall-even</offered>
+  <title>Advanced Network and Endpoint Security</title>
+  <offered>spring-even</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>This course will teach students to secure networks and network endpoints such as computers, routers and IoT devices. Vulnerabilities of common networks and endpoints will be discussed together with the threats that exploit those vulnerabilities. Students will learn about the vulnerabilities and attack vectors for various hardware and software components and the countermeasures that thwart these attacks. Students will learn the underlying security theory and will gain hands on experience through lab exercises.
-  Cross-listed with SEC435. SEC535 students' grades will additionally depend either on participation in a research seminar project or the score from an approved certification exam (taken during the semester).
+  Cross-listed with SEC435.
 </catalogDescription>
   <prerequisites>
     <prerequisiteDisjunction>
-      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>300</number></prerequisiteCourse>
+      <prerequisiteCourse minimumGrade="C"><subject>SEC</subject><number>335</number></prerequisiteCourse>
       <prerequisiteCourse minimumGrade="C" corequisite="true"><subject>SEC</subject><number>600</number></prerequisiteCourse>
     </prerequisiteDisjunction>
   </prerequisites>

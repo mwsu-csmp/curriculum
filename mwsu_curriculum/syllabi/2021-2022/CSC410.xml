@@ -7,7 +7,7 @@
   <subject>CSC</subject>
   <number>410</number>
   <title>Network Security Technologies</title>
-  <offered>fall</offered>
+  <offered>discretion</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
 This course covers various facets of network security and the tools that are available to secure and monitor networks. Topics include commercial and open source security tools, public-key cryptography, firewalls, authentication, intrusion detection, control of malicious code, OS hardening fundamentals, and security assessment.

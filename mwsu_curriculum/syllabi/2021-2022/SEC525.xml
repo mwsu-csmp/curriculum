@@ -7,7 +7,7 @@
   <subject>SEC</subject>
   <number>525</number>
   <title>Ethical Hacking</title>
-  <offered>spring-even</offered>
+  <offered>spring-odd</offered>
   <scheduleType>lecture</scheduleType>
   <catalogDescription>
     This course will cover how to identify different vulnerabilities from an attacker's point of view, what they might do with these vulnerabilities, and what measures you can take to mitigate these risks. Students will gain practical skills through red-team exercises and penetration labs.

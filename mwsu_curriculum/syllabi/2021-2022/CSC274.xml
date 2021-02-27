@@ -3,8 +3,8 @@
   xmlns="https://csmp.missouriwestern.edu"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://csmp.missouriwestern.edu/xml/curriculum/course.xsd"
-  creditHoursLecture="2"
-  workloadHoursLecture="2">
+  creditHoursLecture="3"
+  workloadHoursLecture="3">
   <college>LA</college>
   <subject>CSC</subject>
   <number>274</number>
