@@ -18,3 +18,8 @@ The standards folder contains initial efforts towards development of XML codific
 * libxml2-utils
 * xmllint (this is part of libxml2-utils in the Ubuntu 20.04 repositories, and does not need to be installed separately)
 
+Once all these are installed, run:
+
+```pip3 install . ```
+
+to install the package
